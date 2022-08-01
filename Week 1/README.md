@@ -4,15 +4,19 @@
 
 _Topics to cover:_
 
-1. Data types
-2. Control flow
-3. Function
-4. Pointers
-5. Classes
-6. Inheritance
-7. Polymorphism
+1. <a href="#data">Data types</a>
+2. <a href="#">Control Flow</a>
+3. <a href="#">Functions</a>
+4. <a href="#">Pointers</a>
+5. <a href="#">Classes</a>
+6. <a href="#">Inheritance</a>
+7. <a href="#">Polymorphism</a>
 
 ## Data Types
+<div id="data"></div>
+
+Data types is C++ are grouped into 3. The *primitive* , *derived types* , *user defined* .
+
 | Data type | Alias | Memory |
 |-----------|-------|--------|
 |Integer    | `int` | 4 bytes|
@@ -36,3 +40,38 @@ Types of Variable initialization
   int number = 0;
   ```
 **NB:** Braced initialization doesn't support narrowing conversion.
+
+### Integers
+
+* `unsigned int` for positive integers only. Range is about $0 \to 2^n -1$.
+* `signed int` for both positive and negative integers. It ranges from $-2^{n-1} \to 2^{n-1}-1$
+
+**n is the number of bits for a type in memory. 8 bits = 1byte**
+
+* `short int`, `signed short`, `unsigned short int` are **2 bytes**.
+* `long int`, `signed long int`, `unsigned long int` are either **4 or 8 bytes**. 
+  ```c
+    long int num {12} // 4 bytes
+    long int num {123456} // 8 bytes
+  ```
+
+### Floating
+
+For storing numbers with decimals.
+
+|Type|Size|Precision|Flag|
+|----|----|---------|----|
+|float|4 bytes| $\approx$ 7|f|
+|double| 8 bytes | 15 |
+|long double| 12 bytes | > double|L|
+
+**N.B:** 
+* Use `setprecision()` to control the precision.
+```c
+#include iomanip
+std::cout << std::setprecision(20);
+```
+* $\dfrac{\pm floating point}{o} = \pm 0, \hspace{7mm}\dfrac{0.0}{0.0} = NaN$
+
+### Boolean
+It is either *true or false*. 
