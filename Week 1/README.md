@@ -125,4 +125,4 @@ It let the compiler deduce the data type itself. It is useful when we have longe
   auto var3 = { 2022 };
   auto var4{ 2022 };
   ```
-  The first two statements do, indeed, declare a variable of type int with value 27. The second two, however, declare a variable of type `std::initializer_list<int>` containing a single element with value 27!
+  The first two statements do, indeed, declare a variable of type int with value 2022. The second two, however, declare a variable of type `std::initializer_list<int>` containing a single element with value 2022!
