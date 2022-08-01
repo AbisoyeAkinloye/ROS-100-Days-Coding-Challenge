@@ -23,6 +23,7 @@ Data types is C++ are grouped into 3. The *primitive* , *derived types* , *user 
 |float      |`float`| 4 bytes|
 |double     |`double`| 8 bytes|
 |boolean    |`bool` | 1 byte |
+|character    |`char` | 1 byte |
 
 ### Variables
 
@@ -31,15 +32,15 @@ Data types is C++ are grouped into 3. The *primitive* , *derived types* , *user 
 Types of Variable initialization
 
 * Braced initialization
-  ```c
+  ```c++
   int number {};
   ```
 * Functional initialization
-  ```c
+  ```c++
   int number();
   ```
 * Assignment initialization
-  ```c
+  ```c++
   int number = 0;
   ```
 **NB:** Braced initialization doesn't support narrowing conversion.
@@ -53,7 +54,7 @@ Types of Variable initialization
 
 * `short int`, `signed short`, `unsigned short int` are **2 bytes**.
 * `long int`, `signed long int`, `unsigned long int` are either **4 or 8 bytes**. 
-  ```c
+  ```c++
     long int num {12} // 4 bytes
     long int num {123456} // 8 bytes
   ```
@@ -78,4 +79,26 @@ std::cout << std::setprecision(20);
 
 ### Boolean
 
-It is either *true or false*. It is for decision making.
+It is either *true or false*. It is used for decision making. Traditionally, any zero value is interpreted as false; any nonzero value is
+interpreted as true.
+
+True rep by 1 
+False rep by 0
+
+**N.B:** 
+You can print true or false using `boolalpha`.
+```c++
+#include <iostream>
+
+std::cout << std::boolaplha
+```
+
+### Character
+
+Character data type is used for storing characters. The keyword used for the character data type is `char`. Characters typically require 1 byte of memory space and range from -128 to 127 or 0 to 255.
+
+* single quote for char as in `' '` but double or single quote for string as in `" "`.
+
+![ASCII Table](doc/ascii.png)
+
+If you assign numerical value to `char` you probably get a corresponding character on the ASCII table.
