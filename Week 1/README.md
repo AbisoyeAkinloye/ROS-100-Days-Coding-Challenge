@@ -102,3 +102,27 @@ Character data type is used for storing characters. The keyword used for the cha
 ![ASCII Table](doc/ascii.png)
 
 If you assign numerical value to `char` you probably get a corresponding character on the ASCII table.
+
+### Auto
+
+It let the compiler deduce the data type itself. It is useful when we have longer type name.
+
+**Note:**
+* You must always initialize `auto` type.
+  ```c++
+  auto var {}; // compile error
+  auto var {2022}
+  ```
+* Don't reassign value different to data type to auto.
+  ```c++
+  auto var {"August 2022"};
+  var = 56; // compile error
+  ```
+* Different auto declaration
+  ```c++
+  auto var1 = 2022;
+  auto var2(2022);
+  auto var3 = { 2022 };
+  auto var4{ 2022 };
+  ```
+  The first two statements do, indeed, declare a variable of type int with value 27. The second two, however, declare a variable of type `std::initializer_list<int>` containing a single element with value 27!
