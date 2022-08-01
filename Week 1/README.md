@@ -19,7 +19,10 @@ Data types is C++ are grouped into 3. The *primitive* , *derived types* , *user 
 
 | Data type | Alias | Memory |
 |-----------|-------|--------|
-|Integer    | `int` | 4 bytes|
+|integer    | `int` | 4 bytes|
+|float      |`float`| 4 bytes|
+|double     |`double`| 8 bytes|
+|boolean    |`bool` | 1 byte |
 
 ### Variables
 
@@ -74,4 +77,5 @@ std::cout << std::setprecision(20);
 * $\dfrac{\pm floating point}{o} = \pm 0, \hspace{7mm}\dfrac{0.0}{0.0} = NaN$
 
 ### Boolean
-It is either *true or false*. 
+
+It is either *true or false*. It is for decision making.
