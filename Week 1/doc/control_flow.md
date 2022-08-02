@@ -55,3 +55,10 @@ Loop is used to do repetitive (iteration) tasks.
 - Loop body
 
 ### For Loop
+
+```c++
+for (init_statement; condition; iteration_expression) { 
+    // execute some code   
+}
+```
+`size_t`: It is often used as the init_statement. It is not a data type, just a type alias for some `unsigned int` repreentation.
