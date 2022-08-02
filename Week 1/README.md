@@ -6,7 +6,7 @@ _Topics to cover:_
 
 1. <a href="#data">Data types</a>
 2. <a href="./doc/control_flow.md">Control Flow</a>
-3. <a href="#">Functions</a>
+3. <a href="./doc/function.md">Functions</a>
 4. <a href="#">Pointers</a>
 5. <a href="#">Classes</a>
 6. <a href="#">Inheritance</a>
