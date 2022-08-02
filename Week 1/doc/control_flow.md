@@ -37,3 +37,21 @@ switch(condition):
 * The condition can oly be integral types and enums. It cannot be <strike>string</strike>.
 
 ### Ternary Operator
+
+It is the short form of `if and else` statement. 
+
+```c++
+result = (condition) ? option1 : option2;
+```
+Option1 when the condition is true and option2 when the condition is false. 
+
+## Looping
+
+Loop is used to do repetitive (iteration) tasks. 
+
+- Initialization
+- Condition
+- Increment or decrement
+- Loop body
+
+### For Loop
