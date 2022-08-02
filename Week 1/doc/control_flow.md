@@ -62,3 +62,26 @@ for (init_statement; condition; iteration_expression) {
 }
 ```
 `size_t`: It is often used as the init_statement. It is not a data type, just a type alias for some `unsigned int` repreentation.
+
+### While Loop
+
+The while statement executes code until the condition becomes false.
+
+```c++
+initiation;
+
+while (condition){
+    // loop body
+    increment;
+}
+```
+
+### Do-while Loop
+
+The `do...while` loop is a variant of the while loop with one important difference: the body of `do...while` loop is executed once before the condition is checked.
+
+```c++
+do {
+    // statement
+} while (condtion)
+```
