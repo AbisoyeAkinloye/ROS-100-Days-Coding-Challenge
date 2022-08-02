@@ -85,3 +85,37 @@ do {
     // statement
 } while (condtion)
 ```
+
+## Break, Continue, and Goto statement
+
+The `break` statement is used to terminate. Note that generally the break statement is usually used with decision-making statements.
+
+The `continue` statement is used to skip the current iteration of the loop.
+
+The `goto` statement is used for altering the normal sequence of program execution by transferring control to some other part of the program. **Not advisable to use `goto` statement**.
+
+```c++
+int main()
+{
+    for(condition)
+    {
+        // statement
+
+        if(condition)
+        {
+           // statement
+            goto jump; // jump can be any other valid variable name
+        } 
+        // statement
+    }
+    
+jump:
+    // statement
+
+    return 0;
+}
+```
+
+## Nested Loop
+
+A loop within a loop is called nested loop. It can be used for multidimensional array, design a pattern, and so on.
