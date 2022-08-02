@@ -15,7 +15,13 @@ _Topics to cover:_
 ## Data Types
 <div id="data"></div>
 
-Data types is C++ are grouped into 3. The *primitive* , *derived types* , *user defined* .
+Data types in C++ are grouped into 3. The *primitive* , *derived types* , *user defined* .
+
+**Primitive:** Integer, boolean, character, floating point, void, auto.
+
+**Derived:** Function, pointers, array, map, vector, set, and so on.
+
+**User defined:** Class, enumerate, structure, typedef and so on.
 
 | Data type | Alias | Memory |
 |-----------|-------|--------|
@@ -99,7 +105,7 @@ Character data type is used for storing characters. The keyword used for the cha
 
 * single quote for char as in `' '` but double or single quote for string as in `" "`.
 
-![ASCII Table](doc/ascii.png)
+![ASCII Table](doc/images/ascii.png)
 
 If you assign numerical value to `char` you probably get a corresponding character on the ASCII table.
 
@@ -126,3 +132,7 @@ It let the compiler deduce the data type itself. It is useful when we have longe
   auto var4{ 2022 };
   ```
   The first two statements do, indeed, declare a variable of type int with value 2022. The second two, however, declare a variable of type `std::initializer_list<int>` containing a single element with value 2022!
+
+### Void
+
+Type void is a type with no values. While we can not have objects of type void, we can have functions of type void. Functions that do not return a value.
