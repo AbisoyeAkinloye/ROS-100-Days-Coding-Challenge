@@ -5,7 +5,7 @@
 _Topics to cover:_
 
 1. <a href="#data">Data types</a>
-2. <a href="#">Control Flow</a>
+2. <a href="./doc/control_flow.md">Control Flow</a>
 3. <a href="#">Functions</a>
 4. <a href="#">Pointers</a>
 5. <a href="#">Classes</a>
@@ -136,3 +136,9 @@ It let the compiler deduce the data type itself. It is useful when we have longe
 ### Void
 
 Type void is a type with no values. While we can not have objects of type void, we can have functions of type void. Functions that do not return a value.
+
+```c++
+void func(){
+  // statement 
+}
+```
