@@ -43,3 +43,14 @@ When a function parameter type is a pointer type, then the actual argument is pa
 ### Pass by Reference
 When a function parameter type is a reference type, then the actual argument is passed to the function. The function can modify the value of the argument.
 What is preferred is passing an argument by const reference, also referred to as a *reference to const*.
+
+## Input and Output parameter
+The idea is to use output parameter to get output from a function. However, Output parameters should be paseed in such a way that you can modify the arguments from inside the function. Options are passing by reference or by pointer. *References are preferred*.
+
+The input parameter shouldn't be modifiable from inside a function. You can use the `const` keyword. The essence is to substitute the `return` statement.
+
+```c++
+    void func(type input1, type input2, type& output){
+        output = input1 || input2
+    }
+```
