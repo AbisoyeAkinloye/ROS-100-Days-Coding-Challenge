@@ -1,4 +1,4 @@
-# Fuctions
+# Functions
 
 A function is a reusable piece of code that can take a number of optional inputs and produce some desired output.
 
@@ -27,3 +27,7 @@ When you are defining a fuction you pass in `parameters`, but you pass in `argum
 You declare a function before the `main()` function so as to define the function after the main function.
 
 The declaration is also called *prototype*. The prototype needs to come before the function call, otherwise the compilation will fail.
+
+## Spliting Function
+
+You can split function into `header` file. The function declaration will live in the header file while the function definition can live either in another `.cpp` or `.h` where the declaration is.
