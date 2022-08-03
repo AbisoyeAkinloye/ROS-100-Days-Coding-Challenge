@@ -62,4 +62,25 @@ Having multiple copies of the same function name in different return type. You c
 * Changing the number of parameter
 * Type of the parameter
 
+When we have multiple functions with the same name but with different parameter types. This is called **function overloading**.
+
 ## Lambda function
+
+A mechanism to set up anonymous functions (without name). Once it is set up, we can either give them names and call them, or we can even get them to do things directly.
+
+*Syntax:*
+```c++
+[capture list](parameters) -> return type {
+    // function body
+}
+
+// name assigned to lambda function
+auto func = [](){
+    // statement
+}
+
+// call lambda function directly after definition
+[](){
+    // function body
+}();
+```
