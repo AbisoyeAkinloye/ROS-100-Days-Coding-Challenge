@@ -31,3 +31,8 @@ The declaration is also called *prototype*. The prototype needs to come before t
 ## Spliting Function
 
 You can split function into `header` file. The function declaration will live in the header file while the function definition can live either in another `.cpp` or `.h` where the declaration is.
+
+## Passing Argument
+* Pass by Value
+* Pass by Pointer
+* Pass by Reference
