@@ -54,3 +54,12 @@ The input parameter shouldn't be modifiable from inside a function. You can use 
         output = input1 || input2
     }
 ```
+
+## Function Overloading 
+
+Having multiple copies of the same function name in different return type. You can over function parameters by:
+* Changing the order of parameter
+* Changing the number of parameter
+* Type of the parameter
+
+## Lambda function
