@@ -21,3 +21,9 @@ A function is expected to be unique and each function has signature. Function si
 ## Parameter Vs Argument
 
 When you are defining a fuction you pass in `parameters`, but you pass in `argument` when you are calling the function.
+
+## Function Declaration and Definition
+
+You declare a function before the `main()` function so as to define the function after the main function.
+
+The declaration is also called *prototype*. The prototype needs to come before the function call, otherwise the compilation will fail.

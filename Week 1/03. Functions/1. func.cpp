@@ -1,7 +1,7 @@
 #include <iostream>
 
 // void function
-void is_adult(int age){
+void is_adult(unsigned int age){
     if (age > 12 && age < 20)
         std::cout << "You are a teenager" << std::endl;
     else if (age > 20)
