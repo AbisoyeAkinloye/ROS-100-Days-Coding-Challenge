@@ -33,6 +33,13 @@ The declaration is also called *prototype*. The prototype needs to come before t
 You can split function into `header` file. The function declaration will live in the header file while the function definition can live either in another `.cpp` or `.h` where the declaration is.
 
 ## Passing Argument
-* Pass by Value
-* Pass by Pointer
-* Pass by Reference
+
+### Pass by Value/ Copy
+When we pass an argument to a function, a copy of that argument is made and passed to the function if the function parameter type is not a pointer or reference. This means the value of the original argument does not change.
+
+### Pass by Pointer
+When a function parameter type is a pointer type, then the actual argument is passed to the function. The function can modify the value of the argument.
+
+### Pass by Reference
+When a function parameter type is a reference type, then the actual argument is passed to the function. The function can modify the value of the argument.
+What is preferred is passing an argument by const reference, also referred to as a *reference to const*.
