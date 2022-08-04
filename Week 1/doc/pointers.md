@@ -25,3 +25,6 @@ int* ptr {nullptr};
 
 ### Dereferencing of Pointer
 To access a value stored in an object pointed to by a pointer, we need to dereference a pointer. Dereferencing is done by prepending a pointer (variable) name with a dereferencing `*` operator.
+
+### Pointer to Character
+Pointer to character can be initialized with a string literal: `C-string`.
