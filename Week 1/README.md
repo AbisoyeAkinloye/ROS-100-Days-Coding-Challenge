@@ -7,10 +7,10 @@ _Topics to cover:_
 1. <a href="#data">Data types</a>
 2. <a href="./doc/control_flow.md">Control Flow</a>
 3. <a href="./doc/function.md">Functions</a>
-4. <a href="#">Pointers</a>
-5. <a href="#">Classes</a>
-6. <a href="#">Inheritance</a>
-7. <a href="#">Polymorphism</a>
+4. <a href="./doc/pointers.md">Pointers</a>
+5. <a href="./doc/classes.md">Classes</a>
+6. <a href="./doc/inheritance.md">Inheritance</a>
+7. <a href="./doc/polymorphism.md">Polymorphism</a>
 
 ## Data Types
 <div id="data"></div>
