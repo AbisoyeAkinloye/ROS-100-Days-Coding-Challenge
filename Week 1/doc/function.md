@@ -70,7 +70,7 @@ A mechanism to set up anonymous functions (without name). Once it is set up, we 
 
 *Syntax:*
 ```c++
-[capture list](parameters) -> return type {
+[capturelist](parameters) -> return type {
     // function body
 }
 
@@ -83,4 +83,36 @@ auto func = [](){
 [](){
     // function body
 }();
+```
+* You can `std::cout` lambda function.
+* You can specify the return type of your lambda function explicitly.
+
+```c++
+[](type param1, type param2) -> type {
+    return value;
+}
+```
+### Capture list
+
+Capture list enables to access to variable declared outside the function to be used by the function body. This capture specifies variables from the surrounding scope that can be used within the lambda body.
+
+* capture by value
+* capture by reference
+
+**Note:** 
+1. Lambda function are often used in a function, so accessing varible outside the function is alway out of scope. However, the capture list is used.
+2. Capture everything in the context by passing `=` in the capture list as shown below:
+   
+```c++
+type var{}; 
+
+// capture by value
+auto func = [=](){
+    // function body
+};
+
+// capture by reference
+auto func = [&](){
+    // function body
+};
 ```
