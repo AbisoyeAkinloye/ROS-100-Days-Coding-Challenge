@@ -23,3 +23,12 @@ class Classname {
 * Member variables in a class can only be a `stack` variable or `pointer`. 
 * It cannot be a <strike>reference</strike>. Because reference can't be left un-initialized.
 * Private members of classes (variables and functions) aren't accessible from the outside of the class definition.
+
+### Constructor
+
+It is a special kind of method that is called when an instance of a class is created. How to create a constructor:
+* No return type
+* Same name as the class name
+* Can have parameter or not
+* Usually used to initialize member variables of a class
+* Declare in `public` specifier
