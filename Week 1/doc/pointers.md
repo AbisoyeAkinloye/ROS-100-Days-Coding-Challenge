@@ -23,6 +23,13 @@ int* ptr {nullptr};
 ``` 
 6. Assign address to a pointer. `&` - address operator.
 7. Writing to an uninitialize or null pointer through dereferencing is a bad practice.
+8. `const` pointer variable not pointer-to-const.
+```c++
+    int* const ptr {};
+
+    // not
+    const int* ptr {}; 
+```
 
 ### Dereferencing of Pointer
 To access a value stored in an object pointed to by a pointer, we need to dereference a pointer. Dereferencing is done by prepending a pointer (variable) name with a dereferencing `*` operator.
@@ -82,3 +89,23 @@ When we loose access to memory that is dynamically allocated. As a C++ developer
 1. Reassigning of stack address to active dynamic address pointer
 2. Double allocation
 3. Pointer in local scope
+
+## References
+A reference is a name that can be used as an alias for another variable. It is the same as pointer to point to something in the memory.
+
+Unlike a pointer, you cannot declare a reference and not initialize it. Also, once a reference is initialized as an alias for some variable, it keeps referring to that same variable for the remainder of its lifetime.
+
+Reference points to a variable while pointer to an address of a variable.
+
+```c++
+int& rdata {23};
+```
+
+The ampersand following the type name indicates that the variable being defined, `rdata`, is a reference to a variable of type integer. Dereferencing is not necessary in reference.
+
+**Reference Vs Pointer**
+|Reference             |Pointer                  |
+|----------------------|-------------------------|
+|No need to dereference|Need to be dereferenced  |
+|Must be initialized at declaration|Can be declared un-initialized (will contain garbage addresses)|
+|Cant be change to reference something else|Can be changed to point somewhere else|
