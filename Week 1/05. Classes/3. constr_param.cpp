@@ -2,11 +2,10 @@
 
 class Rectangle {
     public:
-        // constructor without parameter not necessarily to be included
-        Rectangle(){
-            // otherwise if initiated or not empty
-            length = 2.5;
-            breadth = 1.8;
+        // constructor with parameter
+        Rectangle(double param1, double param2){
+            length = param1;
+            breadth = param2;
         }
 
         // methods
@@ -26,7 +25,7 @@ class Rectangle {
 };
 
 int main(int argc, char* argv[]){
-    Rectangle rect1;
+    Rectangle rect1(10,4);
     std::cout << "Area of the rectangle: "<< rect1.area() << std::endl;
     std::cout << "Perimeter of the rectangle: "<< rect1.perimeter() << std::endl;
 

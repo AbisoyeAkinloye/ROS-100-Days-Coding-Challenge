@@ -2,12 +2,8 @@
 
 class Rectangle {
     public:
-        // constructor without parameter not necessarily to be included
-        Rectangle(){
-            // otherwise if initiated or not empty
-            length = 2.5;
-            breadth = 1.8;
-        }
+        // default constructor 
+        Rectangle() = default;
 
         // methods
         double area(){
@@ -20,8 +16,8 @@ class Rectangle {
 
     private:
         // variables
-        double length {1};
-        double breadth {1};
+        double length {12.2};
+        double breadth {8.6};
 
 };
 
