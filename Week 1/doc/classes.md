@@ -34,9 +34,13 @@ It is a special kind of method that is called when an instance of a class is cre
 * Declare in `public` specifier
 
 ### Default Constructor
- 
+
 A constructor without parameters or with default parameters set is called a default constructor. It is a constructor which can be called without arguments. When you have an empty constructor, you don't have to declare it. C++ will create a default constructor.
 
 Instantiate a class with default constructor as follows: `Classname variablename;` but `Classname variablename(arg1, arg2,...);` if it has a parameter.
 
 You can also set default constructor: `Constructor_name() = default;`
+
+### Setters and Getters
+
+These are methods in class to read or modify member variables of a class.
