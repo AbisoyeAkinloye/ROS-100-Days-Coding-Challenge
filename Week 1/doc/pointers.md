@@ -58,3 +58,21 @@ int* ptr {new int(2022)};
 // Use uniform initialization
 int* ptr {new int{2022}};
 ```
+
+*A pointer that doesn't point to valid memory address. Trying to dereference and use a **dangling pointer** will result in undefined behavior.* Examples of dangling pointers are: 
+
+* Uninitialized pointer
+* Deleted pointer
+* Multiple pointers pointing to same memory
+
+To avoid dangling pointer:
+
+* Initialize your pointers immediately upon declaration.
+* Check for `nullptr` before use.
+* Right after a pointer is deleted, remember to assign nullptr to indicate that it points nowhere.
+
+#### If `new` fails
+Check for failed memory allocations:
+
+1. Through the exception mechanism
+2. The `std::nothrow` setting
