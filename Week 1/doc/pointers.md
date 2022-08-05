@@ -76,3 +76,9 @@ Check for failed memory allocations:
 
 1. Through the exception mechanism
 2. The `std::nothrow` setting
+
+### Memory Leak
+When we loose access to memory that is dynamically allocated. As a C++ developer, a significant portion of the more serious bugs you deal with often boil down to mismanagement of dynamic memory. It is caused by the followings:
+1. Reassigning of stack address to active dynamic address pointer
+2. Double allocation
+3. Pointer in local scope
