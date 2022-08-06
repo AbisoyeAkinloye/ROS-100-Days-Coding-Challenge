@@ -57,6 +57,8 @@ int main(int argc, char* argv[]){
     my_dog.set_age(5);
     my_dog.print_info();
     */
+   
+   // chain call
     my_dog.set_name("Bingo").set_breed("Bull dog").set_age(3);
     my_dog.print_info();
 
