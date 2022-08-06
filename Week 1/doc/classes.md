@@ -134,3 +134,17 @@ Each class member fuction contains a hidden pointer called `this`. That pointer 
     // reference version
     student1.set_name("Abisoye").set_department("Mechanical").set_level(500);
   ```
+
+## Struct
+
+Struct is also a way to create user defined type. Unlike classes whose members are `private` by default, members of structs are `public` by default.
+
+```c++
+struct Student {
+    std::string name;
+}
+```
+
+## Size of an object
+
+The size of an object is going to the sum of member variables. 
