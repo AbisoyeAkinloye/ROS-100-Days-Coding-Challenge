@@ -53,4 +53,12 @@ Instead of dereferencing before call a method pointing to an object with (.)dot 
 
 ### Destructors
 
-They are special methods that are called when an object dies. They are needed when the objects needs to release some dynamic memory, or for some kind of clean up.
+They are special methods that are called when an object dies. They are needed when the objects needs to release some dynamic memory, or for some kind of clean up. `destructor = ~constructor` You can create dynamic memory in the constructor and release it in the destructor.
+
+when are destructor called:
+* When an object is passed by value to a function
+* When a local object is returned from a function (for some compiliers)
+* When a local stack object goes out of scope (dies)
+* When a heap object is released with `delete`
+
+**NOTE:** Destructor will always don't have parameters.
