@@ -56,9 +56,81 @@ Instead of dereferencing before call a method pointing to an object with (.)dot 
 They are special methods that are called when an object dies. They are needed when the objects needs to release some dynamic memory, or for some kind of clean up. `destructor = ~constructor` You can create dynamic memory in the constructor and release it in the destructor.
 
 when are destructor called:
+
 * When an object is passed by value to a function
 * When a local object is returned from a function (for some compiliers)
 * When a local stack object goes out of scope (dies)
 * When a heap object is released with `delete`
 
-**NOTE:** Destructor will always don't have parameters.
+**NOTE:** 
+* Destructor will always don't have parameters.
+* If there are many instantiation, the constructor is called orderly but the destructor is called in reversed other.
+* The object that was constructed first will be destroy last and vice-versa.
+
+```c++
+    Dog dog1("Doggy1", "Shepherd",4);
+    Dog dog2("Doggy2", "Shepherd",6);
+    Dog dog3("Doggy3", "Shepherd",4);
+    Dog dog4("Doggy4", "Shepherd",2);
+```
+Order of constructor and destructor call are: Constructor; dog1, 2 ... 4, destructor; dog4, 3 ... 1. 
+
+### The `this` pointer
+Each class member fuction contains a hidden pointer called `this`. That pointer contains the address of the current object, for which the method is being executed. This also applies to constructors and destructors.
+
+**Uses**
+
+* To print out object address
+* To resolve conflict names
+  ```c++
+  void set_name(const std::string& name){
+    // name = name  
+    // member variable = param
+    this->name = name
+  }
+  ```
+* Calling chained function or method
+```c++
+  // chained call with pointer
+  Student* set_name(const std::string& name){
+    this->name = name;
+    return this; 
+  }
+
+  Student* set_department(const std::string& department){
+    this->department = department;
+    return this; 
+  }
+
+  Student* set_level(const std::string& level){
+    this->level = level;
+    return this; 
+  }
+
+  Student* student1 = new Student("Abisoye", "Mechanical", 500);
+  student1 -> get_student_info();
+  
+  // pointer version
+  student1.set_name("Abisoye")->set_department("Mechanical")->set_level(500);
+  ```
+* Chained calls using reference
+  ```c++
+    // chained call with pointer
+    Student& set_name(const std::string& name){
+        this->name = name;
+        return *this; 
+    }
+
+    Student& set_department(const std::string& department){
+        this->department = department;
+        return *this; 
+    }
+
+    Student& set_level(const std::string& level){
+        this->level = level;
+        return *this; 
+    }
+
+    // reference version
+    student1.set_name("Abisoye").set_department("Mechanical").set_level(500);
+  ```
