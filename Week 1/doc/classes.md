@@ -33,7 +33,7 @@ It is a special kind of method that is called when an instance of a class is cre
 * Usually used to initialize member variables of a class
 * Declare in `public` specifier
 
-### Default Constructor
+####  Default Constructor
 
 A constructor without parameters or with default parameters set is called a default constructor. It is a constructor which can be called without arguments. When you have an empty constructor, you don't have to declare it. C++ will create a default constructor.
 
@@ -41,6 +41,16 @@ Instantiate a class with default constructor as follows: `Classname variablename
 
 You can also set default constructor: `Constructor_name() = default;`
 
-### Setters and Getters
+#### Setters and Getters
 
 These are methods in class to read or modify member variables of a class.
+
+#### Manage Class Object through  pointers
+Instead of dereferencing before call a method pointing to an object with (.)dot notation, you can use an -> `arrow notation`. 
+
+* pointer to a stack object
+* pointer to a heap object
+
+### Destructors
+
+They are special methods that are called when an object dies. They are needed when the objects needs to release some dynamic memory, or for some kind of clean up.
