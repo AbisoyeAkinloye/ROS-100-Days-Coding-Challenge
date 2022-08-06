@@ -148,3 +148,10 @@ struct Student {
 ## Size of an object
 
 The size of an object is going to the sum of member variables. 
+
+## Member Initializer List
+
+When you initialize a member variable using an assignment statement in the body of the constructor, the member variable is first created (using
+a constructor call if it is an instance of a class) after which the assignment is carried out as a separate operation. 
+
+When you use an initialization list, the initial value is used to initialize the member variable as it is created.
