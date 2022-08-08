@@ -37,17 +37,51 @@ Inheritance passes `is a/an` test while Aggregation passes `has a/an` test. For 
 
 If the child object contained in a parent object cannot exist independently of its parent, their relation is called `Composition` instead of aggregation. An example of composition would be the relation between a House and a Room, if Rooms cannot exist without a House. If you delete a House, all its Rooms are typically deleted as well. 
 
-## Public Access Specifier
+## Member Access Specifier
+### Public 
 
 With Public inheritance, derived classes can access and use public members of the base class, but the derived class can't directly access private members.
 
 The same also applies to friends of the derived class. They have access to private members of derived, but don't have access to the base class.
 
-## Private Access Specifier
+### Private 
 
 They are inaccessible from the derived class and outside the class.
 
-## Protected Access Specifier
+### Protected
 
 Often you want the members of a base class to be accessible from within the derived class but nonetheless *protected* from outside interference.
 
+## Base class access specifiers
+```c++
+    class Dog : public Animal{
+
+    };
+```
+The `public` keyword is the base class access specifier. If `public` anything or any member public, protected, private in base class will be the same specifier in the derived class.
+
+If `protected` as in:
+
+```c++
+class Person {
+    public:
+        m1;
+    protected:                  
+        m2;
+    private:
+        m3;
+};
+
+class Student : protected Person {
+    m1 will be protected;
+    m2 will be protected;
+    m2 will be private;
+}
+```
+
+If `private` base access specifiers, every members (be it public, protected, and private) will be in the base class will be `private` in the derived class. 
+
+**NOTE:**
+* Through the base class access specifier, we can control how relaxed or constrained is the acees of base class members from the derived class.
+* Regardless of the access specifier, private members of base class are never accessile from the derived class.
+* If you omit the base class access specifier in a class definition, the default is private (in a struct definition, the default is public).
