@@ -87,3 +87,7 @@ If `private` base access specifiers, every members (be it public, protected, and
 * If you omit the base class access specifier in a class definition, the default is private (in a struct definition, the default is public).
 
 ![base access specifier](../doc/images/base%20access.png)
+
+## Resurrecting members in scope.
+
+If a private base access specifier is used and another sub class inherit from it, no member variable will be accessible.
