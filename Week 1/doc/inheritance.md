@@ -43,5 +43,11 @@ With Public inheritance, derived classes can access and use public members of th
 
 The same also applies to friends of the derived class. They have access to private members of derived, but don't have access to the base class.
 
+## Private Access Specifier
+
+They are inaccessible from the derived class and outside the class.
+
 ## Protected Access Specifier
+
+Often you want the members of a base class to be accessible from within the derived class but nonetheless *protected* from outside interference.
 
