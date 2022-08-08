@@ -20,7 +20,15 @@ class Person {
         }
 
         // Setters 
-        
+        Person* set_first_name(std::string_view first_name){
+            this->first_name = first_name;
+            return this;
+        }
+
+        Person* set_last_name(std::string_view last_name){
+            this->last_name = last_name;
+            return this;
+        }
 
     private:
         std::string first_name {"Anonymous"};

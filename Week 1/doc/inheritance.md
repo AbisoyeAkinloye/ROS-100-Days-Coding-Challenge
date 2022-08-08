@@ -42,3 +42,6 @@ If the child object contained in a parent object cannot exist independently of i
 With Public inheritance, derived classes can access and use public members of the base class, but the derived class can't directly access private members.
 
 The same also applies to friends of the derived class. They have access to private members of derived, but don't have access to the base class.
+
+## Protected Access Specifier
+
