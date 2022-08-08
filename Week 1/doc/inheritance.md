@@ -90,4 +90,23 @@ If `private` base access specifiers, every members (be it public, protected, and
 
 ## Resurrecting members in scope.
 
-If a private base access specifier is used and another sub class inherit from it, no member variable will be accessible.
+If a private base access specifier is used and another sub class inherit from it, no member variable will be accessible. Resurrecting members is done using the `using` keyword. 
+```c++
+    class Engineer : private Person{
+        public:
+            Engineer();
+            ~Engineer();
+
+        protected:
+            using Person::get_full_name;
+            using Person::get_age;
+            using Person::get_address;
+
+        public:
+            using Person::full_name;
+
+        protected:
+            int contract_count {0};
+    }
+```
+**Note:** You cannot resurrect a private member inherited with private base access specifier.
