@@ -85,3 +85,5 @@ If `private` base access specifiers, every members (be it public, protected, and
 * Through the base class access specifier, we can control how relaxed or constrained is the acees of base class members from the derived class.
 * Regardless of the access specifier, private members of base class are never accessile from the derived class.
 * If you omit the base class access specifier in a class definition, the default is private (in a struct definition, the default is public).
+
+![base access specifier](../doc/images/base%20access.png)
