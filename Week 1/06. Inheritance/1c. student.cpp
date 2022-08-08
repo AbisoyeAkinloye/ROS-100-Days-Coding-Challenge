@@ -1,14 +1,13 @@
-// #include <iostream>
-// #include "1b. person.h"
-// #include "1d. student.h"
+#include "1b. person.h"
+#include "1d. student.h"
 
 
-// Student::Student(std::string& department){
-//     this->department = department;
-//     std::cout << "Student Constructor Called" << std::endl;
-// }
+Student::Student(std::string_view department_param)
+    :department(department_param)
+{
+}
 
-// std::ostream& operator<<(std::ostream& out, const Student& student){
-//     out << "Student: [ Department: " << student.department << "Name: " << student.get_first_name() << "]";
-//     return out;
-// }
+std::ostream& operator<<(std::ostream& out, const Student& student){
+    out << "Student: [ Department: " << student.department << " " << "Name: " << student.get_first_name() << " " << student.get_last_name() << "]";
+    return out;
+}

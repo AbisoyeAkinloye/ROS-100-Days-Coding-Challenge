@@ -7,7 +7,7 @@
                 "/usr/include/c++/10"
             ],
             "defines": [],
-            "compilerPath": "/bin/g++",
+            "compilerPath": "/bin/g++-11",
             "cStandard": "c17",
             "cppStandard": "c++20",
             "intelliSenseMode": "linux-clang-x64"

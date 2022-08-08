@@ -5,22 +5,10 @@
 #include <iostream>
 
 class Person {
-    friend std::ostream& operator <<(std::ostream& out, const Person& person){
-        out << "Person [" << person.first_name << " " << person.last_name << "]";
-        return out;
-    };
-
+    friend std::ostream& operator <<(std::ostream& out, const Person& person);
     public:
         Person() = default;
-        Person(std::string& first_name, std::string& last_name){
-            this->first_name = first_name;
-            this->last_name = last_name;
-            std::cout << "Person Contructor Called" << std::endl;
-        };
-
-        ~Person(){
-            std::cout << "Person Destructor Called" << std::endl;
-        };
+        Person(std::string& first_name_param, std::string& last_name_param);
 
         // Getters
         std::string get_first_name() const {
@@ -30,6 +18,9 @@ class Person {
         std::string get_last_name() const {
             return last_name;
         }
+
+        // Setters 
+        
 
     private:
         std::string first_name {"Anonymous"};

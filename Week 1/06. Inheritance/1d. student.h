@@ -3,20 +3,16 @@
 
 #include <string>
 #include <iostream>
+#include <string_view>
+
 #include "1b. person.h"
 
 class Student : public Person{
-    friend std::ostream& operator <<(std::ostream& out, const Student& student){
-        out << "Student: [ Department: " << student.department << "Name: " << student.get_first_name() << "]";
-        return out;
-    };
+    friend std::ostream& operator <<(std::ostream& out, const Student& student);
 
     public:
         Student() = default;
-        Student(std::string department){
-            this->department = department;
-            std::cout << "Student Constructor Called" << std::endl;
-        };
+        Student(std::string_view department_param);
        
     private:
         std::string department {"Unknown"};

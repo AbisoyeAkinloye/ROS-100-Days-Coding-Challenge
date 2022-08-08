@@ -1,5 +1,6 @@
 #include <iostream>
 #include "6a. box.h"
+#include "6a. box.cpp"
 
 int main(){
     // Create a box

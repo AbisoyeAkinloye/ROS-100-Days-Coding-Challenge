@@ -1,21 +1,10 @@
-// #include "1b. person.h"
-// #include <iostream>
+#include "1b. person.h"
 
-// Person::Person(){
+Person::Person(std::string& first_name_param, std::string& last_name_param): first_name(first_name_param),last_name(last_name_param){
+}
 
-// }
 
-// Person::Person(std::string& first_name, std::string& last_name){
-//     this->first_name = first_name;
-//     this->last_name = last_name;
-//     std::cout << "Person Contructor Called" << std::endl;
-// }
-
-// std::ostream& operator <<(std::ostream& out, const Person& person){
-//     out << "Person [" << person.first_name << " " << person.last_name << "]";
-//     return out;
-// }
-
-// Person::~Person(){
-//     std::cout << "Person Destructor Called" << std::endl;
-// }
+std::ostream& operator <<(std::ostream& out, const Person& person){
+    out << "Person [" << person.first_name << " " << person.last_name << "]";
+    return out;
+}
