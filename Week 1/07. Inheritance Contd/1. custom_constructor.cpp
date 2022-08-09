@@ -8,7 +8,7 @@ int main(int argc, char** argv){
     Engineer engr("Abisoye Akinloye", 22, "Oyo State, Nigeria", 5);
     std::cout << engr << std::endl;
 
-    MechEngineer mech("Abisoye Akinloye", 22, "Oyo State, Nigeria", 5, "Power plants");
+    MechEngineer mech("Abisoye Akinloye", 22, "Oyo State, Nigeria", 2, "Power plants");
     std::cout << mech << std::endl;
 
     return 0;

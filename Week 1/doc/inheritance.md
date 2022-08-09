@@ -120,3 +120,32 @@ If the compiler supplies the no-arg constructor in a derived class, a non-privat
 ## Custom constructor with Inheritance
 
 It is needed to forward parameter from base class to derived class. Hence, the base contructor will be called in the initializer list of the derived constructor.
+
+Use the list initializer to inherit the the base constructor. As in:
+
+```c++
+    class Dog : public Animal {
+        Dog(std::string name, std::string color, std::string breed) :
+            Animal(name, color), breed {breed}{
+                std::cout << "Inherited Animal constructor in Dog" <<std::endl;
+            }
+    }
+```
+
+Any other methods to create custom constructor different as state above is not ideal because most often, the *private member in the base will not be accessible* in the derived. 
+
+## Copy Constructors with Inheritance
+This helps to create a copy constructor when dymanically allocating memory.
+```c++
+    Engineer::Engineer(const Engineer& source): 
+        Person(source), contract_count {source.contract_count}{
+            std::cout << "Engineer copy constructor called..." << std::endl;
+        }
+```
+Otherwise, you can copy as following and compiler will automatically create a copy constructor.
+
+```c++
+    Engineer engr("Abisoye Akinloye", 22, "Oyo State, Nigeria", 5);
+
+    Engineer engr2(engr);
+```
