@@ -118,3 +118,5 @@ Always provide a default constructor for your classes, especially if they will b
 If the compiler supplies the no-arg constructor in a derived class, a non-private no-arg constructor must exist in the base class. If it doesn’t, the code will not compile.
 
 ## Custom constructor with Inheritance
+
+It is needed to forward parameter from base class to derived class. Hence, the base contructor will be called in the initializer list of the derived constructor.
