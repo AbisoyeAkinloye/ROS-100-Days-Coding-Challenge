@@ -10,7 +10,7 @@ _Topics to cover:_
 4. <a href="./doc/pointers.md">Pointers</a>
 5. <a href="./doc/classes.md">Classes</a>
 6. <a href="./doc/inheritance.md">Inheritance</a>
-7. <a href="./doc/polymorphism.md">Polymorphism</a>
+7. <a href="./doc/inheritance.md">Inheritance Cont'd</a>
 
 ## Data Types
 <div id="data"></div>

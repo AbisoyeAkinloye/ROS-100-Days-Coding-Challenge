@@ -116,3 +116,5 @@ If a private base access specifier is used and another sub class inherit from it
 Always provide a default constructor for your classes, especially if they will be part of an inheritance hierarchy. Compiler will not supply a default no-arg constructor if you define one or more constructors for a class. 
 
 If the compiler supplies the no-arg constructor in a derived class, a non-private no-arg constructor must exist in the base class. If it doesn’t, the code will not compile.
+
+## Custom constructor with Inheritance
