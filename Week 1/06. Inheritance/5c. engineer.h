@@ -11,7 +11,7 @@ class Engineer : private Person{
         ~Engineer();
 
         void build_something(){
-            full_name = "Sam Loye";
+            full_name = "Abisoye Akinloye";
             age = 23;
 
             // cannot be acessed

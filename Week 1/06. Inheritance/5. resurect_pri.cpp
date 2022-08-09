@@ -5,6 +5,6 @@ int main(int argc, char** argv){
     MechEngineer mech;
 
     std::cout << mech << std::endl;
-
+    
     return 0;
 }
