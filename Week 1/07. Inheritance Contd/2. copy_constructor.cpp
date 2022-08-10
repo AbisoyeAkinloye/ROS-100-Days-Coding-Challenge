@@ -11,11 +11,11 @@ int main(int argc, char** argv){
     std::cout << engr2 << std::endl;
 
 
-    // MechEngineer mech("Abisoye Akinloye", 22, "Oyo State, Nigeria", 5, "Manufacturing");
-    // // std::cout << mech << std::endl;
+    MechEngineer mech("Abisoye Akinloye", 22, "Oyo State, Nigeria", 5, "Manufacturing");
+    std::cout << mech << std::endl;
 
-    // MechEngineer mech2(mech);
-    // std::cout << mech2 << std::endl;
+    MechEngineer mech2(mech);
+    std::cout << mech2 << std::endl;
    
     return 0;
 }

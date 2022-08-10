@@ -23,24 +23,24 @@ class Person{
 
         // Getters
         std::string get_full_name() const {
-            return m_full_name;
+            return full_name;
         }
 
         int get_age() const {
-            return m_age;
+            return age;
         }
 
         std::string get_address() const {
-            return m_address;
+            return address;
         }
 
-        std::string m_full_name{"Anonymous"};
+        std::string full_name{"Anonymous"};
 
     protected:
-        int m_age {0};
+        int age {0};
     
     private:
-        std::string m_address{"Nil"};
+        std::string address{"Nil"};
 
 };
 

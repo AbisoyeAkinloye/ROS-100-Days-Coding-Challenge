@@ -6,11 +6,11 @@ Person::Person(){
     std::cout << "Person default destructor..." << std::endl;
 }
 
-Person::Person(const std::string_view full_name, int age, std::string_view address): m_full_name {full_name}, m_age {age}, m_address {address}{
+Person::Person(const std::string_view full_name, int age, std::string_view address): full_name {full_name}, age {age}, address {address}{
     std::cout << "Custom constructor for person called..." << std::endl;
 }
 
-Person::Person(const Person& source): m_full_name (source.m_full_name), m_age (source.m_age), m_address (source.m_address){
+Person::Person(const Person& source): full_name {source.full_name}, age {source.age}, address {source.address}{
     std::cout << "Copy constructor for person called." << std::endl;
 }
 
