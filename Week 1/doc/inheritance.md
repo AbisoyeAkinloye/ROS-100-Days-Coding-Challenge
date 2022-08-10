@@ -149,3 +149,49 @@ Otherwise, you can copy as following and compiler will automatically create a co
 
     Engineer engr2(engr);
 ```
+
+## Inherit Base Constructor
+To tell the compiler to generate a base like constructor in the derived class. All constructor (default, custom, destructor) will be inherited except *copy* constructor which is not inheritable.
+
+**Syntax:**
+```c++
+    using BaseConstructor::BaseConstructor;
+```
+
+**Note:**
+
+* Copy constructors are not inherited. But you won't usually notice this as the complier will insert an automatic copy constructor.
+* Inherited constructors are base constructors. They have no knowledge of the derived class. Any member from the derived class will just contain junk or whatever default value it's initialized with.
+* Constructors are inherited with whatever access specifier they had in the base class.
+* On top of derived constructors, you can add your own that possibly properly initialize derived member variables.
+* Inheriting constructors adds a level of confusion to your code. It's not clear which constructor is building your object. It is recommended to avoid them and only use this features if no other option is available.
+
+## Reused symbols in Inheritance
+
+If we have the same member variable or function in both the parent and child class, it is valid in c++. That is, It is possible to use the same name in both parent and child class.
+
+```c++
+class Parent{
+    public:
+        void print_var(){...};
+    private:
+        int m_var{...};
+}
+
+class Child : public Parent {
+    public:
+        void print_var(){...};
+    private:
+        int m_var{...};
+}
+
+#include <iostream>
+#include "child.h"
+
+int main(int argc, char ** argv){
+    Child child(33);
+    child.print_var(); // calls the in Child
+    // Calls the method in Parent
+    child.Parent::print_var(); 
+}
+```
