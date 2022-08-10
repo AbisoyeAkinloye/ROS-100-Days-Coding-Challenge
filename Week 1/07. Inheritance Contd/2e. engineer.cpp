@@ -10,7 +10,7 @@ Engineer::Engineer(std::string_view fullname, int age, std::string_view address,
     std::cout << "Custom constructor called for Engineer..." << std::endl;
 }
 
-Engineer::Engineer(const Engineer& source) : contract_count {source.contract_count} {
+Engineer::Engineer(const Engineer& source) : Person (source), contract_count (source.contract_count) {
     std::cout << "Copy constructor called for Engineer..." << std::endl;
 }
 
