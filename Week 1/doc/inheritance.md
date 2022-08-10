@@ -189,7 +189,7 @@ class Child : public Parent {
 #include "child.h"
 
 int main(int argc, char ** argv){
-    Child child(33);
+    Child child;
     child.print_var(); // calls the in Child
     // Calls the method in Parent
     child.Parent::print_var(); 
