@@ -1,4 +1,4 @@
-// Static binding
+// Dynamic binding
 #include <iostream>
 #include "2a. includes.h"
 
