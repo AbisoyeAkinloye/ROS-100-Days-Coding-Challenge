@@ -49,4 +49,16 @@ for (Shape* s_ptr : shape_collection){
 
 When you specify a function as virtual in a base class you indicate to the compiler that you want dynamic binding for function calls in any class that’s derived from this base class. A virtual function is declared in a base class by using the keyword `virtual`.
 
-However, the compiler will not be considering the type pointer but rather the value (address) assigned to it.
+However, the compiler will not be considering the type pointer but rather the value (address) assigned to it. You make virtual function calls using a variable whose type is a pointer or a reference to a base class object. 
+
+The virtual keyword applied to the function in the base class is sufficient to determine that all definitions of the function in derived classes will also be virtual. You can optionally usethe virtual keyword for your derived class functions as well.
+
+## Size of Polymorphism
+
+The use of dynamic binding is great but it has a setback in terms of the memory it takes. With dynamic binding, object will be much larger. 
+
+**Slicing:** When you try to assign object of an derived class which has additional parameter to base class, `slicing` occurs whereby the derived member variable or method is stripe off.
+
+![slicing](slicing.png)
+
+## Storing Polymorphic objects in collections 
