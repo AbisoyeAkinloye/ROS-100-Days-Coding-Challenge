@@ -45,4 +45,8 @@ for (Shape* s_ptr : shape_collection){
 }
 ```
 
-## Dynamic binding with Virtual functions
+## Dynamic binding
+
+When you specify a function as virtual in a base class you indicate to the compiler that you want dynamic binding for function calls in any class that’s derived from this base class. A virtual function is declared in a base class by using the keyword `virtual`.
+
+However, the compiler will not be considering the type pointer but rather the value (address) assigned to it.
