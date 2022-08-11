@@ -53,6 +53,10 @@ However, the compiler will not be considering the type pointer but rather the va
 
 The virtual keyword applied to the function in the base class is sufficient to determine that all definitions of the function in derived classes will also be virtual. You can optionally usethe virtual keyword for your derived class functions as well.
 
+### Requirement of virtual function operation
+
+The return type of a virtual function in a derived class must be the same as that in the base class as well.
+
 ## Size of Polymorphism
 
 The use of dynamic binding is great but it has a setback in terms of the memory it takes. With dynamic binding, object will be much larger. 
@@ -62,3 +66,21 @@ The use of dynamic binding is great but it has a setback in terms of the memory 
 ![slicing](slicing.png)
 
 ## Storing Polymorphic objects in collections 
+
+Use a pointer point a class to store an object in a collection. You can also store in smart pointer.
+
+```c++
+    Shape* shape [] {&circle1, &oval1, &circle2, &oval2};
+
+    // Pointer
+    for (Shape* shape_ptr : shape){
+        shape_ptr -> draw();
+    }
+
+    // Smart pointers
+    std::shared_ptr<Shape> shape [] {std::make_shared<Circle>(12.2, "circle1"), std::make_shared<Oval>(10.0,20.0,"oval1")};
+
+    for (auto& s : shape){
+        s -> draw();
+    }
+```
