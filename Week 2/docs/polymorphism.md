@@ -67,7 +67,7 @@ The use of dynamic binding is great but it has a setback in terms of the memory 
 
 ## Storing Polymorphic objects in collections 
 
-Use a pointer point a class to store an object in a collection. You can also store in smart pointer.
+Use a pointer point a class to store an object in a collection. You can also store in smart pointer. If you store raw data in an array set up to store base class object, the data is going to slice off.
 
 ```c++
     Shape* shape [] {&circle1, &oval1, &circle2, &oval2};
@@ -84,3 +84,12 @@ Use a pointer point a class to store an object in a collection. You can also sto
         s -> draw();
     }
 ```
+
+## Override
+It’s easy to make a mistake in the specification of a virtual function in a derived class. Let's a typo mistake. Instead of `draw()` in base may be we write `Draw()` in derived class. The compiler wil still compile but the error is sometimes hard to notice or debug.
+
+Similarly, if you define a volume() function in a derived class but forget to specify `const`, this function will `overload` instead of `override` the base class function.
+
+You can protect against such errors by using the `override` specifier for every virtual function declaration in a derived class.
+
+**Note:** It is recommended to use override in inheritance hierarchy to detect typos in virtual function.
