@@ -93,3 +93,7 @@ Similarly, if you define a volume() function in a derived class but forget to sp
 You can protect against such errors by using the `override` specifier for every virtual function declaration in a derived class.
 
 **Note:** It is recommended to use override in inheritance hierarchy to detect typos in virtual function.
+
+### Overloading, overriding and hiding.
+
+When you override a single function of base func overloads in derived class, it will only override the function but all other overloads will be hidden.
