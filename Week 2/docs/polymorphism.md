@@ -97,3 +97,6 @@ You can protect against such errors by using the `override` specifier for every 
 ### Overloading, overriding and hiding.
 
 When you override a single function of base func overloads in derived class, it will only override the function but all other overloads will be hidden.
+
+## Inheritance and Polymorphism at different levels
+![level](level%20poly.png)
