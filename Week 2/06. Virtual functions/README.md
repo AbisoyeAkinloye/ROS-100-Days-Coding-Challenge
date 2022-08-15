@@ -35,3 +35,8 @@ class Derived : public Base {
 
 
 ## Virtual destructors
+
+Specifying a destructor with `virtual` specifier will allow the compiler to called the destructor as expected.
+
+## Dynamic Cast
+`Dynamic_cast<>()`
