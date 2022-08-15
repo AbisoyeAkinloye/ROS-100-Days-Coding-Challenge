@@ -99,4 +99,23 @@ You can protect against such errors by using the `override` specifier for every 
 When you override a single function of base func overloads in derived class, it will only override the function but all other overloads will be hidden.
 
 ## Inheritance and Polymorphism at different levels
-![level](level%20poly.png)
+![level](./images/level%20poly.png)
+
+## Final specifier in inheritance hierarchy
+* To restrict how you override methods in derived class
+* Restrict how you can derive from a base class
+
+You can also create a class such that no other class will be able to inherit from it using `final` specifier.
+```c++
+ class Unique final {
+    Unique() = default;
+ }
+```
+
+### If `virtual` and `final` are in a method
+```c++
+virtual void do_something() const final {
+    std::cout << "Something is done!!!" << std::endl;
+}
+```
+The final specifier wins, however, no derived class will be able to inherit the method.
