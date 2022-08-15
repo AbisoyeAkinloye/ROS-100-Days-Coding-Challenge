@@ -8,22 +8,20 @@ class Dog : public Feline
 public:
     Dog() = default;
     Dog(std::string_view fur_style, std::string_view description);
-    ~Dog();
+    virtual ~Dog();
 
     virtual void bark() const
     {
         std::cout << "Dog::bark called: woof!" << std::endl;
     }
 
-    void breathe() const override
+    void do_something_doggy()
     {
-        std::cout << "Dog::breathe called for: " << description << std::endl;
+        std::cout << "Doing some doggy thing..., speed" << speed << std::endl;
     }
 
-    void run() const override final
-    {
-        std::cout << "Dog " << description << " is running." << std::endl;
-    }
+private:
+    double speed{};
 };
 
 #endif

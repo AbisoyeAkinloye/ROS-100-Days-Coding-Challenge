@@ -2,6 +2,8 @@
 
 ## Virtual Function with default arguments
 
+Default argument values are dealt with at compile time, so you can get unexpected results when you use default argument values with virtual function parameters.
+
 Default argurment in virtual function is bind by the compiler statically. It uses the **default argument in the base function**. As in:
 
 ```c++
@@ -35,8 +37,15 @@ class Derived : public Base {
 
 
 ## Virtual destructors
+To ensure that the correct destructor is always called for objects of derived classes that are allocated in the free store, you need virtual class destructors.
 
-Specifying a destructor with `virtual` specifier will allow the compiler to called the destructor as expected.
+Specifying a destructor with `virtual` specifier will allow the compiler to called the destructor as expected. 
+
+To implement a virtual destructor in a derived class, you just add the keyword virtual to the destructor declaration in the base class.
 
 ## Dynamic Cast
-`Dynamic_cast<>()`
+
+A dynamic cast is a conversion that’s performed at runtime. The `dynamic_cast<>()` operator performs a dynamic cast. You can only apply this operator to pointers and references to polymorphic class types, which are class types that contain at least one virtual function.
+
+* Transforming from base class pointer or reference to derived class pointer or reference at run time.
+* Makes it possible to call non polymorphic methods on derived objects.
