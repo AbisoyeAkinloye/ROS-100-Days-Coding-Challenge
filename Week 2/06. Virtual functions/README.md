@@ -56,3 +56,5 @@ A dynamic cast is a conversion that’s performed at runtime. The `dynamic_cast<
 * Calling a virtual function from a constructor or destructor won't give a polymorphic result or dynamic binding.
 * The call will never go to a more derived class than the currently executing constructor or destructor.
 * In other words you will get static binding results.
+
+## Pure virtual functions and abstract classes
