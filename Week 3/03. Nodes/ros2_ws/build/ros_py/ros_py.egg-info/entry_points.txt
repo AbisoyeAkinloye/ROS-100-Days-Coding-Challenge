@@ -1,0 +1,3 @@
+[console_scripts]
+py_node = ros_py.first_node:main
+
