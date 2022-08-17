@@ -77,8 +77,9 @@ ____
 
 ### Install python node into ROS workspace
 
-* You will install it from the `setup.py` file in the package.
-```json
+* You will install it from the `setup.py` file in the package. Locate this following line of code and modify:
+
+```
 'console_scripts': [
     "py_node = ros_py.first_node:main"
 ],
