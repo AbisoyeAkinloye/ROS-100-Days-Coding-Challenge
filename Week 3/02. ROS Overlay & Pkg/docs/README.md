@@ -77,6 +77,13 @@ ros2 pkg create <package_name> --build-type ament_python
 ros2 pkg create <package_name> --build-type ament_cmake
 ```
 
+* change directory to the workspace
+* `colcon build`
+
+```ros
+colcon build --package-select <package_name>
+```
+
 #### For both python and cmake in a package
 
 ```ros

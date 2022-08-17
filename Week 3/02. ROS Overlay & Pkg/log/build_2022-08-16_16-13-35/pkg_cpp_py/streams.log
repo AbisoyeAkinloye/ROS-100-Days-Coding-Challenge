@@ -1,0 +1,48 @@
+[0.063s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/ros_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py
+[0.416s] -- The C compiler identification is GNU 10.3.0
+[0.705s] -- The CXX compiler identification is GNU 10.3.0
+[0.724s] -- Check for working C compiler: /usr/bin/cc
+[1.028s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.032s] -- Detecting C compiler ABI info
+[1.321s] -- Detecting C compiler ABI info - done
+[1.383s] -- Detecting C compile features
+[1.384s] -- Detecting C compile features - done
+[1.393s] -- Check for working CXX compiler: /usr/bin/c++
+[1.664s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.674s] -- Detecting CXX compiler ABI info
+[2.044s] -- Detecting CXX compiler ABI info - done
+[2.105s] -- Detecting CXX compile features
+[2.105s] -- Detecting CXX compile features - done
+[2.111s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.219s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.219s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.855s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.088s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.103s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.104s] -- Added test 'lint_cmake' to check CMake code style
+[3.106s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.110s] -- Added test 'xmllint' to check XML markup files
+[3.116s] -- Configuring done
+[3.123s] -- Generating done
+[3.125s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py
+[3.139s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/ros_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py
+[3.140s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py -- -j4 -l4
+[3.280s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py -- -j4 -l4
+[3.402s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py
+[3.428s] -- Install configuration: ""
+[3.428s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_py
+[3.429s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_py
+[3.429s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.sh
+[3.430s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.dsv
+[3.430s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.sh
+[3.430s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.dsv
+[3.432s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.bash
+[3.432s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.sh
+[3.432s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.zsh
+[3.433s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.dsv
+[3.433s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/package.dsv
+[3.433s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/ament_index/resource_index/packages/pkg_cpp_py
+[3.433s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig.cmake
+[3.434s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig-version.cmake
+[3.434s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/install/pkg_cpp_py/share/pkg_cpp_py/package.xml
+[3.439s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/2. ROS Overlay & Pkg/build/pkg_cpp_py
