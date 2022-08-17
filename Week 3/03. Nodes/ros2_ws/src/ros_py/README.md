@@ -1,22 +1,14 @@
-# ROS Nodes
-
-Nodes are the mode of communication in ROS. Each node is responsible for a single function, however, node can receive and send data to other nodes via topics, services, actions, or parameters.
-
-Nodes are control by executable files which usually resides in the package.
-
-* Node is subprogram responsible for only one thing
-* Nodes are combined into a graph
-* Communicate with each other through topics, services, and parameters
-* Can be written in python, c++ ... and nodes created with python can communicate with c++ node.
-* The filename `.py` or `.cpp` is the executable.
+# Creating Node
 
 ## Creating Python node
+
 * In the package create, navigate to a folder named as exactly the package name.
 * create new file in it.
 ```
 touch first_node.py
 ```
 * type the following: 
+  
 ```py
 #!/usr/bin/env python3
 
@@ -81,6 +73,8 @@ chmod +x first_node.py
 
 * run the executable `./first_node.py`
 
+____
+
 ### Install python node into ROS workspace
 
 * You will install it from the `setup.py` file in the package.
@@ -108,6 +102,8 @@ ros2 run ros_py py_node
 ```
 
 **Note:** The file name can be different from node name and executable name can also be different from both.
+
+___
 
 ## Creating a Node with Python OOP
 
