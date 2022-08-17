@@ -1,0 +1,43 @@
+[0.059s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp -- -j4 -l4
+[0.204s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.282s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.787s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.453s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.713s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.635s] -- Configuring done
+[2.689s] -- Generating done
+[2.697s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp
+[2.765s] [35m[1mScanning dependencies of target cpp_oop_node[0m
+[2.779s] [35m[1mScanning dependencies of target cpp_node[0m
+[2.880s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/first_node.cpp.o[0m
+[2.911s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_oop_node.dir/src/oop_node.cpp.o[0m
+[8.006s] [ 75%] [32m[1mLinking CXX executable cpp_node[0m
+[8.363s] [100%] [32m[1mLinking CXX executable cpp_oop_node[0m
+[8.411s] [100%] Built target cpp_node
+[8.824s] [100%] Built target cpp_oop_node
+[8.865s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp -- -j4 -l4
+[8.979s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp
+[9.004s] -- Install configuration: ""
+[9.005s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/lib/ros2_cpp/cpp_node
+[9.007s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/lib/ros2_cpp/cpp_node" to ""
+[9.016s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/lib/ros2_cpp/cpp_oop_node
+[9.017s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/lib/ros2_cpp/cpp_oop_node" to ""
+[9.018s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_cpp
+[9.021s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_cpp
+[9.022s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/environment/ament_prefix_path.sh
+[9.022s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/environment/ament_prefix_path.dsv
+[9.023s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/environment/path.sh
+[9.023s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/environment/path.dsv
+[9.024s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/local_setup.bash
+[9.024s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/local_setup.sh
+[9.024s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/local_setup.zsh
+[9.025s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/local_setup.dsv
+[9.026s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/package.dsv
+[9.026s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ament_index/resource_index/packages/ros2_cpp
+[9.027s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/cmake/ros2_cppConfig.cmake
+[9.028s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/cmake/ros2_cppConfig-version.cmake
+[9.028s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_cpp/share/ros2_cpp/package.xml
+[9.034s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_cpp
