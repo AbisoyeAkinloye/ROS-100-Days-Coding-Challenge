@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "py_node = ros_py.first_node:main"
+            "py_node = ros_py.first_node:main",
+            "py_oop_node = ros_py.oop_node:main"
         ],
     },
 )

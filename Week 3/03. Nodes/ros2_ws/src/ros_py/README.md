@@ -94,7 +94,7 @@ chmod +x first_node.py
 
 * Build the workspace
 ```
-colcon build --package-select ros_py
+colcon build --packages-select ros_py
 ```
 
 * source the workspace
@@ -106,3 +106,24 @@ ros2 run <package_name> <executable>
 
 ros2 run ros_py py_node
 ```
+
+**Note:** The file name can be different from node name and executable name can also be different from both.
+
+## Creating a Node with Python OOP
+
+```py
+class MyNode(Node):
+    def __init__(self):
+        super().__init__("my_node")
+        self.get_logger().info("Hello from ROS OOP node...")
+```
+
+* Name the classname according to the node function
+* `MyNode(Node)` is a derived class inheriting from the base class `Node`
+* Create the constructor. 
+```py
+def __init__(self)
+```
+*You can further check my python object oriented programming (OOP) documentation <a href="https://github.com/Abisoyesam/Learn-Python/tree/main/ZTM/06.%20OOP"> here </a>*
+
+* call the `super()` to refer to the base class Node and initialize a node and specify the node name.

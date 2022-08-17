@@ -12,6 +12,7 @@ setup.py
 resource/ros_py
 ros_py/__init__.py
 ros_py/first_node.py
+ros_py/oop_node.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
