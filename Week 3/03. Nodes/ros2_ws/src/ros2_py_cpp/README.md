@@ -1,3 +1,5 @@
+- Make changes in the `CmakeLists.txt` as follows:
+
 ```c
 # find dependencies
 find_package(ament_cmake REQUIRED)
@@ -27,4 +29,15 @@ install(PROGRAMS
   scripts/oop_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
+```
+
+- Make changes in the `package.xml` file as follows:
+
+```xml
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
 ```

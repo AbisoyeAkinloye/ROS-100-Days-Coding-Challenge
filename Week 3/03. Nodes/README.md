@@ -21,3 +21,9 @@ Click <a href="ros2_ws/src/ros_py/README.md">here</a> to redirect to the README 
 C++ node can be created using object-oriented programming or functional programing. 
 
 Click <a href="ros2_ws/src/ros2_cpp/README.md">here</a> to redirect to the README file
+
+## Creating both C++ and Py node in a package
+
+Node can be created using both c++ and python in a single package.
+
+Click <a href="ros2_ws/src/ros2_py_cpp/README.md">here</a>
