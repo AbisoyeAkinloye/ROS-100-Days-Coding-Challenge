@@ -467,3 +467,35 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f67eb/fast && make[1]: Entering directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f67eb.dir/build.make CMakeFiles/cmTC_f67eb.dir/build
+make[2]: Entering directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f67eb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f67eb.dir/CheckIncludeFile.c.o   -c "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_f67eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67eb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f67eb.dir/CheckIncludeFile.c.o  -o cmTC_f67eb 
+make[2]: Leaving directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ace82/fast && make[1]: Entering directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ace82.dir/build.make CMakeFiles/cmTC_ace82.dir/build
+make[2]: Entering directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ace82.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ace82.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ace82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ace82.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ace82.dir/CheckFunctionExists.c.o  -o cmTC_ace82  -lpthread 
+make[2]: Leaving directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp/CMakeFiles/CMakeTmp'
+
+
+

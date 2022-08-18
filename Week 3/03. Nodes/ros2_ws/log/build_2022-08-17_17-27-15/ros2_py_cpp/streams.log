@@ -1,0 +1,65 @@
+[0.038s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp -- -j4 -l4
+[0.253s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.329s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.859s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.076s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.108s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.389s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.506s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.800s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.048s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.054s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.059s] -- Looking for pthread.h
+[2.398s] -- Looking for pthread.h - found
+[2.400s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.645s] -- Looking for pthread_create in pthreads
+[2.812s] -- Looking for pthread_create in pthreads - not found
+[2.812s] -- Looking for pthread_create in pthread
+[3.007s] -- Looking for pthread_create in pthread - found
+[3.007s] -- Found Threads: TRUE  
+[3.831s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[4.093s] -- Configuring done
+[4.134s] -- Generating done
+[4.143s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp
+[4.212s] [35m[1mScanning dependencies of target cpp_oop_node[0m
+[4.215s] [35m[1mScanning dependencies of target cpp_node[0m
+[4.369s] [ 25%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/func_node.cpp.o[0m
+[4.397s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_oop_node.dir/src/oop_node.cpp.o[0m
+[9.161s] [ 75%] [32m[1mLinking CXX executable cpp_node[0m
+[9.522s] [ 75%] Built target cpp_node
+[9.610s] [100%] [32m[1mLinking CXX executable cpp_oop_node[0m
+[9.972s] [100%] Built target cpp_oop_node
+[10.024s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp -- -j4 -l4
+[10.131s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp
+[10.155s] -- Install configuration: ""
+[10.155s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/cpp_node
+[10.155s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/cpp_node" to ""
+[10.155s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/cpp_oop_node
+[10.156s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/cpp_oop_node" to ""
+[10.157s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/pythonpath.sh
+[10.157s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/pythonpath.dsv
+[10.157s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp
+[10.158s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp/module_to_import.py
+[10.158s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp/__init__.py
+[10.236s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp'...
+[10.236s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp/__init__.py'...
+[10.237s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/python3.8/site-packages/ros2_py_cpp/module_to_import.py'...
+[10.260s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/func_node.py
+[10.260s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/lib/ros2_py_cpp/oop_node.py
+[10.261s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ament_index/resource_index/package_run_dependencies/ros2_py_cpp
+[10.261s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ament_index/resource_index/parent_prefix_path/ros2_py_cpp
+[10.261s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/ament_prefix_path.sh
+[10.262s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/ament_prefix_path.dsv
+[10.262s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/path.sh
+[10.262s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/environment/path.dsv
+[10.263s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/local_setup.bash
+[10.263s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/local_setup.sh
+[10.263s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/local_setup.zsh
+[10.263s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/local_setup.dsv
+[10.264s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/package.dsv
+[10.265s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ament_index/resource_index/packages/ros2_py_cpp
+[10.265s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/cmake/ros2_py_cppConfig.cmake
+[10.265s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/cmake/ros2_py_cppConfig-version.cmake
+[10.265s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros2_py_cpp/share/ros2_py_cpp/package.xml
+[10.271s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/install/ros_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/03. Nodes/ros2_ws/build/ros2_py_cpp

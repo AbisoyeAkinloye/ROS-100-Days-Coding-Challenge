@@ -39,7 +39,7 @@ auto node = std::make_shared<rclcpp::Node>("cpp_test");
 
 The first line initializes the ros client node with the argument in the `main` function parameter.
 
-Smart pointer `std::make_shared` is used to dynamically allocate memory and its automatically destroy it when the variable is out of scope. 
+Smart pointer `std::make_shared` is used to dynamically allocate memory and it will automatically destroy it when the variable is out of scope. 
 
 
 * Goto `CmakeLists.txt` then create C++ executable and install it.
@@ -56,3 +56,56 @@ install(TARGETS
 ```
 
 **Note:** `cpp_node` is the executable name while `first_node.cpp` is the file name. 
+
+## Create C++ OOP Node 
+```c++
+#include "rclcpp/rclcpp.hpp"
+
+using namespace std::chrono_literals;
+
+class MyNode : public rclcpp::Node
+{
+public:
+    MyNode() : Node("cpp_node"), counter_ {0}
+    {
+        RCLCPP_INFO(this->get_logger(), "Hello from C++ OOP node");
+        timer_ = this->create_wall_timer(1s, std::bind(&MyNode::timer_callback, this));
+    }
+
+private:
+    void timer_callback()
+    {
+        counter_ ++;
+        RCLCPP_INFO(this->get_logger(), "Hello %d",counter_);
+    }
+
+    rclcpp::TimerBase::SharedPtr timer_;
+    int counter_;
+};
+
+int main(int argc, char **argv)
+{
+    rclcpp::init(argc, argv);
+    auto node = std::make_shared<MyNode>();
+    rclcpp::spin(node);
+    rclcpp::shutdown();
+    return 0;
+}
+```
+
+**Code Explained:**
+
+`std::chrono_literals` is used in the timer to specify milliseconds or second. E.g 1s, 1ms and so on.
+
+`MyNode` is a derived class which inherit from the base class `rclcpp::Node` to make use of methods therein.
+
+```c++
+rclcpp::TimerBase::SharePtr timer_;
+```
+It is used to declare `timer_` variable. `rclcpp::TimerBase` is the type, `SharePtr` is a function in ROS equivalent to `std::make_shared` to dynamically allocate memory and delete it automatically when it is out of scope. The also allows the use of `->` func. 
+
+```c++
+timer_ = this->create_wall_timer(1s, std::bind(&MyNode::timer_callback, this));
+```
+
+It is conventional to bind `wall_timer` to the callback address, then add the second argument `this`.
