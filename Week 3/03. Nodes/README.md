@@ -9,6 +9,7 @@ Nodes are control by executable files which usually resides in the package.
 * Communicate with each other through topics, services, and parameters
 * Can be written in python, c++ ... and nodes created with python can communicate with c++ node.
 * The filename `.py` or `.cpp` is then make as an executable to run node.
+* Node serves a single, modular purpose in a robotics system
 
 ## Creating Python Node
 
@@ -66,7 +67,7 @@ ros2 run <package_name> <executable> --ros-args --r __node:=new_name
 
 ## Colcon build
 
-Anytime you modify you file, you always need to buid again with `colcon build` but for a `python` file you can run without rebuilding as follows:
+Anytime you modify you file, you always need to build again with `colcon build` but for a `python` file you can run without rebuilding as follows:
 
 ```
 colcon build --packages-select ros2_py --symlink-install
@@ -74,4 +75,4 @@ colcon build --packages-select ros2_py --symlink-install
 
 `--symlink-install` help to modify `.py` file and still have the update version without building again with `colcon build`.
 
-**N.B:** Make sure the .py files is set as executable to use `--symlink-install`.
+**N.B:** Make sure the `.py` files is set as executable in order to use `--symlink-install`.
