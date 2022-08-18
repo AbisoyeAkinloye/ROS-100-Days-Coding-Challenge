@@ -27,3 +27,51 @@ Click <a href="ros2_ws/src/ros2_cpp/README.md">here</a> to redirect to the READM
 Node can be created using both c++ and python in a single package.
 
 Click <a href="ros2_ws/src/ros2_py_cpp/README.md">here</a>
+
+## More about ROS2 Client Library
+
+ROS2 client libraries `rcl` can be program in different languages such as:
+
+* rclcpp - for C++
+* rclpy - for Python
+* rclnodejs - for Javascript node
+* rcljava - Java
+
+## ROS2 Node Command line
+
+Flag `-h` append to any ROS command is used to get **help** message.
+
+Flag `-t` append to any ROS command is used to get **type**.
+
+* To list all running nodes
+```ros2
+ros2 node list
+```
+* To get information about a node topic, action and so on
+```ros
+ros node info /node_name
+```
+
+**Note:** Do not have multiple nodes with the same name. You can `rename` node during runtime. It is called `remaping`.
+
+Remapping allows to reassign default node properties, like node name, topic names, service names, etc., to custom values.
+
+```
+ros2 run <package_name> <executable> --ros-args --remap__node:=new_name
+
+OR 
+
+ros2 run <package_name> <executable> --ros-args --r __node:=new_name
+```
+
+## Colcon build
+
+Anytime you modify you file, you always need to buid again with `colcon build` but for a `python` file you can run without rebuilding as follows:
+
+```
+colcon build --packages-select ros2_py --symlink-install
+```
+
+`--symlink-install` help to modify `.py` file and still have the update version without building again with `colcon build`.
+
+**N.B:** Make sure the .py files is set as executable to use `--symlink-install`.
