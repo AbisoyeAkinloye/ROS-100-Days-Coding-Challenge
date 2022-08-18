@@ -67,12 +67,12 @@ ros2 run <package_name> <executable> --ros-args --r __node:=new_name
 
 ## Colcon build
 
-Anytime you modify you file, you always need to build again with `colcon build` but for a `python` file you can run without rebuilding as follows:
+Anytime you modify your file, you always need to build again with `colcon build` but for a `python` file you can run without rebuilding as follows:
 
 ```
 colcon build --packages-select ros2_py --symlink-install
 ```
 
-`--symlink-install` help to modify `.py` file and still have the update version without building again with `colcon build`.
+`--symlink-install` help to modify `.py` file and still have the updated version without building again with `colcon build`.
 
 **N.B:** Make sure the `.py` files is set as executable in order to use `--symlink-install`.
