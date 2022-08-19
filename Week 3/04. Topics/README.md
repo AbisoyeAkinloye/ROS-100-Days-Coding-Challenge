@@ -5,7 +5,7 @@ They are mean of communication used by nodes to exchange messages. Topics are a 
 The analogy of a radio transmitter can be used to explain ROS topic as shown below:
 
 ![radio transmitter](ros%20topic.png)
-<center><img src="./ros%20topic.png"/><center>
+<centre><img src="./ros%20topic.png"/><centre>
 
 * A node can have many publishers/subscribers for many differnt topics.
 * Unidirectional data stream (publisher/subscriber)
