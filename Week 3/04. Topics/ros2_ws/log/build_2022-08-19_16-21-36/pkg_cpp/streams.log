@@ -1,0 +1,56 @@
+[0.035s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/src/pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp
+[0.328s] -- The C compiler identification is GNU 10.3.0
+[0.572s] -- The CXX compiler identification is GNU 10.3.0
+[0.604s] -- Check for working C compiler: /usr/bin/cc
+[0.797s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.802s] -- Detecting C compiler ABI info
+[0.981s] -- Detecting C compiler ABI info - done
+[1.038s] -- Detecting C compile features
+[1.040s] -- Detecting C compile features - done
+[1.049s] -- Check for working CXX compiler: /usr/bin/c++
+[1.276s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.278s] -- Detecting CXX compiler ABI info
+[1.507s] -- Detecting CXX compiler ABI info - done
+[1.564s] -- Detecting CXX compile features
+[1.566s] -- Detecting CXX compile features - done
+[1.587s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.654s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.654s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.197s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.421s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.771s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.069s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.333s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.346s] -- Looking for pthread.h
+[3.534s] -- Looking for pthread.h - found
+[3.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.723s] -- Looking for pthread_create in pthreads
+[3.885s] -- Looking for pthread_create in pthreads - not found
+[3.885s] -- Looking for pthread_create in pthread
+[4.055s] -- Looking for pthread_create in pthread - found
+[4.058s] -- Found Threads: TRUE  
+[4.821s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.549s] -- Configuring done
+[5.599s] -- Generating done
+[5.607s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp
+[5.625s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/src/pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp
+[5.629s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp -- -j4 -l4
+[5.732s] [35m[1mScanning dependencies of target smartphone[0m
+[5.741s] [35m[1mScanning dependencies of target robot_news_station[0m
+[5.774s] [ 25%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[5.833s] [ 50%] [32m[1mLinking CXX executable smartphone[0m
+[5.860s] [ 75%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[6.033s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[6.034s] (.text+0x24): undefined reference to `main'
+[6.037s] collect2: error: ld returned 1 exit status
+[6.040s] make[2]: *** [CMakeFiles/smartphone.dir/build.make:146: smartphone] Error 1
+[6.041s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/smartphone.dir/all] Error 2
+[6.041s] make[1]: *** Waiting for unfinished jobs....
+[12.888s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[13.366s] [100%] Built target robot_news_station
+[13.368s] make: *** [Makefile:141: all] Error 2
+[13.372s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp -- -j4 -l4

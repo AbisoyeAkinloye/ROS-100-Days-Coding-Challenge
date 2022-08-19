@@ -63,6 +63,7 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "1b. person.h": "c"
+        "1b. person.h": "c",
+        "future": "cpp"
     }
 }
