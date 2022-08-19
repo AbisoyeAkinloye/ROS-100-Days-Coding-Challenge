@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "robot_news_station=pkg_py.robot_news:main",
+            "transitor_radio=pkg_py.transitor_radio:main"
         ],
     },
 )
