@@ -3,8 +3,9 @@
 They are mean of communication used by nodes to exchange messages. Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
 
 The analogy of a radio transmitter can be used to explain ROS topic as shown below:
-
+<center>
 ![radio transmitter](ros%20topic.png)
+</center>
 
 * A node can have many publishers/subscribers for many differnt topics.
 * Unidirectional data stream (publisher/subscriber)
