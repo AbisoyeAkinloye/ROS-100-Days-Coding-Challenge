@@ -19,13 +19,13 @@ find_package(example_interfaces REQUIRED)
 add_executable(robot_news_station src/robot_news_station.cpp)
 ament_target_dependencies(robot_news_station rclcpp example_interfaces)
 
-# add_executable(smartphone src/smartphone.cpp)
-# ament_target_dependencies(smartphone rclcpp example_interfaces)
+add_executable(smartphone src/smartphone.cpp)
+ament_target_dependencies(smartphone rclcpp example_interfaces)
 
 # install dependencies
 install(TARGETS
   robot_news_station
-  # smartphone
+  smartphone
   DESTINATION lib/${PROJECT_NAME}
 )
 
