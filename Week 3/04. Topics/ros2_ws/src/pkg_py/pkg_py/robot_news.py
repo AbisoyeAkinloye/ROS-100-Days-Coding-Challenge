@@ -3,7 +3,6 @@
 import rclpy
 from rclpy.node import Node
 
-# default msg installed when ROS was globally installed
 from example_interfaces.msg import String
 
 class RobotsNews(Node):
