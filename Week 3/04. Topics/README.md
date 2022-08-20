@@ -36,4 +36,12 @@ Read my documentation <a href="./ros2_ws/src/pkg_py/README.md#subscriber">here</
 
 ## Write C++ Publisher
 
+Using the analogy of Radio tranmission, you can write a publisher which sends radio signal at a certain frequency (topic).
+
+Read my documentation <a href="./ros2_ws/src/pkg_cpp/README.md#publisher">here</a>
+
 ## Write C++ Subscriber
+
+Using the analogy of Radio tranmission, you can write a subscriber which receives radio signal at a certain frequency (topic).
+
+Read my documentation <a href="./ros2_ws/src/pkg_cpp/README.md#subscriber">here</a>
