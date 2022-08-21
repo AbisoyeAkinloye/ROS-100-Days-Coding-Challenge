@@ -1,0 +1,51 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py
+[35m[1mScanning dependencies of target transistor_radio[0m
+[35m[1mScanning dependencies of target robot_news_station[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/transistor_radio.dir/src/transistor_radio.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable robot_news_station[0m
+[ 75%] Built target robot_news_station
+[100%] [32m[1mLinking CXX executable transistor_radio[0m
+[100%] Built target transistor_radio
+-- Install configuration: ""
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/module_to_import.py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/__init__.py
+Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py'...
+Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/__init__.py'...
+Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/module_to_import.py'...
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/robot_news_station.py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/transistor_radio.py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/robot_news_station
+-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/robot_news_station" to ""
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/transistor_radio
+-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/transistor_radio" to ""
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.bash
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.zsh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/packages/pkg_cpp_py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig.cmake
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig-version.cmake
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.xml

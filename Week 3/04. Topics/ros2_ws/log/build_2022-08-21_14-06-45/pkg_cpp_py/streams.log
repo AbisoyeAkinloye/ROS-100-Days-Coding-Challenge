@@ -1,0 +1,47 @@
+[0.038s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py -- -j4 -l4
+[0.144s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.244s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.778s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[0.786s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.944s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.658s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.670s] -- Looking for pthread.h
+[1.993s] -- Looking for pthread.h - found
+[1.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.228s] -- Looking for pthread_create in pthreads
+[2.402s] -- Looking for pthread_create in pthreads - not found
+[2.403s] -- Looking for pthread_create in pthread
+[2.606s] -- Looking for pthread_create in pthread - found
+[2.609s] -- Found Threads: TRUE  
+[3.442s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[4.230s] -- Configuring done
+[4.268s] -- Generating done
+[4.277s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py
+[4.345s] [35m[1mScanning dependencies of target robot_news_station[0m
+[4.490s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[12.091s] [100%] [32m[1mLinking CXX executable robot_news_station[0m
+[12.676s] [100%] Built target robot_news_station
+[12.713s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_py:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py -- -j4 -l4
+[12.798s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py
+[12.821s] -- Install configuration: ""
+[12.823s] -- Execute custom install script
+[12.824s] -- Up-to-date symlink: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.sh
+[12.826s] -- Up-to-date symlink: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.dsv
+[12.828s] -- Up-to-date symlink: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/__init__.py
+[12.829s] -- Up-to-date symlink: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/module_to_import.py
+[12.830s] -- Up-to-date symlink: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/robot_news_station.py
+[12.831s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[12.831s]   ament_cmake_symlink_install_programs() can't find
+[12.831s]   '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04.
+[12.831s]   Topics/ros2_ws/src/pkg_cpp_py/scripts/transitor_radio.py'
+[12.831s] Call Stack (most recent call first):
+[12.831s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_programs)
+[12.831s]   cmake_install.cmake:41 (include)
+[12.832s] 
+[12.832s] 
+[12.835s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/install/pkg_py:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py

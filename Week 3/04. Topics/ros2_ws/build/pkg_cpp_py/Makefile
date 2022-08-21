@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named robot_news_station
+
+# Build rule for target.
+robot_news_station: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot_news_station
+.PHONY : robot_news_station
+
+# fast build rule for target.
+robot_news_station/fast:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
+.PHONY : robot_news_station/fast
+
+#=============================================================================
+# Target rules for targets named transistor_radio
+
+# Build rule for target.
+transistor_radio: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 transistor_radio
+.PHONY : transistor_radio
+
+# fast build rule for target.
+transistor_radio/fast:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/build
+.PHONY : transistor_radio/fast
+
+#=============================================================================
 # Target rules for targets named pkg_cpp_py_uninstall
 
 # Build rule for target.
@@ -193,6 +219,60 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/robot_news_station.o: src/robot_news_station.cpp.o
+
+.PHONY : src/robot_news_station.o
+
+# target to build an object file
+src/robot_news_station.cpp.o:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o
+.PHONY : src/robot_news_station.cpp.o
+
+src/robot_news_station.i: src/robot_news_station.cpp.i
+
+.PHONY : src/robot_news_station.i
+
+# target to preprocess a source file
+src/robot_news_station.cpp.i:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.i
+.PHONY : src/robot_news_station.cpp.i
+
+src/robot_news_station.s: src/robot_news_station.cpp.s
+
+.PHONY : src/robot_news_station.s
+
+# target to generate assembly for a file
+src/robot_news_station.cpp.s:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.s
+.PHONY : src/robot_news_station.cpp.s
+
+src/transistor_radio.o: src/transistor_radio.cpp.o
+
+.PHONY : src/transistor_radio.o
+
+# target to build an object file
+src/transistor_radio.cpp.o:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/src/transistor_radio.cpp.o
+.PHONY : src/transistor_radio.cpp.o
+
+src/transistor_radio.i: src/transistor_radio.cpp.i
+
+.PHONY : src/transistor_radio.i
+
+# target to preprocess a source file
+src/transistor_radio.cpp.i:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/src/transistor_radio.cpp.i
+.PHONY : src/transistor_radio.cpp.i
+
+src/transistor_radio.s: src/transistor_radio.cpp.s
+
+.PHONY : src/transistor_radio.s
+
+# target to generate assembly for a file
+src/transistor_radio.cpp.s:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/src/transistor_radio.cpp.s
+.PHONY : src/transistor_radio.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,11 +283,19 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... robot_news_station"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... transistor_radio"
 	@echo "... pkg_cpp_py_uninstall"
 	@echo "... uninstall"
+	@echo "... src/robot_news_station.o"
+	@echo "... src/robot_news_station.i"
+	@echo "... src/robot_news_station.s"
+	@echo "... src/transistor_radio.o"
+	@echo "... src/transistor_radio.i"
+	@echo "... src/transistor_radio.s"
 .PHONY : help
 
 

@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:38 (install):
+  install TARGETS given target "transitor_radio" which does not exist.
+
+

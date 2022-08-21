@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_programs.cmake:24 (message):
+  ament_cmake_symlink_install_programs() first argument must be 'PROGRAMS',
+  not 'scripts/transitor_radio.py'
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_cmake_symlink_install_programs)
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1

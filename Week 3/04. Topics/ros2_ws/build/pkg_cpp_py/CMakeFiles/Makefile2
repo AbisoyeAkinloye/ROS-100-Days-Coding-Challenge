@@ -53,7 +53,8 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/robot_news_station.dir/all
+all: CMakeFiles/transistor_radio.dir/all
 
 .PHONY : all
 
@@ -63,10 +64,66 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/robot_news_station.dir/clean
+clean: CMakeFiles/transistor_radio.dir/clean
 clean: CMakeFiles/pkg_cpp_py_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/robot_news_station.dir
+
+# All Build rule for target.
+CMakeFiles/robot_news_station.dir/all:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/depend
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" --progress-num=1,2 "Built target robot_news_station"
+.PHONY : CMakeFiles/robot_news_station.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/robot_news_station.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/robot_news_station.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" 0
+.PHONY : CMakeFiles/robot_news_station.dir/rule
+
+# Convenience name for target.
+robot_news_station: CMakeFiles/robot_news_station.dir/rule
+
+.PHONY : robot_news_station
+
+# clean rule for target.
+CMakeFiles/robot_news_station.dir/clean:
+	$(MAKE) -f CMakeFiles/robot_news_station.dir/build.make CMakeFiles/robot_news_station.dir/clean
+.PHONY : CMakeFiles/robot_news_station.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/transistor_radio.dir
+
+# All Build rule for target.
+CMakeFiles/transistor_radio.dir/all:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/depend
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" --progress-num=3,4 "Built target transistor_radio"
+.PHONY : CMakeFiles/transistor_radio.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/transistor_radio.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/transistor_radio.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/04. Topics/ros2_ws/build/pkg_cpp_py/CMakeFiles" 0
+.PHONY : CMakeFiles/transistor_radio.dir/rule
+
+# Convenience name for target.
+transistor_radio: CMakeFiles/transistor_radio.dir/rule
+
+.PHONY : transistor_radio
+
+# clean rule for target.
+CMakeFiles/transistor_radio.dir/clean:
+	$(MAKE) -f CMakeFiles/transistor_radio.dir/build.make CMakeFiles/transistor_radio.dir/clean
+.PHONY : CMakeFiles/transistor_radio.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pkg_cpp_py_uninstall.dir
