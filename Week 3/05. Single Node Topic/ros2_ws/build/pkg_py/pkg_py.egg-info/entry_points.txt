@@ -1,0 +1,5 @@
+[console_scripts]
+listener = pkg_py.listener:main
+talk_listen = pkg_py.talk_listen:main
+talker = pkg_py.talker:main
+

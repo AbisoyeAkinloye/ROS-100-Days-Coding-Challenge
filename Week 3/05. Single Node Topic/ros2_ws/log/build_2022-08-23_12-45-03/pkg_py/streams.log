@@ -1,0 +1,18 @@
+[1.751s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/build/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py
+[2.315s] running develop
+[2.623s] running egg_info
+[2.624s] writing pkg_py.egg-info/PKG-INFO
+[2.624s] writing dependency_links to pkg_py.egg-info/dependency_links.txt
+[2.624s] writing entry points to pkg_py.egg-info/entry_points.txt
+[2.625s] writing requirements to pkg_py.egg-info/requires.txt
+[2.625s] writing top-level names to pkg_py.egg-info/top_level.txt
+[2.718s] reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+[2.720s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[2.816s] running build_ext
+[2.817s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg-py.egg-link (link to .)
+[2.818s] Installing listener script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py/lib/pkg_py
+[2.819s] Installing talker script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py/lib/pkg_py
+[2.819s] 
+[2.819s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/build/pkg_py
+[2.819s] running install_data
+[2.876s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/build/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/05. Single Node Topic/ros2_ws/install/pkg_py
