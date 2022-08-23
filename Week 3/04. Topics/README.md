@@ -16,11 +16,36 @@ The analogy of a radio transmitter can be used to explain ROS topic as shown bel
   ```
 * To get infomation about number of subcriber(s), publisher(s), and message type.
   ```
-  ros2 topic info /<topic_name>
+  ros2 topic info /topic_name
   ```
 * To get the message from the topic
   ```
-  ros2 topic echo /<topic_name>
+  ros2 topic echo /topic_name
+  ```
+* To show the message type
+  ```
+  ros2 interface show /topic_name
+  ```
+* To know the hertz of the topic
+  ```
+  ros2 topic hz /topic_name
+  ```
+* Bandwidth of a topic
+  ```
+  ros2 topic hz /topic_name
+  ```
+* You can publish from the `terminal`
+  ```shell
+  ros2 topic pub -r 10 /topic_name type "{data: "some text here"}"
+
+  # As in:
+
+  ros2 topic pub -r 10 /chatter example_interfaces/msg/String "{data: "Hello..."}"
+  ```
+  **Note:** `-r` is the rate at which it publishes. Leave a white space after `:`. Make sure whatever you wanna publish is in the curly bracket `"{}"`
+* Remapping ROS topic
+  ```
+  ros2 run <package_name> <executable> --ros-args -r __node:=new_name -r topic_name:=new_topic_name
   ```
 
 ## Write Python Publisher
