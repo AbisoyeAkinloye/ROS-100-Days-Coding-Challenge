@@ -1,0 +1,66 @@
+[0.038s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp
+[0.336s] -- The C compiler identification is GNU 10.3.0
+[0.584s] -- The CXX compiler identification is GNU 10.3.0
+[0.600s] -- Check for working C compiler: /usr/bin/cc
+[0.790s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.796s] -- Detecting C compiler ABI info
+[0.975s] -- Detecting C compiler ABI info - done
+[1.037s] -- Detecting C compile features
+[1.039s] -- Detecting C compile features - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++
+[1.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.261s] -- Detecting CXX compiler ABI info
+[1.480s] -- Detecting CXX compiler ABI info - done
+[1.538s] -- Detecting CXX compile features
+[1.540s] -- Detecting CXX compile features - done
+[1.559s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.619s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.619s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.142s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.336s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.703s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.210s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.215s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.217s] -- Looking for pthread.h
+[3.412s] -- Looking for pthread.h - found
+[3.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.631s] -- Looking for pthread_create in pthreads
+[3.780s] -- Looking for pthread_create in pthreads - not found
+[3.780s] -- Looking for pthread_create in pthread
+[3.962s] -- Looking for pthread_create in pthread - found
+[3.966s] -- Found Threads: TRUE  
+[4.742s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.510s] -- Configuring done
+[5.543s] -- Generating done
+[5.554s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp
+[5.584s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp
+[5.586s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp -- -j4 -l4
+[5.707s] [35m[1mScanning dependencies of target number_publisher[0m
+[5.838s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_pub.cpp.o[0m
+[13.754s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[14.342s] [100%] Built target number_publisher
+[14.372s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp -- -j4 -l4
+[14.450s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp
+[14.468s] -- Install configuration: ""
+[14.469s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/lib/pkg_cpp/number_publisher
+[14.471s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/lib/pkg_cpp/number_publisher" to ""
+[14.471s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_cpp
+[14.472s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_cpp
+[14.473s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.sh
+[14.473s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.dsv
+[14.473s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/path.sh
+[14.474s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/path.dsv
+[14.474s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.bash
+[14.475s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.sh
+[14.475s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.zsh
+[14.475s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.dsv
+[14.476s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/package.dsv
+[14.476s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/packages/pkg_cpp
+[14.477s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig.cmake
+[14.478s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig-version.cmake
+[14.478s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/install/pkg_cpp/share/pkg_cpp/package.xml
+[14.483s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp

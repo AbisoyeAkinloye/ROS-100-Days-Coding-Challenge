@@ -104,3 +104,5 @@ private:
         RCLCPP_INFO(this->get_logger(), "%s", msg->data.c_str());
     }
 ```
+
+**Note**: Always declare the parameter as constant `const`.

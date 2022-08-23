@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001534] (pkg_cpp) JobQueued: {'identifier': 'pkg_cpp', 'dependencies': OrderedDict()}
+[0.001624] (pkg_cpp) JobStarted: {'identifier': 'pkg_cpp'}
+[0.028476] (pkg_cpp) JobProgress: {'identifier': 'pkg_cpp', 'progress': 'cmake'}
+[0.029392] (pkg_cpp) JobProgress: {'identifier': 'pkg_cpp', 'progress': 'build'}
+[0.031377] (pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1984'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1766'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17587'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:46218'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2064,unix/loye:/tmp/.ICE-unix/2064'), ('INVOCATION_ID', '0258df0e86ac4802baff15e28bb49ed6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:125b9fd1-d192-4924-8128-7f81e2942710'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099584] (-) TimerEvent: {}
+[0.125390] (pkg_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.186305] (pkg_cpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.200227] (-) TimerEvent: {}
+[0.300605] (-) TimerEvent: {}
+[0.401096] (-) TimerEvent: {}
+[0.501689] (-) TimerEvent: {}
+[0.602244] (-) TimerEvent: {}
+[0.653254] (pkg_cpp) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.702703] (-) TimerEvent: {}
+[0.788886] (pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.802987] (-) TimerEvent: {}
+[0.805271] (pkg_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903127] (-) TimerEvent: {}
+[1.003503] (-) TimerEvent: {}
+[1.103919] (-) TimerEvent: {}
+[1.204364] (-) TimerEvent: {}
+[1.238823] (pkg_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304574] (-) TimerEvent: {}
+[1.405299] (-) TimerEvent: {}
+[1.446389] (pkg_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.451768] (pkg_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.505661] (-) TimerEvent: {}
+[1.606257] (-) TimerEvent: {}
+[1.707039] (-) TimerEvent: {}
+[1.808166] (-) TimerEvent: {}
+[1.908787] (-) TimerEvent: {}
+[2.009519] (-) TimerEvent: {}
+[2.110374] (-) TimerEvent: {}
+[2.168007] (pkg_cpp) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[2.210674] (-) TimerEvent: {}
+[2.311357] (-) TimerEvent: {}
+[2.411873] (-) TimerEvent: {}
+[2.512611] (-) TimerEvent: {}
+[2.613658] (-) TimerEvent: {}
+[2.714284] (-) TimerEvent: {}
+[2.814729] (-) TimerEvent: {}
+[2.876503] (pkg_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.914974] (-) TimerEvent: {}
+[2.930112] (pkg_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.938700] (pkg_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/build/pkg_cpp\n'}
+[2.998529] (pkg_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target number_counter\x1b[0m\n'}
+[3.015108] (-) TimerEvent: {}
+[3.064029] (pkg_cpp) StdoutLine: {'line': b'[ 50%] Built target number_publisher\n'}
+[3.115298] (-) TimerEvent: {}
+[3.142810] (pkg_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o\x1b[0m\n'}
+[3.215722] (-) TimerEvent: {}
+[3.316203] (-) TimerEvent: {}
+[3.416830] (-) TimerEvent: {}
+[3.517257] (-) TimerEvent: {}
+[3.617645] (-) TimerEvent: {}
+[3.718067] (-) TimerEvent: {}
+[3.818530] (-) TimerEvent: {}
+[3.919110] (-) TimerEvent: {}
+[4.019504] (-) TimerEvent: {}
+[4.120076] (-) TimerEvent: {}
+[4.220605] (-) TimerEvent: {}
+[4.321098] (-) TimerEvent: {}
+[4.421688] (-) TimerEvent: {}
+[4.522230] (-) TimerEvent: {}
+[4.622734] (-) TimerEvent: {}
+[4.723212] (-) TimerEvent: {}
+[4.824090] (-) TimerEvent: {}
+[4.924568] (-) TimerEvent: {}
+[5.025099] (-) TimerEvent: {}
+[5.125716] (-) TimerEvent: {}
+[5.226162] (-) TimerEvent: {}
+[5.326758] (-) TimerEvent: {}
+[5.427325] (-) TimerEvent: {}
+[5.527788] (-) TimerEvent: {}
+[5.628640] (-) TimerEvent: {}
+[5.729281] (-) TimerEvent: {}
+[5.830052] (-) TimerEvent: {}
+[5.930428] (-) TimerEvent: {}
+[6.030785] (-) TimerEvent: {}
+[6.131205] (-) TimerEvent: {}
+[6.203380] (pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp/src/number_counter.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KNumberCounter::NumberCounter()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.203955] (pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp/src/number_counter.cpp:13:143:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KNumberCounter::create_subscription<example_interfaces::msg::Int64>(const char [7], std::_Bind_helper<false, void (NumberCounter::*)(example_interfaces::msg::Int64_<std::allocator<void> >), NumberCounter*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.204208] (pkg_cpp) StderrLine: {'line': b'   13 | ::Int64>("number", std::bind(&NumberCounter::number_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.204421] (pkg_cpp) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.204674] (pkg_cpp) StderrLine: {'line': b'\n'}
+[6.205165] (pkg_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.205295] (pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.205386] (pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[6.205461] (pkg_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp/src/number_counter.cpp:1\x1b[m\x1b[K:\n'}
+[6.205535] (pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.205629] (pkg_cpp) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[6.205708] (pkg_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.205787] (pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[6.205943] (pkg_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/07. Exercises/1. Number Counter/ros2_ws/src/pkg_cpp/src/number_counter.cpp:13:143:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[6.206153] (pkg_cpp) StderrLine: {'line': b'   13 | ::Int64>("number", std::bind(&NumberCounter::number_callback, this, _1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[6.206350] (pkg_cpp) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.206562] (pkg_cpp) StderrLine: {'line': b'\n'}
+[6.231371] (-) TimerEvent: {}
+[6.331833] (-) TimerEvent: {}
+[6.432157] (-) TimerEvent: {}
+[6.532652] (-) TimerEvent: {}
+[6.633548] (-) TimerEvent: {}
+[6.734260] (-) TimerEvent: {}
+[6.834849] (-) TimerEvent: {}
+[6.935342] (-) TimerEvent: {}
+[7.035733] (-) TimerEvent: {}
+[7.136103] (-) TimerEvent: {}
+[7.236580] (-) TimerEvent: {}
+[7.337765] (-) TimerEvent: {}
+[7.438501] (-) TimerEvent: {}
+[7.539571] (-) TimerEvent: {}
+[7.640020] (-) TimerEvent: {}
+[7.740861] (-) TimerEvent: {}
+[7.841552] (-) TimerEvent: {}
+[7.942299] (-) TimerEvent: {}
+[8.042813] (-) TimerEvent: {}
+[8.143385] (-) TimerEvent: {}
+[8.156244] (pkg_cpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/number_counter.dir/build.make:63: CMakeFiles/number_counter.dir/src/number_counter.cpp.o] Error 1\n'}
+[8.157313] (pkg_cpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/number_counter.dir/all] Error 2\n'}
+[8.157537] (pkg_cpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.160861] (pkg_cpp) CommandEnded: {'returncode': 2}
+[8.244913] (-) TimerEvent: {}
+[8.257999] (pkg_cpp) JobEnded: {'identifier': 'pkg_cpp', 'rc': 2}
+[8.268761] (-) EventReactorShutdown: {}
