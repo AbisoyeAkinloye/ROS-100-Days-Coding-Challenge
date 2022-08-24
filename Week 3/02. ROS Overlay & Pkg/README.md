@@ -84,7 +84,8 @@ ros2 pkg create <package_name> --build-type ament_cmake --dependencies rclcpp
 colcon build --package-select <package_name>
 ```
 
-#### For both python and cmake in a package
+#### For both python and c++ nodes in a package
+<div id="both_py_cpp_node"></div>
 
 ```ros
 ros2 pkg create pkg_cpp_py --build-type ament_cmake

@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py -- -j4 -l4
+[0.169s] [35m[1mScanning dependencies of target talker[0m
+[0.256s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[3.125s] In file included from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:2[m[K:
+[3.125s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include/pkg_cpp_py/talker.hpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[3.126s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include/pkg_cpp_py/talker.hpp:7:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[3.126s]     7 |     Talker() : Node("talker"[01;31m[K)[m[K;
+[3.126s]       |                             [01;31m[K^[m[K
+[3.130s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:[m[K At global scope:
+[3.130s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:6:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KTalker::Talker()[m[K’
+[3.131s]     6 | [01;31m[KTalker[m[K::Talker() : Node ("talker"){
+[3.131s]       | [01;31m[K^~~~~~[m[K
+[3.131s] In file included from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:2[m[K:
+[3.132s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include/pkg_cpp_py/talker.hpp:7:5:[m[K [01;36m[Knote: [m[K‘[01m[KTalker::Talker()[m[K’ previously defined here
+[3.132s]     7 |     [01;36m[KTalker[m[K() : Node("talker");
+[3.132s]       |     [01;36m[K^~~~~~[m[K
+[3.132s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:[m[K In member function ‘[01m[Kvoid Talker::talk()[m[K’:
+[3.132s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:14:63:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[3.132s]    14 | .data = "Hi, I am %s. I'm a Robotic Engineer.",[01;35m[KTalker::name_[m[K;
+[3.133s]       |                                                [01;35m[K~~~~~~~~^~~~~[m[K
+[3.133s] 
+[4.144s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+[4.148s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[4.148s] make: *** [Makefile:141: all] Error 2
+[4.149s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py -- -j4 -l4

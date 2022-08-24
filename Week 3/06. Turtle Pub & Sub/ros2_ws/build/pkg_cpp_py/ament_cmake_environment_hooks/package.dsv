@@ -1,0 +1,4 @@
+source;share/pkg_cpp_py/local_setup.bash
+source;share/pkg_cpp_py/local_setup.dsv
+source;share/pkg_cpp_py/local_setup.sh
+source;share/pkg_cpp_py/local_setup.zsh

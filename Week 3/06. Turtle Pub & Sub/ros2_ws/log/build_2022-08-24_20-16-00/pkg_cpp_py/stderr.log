@@ -1,0 +1,10 @@
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:6:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KTalker::Talker()[m[K’
+    6 | [01;31m[KTalker[m[K::Talker() : Node ("talker"){
+      | [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/talker.cpp:2[m[K:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include/pkg_cpp_py/talker.hpp:7:5:[m[K [01;36m[Knote: [m[K‘[01m[KTalker::Talker()[m[K’ previously defined here
+    7 |     [01;36m[KTalker[m[K() : Node("talker"){}
+      |     [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

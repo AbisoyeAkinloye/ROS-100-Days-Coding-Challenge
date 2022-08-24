@@ -64,6 +64,8 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "1b. person.h": "c",
-        "future": "cpp"
+        "future": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp"
     }
 }
