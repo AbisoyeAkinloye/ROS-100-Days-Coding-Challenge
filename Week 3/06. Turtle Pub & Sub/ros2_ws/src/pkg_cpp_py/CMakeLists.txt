@@ -16,6 +16,7 @@ find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(example_interfaces REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 # include cpp "include" directory
 include_directories(include)
@@ -23,10 +24,13 @@ include_directories(include)
 # add cpp executable
 add_executable(talker src/talker.cpp)
 ament_target_dependencies(talker rclcpp example_interfaces)
+add_executable(draw_circle src/draw_circle.cpp)
+ament_target_dependencies(draw_circle rclcpp geometry_msgs)
 
 # install cpp executable
 install(TARGETS
   talker
+  draw_circle
   DESTINATION lib/${PROJECT_NAME}
 )
 

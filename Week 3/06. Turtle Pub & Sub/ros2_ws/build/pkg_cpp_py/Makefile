@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named draw_circle
+
+# Build rule for target.
+draw_circle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 draw_circle
+.PHONY : draw_circle
+
+# fast build rule for target.
+draw_circle/fast:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/build
+.PHONY : draw_circle/fast
+
+#=============================================================================
 # Target rules for targets named talker
 
 # Build rule for target.
@@ -206,6 +219,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/draw_circle.o: src/draw_circle.cpp.o
+
+.PHONY : src/draw_circle.o
+
+# target to build an object file
+src/draw_circle.cpp.o:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o
+.PHONY : src/draw_circle.cpp.o
+
+src/draw_circle.i: src/draw_circle.cpp.i
+
+.PHONY : src/draw_circle.i
+
+# target to preprocess a source file
+src/draw_circle.cpp.i:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.i
+.PHONY : src/draw_circle.cpp.i
+
+src/draw_circle.s: src/draw_circle.cpp.s
+
+.PHONY : src/draw_circle.s
+
+# target to generate assembly for a file
+src/draw_circle.cpp.s:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/src/draw_circle.cpp.s
+.PHONY : src/draw_circle.cpp.s
+
 src/talker.o: src/talker.cpp.o
 
 .PHONY : src/talker.o
@@ -243,12 +283,16 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... draw_circle"
 	@echo "... talker"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... pkg_cpp_py_uninstall"
 	@echo "... uninstall"
+	@echo "... src/draw_circle.o"
+	@echo "... src/draw_circle.i"
+	@echo "... src/draw_circle.s"
 	@echo "... src/talker.o"
 	@echo "... src/talker.i"
 	@echo "... src/talker.s"

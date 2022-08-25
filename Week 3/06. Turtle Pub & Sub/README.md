@@ -70,3 +70,10 @@
   )
   ```
 **NOTE:** The `include_directories` and `ament_python_install_package` are neccessary to include header files and import module respectively.
+
+## Turtlesim
+
+```
+ros2 topic pub --once <topic_name> <msg_type> <args>
+```
+**N.B:** `Args` must be in Yaml format.

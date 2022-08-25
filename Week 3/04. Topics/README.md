@@ -36,7 +36,7 @@ The analogy of a radio transmitter can be used to explain ROS topic as shown bel
   ```
 * You can publish from the `terminal`
   ```shell
-  ros2 topic pub -r 10 /topic_name type "{data: "some text here"}"
+  ros2 topic pub -r 10 /topic_name msg_type "{data: "some text here"}"
 
   # As in:
 

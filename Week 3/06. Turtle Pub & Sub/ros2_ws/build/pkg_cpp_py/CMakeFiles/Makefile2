@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/draw_circle.dir/all
 all: CMakeFiles/talker.dir/all
 
 .PHONY : all
@@ -63,11 +64,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/draw_circle.dir/clean
 clean: CMakeFiles/talker.dir/clean
 clean: CMakeFiles/pkg_cpp_py_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/draw_circle.dir
+
+# All Build rule for target.
+CMakeFiles/draw_circle.dir/all:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/depend
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeFiles" --progress-num=1,2 "Built target draw_circle"
+.PHONY : CMakeFiles/draw_circle.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw_circle.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/draw_circle.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeFiles" 0
+.PHONY : CMakeFiles/draw_circle.dir/rule
+
+# Convenience name for target.
+draw_circle: CMakeFiles/draw_circle.dir/rule
+
+.PHONY : draw_circle
+
+# clean rule for target.
+CMakeFiles/draw_circle.dir/clean:
+	$(MAKE) -f CMakeFiles/draw_circle.dir/build.make CMakeFiles/draw_circle.dir/clean
+.PHONY : CMakeFiles/draw_circle.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/talker.dir
@@ -76,7 +105,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/talker.dir/all:
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/depend
 	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeFiles" --progress-num=1,2 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeFiles" --progress-num=3,4 "Built target talker"
 .PHONY : CMakeFiles/talker.dir/all
 
 # Build rule for subdir invocation for target.

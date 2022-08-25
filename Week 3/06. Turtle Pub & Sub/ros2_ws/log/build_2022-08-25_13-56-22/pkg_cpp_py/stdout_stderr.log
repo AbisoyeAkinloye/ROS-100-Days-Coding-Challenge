@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py
+[35m[1mScanning dependencies of target draw_circle[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[100%] [32m[1mLinking CXX executable draw_circle[0m
+/usr/bin/ld: CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o: in function `rclcpp::Publisher<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+draw_circle.cpp:(.text._ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN13geometry_msgs3msg6Twist_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<geometry_msgs::msg::Twist_<std::allocator<void> > >()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/draw_circle.dir/build.make:146: draw_circle] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/draw_circle.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
