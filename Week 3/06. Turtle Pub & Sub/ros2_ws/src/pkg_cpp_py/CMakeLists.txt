@@ -17,6 +17,7 @@ find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
 find_package(example_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
 # include cpp "include" directory
 include_directories(include)
@@ -26,11 +27,14 @@ add_executable(talker src/talker.cpp)
 ament_target_dependencies(talker rclcpp example_interfaces)
 add_executable(draw_circle src/draw_circle.cpp)
 ament_target_dependencies(draw_circle rclcpp geometry_msgs)
+add_executable(avoid_wall src/avoid_wall.cpp)
+ament_target_dependencies(avoid_wall rclcpp geometry_msgs turtlesim)
 
 # install cpp executable
 install(TARGETS
   talker
   draw_circle
+  avoid_wall
   DESTINATION lib/${PROJECT_NAME}
 )
 

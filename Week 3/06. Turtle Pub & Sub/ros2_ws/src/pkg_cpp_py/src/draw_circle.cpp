@@ -16,7 +16,6 @@ public:
 private:
     void draw()
     {
-        auto axis = geometry_msgs::msg::Twist();
         axis.linear.x = 2.0;
         axis.angular.z = 1.8;
         publisher_->publish(axis);
@@ -24,6 +23,7 @@ private:
 
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
+    geometry_msgs::msg::Twist axis;
 };
 
 int main(int argc, char **argv)

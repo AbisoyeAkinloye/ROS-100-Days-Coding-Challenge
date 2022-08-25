@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.003893] (pkg_cpp_py) JobQueued: {'identifier': 'pkg_cpp_py', 'dependencies': OrderedDict()}
+[0.003984] (pkg_cpp_py) JobStarted: {'identifier': 'pkg_cpp_py'}
+[0.033007] (pkg_cpp_py) JobProgress: {'identifier': 'pkg_cpp_py', 'progress': 'cmake'}
+[0.033921] (pkg_cpp_py) JobProgress: {'identifier': 'pkg_cpp_py', 'progress': 'build'}
+[0.038396] (pkg_cpp_py) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1966'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1747'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3423'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:45067'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2045,unix/loye:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', 'd375a187a9cd47b0a143b9e5b53f26e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:781721e1-cf25-4b9a-a105-33b7b4ea3889'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099193] (-) TimerEvent: {}
+[0.172977] (pkg_cpp_py) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target avoid_wall\x1b[0m\n'}
+[0.199325] (-) TimerEvent: {}
+[0.224186] (pkg_cpp_py) StdoutLine: {'line': b'[ 33%] Built target talker\n'}
+[0.243888] (pkg_cpp_py) StdoutLine: {'line': b'[ 66%] Built target draw_circle\n'}
+[0.285365] (pkg_cpp_py) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.o\x1b[0m\n'}
+[0.299412] (-) TimerEvent: {}
+[0.399863] (-) TimerEvent: {}
+[0.500477] (-) TimerEvent: {}
+[0.601169] (-) TimerEvent: {}
+[0.701679] (-) TimerEvent: {}
+[0.802054] (-) TimerEvent: {}
+[0.902580] (-) TimerEvent: {}
+[1.003114] (-) TimerEvent: {}
+[1.103538] (-) TimerEvent: {}
+[1.203965] (-) TimerEvent: {}
+[1.304496] (-) TimerEvent: {}
+[1.405420] (-) TimerEvent: {}
+[1.506688] (-) TimerEvent: {}
+[1.607185] (-) TimerEvent: {}
+[1.708172] (-) TimerEvent: {}
+[1.808731] (-) TimerEvent: {}
+[1.909247] (-) TimerEvent: {}
+[2.009795] (-) TimerEvent: {}
+[2.110226] (-) TimerEvent: {}
+[2.210685] (-) TimerEvent: {}
+[2.311148] (-) TimerEvent: {}
+[2.411511] (-) TimerEvent: {}
+[2.511970] (-) TimerEvent: {}
+[2.612512] (-) TimerEvent: {}
+[2.713372] (-) TimerEvent: {}
+[2.814002] (-) TimerEvent: {}
+[2.914817] (-) TimerEvent: {}
+[3.015349] (-) TimerEvent: {}
+[3.115745] (-) TimerEvent: {}
+[3.216240] (-) TimerEvent: {}
+[3.316571] (-) TimerEvent: {}
+[3.417058] (-) TimerEvent: {}
+[3.517535] (-) TimerEvent: {}
+[3.618352] (-) TimerEvent: {}
+[3.718819] (-) TimerEvent: {}
+[3.819239] (-) TimerEvent: {}
+[3.919680] (-) TimerEvent: {}
+[4.020120] (-) TimerEvent: {}
+[4.120617] (-) TimerEvent: {}
+[4.221145] (-) TimerEvent: {}
+[4.321677] (-) TimerEvent: {}
+[4.422320] (-) TimerEvent: {}
+[4.523227] (-) TimerEvent: {}
+[4.623765] (-) TimerEvent: {}
+[4.724700] (-) TimerEvent: {}
+[4.825210] (-) TimerEvent: {}
+[4.925795] (-) TimerEvent: {}
+[5.026161] (-) TimerEvent: {}
+[5.126660] (-) TimerEvent: {}
+[5.227118] (-) TimerEvent: {}
+[5.327610] (-) TimerEvent: {}
+[5.428135] (-) TimerEvent: {}
+[5.528639] (-) TimerEvent: {}
+[5.629150] (-) TimerEvent: {}
+[5.729661] (-) TimerEvent: {}
+[5.830498] (-) TimerEvent: {}
+[5.930985] (-) TimerEvent: {}
+[6.031426] (-) TimerEvent: {}
+[6.131974] (-) TimerEvent: {}
+[6.232415] (-) TimerEvent: {}
+[6.332944] (-) TimerEvent: {}
+[6.433370] (-) TimerEvent: {}
+[6.533898] (-) TimerEvent: {}
+[6.634530] (-) TimerEvent: {}
+[6.734931] (-) TimerEvent: {}
+[6.835366] (-) TimerEvent: {}
+[6.936722] (-) TimerEvent: {}
+[7.037295] (-) TimerEvent: {}
+[7.137648] (-) TimerEvent: {}
+[7.238577] (-) TimerEvent: {}
+[7.338981] (-) TimerEvent: {}
+[7.439496] (-) TimerEvent: {}
+[7.540094] (-) TimerEvent: {}
+[7.640636] (-) TimerEvent: {}
+[7.741240] (-) TimerEvent: {}
+[7.841809] (-) TimerEvent: {}
+[7.942266] (-) TimerEvent: {}
+[8.042707] (-) TimerEvent: {}
+[8.143150] (-) TimerEvent: {}
+[8.243766] (-) TimerEvent: {}
+[8.344225] (-) TimerEvent: {}
+[8.444708] (-) TimerEvent: {}
+[8.545254] (-) TimerEvent: {}
+[8.645831] (-) TimerEvent: {}
+[8.746746] (-) TimerEvent: {}
+[8.847204] (-) TimerEvent: {}
+[8.947790] (-) TimerEvent: {}
+[9.048397] (-) TimerEvent: {}
+[9.148977] (-) TimerEvent: {}
+[9.249564] (-) TimerEvent: {}
+[9.350181] (-) TimerEvent: {}
+[9.450803] (-) TimerEvent: {}
+[9.551273] (-) TimerEvent: {}
+[9.651748] (-) TimerEvent: {}
+[9.752231] (-) TimerEvent: {}
+[9.852703] (-) TimerEvent: {}
+[9.953119] (-) TimerEvent: {}
+[10.053671] (-) TimerEvent: {}
+[10.154671] (-) TimerEvent: {}
+[10.255555] (-) TimerEvent: {}
+[10.356113] (-) TimerEvent: {}
+[10.456571] (-) TimerEvent: {}
+[10.556993] (-) TimerEvent: {}
+[10.657628] (-) TimerEvent: {}
+[10.758645] (-) TimerEvent: {}
+[10.859069] (-) TimerEvent: {}
+[10.959511] (-) TimerEvent: {}
+[11.060036] (-) TimerEvent: {}
+[11.160643] (-) TimerEvent: {}
+[11.261232] (-) TimerEvent: {}
+[11.361720] (-) TimerEvent: {}
+[11.462460] (-) TimerEvent: {}
+[11.562871] (-) TimerEvent: {}
+[11.663271] (-) TimerEvent: {}
+[11.763669] (-) TimerEvent: {}
+[11.864170] (-) TimerEvent: {}
+[11.964635] (-) TimerEvent: {}
+[12.065180] (-) TimerEvent: {}
+[12.165923] (-) TimerEvent: {}
+[12.266527] (-) TimerEvent: {}
+[12.366980] (-) TimerEvent: {}
+[12.467491] (-) TimerEvent: {}
+[12.567931] (-) TimerEvent: {}
+[12.583396] (pkg_cpp_py) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable avoid_wall\x1b[0m\n'}
+[12.668389] (-) TimerEvent: {}
+[12.768928] (-) TimerEvent: {}
+[12.869477] (-) TimerEvent: {}
+[12.970680] (-) TimerEvent: {}
+[13.071528] (-) TimerEvent: {}
+[13.173044] (-) TimerEvent: {}
+[13.274052] (-) TimerEvent: {}
+[13.374657] (-) TimerEvent: {}
+[13.401593] (pkg_cpp_py) StdoutLine: {'line': b'[100%] Built target avoid_wall\n'}
+[13.428978] (pkg_cpp_py) CommandEnded: {'returncode': 0}
+[13.474893] (-) TimerEvent: {}
+[13.490521] (pkg_cpp_py) JobProgress: {'identifier': 'pkg_cpp_py', 'progress': 'install'}
+[13.514696] (pkg_cpp_py) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1966'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1747'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3423'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:45067'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2045,unix/loye:/tmp/.ICE-unix/2045'), ('INVOCATION_ID', 'd375a187a9cd47b0a143b9e5b53f26e6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:781721e1-cf25-4b9a-a105-33b7b4ea3889'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.533081] (pkg_cpp_py) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.533993] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/talker\n'}
+[13.534991] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/draw_circle\n'}
+[13.536137] (pkg_cpp_py) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/avoid_wall\n'}
+[13.542706] (pkg_cpp_py) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/avoid_wall" to ""\n'}
+[13.543727] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.sh\n'}
+[13.544001] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.dsv\n'}
+[13.544306] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py\n'}
+[13.544659] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/module_to_import.py\n'}
+[13.545002] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/__init__.py\n'}
+[13.575135] (-) TimerEvent: {}
+[13.609691] (pkg_cpp_py) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py'...\n"}
+[13.619073] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/talker.py\n'}
+[13.619500] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_py\n'}
+[13.620061] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_py\n'}
+[13.620631] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.sh\n'}
+[13.621136] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.dsv\n'}
+[13.621413] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.sh\n'}
+[13.622013] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.dsv\n'}
+[13.622384] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.bash\n'}
+[13.622730] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.sh\n'}
+[13.623032] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.zsh\n'}
+[13.623288] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.dsv\n'}
+[13.623625] (pkg_cpp_py) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.dsv\n'}
+[13.623966] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/packages/pkg_cpp_py\n'}
+[13.624335] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig.cmake\n'}
+[13.624647] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig-version.cmake\n'}
+[13.624945] (pkg_cpp_py) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.xml\n'}
+[13.627671] (pkg_cpp_py) CommandEnded: {'returncode': 0}
+[13.675566] (-) TimerEvent: {}
+[13.767429] (pkg_cpp_py) JobEnded: {'identifier': 'pkg_cpp_py', 'rc': 0}
+[13.769114] (-) EventReactorShutdown: {}

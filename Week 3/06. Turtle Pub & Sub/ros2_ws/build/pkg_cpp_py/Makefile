@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -101,6 +89,18 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install
 install: preinstall
@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named avoid_wall
+
+# Build rule for target.
+avoid_wall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 avoid_wall
+.PHONY : avoid_wall
+
+# fast build rule for target.
+avoid_wall/fast:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/build
+.PHONY : avoid_wall/fast
+
+#=============================================================================
 # Target rules for targets named draw_circle
 
 # Build rule for target.
@@ -218,6 +231,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/avoid_wall.o: src/avoid_wall.cpp.o
+
+.PHONY : src/avoid_wall.o
+
+# target to build an object file
+src/avoid_wall.cpp.o:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.o
+.PHONY : src/avoid_wall.cpp.o
+
+src/avoid_wall.i: src/avoid_wall.cpp.i
+
+.PHONY : src/avoid_wall.i
+
+# target to preprocess a source file
+src/avoid_wall.cpp.i:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.i
+.PHONY : src/avoid_wall.cpp.i
+
+src/avoid_wall.s: src/avoid_wall.cpp.s
+
+.PHONY : src/avoid_wall.s
+
+# target to generate assembly for a file
+src/avoid_wall.cpp.s:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.s
+.PHONY : src/avoid_wall.cpp.s
 
 src/draw_circle.o: src/draw_circle.cpp.o
 
@@ -279,10 +319,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... install/strip"
+	@echo "... avoid_wall"
 	@echo "... draw_circle"
 	@echo "... talker"
 	@echo "... install"
@@ -290,6 +331,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pkg_cpp_py_uninstall"
 	@echo "... uninstall"
+	@echo "... src/avoid_wall.o"
+	@echo "... src/avoid_wall.i"
+	@echo "... src/avoid_wall.s"
 	@echo "... src/draw_circle.o"
 	@echo "... src/draw_circle.i"
 	@echo "... src/draw_circle.s"
