@@ -10,5 +10,5 @@ private:
     void talk();
     rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
     rclcpp::TimerBase::SharedPtr timer_;
-    // std::string name_ {"Abisoye"};
+    std::string fullname_ {"Abisoye Akinloye"};
 };

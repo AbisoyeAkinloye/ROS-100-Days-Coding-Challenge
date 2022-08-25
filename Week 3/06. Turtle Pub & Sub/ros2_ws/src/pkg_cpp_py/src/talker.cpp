@@ -11,7 +11,7 @@ Talker::Talker() : Node ("talker"){
 
 void Talker::talk(){
     auto msg = example_interfaces::msg::String();
-    msg.data = "Hi, I am Abisoye. I'm a Robotic Engineer";
+    msg.data = std::string("Hi, I am ") + Talker::fullname_ + std::string(". I'm a Robotic Engineer.");
     publisher_->publish(msg);
 }
 
