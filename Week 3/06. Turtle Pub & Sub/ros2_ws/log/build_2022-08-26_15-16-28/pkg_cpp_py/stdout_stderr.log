@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3 & 4/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py/CMakeCache.txt is different than the directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:354: cmake_check_build_system] Error 1

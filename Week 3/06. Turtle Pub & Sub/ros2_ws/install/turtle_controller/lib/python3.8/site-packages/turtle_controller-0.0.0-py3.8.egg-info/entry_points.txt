@@ -1,0 +1,4 @@
+[console_scripts]
+draw_circle = turtle_controller.draw_circle:main
+turtle_controller = turtle_controller.turtle_controller:main
+
