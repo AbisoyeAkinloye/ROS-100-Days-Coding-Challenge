@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target turtle_controller[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[ 50%] Built target draw_circle
+[ 83%] Built target talker

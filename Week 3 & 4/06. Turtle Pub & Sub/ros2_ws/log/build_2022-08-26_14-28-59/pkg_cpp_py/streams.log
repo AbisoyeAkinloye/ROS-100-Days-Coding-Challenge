@@ -1,0 +1,77 @@
+[0.072s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py
+[0.417s] -- The C compiler identification is GNU 10.3.0
+[0.605s] -- The CXX compiler identification is GNU 10.3.0
+[0.621s] -- Check for working C compiler: /usr/bin/cc
+[0.811s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.816s] -- Detecting C compiler ABI info
+[1.025s] -- Detecting C compiler ABI info - done
+[1.086s] -- Detecting C compile features
+[1.087s] -- Detecting C compile features - done
+[1.096s] -- Check for working CXX compiler: /usr/bin/c++
+[1.353s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.358s] -- Detecting CXX compiler ABI info
+[1.590s] -- Detecting CXX compiler ABI info - done
+[1.646s] -- Detecting CXX compile features
+[1.648s] -- Detecting CXX compile features - done
+[1.663s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.726s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.727s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.249s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.443s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.686s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.792s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.340s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.349s] -- Looking for pthread.h
+[3.537s] -- Looking for pthread.h - found
+[3.538s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.749s] -- Looking for pthread_create in pthreads
+[3.914s] -- Looking for pthread_create in pthreads - not found
+[3.918s] -- Looking for pthread_create in pthread
+[4.100s] -- Looking for pthread_create in pthread - found
+[4.102s] -- Found Threads: TRUE  
+[4.846s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[4.850s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.403s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[5.574s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[6.075s] -- Configuring done
+[6.143s] -- Generating done
+[6.153s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py
+[6.174s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/install/pkg_cpp_py
+[6.180s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py -- -j4 -l4
+[6.310s] [35m[1mScanning dependencies of target draw_circle[0m
+[6.326s] [35m[1mScanning dependencies of target turtle_controller[0m
+[6.338s] [35m[1mScanning dependencies of target talker[0m
+[6.450s] [ 16%] [32mBuilding CXX object CMakeFiles/draw_circle.dir/src/draw_circle.cpp.o[0m
+[6.535s] [ 33%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[6.647s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[9.945s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/turtle_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.945s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/turtle_controller.cpp:51:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<TurtleController>)[m[K’
+[9.945s]    51 |     rclcpp::spin(std::make_shared<TurtleController>()[01;31m[K)[m[K;
+[9.946s]       |                                                      [01;31m[K^[m[K
+[9.946s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[9.946s]                  from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/src/turtle_controller.cpp:1[m[K:
+[9.946s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[9.946s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[9.947s]       | [01;36m[K^~~~[m[K
+[9.947s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KTurtleController[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[9.947s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[9.947s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.947s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[9.948s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[9.948s]       | [01;36m[K^~~~[m[K
+[9.948s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KTurtleController[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[9.948s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[9.948s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[13.600s] make[2]: *** [CMakeFiles/turtle_controller.dir/build.make:63: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[13.600s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/turtle_controller.dir/all] Error 2
+[13.600s] make[1]: *** Waiting for unfinished jobs....
+[14.471s] [ 66%] [32m[1mLinking CXX executable draw_circle[0m
+[14.532s] [ 83%] [32m[1mLinking CXX executable talker[0m
+[14.980s] [ 83%] Built target draw_circle
+[15.023s] [ 83%] Built target talker
+[15.025s] make: *** [Makefile:141: all] Error 2
+[15.029s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 3/06. Turtle Pub & Sub/ros2_ws/build/pkg_cpp_py -- -j4 -l4
