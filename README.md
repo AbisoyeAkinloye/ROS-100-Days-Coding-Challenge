@@ -6,5 +6,11 @@ MODERN C++ REVISION
 ## WEEK TWO
 C++ INHERITANCE AND POLYMORPHISM
 
-## WEEK THREE
+## WEEK THREE & FOUR
 ROBOT OPERATING SYSTEM (ROS 2 Foxy)
+- ROS2 Workspace
+- ROS2 Packages (Python, C++, and both)
+- ROS2 Node
+- ROS2 Topic
+
+## WEEK FIVE

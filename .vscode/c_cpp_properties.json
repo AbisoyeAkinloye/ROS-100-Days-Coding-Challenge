@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "/usr/include/c++/10",
                 "/opt/ros/foxy/include",
-                "${workspaceFolder}/Week 3 & 4/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include"
+                "${workspaceFolder}/Week 3/06. Turtle Pub & Sub/ros2_ws/src/pkg_cpp_py/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/g++-11",
