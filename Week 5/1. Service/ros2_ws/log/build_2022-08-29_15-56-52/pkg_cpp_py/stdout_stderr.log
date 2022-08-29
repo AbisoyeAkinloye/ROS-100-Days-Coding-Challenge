@@ -1,0 +1,37 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_cpp_py
+-- Install configuration: ""
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/pythonpath.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/module_to_import.py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py/__init__.py
+Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages/pkg_cpp_py'...
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/add_two_ints_server.py
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/pkg_cpp_py/add_two_ints_client.py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/package_run_dependencies/pkg_cpp_py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/parent_prefix_path/pkg_cpp_py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/environment/path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.bash
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.sh
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.zsh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/local_setup.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/ament_index/resource_index/packages/pkg_cpp_py
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/cmake/pkg_cpp_pyConfig-version.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/share/pkg_cpp_py/package.xml

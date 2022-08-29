@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "add_two_integers=pkg_py.add_two_ints_server:main"
+            "add_two_ints_server=pkg_py.add_two_ints_server:main",
+            "add_two_ints_client=pkg_py.add_two_ints_client:main",
+            "add_two_ints_oop_client=pkg_py.add_two_ints_oop_client:main"
         ],
     },
 )

@@ -1,0 +1,18 @@
+[1.888s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py
+[2.460s] running develop
+[2.779s] running egg_info
+[2.779s] writing pkg_py.egg-info/PKG-INFO
+[2.780s] writing dependency_links to pkg_py.egg-info/dependency_links.txt
+[2.780s] writing entry points to pkg_py.egg-info/entry_points.txt
+[2.781s] writing requirements to pkg_py.egg-info/requires.txt
+[2.781s] writing top-level names to pkg_py.egg-info/top_level.txt
+[2.878s] reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+[2.881s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[2.986s] running build_ext
+[2.987s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg-py.egg-link (link to .)
+[2.989s] Installing add_two_ints_client script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/pkg_py
+[2.989s] Installing add_two_ints_server script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/pkg_py
+[2.990s] 
+[2.990s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py
+[2.991s] running install_data
+[3.057s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py

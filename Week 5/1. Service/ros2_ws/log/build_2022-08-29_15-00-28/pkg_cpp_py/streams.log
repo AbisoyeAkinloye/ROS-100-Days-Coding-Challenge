@@ -1,0 +1,45 @@
+[0.032s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_cpp_py': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py
+[0.380s] -- The C compiler identification is GNU 10.3.0
+[0.670s] -- The CXX compiler identification is GNU 10.3.0
+[0.696s] -- Check for working C compiler: /usr/bin/cc
+[0.922s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.926s] -- Detecting C compiler ABI info
+[1.144s] -- Detecting C compiler ABI info - done
+[1.197s] -- Detecting C compile features
+[1.198s] -- Detecting C compile features - done
+[1.214s] -- Check for working CXX compiler: /usr/bin/c++
+[1.463s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.467s] -- Detecting CXX compiler ABI info
+[1.719s] -- Detecting CXX compiler ABI info - done
+[1.782s] -- Detecting CXX compile features
+[1.784s] -- Detecting CXX compile features - done
+[1.799s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.867s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.867s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.441s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[2.446s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.667s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.946s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.059s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.656s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.662s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.667s] -- Looking for pthread.h
+[3.909s] -- Looking for pthread.h - found
+[3.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.159s] -- Looking for pthread_create in pthreads
+[4.349s] -- Looking for pthread_create in pthreads - not found
+[4.350s] -- Looking for pthread_create in pthread
+[4.568s] -- Looking for pthread_create in pthread - found
+[4.568s] -- Found Threads: TRUE  
+[5.496s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[6.144s] CMake Error at CMakeLists.txt:20 (ament_python_install_packages):
+[6.144s]   Unknown CMake command "ament_python_install_packages".
+[6.144s] 
+[6.145s] 
+[6.150s] -- Configuring incomplete, errors occurred!
+[6.150s] See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_cpp_py/CMakeFiles/CMakeOutput.log".
+[6.150s] See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_cpp_py/CMakeFiles/CMakeError.log".
+[6.172s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_cpp_py' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py
