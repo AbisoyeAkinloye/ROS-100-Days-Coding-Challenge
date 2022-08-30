@@ -584,6 +584,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/add_two_ints_client.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_oop_client.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_oop_server.dir/DependInfo.cmake"
+  "CMakeFiles/add_two_ints_server.dir/DependInfo.cmake"
   "CMakeFiles/pkg_cpp_py_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   )

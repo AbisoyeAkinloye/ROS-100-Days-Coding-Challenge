@@ -27,5 +27,27 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# add cpp executable
+add_executable(add_two_ints_server src/add_two_ints_server.cpp)
+ament_target_dependencies(add_two_ints_server rclcpp example_interfaces)
+
+add_executable(add_two_ints_oop_server src/add_two_ints_oop_server.cpp)
+ament_target_dependencies(add_two_ints_oop_server rclcpp example_interfaces)
+
+add_executable(add_two_ints_client src/add_two_ints_client.cpp)
+ament_target_dependencies(add_two_ints_client rclcpp example_interfaces)
+
+add_executable(add_two_ints_oop_client src/add_two_ints_oop_client.cpp)
+ament_target_dependencies(add_two_ints_oop_client rclcpp example_interfaces)
+
+# install cpp executable
+install(TARGETS
+  add_two_ints_server
+  add_two_ints_oop_server
+  add_two_ints_client
+  add_two_ints_oop_client
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 ament_package()

@@ -13,7 +13,6 @@ class Server(Node):
 
     def add_two_ints_cb(self, request, response):
         response.sum = request.a + request.b
-        self.get_logger().info(f"{request.a} + {request.b} = {response.sum}")
         return response
 
 def main(args=None):

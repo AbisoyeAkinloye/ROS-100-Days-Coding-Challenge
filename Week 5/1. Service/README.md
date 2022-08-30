@@ -31,7 +31,8 @@ An analogy of a web app is used. The computer/smartphone used to browse is the `
   ros2 interface show <service_type>
   ```
 
-## Writing ROS2 Service Server in python 
+## ROS2 Python Service
+### Writing ROS2 Service Server in python 
 
 The source code <a href="./ros2_ws/src/pkg_cpp_py/scripts/add_two_ints_server.py">here</a>
 
@@ -55,13 +56,14 @@ def callback(self, request, response):
   pass
 ```
 
-## Writing ROS2 Service Client in python 
+### Writing ROS2 Service Client in python 
 
 - Client with Functional programming: click <a href="./ros2_ws/src/pkg_py/pkg_py/add_two_ints_client.py">here</a>
 - Client with Object-oriented programming: click <a href="./ros2_ws/src/pkg_py/pkg_py/add_two_ints_oop_client.py">here</a>
 - Simple mini client with OOP: click <a href="./ros2_ws/src/pkg_cpp_py/scripts/add_two_ints_client.py">here</a>
 
 **Code explained:**
+
 ```py
 def main(args=None):
     rclpy.init(args=args)

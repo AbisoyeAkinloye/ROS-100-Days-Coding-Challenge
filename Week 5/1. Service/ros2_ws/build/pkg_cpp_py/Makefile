@@ -168,6 +168,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named add_two_ints_client
+
+# Build rule for target.
+add_two_ints_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_client
+.PHONY : add_two_ints_client
+
+# fast build rule for target.
+add_two_ints_client/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/build
+.PHONY : add_two_ints_client/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_oop_client
+
+# Build rule for target.
+add_two_ints_oop_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_oop_client
+.PHONY : add_two_ints_oop_client
+
+# fast build rule for target.
+add_two_ints_oop_client/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_client.dir/build.make CMakeFiles/add_two_ints_oop_client.dir/build
+.PHONY : add_two_ints_oop_client/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_oop_server
+
+# Build rule for target.
+add_two_ints_oop_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_oop_server
+.PHONY : add_two_ints_oop_server
+
+# fast build rule for target.
+add_two_ints_oop_server/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_server.dir/build.make CMakeFiles/add_two_ints_oop_server.dir/build
+.PHONY : add_two_ints_oop_server/fast
+
+#=============================================================================
+# Target rules for targets named add_two_ints_server
+
+# Build rule for target.
+add_two_ints_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 add_two_ints_server
+.PHONY : add_two_ints_server
+
+# fast build rule for target.
+add_two_ints_server/fast:
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/build
+.PHONY : add_two_ints_server/fast
+
+#=============================================================================
 # Target rules for targets named pkg_cpp_py_uninstall
 
 # Build rule for target.
@@ -193,6 +245,114 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/add_two_ints_client.o: src/add_two_ints_client.cpp.o
+
+.PHONY : src/add_two_ints_client.o
+
+# target to build an object file
+src/add_two_ints_client.cpp.o:
+	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o
+.PHONY : src/add_two_ints_client.cpp.o
+
+src/add_two_ints_client.i: src/add_two_ints_client.cpp.i
+
+.PHONY : src/add_two_ints_client.i
+
+# target to preprocess a source file
+src/add_two_ints_client.cpp.i:
+	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.i
+.PHONY : src/add_two_ints_client.cpp.i
+
+src/add_two_ints_client.s: src/add_two_ints_client.cpp.s
+
+.PHONY : src/add_two_ints_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_client.cpp.s:
+	$(MAKE) -f CMakeFiles/add_two_ints_client.dir/build.make CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.s
+.PHONY : src/add_two_ints_client.cpp.s
+
+src/add_two_ints_oop_client.o: src/add_two_ints_oop_client.cpp.o
+
+.PHONY : src/add_two_ints_oop_client.o
+
+# target to build an object file
+src/add_two_ints_oop_client.cpp.o:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_client.dir/build.make CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.o
+.PHONY : src/add_two_ints_oop_client.cpp.o
+
+src/add_two_ints_oop_client.i: src/add_two_ints_oop_client.cpp.i
+
+.PHONY : src/add_two_ints_oop_client.i
+
+# target to preprocess a source file
+src/add_two_ints_oop_client.cpp.i:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_client.dir/build.make CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.i
+.PHONY : src/add_two_ints_oop_client.cpp.i
+
+src/add_two_ints_oop_client.s: src/add_two_ints_oop_client.cpp.s
+
+.PHONY : src/add_two_ints_oop_client.s
+
+# target to generate assembly for a file
+src/add_two_ints_oop_client.cpp.s:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_client.dir/build.make CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.s
+.PHONY : src/add_two_ints_oop_client.cpp.s
+
+src/add_two_ints_oop_server.o: src/add_two_ints_oop_server.cpp.o
+
+.PHONY : src/add_two_ints_oop_server.o
+
+# target to build an object file
+src/add_two_ints_oop_server.cpp.o:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_server.dir/build.make CMakeFiles/add_two_ints_oop_server.dir/src/add_two_ints_oop_server.cpp.o
+.PHONY : src/add_two_ints_oop_server.cpp.o
+
+src/add_two_ints_oop_server.i: src/add_two_ints_oop_server.cpp.i
+
+.PHONY : src/add_two_ints_oop_server.i
+
+# target to preprocess a source file
+src/add_two_ints_oop_server.cpp.i:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_server.dir/build.make CMakeFiles/add_two_ints_oop_server.dir/src/add_two_ints_oop_server.cpp.i
+.PHONY : src/add_two_ints_oop_server.cpp.i
+
+src/add_two_ints_oop_server.s: src/add_two_ints_oop_server.cpp.s
+
+.PHONY : src/add_two_ints_oop_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_oop_server.cpp.s:
+	$(MAKE) -f CMakeFiles/add_two_ints_oop_server.dir/build.make CMakeFiles/add_two_ints_oop_server.dir/src/add_two_ints_oop_server.cpp.s
+.PHONY : src/add_two_ints_oop_server.cpp.s
+
+src/add_two_ints_server.o: src/add_two_ints_server.cpp.o
+
+.PHONY : src/add_two_ints_server.o
+
+# target to build an object file
+src/add_two_ints_server.cpp.o:
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o
+.PHONY : src/add_two_ints_server.cpp.o
+
+src/add_two_ints_server.i: src/add_two_ints_server.cpp.i
+
+.PHONY : src/add_two_ints_server.i
+
+# target to preprocess a source file
+src/add_two_ints_server.cpp.i:
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.i
+.PHONY : src/add_two_ints_server.cpp.i
+
+src/add_two_ints_server.s: src/add_two_ints_server.cpp.s
+
+.PHONY : src/add_two_ints_server.s
+
+# target to generate assembly for a file
+src/add_two_ints_server.cpp.s:
+	$(MAKE) -f CMakeFiles/add_two_ints_server.dir/build.make CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.s
+.PHONY : src/add_two_ints_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -203,11 +363,27 @@ help:
 	@echo "... install/local"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... add_two_ints_client"
+	@echo "... add_two_ints_oop_client"
+	@echo "... add_two_ints_oop_server"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... add_two_ints_server"
 	@echo "... pkg_cpp_py_uninstall"
 	@echo "... uninstall"
+	@echo "... src/add_two_ints_client.o"
+	@echo "... src/add_two_ints_client.i"
+	@echo "... src/add_two_ints_client.s"
+	@echo "... src/add_two_ints_oop_client.o"
+	@echo "... src/add_two_ints_oop_client.i"
+	@echo "... src/add_two_ints_oop_client.s"
+	@echo "... src/add_two_ints_oop_server.o"
+	@echo "... src/add_two_ints_oop_server.i"
+	@echo "... src/add_two_ints_oop_server.s"
+	@echo "... src/add_two_ints_server.o"
+	@echo "... src/add_two_ints_server.i"
+	@echo "... src/add_two_ints_server.s"
 .PHONY : help
 
 
