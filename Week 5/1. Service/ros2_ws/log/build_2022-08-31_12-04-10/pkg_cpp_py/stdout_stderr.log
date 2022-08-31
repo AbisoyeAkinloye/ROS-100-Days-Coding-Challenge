@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target add_two_ints_oop_client[0m
+[ 25%] Built target add_two_ints_oop_server
+[ 50%] Built target add_two_ints_client
+[ 75%] Built target add_two_ints_server
+[ 87%] [32mBuilding CXX object CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.o[0m
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py/src/add_two_ints_oop_client.cpp:1[m[K:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py/src/add_two_ints_oop_client.cpp:[m[K In member function ‘[01m[Kvoid AddTwoIntsOOP::callAddTwoIntsService()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py/src/add_two_ints_oop_client.cpp:34:75:[m[K [01;31m[Kerror: [m[K‘[01m[Ka[m[K’ was not declared in this scope
+   34 |             RCLCPP_INFO(this->get_logger(), "The sum of %d and %d is %d", [01;31m[Ka[m[K, b, response->sum);
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/pkg_cpp_py/src/add_two_ints_oop_client.cpp:34:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kb[m[K’ was not declared in this scope
+   34 |             RCLCPP_INFO(this->get_logger(), "The sum of %d and %d is %d", a, [01;31m[Kb[m[K, response->sum);
+      |                                                                              [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/add_two_ints_oop_client.dir/build.make:63: CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/add_two_ints_oop_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

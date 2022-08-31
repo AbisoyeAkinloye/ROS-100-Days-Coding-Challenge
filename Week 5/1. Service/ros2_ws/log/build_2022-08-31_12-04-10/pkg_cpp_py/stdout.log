@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target add_two_ints_oop_client[0m
+[ 25%] Built target add_two_ints_oop_server
+[ 50%] Built target add_two_ints_client
+[ 75%] Built target add_two_ints_server
+[ 87%] [32mBuilding CXX object CMakeFiles/add_two_ints_oop_client.dir/src/add_two_ints_oop_client.cpp.o[0m
