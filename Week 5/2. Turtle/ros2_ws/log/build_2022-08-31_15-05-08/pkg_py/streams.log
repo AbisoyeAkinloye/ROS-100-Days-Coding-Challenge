@@ -1,0 +1,40 @@
+[1.943s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/src/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log --single-version-externally-managed
+[2.482s] running egg_info
+[2.483s] creating ../../build/pkg_py/pkg_py.egg-info
+[2.484s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[2.485s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[2.485s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[2.489s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[2.489s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[2.489s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[2.587s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[2.590s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[2.591s] running build
+[2.592s] running build_py
+[2.592s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build
+[2.592s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib
+[2.593s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+[2.593s] copying pkg_py/euclidean_distance_client.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+[2.593s] copying pkg_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+[2.593s] copying pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+[2.594s] running install
+[2.594s] running install_lib
+[2.596s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[2.597s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/euclidean_distance_client.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[2.597s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[2.597s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[2.597s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/euclidean_distance_client.py to euclidean_distance_client.cpython-38.pyc
+[2.602s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/__init__.py to __init__.cpython-38.pyc
+[2.602s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/euclidean_distance_server.py to euclidean_distance_server.cpython-38.pyc
+[2.603s] running install_data
+[2.604s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index
+[2.605s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index
+[2.605s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[2.605s] copying resource/pkg_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[2.605s] copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/pkg_py
+[2.606s] running install_egg_info
+[2.608s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info
+[2.610s] running install_scripts
+[2.651s] Installing eds script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/pkg_py
+[2.652s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log'
+[2.699s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/src/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log --single-version-externally-managed

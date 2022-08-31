@@ -1,0 +1,19 @@
+[2.073s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py
+[2.688s] running develop
+[3.027s] running egg_info
+[3.028s] writing pkg_py.egg-info/PKG-INFO
+[3.028s] writing dependency_links to pkg_py.egg-info/dependency_links.txt
+[3.029s] writing entry points to pkg_py.egg-info/entry_points.txt
+[3.029s] writing requirements to pkg_py.egg-info/requires.txt
+[3.029s] writing top-level names to pkg_py.egg-info/top_level.txt
+[3.133s] reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.135s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.238s] running build_ext
+[3.242s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/site.py
+[3.249s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg-py.egg-link (link to .)
+[3.254s] Installing edc script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/pkg_py
+[3.255s] Installing eds script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/pkg_py
+[3.255s] 
+[3.256s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py
+[3.256s] running install_data
+[3.322s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py

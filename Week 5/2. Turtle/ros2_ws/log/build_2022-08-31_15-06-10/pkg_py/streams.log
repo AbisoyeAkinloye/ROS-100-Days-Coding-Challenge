@@ -1,0 +1,24 @@
+[2.344s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/src/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log --single-version-externally-managed
+[3.022s] running egg_info
+[3.023s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[3.025s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[3.025s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[3.025s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[3.026s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[3.141s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[3.145s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[3.145s] running build
+[3.146s] running build_py
+[3.146s] copying pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+[3.146s] running install
+[3.147s] running install_lib
+[3.150s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[3.151s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/euclidean_distance_server.py to euclidean_distance_server.cpython-38.pyc
+[3.157s] running install_data
+[3.159s] running install_egg_info
+[3.163s] removing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info' (and everything under it)
+[3.165s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info
+[3.166s] running install_scripts
+[3.231s] Installing eds script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/pkg_py
+[3.232s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log'
+[3.300s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/src/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log --single-version-externally-managed

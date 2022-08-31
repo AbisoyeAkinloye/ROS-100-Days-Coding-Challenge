@@ -1,0 +1,4 @@
+[console_scripts]
+edc = pkg_py.euclidean_distance_client:main
+eds = pkg_py.euclidean_distance_server:main
+

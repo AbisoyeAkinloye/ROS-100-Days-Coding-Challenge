@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/pkg_py/pkg_py.egg-info
+writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+copying pkg_py/euclidean_distance_client.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+copying pkg_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+copying pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py
+running install
+running install_lib
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/euclidean_distance_client.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/build/lib/pkg_py/euclidean_distance_server.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/euclidean_distance_client.py to euclidean_distance_client.cpython-38.pyc
+byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/euclidean_distance_server.py to euclidean_distance_server.cpython-38.pyc
+running install_data
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+copying resource/pkg_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/share/pkg_py
+running install_egg_info
+Copying ../../build/pkg_py/pkg_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing eds script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/install/pkg_py/lib/pkg_py
+writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/2. Turtle/ros2_ws/build/pkg_py/install.log'
