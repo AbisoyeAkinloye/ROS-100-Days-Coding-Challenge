@@ -24,7 +24,7 @@ An analogy of a web app is used. The computer/smartphone used to browse is the `
   ```
 - To call a service
   ```
-  ros2 service call <service_name> <service_type>
+  ros2 service call <service_name> <service_type> <arg>
   ```
 - To show service interface
   ```
@@ -114,3 +114,6 @@ rclpy.spin_until_future_complete(node, future)
     except Exception as e:
         node.get_logger().error("Service call failed: %r",(e,))
 ```
+
+## Service Activity
+![Exercise](service_activities.png)

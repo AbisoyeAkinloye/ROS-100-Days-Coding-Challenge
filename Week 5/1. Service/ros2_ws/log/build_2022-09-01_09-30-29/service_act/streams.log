@@ -1,0 +1,70 @@
+[0.038s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/service_act -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act
+[0.331s] -- The C compiler identification is GNU 10.3.0
+[0.591s] -- The CXX compiler identification is GNU 10.3.0
+[0.609s] -- Check for working C compiler: /usr/bin/cc
+[0.804s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.810s] -- Detecting C compiler ABI info
+[1.007s] -- Detecting C compiler ABI info - done
+[1.064s] -- Detecting C compile features
+[1.066s] -- Detecting C compile features - done
+[1.077s] -- Check for working CXX compiler: /usr/bin/c++
+[1.312s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.317s] -- Detecting CXX compiler ABI info
+[1.549s] -- Detecting CXX compiler ABI info - done
+[1.611s] -- Detecting CXX compile features
+[1.613s] -- Detecting CXX compile features - done
+[1.628s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.702s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.275s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.466s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.495s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.741s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.843s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.135s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.379s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.390s] -- Looking for pthread.h
+[3.603s] -- Looking for pthread.h - found
+[3.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.835s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.836s] -- Looking for pthread_create in pthreads
+[4.002s] -- Looking for pthread_create in pthreads - not found
+[4.002s] -- Looking for pthread_create in pthread
+[4.194s] -- Looking for pthread_create in pthread - found
+[4.194s] -- Found Threads: TRUE  
+[4.933s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[4.938s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[5.738s] -- Configuring done
+[5.746s] -- Generating done
+[5.754s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act
+[5.778s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/src/service_act -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act
+[5.779s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act -- -j4 -l4
+[5.892s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act -- -j4 -l4
+[5.967s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act
+[5.995s] -- Install configuration: ""
+[5.995s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/pythonpath.sh
+[5.996s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/pythonpath.dsv
+[5.997s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act
+[5.998s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act/module_to_import.py
+[5.998s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act/__init__.py
+[6.084s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act'...
+[6.085s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act/__init__.py'...
+[6.085s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages/service_act/module_to_import.py'...
+[6.101s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/service_act/number_pub.py
+[6.101s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/ament_index/resource_index/package_run_dependencies/service_act
+[6.101s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/ament_index/resource_index/parent_prefix_path/service_act
+[6.102s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/ament_prefix_path.sh
+[6.102s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/ament_prefix_path.dsv
+[6.102s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/path.sh
+[6.102s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/environment/path.dsv
+[6.102s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/local_setup.bash
+[6.108s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/local_setup.sh
+[6.108s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/local_setup.zsh
+[6.109s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/local_setup.dsv
+[6.109s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/package.dsv
+[6.110s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/ament_index/resource_index/packages/service_act
+[6.110s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/cmake/service_actConfig.cmake
+[6.110s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/cmake/service_actConfig-version.cmake
+[6.111s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/share/service_act/package.xml
+[6.115s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/service_act

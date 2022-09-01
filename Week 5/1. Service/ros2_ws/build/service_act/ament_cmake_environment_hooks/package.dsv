@@ -1,0 +1,4 @@
+source;share/service_act/local_setup.bash
+source;share/service_act/local_setup.dsv
+source;share/service_act/local_setup.sh
+source;share/service_act/local_setup.zsh
