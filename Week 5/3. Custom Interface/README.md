@@ -48,3 +48,29 @@ Read more <a href="https://docs.ros.org/en/rolling/Concepts/About-ROS-Interfaces
 - The file name should be in `UpperCamelCase`
 - As in, `CustomMessage.msg`
 - Generate interfaces in the `CMakeLists.txt`
+  ```c
+    rosidl_generate_interfaces(${PROJECT_NAME}
+        "msg/HardwareStatus.msg"
+    )
+  ```
+
+### Custom Service
+- In the `src` folder, create a msg file
+- The file name should be in `UpperCamelCase`
+- As in, `CustomMessage.srv`
+- Generate interfaces in the `CMakeLists.txt`
+  ```c
+    rosidl_generate_interfaces(${PROJECT_NAME}
+        "srv/HardwareStatus.srv"
+    )
+  ```
+- Build the package
+  ```
+  colcon build --packages-select custum_interface
+  ```
+
+### Check the Interface
+```
+ros2 interface show package_name/srv/Service
+ros2 interface show package_name/msg/Message
+```

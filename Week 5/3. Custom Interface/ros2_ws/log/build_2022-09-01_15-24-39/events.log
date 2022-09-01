@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (-) JobUnselected: {'identifier': 'pkg_cpp_py'}
+[0.000385] (-) JobUnselected: {'identifier': 'pkg_py'}
+[0.000418] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000447] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.030119] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.031494] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.034236] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1786'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3879'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41308'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1850,unix/loye:/tmp/.ICE-unix/1850'), ('INVOCATION_ID', '3f137147ea094339bcbf81826d7d229c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e7577942-c5f9-49ff-b3a4-94892e05d975'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.096821] (-) TimerEvent: {}
+[0.117083] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.175846] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.197039] (-) TimerEvent: {}
+[0.297566] (-) TimerEvent: {}
+[0.398149] (-) TimerEvent: {}
+[0.498688] (-) TimerEvent: {}
+[0.599238] (-) TimerEvent: {}
+[0.627982] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.636142] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.649991] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.699555] (-) TimerEvent: {}
+[0.801700] (-) TimerEvent: {}
+[0.902178] (-) TimerEvent: {}
+[1.002573] (-) TimerEvent: {}
+[1.103026] (-) TimerEvent: {}
+[1.126293] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.203189] (-) TimerEvent: {}
+[1.274250] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.303360] (-) TimerEvent: {}
+[1.403869] (-) TimerEvent: {}
+[1.504403] (-) TimerEvent: {}
+[1.604908] (-) TimerEvent: {}
+[1.616577] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.705082] (-) TimerEvent: {}
+[1.805754] (-) TimerEvent: {}
+[1.906284] (-) TimerEvent: {}
+[1.960805] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.990168] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.006685] (-) TimerEvent: {}
+[2.048510] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.053315] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.107046] (-) TimerEvent: {}
+[2.129985] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.131095] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.131623] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.132109] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.188148] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.207224] (-) TimerEvent: {}
+[2.307667] (-) TimerEvent: {}
+[2.339770] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.407847] (-) TimerEvent: {}
+[2.506929] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.507980] (-) TimerEvent: {}
+[2.523434] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces\n'}
+[2.590097] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.590945] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[2.608181] (-) TimerEvent: {}
+[2.620262] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.708450] (-) TimerEvent: {}
+[2.808895] (-) TimerEvent: {}
+[2.909285] (-) TimerEvent: {}
+[3.009719] (-) TimerEvent: {}
+[3.110103] (-) TimerEvent: {}
+[3.210887] (-) TimerEvent: {}
+[3.311312] (-) TimerEvent: {}
+[3.411716] (-) TimerEvent: {}
+[3.514042] (-) TimerEvent: {}
+[3.580767] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target custom_interfaces__cpp\n'}
+[3.614208] (-) TimerEvent: {}
+[3.638151] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.639264] (custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.642053] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.717766] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.718122] (-) TimerEvent: {}
+[3.791941] (custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[3.818246] (-) TimerEvent: {}
+[3.918741] (-) TimerEvent: {}
+[4.019267] (-) TimerEvent: {}
+[4.044113] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[4.119408] (-) TimerEvent: {}
+[4.190259] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.219520] (-) TimerEvent: {}
+[4.311384] (custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target custom_interfaces__rosidl_generator_c\n'}
+[4.319710] (-) TimerEvent: {}
+[4.339920] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.419844] (-) TimerEvent: {}
+[4.520373] (-) TimerEvent: {}
+[4.620879] (-) TimerEvent: {}
+[4.721426] (-) TimerEvent: {}
+[4.788062] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.821668] (-) TimerEvent: {}
+[4.838251] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.880359] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[4.915643] (custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[4.921753] (-) TimerEvent: {}
+[4.976164] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.021938] (-) TimerEvent: {}
+[5.065953] (custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[5.126970] (-) TimerEvent: {}
+[5.227415] (-) TimerEvent: {}
+[5.328027] (-) TimerEvent: {}
+[5.372046] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.428185] (-) TimerEvent: {}
+[5.472490] (custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[5.529742] (-) TimerEvent: {}
+[5.645753] (-) TimerEvent: {}
+[5.718158] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[5.745912] (-) TimerEvent: {}
+[5.846495] (-) TimerEvent: {}
+[5.947180] (-) TimerEvent: {}
+[5.956257] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.047363] (-) TimerEvent: {}
+[6.070189] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[6.153693] (-) TimerEvent: {}
+[6.167323] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[6.252258] (custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[6.254133] (-) TimerEvent: {}
+[6.332748] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.354476] (-) TimerEvent: {}
+[6.461739] (-) TimerEvent: {}
+[6.519667] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[6.564166] (-) TimerEvent: {}
+[6.664677] (-) TimerEvent: {}
+[6.765229] (-) TimerEvent: {}
+[6.866102] (-) TimerEvent: {}
+[6.966644] (-) TimerEvent: {}
+[7.071332] (-) TimerEvent: {}
+[7.158692] (custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.171515] (-) TimerEvent: {}
+[7.272124] (-) TimerEvent: {}
+[7.313258] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[7.357831] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.372285] (-) TimerEvent: {}
+[7.472923] (-) TimerEvent: {}
+[7.573167] (custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.573862] (-) TimerEvent: {}
+[7.621255] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.657346] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[7.659194] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[7.674688] (-) TimerEvent: {}
+[7.775142] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.776149] (-) TimerEvent: {}
+[7.853501] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.861321] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.876339] (-) TimerEvent: {}
+[7.977050] (-) TimerEvent: {}
+[8.077570] (-) TimerEvent: {}
+[8.135079] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.161336] (custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.177689] (-) TimerEvent: {}
+[8.279538] (-) TimerEvent: {}
+[8.380221] (-) TimerEvent: {}
+[8.480767] (-) TimerEvent: {}
+[8.581270] (-) TimerEvent: {}
+[8.681952] (-) TimerEvent: {}
+[8.782493] (-) TimerEvent: {}
+[8.882964] (-) TimerEvent: {}
+[8.983418] (-) TimerEvent: {}
+[9.012962] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.070094] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[9.070597] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[9.084091] (-) TimerEvent: {}
+[9.184947] (-) TimerEvent: {}
+[9.285731] (-) TimerEvent: {}
+[9.386288] (-) TimerEvent: {}
+[9.486826] (-) TimerEvent: {}
+[9.587305] (-) TimerEvent: {}
+[9.687835] (-) TimerEvent: {}
+[9.793468] (-) TimerEvent: {}
+[9.894028] (-) TimerEvent: {}
+[9.994465] (-) TimerEvent: {}
+[10.054055] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.094617] (-) TimerEvent: {}
+[10.195234] (-) TimerEvent: {}
+[10.295720] (-) TimerEvent: {}
+[10.300845] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.330936] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[10.357025] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces\n'}
+[10.383751] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[10.401678] (-) TimerEvent: {}
+[10.412579] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.502038] (-) TimerEvent: {}
+[10.602614] (-) TimerEvent: {}
+[10.703136] (-) TimerEvent: {}
+[10.803616] (-) TimerEvent: {}
+[10.904201] (-) TimerEvent: {}
+[11.004968] (-) TimerEvent: {}
+[11.105495] (-) TimerEvent: {}
+[11.205977] (-) TimerEvent: {}
+[11.306468] (-) TimerEvent: {}
+[11.406943] (-) TimerEvent: {}
+[11.507763] (-) TimerEvent: {}
+[11.608482] (-) TimerEvent: {}
+[11.708932] (-) TimerEvent: {}
+[11.810010] (-) TimerEvent: {}
+[11.910850] (-) TimerEvent: {}
+[12.011444] (-) TimerEvent: {}
+[12.112077] (-) TimerEvent: {}
+[12.213699] (-) TimerEvent: {}
+[12.302183] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__py\n'}
+[12.314147] (-) TimerEvent: {}
+[12.340000] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[12.414348] (-) TimerEvent: {}
+[12.492024] (custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[12.495765] (custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[12.517717] (-) TimerEvent: {}
+[12.621737] (-) TimerEvent: {}
+[12.722213] (-) TimerEvent: {}
+[12.822732] (-) TimerEvent: {}
+[12.845411] (custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[12.922925] (-) TimerEvent: {}
+[12.956050] (custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target custom_interfaces__python\n'}
+[12.990255] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[12.998060] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.025969] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.026291] (-) TimerEvent: {}
+[13.119393] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.137703] (custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.138129] (-) TimerEvent: {}
+[13.138327] (custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.238321] (-) TimerEvent: {}
+[13.338792] (-) TimerEvent: {}
+[13.437285] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.438904] (-) TimerEvent: {}
+[13.484478] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.488178] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.539954] (-) TimerEvent: {}
+[13.587689] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.611219] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[13.640116] (-) TimerEvent: {}
+[13.648353] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.692262] (custom_interfaces) CommandEnded: {'returncode': 0}
+[13.740284] (-) TimerEvent: {}
+[13.840966] (-) TimerEvent: {}
+[13.845026] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[13.872081] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1786'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3879'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41308'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1850,unix/loye:/tmp/.ICE-unix/1850'), ('INVOCATION_ID', '3f137147ea094339bcbf81826d7d229c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:e7577942-c5f9-49ff-b3a4-94892e05d975'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.901478] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.902656] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[13.903344] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.904018] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.904565] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/compute_rectangle_area.h\n'}
+[13.905191] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.905740] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[13.906249] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[13.906745] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[13.907260] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[13.908289] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.909060] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.909733] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/hardware_status.h\n'}
+[13.910191] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.911097] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__struct.h\n'}
+[13.911774] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[13.912348] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__functions.c\n'}
+[13.912936] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__functions.h\n'}
+[13.913441] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[13.914311] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[13.914821] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[13.915518] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.916048] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.916586] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.916986] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.917788] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[13.918354] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.919048] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.919692] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[13.920317] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.920808] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.921387] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.921995] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.922595] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.923143] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.923816] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[13.924304] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.925124] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.925631] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.927522] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.928237] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[13.928824] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.929332] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.929816] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.930268] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.930681] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.931144] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.931948] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[13.932358] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[13.932811] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.933215] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.933650] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.934114] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[13.934535] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[13.934987] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.935382] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.935799] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[13.936197] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.936591] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.937012] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.937403] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/compute_rectangle_area.hpp\n'}
+[13.937880] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.938278] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[13.938695] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[13.939092] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[13.939484] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.939915] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/hardware_status.hpp\n'}
+[13.940322] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.940746] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[13.941155] (-) TimerEvent: {}
+[13.941484] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[13.941982] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[13.942382] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces\n'}
+[13.942802] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv\n'}
+[13.943197] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail\n'}
+[13.943614] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[13.944009] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.944404] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[13.944853] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[13.945271] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.945775] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/include/custom_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[13.946175] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.946598] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.947018] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.947432] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.947832] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[13.948224] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[13.948646] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[14.009847] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[14.022506] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg\n'}
+[14.023170] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_hardware_status_s.c\n'}
+[14.023742] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_hardware_status.py\n'}
+[14.024234] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py\n'}
+[14.024685] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv\n'}
+[14.025103] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[14.025661] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/__init__.py\n'}
+[14.026094] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/srv/_compute_rectangle_area.py\n'}
+[14.026879] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.028221] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.029008] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.030585] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.031214] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.032734] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.033143] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[14.034401] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[14.034777] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/HardwareStatus.idl\n'}
+[14.035351] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/ComputeRectangleArea.idl\n'}
+[14.035809] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/HardwareStatus.msg\n'}
+[14.036271] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/ComputeRectangleArea.srv\n'}
+[14.036838] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[14.037251] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[14.037837] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[14.038391] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[14.038857] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[14.039262] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.039717] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[14.040199] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[14.040647] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[14.040995] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[14.041201] (-) TimerEvent: {}
+[14.041709] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[14.041975] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[14.042423] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[14.042863] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[14.043335] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.043804] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.044274] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.044836] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.045410] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.045987] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.046582] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.047197] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.047669] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.048269] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.048732] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.049226] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.049707] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.050197] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.050679] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.051184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.051611] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.052137] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.052688] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[14.053161] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[14.053660] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[14.070282] (custom_interfaces) CommandEnded: {'returncode': 0}
+[14.141445] (-) TimerEvent: {}
+[14.242323] (-) TimerEvent: {}
+[14.328892] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[14.331210] (-) EventReactorShutdown: {}
