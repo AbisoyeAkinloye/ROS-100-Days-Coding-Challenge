@@ -1,0 +1,3 @@
+[console_scripts]
+hardware_pub = pkg_py.hardware_status_pub:main
+

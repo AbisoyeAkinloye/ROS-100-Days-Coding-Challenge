@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "hardware_pub=pkg_py.hardware_status_pub:main"
         ],
     },
 )

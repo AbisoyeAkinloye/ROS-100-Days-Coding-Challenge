@@ -1,0 +1,25 @@
+[2.135s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py
+[2.743s] running develop
+[3.060s] running egg_info
+[3.060s] creating pkg_py.egg-info
+[3.062s] writing pkg_py.egg-info/PKG-INFO
+[3.062s] writing dependency_links to pkg_py.egg-info/dependency_links.txt
+[3.062s] writing entry points to pkg_py.egg-info/entry_points.txt
+[3.063s] writing requirements to pkg_py.egg-info/requires.txt
+[3.063s] writing top-level names to pkg_py.egg-info/top_level.txt
+[3.070s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.164s] reading manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.166s] writing manifest file 'pkg_py.egg-info/SOURCES.txt'
+[3.272s] running build_ext
+[3.274s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/python3.8/site-packages/site.py
+[3.281s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg-py.egg-link (link to .)
+[3.283s] Installing hardware_pub script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/pkg_py
+[3.283s] 
+[3.284s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py
+[3.284s] running install_data
+[3.285s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/share/ament_index
+[3.285s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/share/ament_index/resource_index
+[3.285s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[3.286s] copying resource/pkg_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/share/ament_index/resource_index/packages
+[3.286s] copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/share/pkg_py
+[3.347s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py
