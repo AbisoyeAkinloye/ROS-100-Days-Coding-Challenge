@@ -8,14 +8,14 @@ class NumberPublisher(Node):
     def __init__(self):
         super().__init__("number_publisher")
         self.publisher_ = self.create_publisher(Int64, "number", 10)
-        self.timer_ = self.create_timer(0.50, self.counter_cb)
-        self.get_logger().info("Counter publisher has just been created.")
-        self.start_count = 0
+        self.timer_ = self.create_timer(0.50, self.counter)
+        self.get_logger().info("Counter publisher has started.")
+        self.initial_count = 0
 
-    def counter_cb(self, count = Int64()):
-        self.start_count += 1
-        count.data = self.start_count
-        self.get_logger().info(f"Counter: {count.data}")
+    def counter(self, count = Int64()):
+        self.initial_count += 1
+        count.data = self.initial_count
+        # self.get_logger().info(f"Counter: {count.data}")
         self.publisher_.publish(count)
 
 
