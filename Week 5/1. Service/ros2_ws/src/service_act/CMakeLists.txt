@@ -24,6 +24,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/number_pub.py
   scripts/number_counter.py
+  scripts/reset_counter_client.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

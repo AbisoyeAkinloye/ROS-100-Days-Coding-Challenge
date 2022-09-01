@@ -44,7 +44,7 @@ class ResetCounterClient(Node):
 def main(args=None):
     rclpy.init(args=args)
     node = ResetCounterClient()
-    node.send_request()
+    response = node.send_request()
     node.destroy_node()
     rclpy.shutdown()
 

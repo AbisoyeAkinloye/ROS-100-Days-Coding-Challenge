@@ -23,14 +23,14 @@ class NumberCounter(Node):
         self.get_logger().info(f"Counter: {count.data}")
         self.publisher_.publish(count)
 
-    def reset_counter_cb(self, request, response):
+    def reset_counter_cb(self, request: SetBool.Request, response:SetBool.Response):
         if request.data:
             self.initial_count = 0
             response.success = True
-            response.message = f"The counter has been reset to {self.initial_count}"
+            response.message = "The counter has been reset."
         else:
             response.success = False
-            response.message = "Counter not reset"
+            response.message = "Counter not reset."
         return response
 
 
