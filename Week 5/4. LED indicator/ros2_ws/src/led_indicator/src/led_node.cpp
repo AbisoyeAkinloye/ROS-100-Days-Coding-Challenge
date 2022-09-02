@@ -1,5 +1,5 @@
 #include "rclcpp/rclcpp.hpp"
-#include "custom_interfaces/msg/battery_state.hpp"
+#include "led_indicator/msg/battery_state.hpp"
 
 class LED : public rclcpp::Node
 {

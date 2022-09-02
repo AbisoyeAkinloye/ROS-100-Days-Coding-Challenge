@@ -1,0 +1,3 @@
+# battery state can either be 0, 50, or 100%
+# led state [1,0,0],[0,1,0],[0,0,1] or [0,0,0]
+int64 battery_state

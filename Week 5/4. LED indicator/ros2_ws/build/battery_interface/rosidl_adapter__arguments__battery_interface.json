@@ -1,0 +1,7 @@
+{
+  "package_name": "battery_interface",
+  "non_idl_tuples": [
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/battery_interface:msg/BatteryState.msg",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/battery_interface:srv/SetLed.srv"
+  ]
+}

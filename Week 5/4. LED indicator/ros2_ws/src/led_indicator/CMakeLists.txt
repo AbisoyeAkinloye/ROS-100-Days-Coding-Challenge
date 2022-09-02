@@ -13,11 +13,10 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(custom_interfaces REQUIRED)
 
 # add cpp executable
 add_executable(battery_node src/battery_node.cpp)
-ament_target_dependencies(battery_node rclcpp custom_interfaces)
+ament_target_dependencies(battery_node rclcpp led_indicator)
 
 # install cpp executable
 install(TARGETS

@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000321] (-) JobUnselected: {'identifier': 'led_indicator'}
+[0.000403] (battery_interface) JobQueued: {'identifier': 'battery_interface', 'dependencies': OrderedDict()}
+[0.000469] (battery_interface) JobStarted: {'identifier': 'battery_interface'}
+[0.030095] (battery_interface) JobProgress: {'identifier': 'battery_interface', 'progress': 'cmake'}
+[0.031191] (battery_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/battery_interface', '-DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2800'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1873,unix/loye:/tmp/.ICE-unix/1873'), ('INVOCATION_ID', 'bf4a8f43465c499f91090bac44b019ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b10a0645-a0d4-4cd2-b585-a089529131e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.097130] (-) TimerEvent: {}
+[0.197627] (-) TimerEvent: {}
+[0.205669] (battery_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.3.0\n'}
+[0.297930] (-) TimerEvent: {}
+[0.397418] (battery_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.3.0\n'}
+[0.398582] (-) TimerEvent: {}
+[0.416635] (battery_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.498766] (-) TimerEvent: {}
+[0.599440] (-) TimerEvent: {}
+[0.646807] (battery_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.651116] (battery_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.699630] (-) TimerEvent: {}
+[0.801285] (-) TimerEvent: {}
+[0.839078] (battery_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.893735] (battery_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.894867] (battery_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.901528] (-) TimerEvent: {}
+[0.903677] (battery_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.001648] (-) TimerEvent: {}
+[1.102053] (-) TimerEvent: {}
+[1.129731] (battery_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.131949] (battery_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.202248] (-) TimerEvent: {}
+[1.302645] (-) TimerEvent: {}
+[1.390999] (battery_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.402773] (-) TimerEvent: {}
+[1.451985] (battery_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.453911] (battery_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.461629] (battery_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.503058] (-) TimerEvent: {}
+[1.518627] (battery_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.519076] (battery_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.603272] (-) TimerEvent: {}
+[1.703774] (-) TimerEvent: {}
+[1.804292] (-) TimerEvent: {}
+[1.904824] (-) TimerEvent: {}
+[2.005319] (-) TimerEvent: {}
+[2.018090] (battery_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.027654] (battery_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.062144] (battery_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.105497] (-) TimerEvent: {}
+[2.205979] (-) TimerEvent: {}
+[2.306400] (-) TimerEvent: {}
+[2.351370] (battery_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.407254] (-) TimerEvent: {}
+[2.454892] (battery_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.507490] (-) TimerEvent: {}
+[2.608174] (-) TimerEvent: {}
+[2.708632] (-) TimerEvent: {}
+[2.736408] (battery_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.808880] (-) TimerEvent: {}
+[2.905312] (battery_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.909132] (-) TimerEvent: {}
+[3.009673] (-) TimerEvent: {}
+[3.110666] (-) TimerEvent: {}
+[3.211252] (-) TimerEvent: {}
+[3.253365] (battery_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.314109] (-) TimerEvent: {}
+[3.414548] (-) TimerEvent: {}
+[3.514921] (-) TimerEvent: {}
+[3.594308] (battery_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.615147] (-) TimerEvent: {}
+[3.624468] (battery_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.693782] (battery_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.697446] (battery_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.715325] (-) TimerEvent: {}
+[3.785681] (battery_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.786350] (battery_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.786494] (battery_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.786604] (battery_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.815518] (-) TimerEvent: {}
+[3.837980] (battery_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.915716] (-) TimerEvent: {}
+[3.988866] (battery_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.015897] (-) TimerEvent: {}
+[4.116361] (-) TimerEvent: {}
+[4.122476] (battery_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[4.137818] (battery_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface\n'}
+[4.158317] (battery_interface) CommandEnded: {'returncode': 0}
+[4.159912] (battery_interface) JobProgress: {'identifier': 'battery_interface', 'progress': 'build'}
+[4.164663] (battery_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2800'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1873,unix/loye:/tmp/.ICE-unix/1873'), ('INVOCATION_ID', 'bf4a8f43465c499f91090bac44b019ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b10a0645-a0d4-4cd2-b585-a089529131e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.216577] (-) TimerEvent: {}
+[4.289379] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__cpp\x1b[0m\n'}
+[4.293791] (battery_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.315513] (battery_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.316695] (-) TimerEvent: {}
+[4.416998] (-) TimerEvent: {}
+[4.517409] (-) TimerEvent: {}
+[4.618091] (-) TimerEvent: {}
+[4.718511] (-) TimerEvent: {}
+[4.819024] (-) TimerEvent: {}
+[4.919761] (-) TimerEvent: {}
+[5.020185] (-) TimerEvent: {}
+[5.120630] (-) TimerEvent: {}
+[5.221044] (-) TimerEvent: {}
+[5.321432] (-) TimerEvent: {}
+[5.396095] (battery_interface) StdoutLine: {'line': b'[  5%] Built target battery_interface__cpp\n'}
+[5.421637] (-) TimerEvent: {}
+[5.437715] (battery_interface) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.465797] (battery_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.481800] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_generator_c\x1b[0m\n'}
+[5.496318] (battery_interface) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.522134] (-) TimerEvent: {}
+[5.529077] (battery_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_generator_c.dir/rosidl_generator_c/battery_interface/msg/detail/battery_state__functions.c.o\x1b[0m\n'}
+[5.622410] (-) TimerEvent: {}
+[5.679869] (battery_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_generator_c.dir/rosidl_generator_c/battery_interface/srv/detail/set_led__functions.c.o\x1b[0m\n'}
+[5.722602] (-) TimerEvent: {}
+[5.804088] (battery_interface) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbattery_interface__rosidl_generator_c.so\x1b[0m\n'}
+[5.822775] (-) TimerEvent: {}
+[5.904658] (battery_interface) StdoutLine: {'line': b'[ 20%] Built target battery_interface__rosidl_generator_c\n'}
+[5.922923] (-) TimerEvent: {}
+[5.930686] (battery_interface) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.023080] (-) TimerEvent: {}
+[6.123504] (-) TimerEvent: {}
+[6.223903] (-) TimerEvent: {}
+[6.324336] (-) TimerEvent: {}
+[6.424771] (-) TimerEvent: {}
+[6.436743] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[6.471479] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.475071] (battery_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_interface/msg/battery_state__type_support.cpp.o\x1b[0m\n'}
+[6.515762] (battery_interface) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_interface/msg/detail/battery_state__type_support.cpp.o\x1b[0m\n'}
+[6.524946] (-) TimerEvent: {}
+[6.538935] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.601249] (battery_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_interface/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o\x1b[0m\n'}
+[6.625116] (-) TimerEvent: {}
+[6.727296] (-) TimerEvent: {}
+[6.831608] (-) TimerEvent: {}
+[6.932196] (-) TimerEvent: {}
+[7.032743] (-) TimerEvent: {}
+[7.117675] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.133664] (-) TimerEvent: {}
+[7.229669] (battery_interface) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_interface/msg/detail/battery_state__type_support.c.o\x1b[0m\n'}
+[7.237658] (-) TimerEvent: {}
+[7.341640] (-) TimerEvent: {}
+[7.441628] (battery_interface) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/battery_interface/srv/detail/set_led__type_support.c.o\x1b[0m\n'}
+[7.441958] (-) TimerEvent: {}
+[7.481627] (battery_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/battery_interface/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[7.513634] (battery_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/battery_interface/srv/detail/set_led__type_support.cpp.o\x1b[0m\n'}
+[7.545615] (-) TimerEvent: {}
+[7.647555] (-) TimerEvent: {}
+[7.648282] (battery_interface) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libbattery_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.750173] (-) TimerEvent: {}
+[7.857438] (-) TimerEvent: {}
+[7.866485] (battery_interface) StdoutLine: {'line': b'[ 43%] Built target battery_interface__rosidl_typesupport_introspection_c\n'}
+[7.926485] (battery_interface) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.961621] (-) TimerEvent: {}
+[8.065619] (-) TimerEvent: {}
+[8.170159] (-) TimerEvent: {}
+[8.175469] (battery_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/battery_interface/srv/detail/dds_fastrtps/set_led__type_support.cpp.o\x1b[0m\n'}
+[8.270397] (-) TimerEvent: {}
+[8.373414] (-) TimerEvent: {}
+[8.446421] (battery_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.473608] (-) TimerEvent: {}
+[8.578178] (-) TimerEvent: {}
+[8.684844] (battery_interface) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.685373] (-) TimerEvent: {}
+[8.685677] (battery_interface) StdoutLine: {'line': b'[ 53%] Built target battery_interface__rosidl_typesupport_cpp\n'}
+[8.785635] (-) TimerEvent: {}
+[8.886265] (-) TimerEvent: {}
+[8.904119] (battery_interface) StdoutLine: {'line': b'[ 53%] Built target battery_interface__rosidl_typesupport_introspection_cpp\n'}
+[8.986418] (-) TimerEvent: {}
+[9.016126] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_c\x1b[0m\n'}
+[9.058287] (battery_interface) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_interface/msg/battery_state__type_support.cpp.o\x1b[0m\n'}
+[9.059571] (battery_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/battery_interface/srv/set_led__type_support.cpp.o\x1b[0m\n'}
+[9.086579] (-) TimerEvent: {}
+[9.152980] (battery_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.186845] (-) TimerEvent: {}
+[9.277077] (battery_interface) StdoutLine: {'line': b'[ 61%] Built target battery_interface__rosidl_typesupport_c\n'}
+[9.287023] (-) TimerEvent: {}
+[9.387566] (-) TimerEvent: {}
+[9.445434] (battery_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.487861] (-) TimerEvent: {}
+[9.588406] (-) TimerEvent: {}
+[9.688832] (-) TimerEvent: {}
+[9.702583] (battery_interface) StdoutLine: {'line': b'[ 64%] Built target battery_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[9.728756] (battery_interface) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.789016] (-) TimerEvent: {}
+[9.889564] (-) TimerEvent: {}
+[9.990646] (-) TimerEvent: {}
+[10.091119] (-) TimerEvent: {}
+[10.191531] (-) TimerEvent: {}
+[10.292059] (-) TimerEvent: {}
+[10.392893] (-) TimerEvent: {}
+[10.493391] (-) TimerEvent: {}
+[10.593990] (-) TimerEvent: {}
+[10.647015] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.694522] (-) TimerEvent: {}
+[10.700244] (battery_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_interface/srv/detail/set_led__type_support_c.cpp.o\x1b[0m\n'}
+[10.700962] (battery_interface) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/battery_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/battery_interface/msg/detail/battery_state__type_support_c.cpp.o\x1b[0m\n'}
+[10.795115] (-) TimerEvent: {}
+[10.895746] (-) TimerEvent: {}
+[10.996231] (-) TimerEvent: {}
+[11.096914] (-) TimerEvent: {}
+[11.197269] (-) TimerEvent: {}
+[11.297925] (-) TimerEvent: {}
+[11.398503] (-) TimerEvent: {}
+[11.499063] (-) TimerEvent: {}
+[11.548557] (battery_interface) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbattery_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.600394] (-) TimerEvent: {}
+[11.701135] (-) TimerEvent: {}
+[11.798284] (battery_interface) StdoutLine: {'line': b'[ 74%] Built target battery_interface__rosidl_typesupport_fastrtps_c\n'}
+[11.801296] (-) TimerEvent: {}
+[11.823945] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface\x1b[0m\n'}
+[11.853962] (battery_interface) StdoutLine: {'line': b'[ 74%] Built target battery_interface\n'}
+[11.879770] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__py\x1b[0m\n'}
+[11.901486] (-) TimerEvent: {}
+[11.907722] (battery_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.001656] (-) TimerEvent: {}
+[12.102346] (-) TimerEvent: {}
+[12.202765] (-) TimerEvent: {}
+[12.303427] (-) TimerEvent: {}
+[12.403988] (-) TimerEvent: {}
+[12.504443] (-) TimerEvent: {}
+[12.604891] (-) TimerEvent: {}
+[12.705320] (-) TimerEvent: {}
+[12.805880] (-) TimerEvent: {}
+[12.906318] (-) TimerEvent: {}
+[13.006990] (-) TimerEvent: {}
+[13.107599] (-) TimerEvent: {}
+[13.207970] (-) TimerEvent: {}
+[13.308379] (-) TimerEvent: {}
+[13.408927] (-) TimerEvent: {}
+[13.509348] (-) TimerEvent: {}
+[13.609893] (-) TimerEvent: {}
+[13.710297] (-) TimerEvent: {}
+[13.724086] (battery_interface) StdoutLine: {'line': b'[ 76%] Built target battery_interface__py\n'}
+[13.750624] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__python\x1b[0m\n'}
+[13.810459] (-) TimerEvent: {}
+[13.834161] (battery_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/battery_interface__python.dir/rosidl_generator_py/battery_interface/srv/_set_led_s.c.o\x1b[0m\n'}
+[13.847363] (battery_interface) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/battery_interface__python.dir/rosidl_generator_py/battery_interface/msg/_battery_state_s.c.o\x1b[0m\n'}
+[13.912251] (-) TimerEvent: {}
+[14.012715] (-) TimerEvent: {}
+[14.113158] (-) TimerEvent: {}
+[14.130497] (battery_interface) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_interface/libbattery_interface__python.so\x1b[0m\n'}
+[14.213363] (-) TimerEvent: {}
+[14.246989] (battery_interface) StdoutLine: {'line': b'[ 84%] Built target battery_interface__python\n'}
+[14.270494] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.271317] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.278180] (battery_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.313621] (-) TimerEvent: {}
+[14.347205] (battery_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/battery_interface/_battery_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.349290] (battery_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/battery_interface/_battery_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.358035] (battery_interface) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/battery_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/battery_interface/_battery_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.421638] (-) TimerEvent: {}
+[14.522191] (-) TimerEvent: {}
+[14.598043] (battery_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/battery_interface/battery_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.610644] (battery_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_interface/battery_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.622442] (-) TimerEvent: {}
+[14.633385] (battery_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/battery_interface/battery_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.723518] (-) TimerEvent: {}
+[14.732385] (battery_interface) StdoutLine: {'line': b'[100%] Built target battery_interface__rosidl_typesupport_c__pyext\n'}
+[14.744256] (battery_interface) StdoutLine: {'line': b'[100%] Built target battery_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[14.807584] (battery_interface) StdoutLine: {'line': b'[100%] Built target battery_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.823694] (-) TimerEvent: {}
+[14.839983] (battery_interface) CommandEnded: {'returncode': 0}
+[14.923894] (-) TimerEvent: {}
+[15.003092] (battery_interface) JobProgress: {'identifier': 'battery_interface', 'progress': 'install'}
+[15.024162] (-) TimerEvent: {}
+[15.033006] (battery_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2800'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1873,unix/loye:/tmp/.ICE-unix/1873'), ('INVOCATION_ID', 'bf4a8f43465c499f91090bac44b019ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b10a0645-a0d4-4cd2-b585-a089529131e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/battery_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.061404] (battery_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.061795] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/ament_index/resource_index/rosidl_interfaces/battery_interface\n'}
+[15.062011] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.062207] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.062454] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.062653] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__type_support.h\n'}
+[15.062914] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__functions.h\n'}
+[15.063284] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__functions.c\n'}
+[15.064195] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__struct.h\n'}
+[15.064997] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/set_led.h\n'}
+[15.065825] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.066284] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.067143] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/battery_state.h\n'}
+[15.068008] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.068520] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__type_support.h\n'}
+[15.069369] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__functions.c\n'}
+[15.070155] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__struct.h\n'}
+[15.071011] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__functions.h\n'}
+[15.072003] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/library_path.sh\n'}
+[15.072370] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/library_path.dsv\n'}
+[15.072928] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_generator_c.so\n'}
+[15.074228] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_generator_c.so" to ""\n'}
+[15.074647] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.074914] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.075203] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.075501] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[15.076280] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.076569] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.076847] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h\n'}
+[15.077672] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.078731] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[15.080693] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.081126] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.081398] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.081801] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.082177] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/dds_fastrtps\n'}
+[15.082650] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.083562] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.083898] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.084640] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.084937] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/dds_fastrtps\n'}
+[15.085420] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.086566] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.089093] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.089601] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.089957] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.090281] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.090555] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__type_support.c\n'}
+[15.091455] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[15.092202] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.092482] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.093233] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.093571] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__type_support.c\n'}
+[15.094464] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__rosidl_typesupport_introspection_c.h\n'}
+[15.095615] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_introspection_c.so\n'}
+[15.097378] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.097813] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_c.so\n'}
+[15.099103] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_c.so" to ""\n'}
+[15.100854] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.102999] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.103898] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/set_led.hpp\n'}
+[15.105143] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.105944] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__traits.hpp\n'}
+[15.106352] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__struct.hpp\n'}
+[15.107184] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__builder.hpp\n'}
+[15.107581] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.107952] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/battery_state.hpp\n'}
+[15.108538] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.109303] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__traits.hpp\n'}
+[15.109737] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__struct.hpp\n'}
+[15.110114] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__builder.hpp\n'}
+[15.110614] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface\n'}
+[15.111033] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv\n'}
+[15.111507] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail\n'}
+[15.111879] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.112448] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__type_support.cpp\n'}
+[15.112822] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg\n'}
+[15.113210] (battery_interface) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail\n'}
+[15.113625] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__type_support.cpp\n'}
+[15.114007] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.114403] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[15.114794] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.115189] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_cpp.so\n'}
+[15.115561] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[15.115940] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/pythonpath.sh\n'}
+[15.116361] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/pythonpath.dsv\n'}
+[15.116834] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/__init__.py\n'}
+[15.124275] (-) TimerEvent: {}
+[15.193734] (battery_interface) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/__init__.py'...\n"}
+[15.204911] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/msg\n'}
+[15.205305] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/msg/_battery_state.py\n'}
+[15.205570] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/msg/_battery_state_s.c\n'}
+[15.205912] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/msg/__init__.py\n'}
+[15.206134] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/srv\n'}
+[15.206425] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/srv/_set_led_s.c\n'}
+[15.206638] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/srv/__init__.py\n'}
+[15.206919] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/srv/_set_led.py\n'}
+[15.207447] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.208878] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.209547] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.210900] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.211438] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.212668] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages/battery_interface/battery_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[15.213345] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__python.so\n'}
+[15.214352] (battery_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/libbattery_interface__python.so" to ""\n'}
+[15.214970] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/msg/BatteryState.idl\n'}
+[15.215274] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/srv/SetLed.idl\n'}
+[15.215607] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/msg/BatteryState.msg\n'}
+[15.216005] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/srv/SetLed.srv\n'}
+[15.216381] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/srv/SetLed_Request.msg\n'}
+[15.216829] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/srv/SetLed_Response.msg\n'}
+[15.217324] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/ament_index/resource_index/package_run_dependencies/battery_interface\n'}
+[15.217955] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/ament_index/resource_index/parent_prefix_path/battery_interface\n'}
+[15.218355] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/ament_prefix_path.sh\n'}
+[15.218780] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/ament_prefix_path.dsv\n'}
+[15.219145] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/path.sh\n'}
+[15.219504] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/environment/path.dsv\n'}
+[15.219914] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/local_setup.bash\n'}
+[15.220276] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/local_setup.sh\n'}
+[15.220670] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/local_setup.zsh\n'}
+[15.221043] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/local_setup.dsv\n'}
+[15.221408] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/package.dsv\n'}
+[15.221985] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/ament_index/resource_index/packages/battery_interface\n'}
+[15.222572] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_generator_cExport.cmake\n'}
+[15.222970] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.223540] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.223952] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.224433] (-) TimerEvent: {}
+[15.224685] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_cExport.cmake\n'}
+[15.224974] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.225424] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_generator_cppExport.cmake\n'}
+[15.226415] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.226805] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.227313] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_cppExport.cmake\n'}
+[15.227735] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.228132] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[15.228581] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.229001] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.229484] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.229943] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.230350] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.230789] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.231215] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interfaceConfig.cmake\n'}
+[15.231534] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake/battery_interfaceConfig-version.cmake\n'}
+[15.231915] (battery_interface) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/package.xml\n'}
+[15.238247] (battery_interface) CommandEnded: {'returncode': 0}
+[15.324654] (-) TimerEvent: {}
+[15.425186] (-) TimerEvent: {}
+[15.529337] (-) TimerEvent: {}
+[15.551779] (battery_interface) JobEnded: {'identifier': 'battery_interface', 'rc': 0}
+[15.552982] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[0.040s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator
+[0.081s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.150s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.610s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.735s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.380s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.385s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.095s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.168s] CMake Error at CMakeLists.txt:17 (find_package):
+[2.168s]   By not providing "Findled_indicator.cmake" in CMAKE_MODULE_PATH this
+[2.168s]   project has asked CMake to find a package configuration file provided by
+[2.169s]   "led_indicator", but CMake did not find one.
+[2.169s] 
+[2.169s]   Could not find a package configuration file provided by "led_indicator"
+[2.169s]   with any of the following names:
+[2.170s] 
+[2.170s]     led_indicatorConfig.cmake
+[2.170s]     led_indicator-config.cmake
+[2.170s] 
+[2.171s]   Add the installation prefix of "led_indicator" to CMAKE_PREFIX_PATH or set
+[2.171s]   "led_indicator_DIR" to a directory containing one of the above files.  If
+[2.171s]   "led_indicator" provides a separate development package or SDK, be sure it
+[2.171s]   has been installed.
+[2.171s] 
+[2.172s] 
+[2.172s] -- Configuring incomplete, errors occurred!
+[2.172s] See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles/CMakeOutput.log".
+[2.172s] See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles/CMakeError.log".
+[2.195s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator
