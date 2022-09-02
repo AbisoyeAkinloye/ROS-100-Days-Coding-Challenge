@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/BatteryState.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " To check the percentage of the battery")
+    struct BatteryState {
+      int64 battery_state;
+    };
+  };
+};

@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (led_indicator) JobQueued: {'identifier': 'led_indicator', 'dependencies': OrderedDict()}
+[0.000229] (led_indicator) JobStarted: {'identifier': 'led_indicator'}
+[0.032094] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'cmake'}
+[0.032713] (led_indicator) Command: {'cmd': ['/usr/bin/cmake', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator', '-DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1806'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2800'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42113'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1873,unix/loye:/tmp/.ICE-unix/1873'), ('INVOCATION_ID', 'bf4a8f43465c499f91090bac44b019ba'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b10a0645-a0d4-4cd2-b585-a089529131e5'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098334] (-) TimerEvent: {}
+[0.198887] (-) TimerEvent: {}
+[0.299401] (-) TimerEvent: {}
+[0.337393] (led_indicator) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.3.0\n'}
+[0.399830] (-) TimerEvent: {}
+[0.500549] (-) TimerEvent: {}
+[0.601124] (led_indicator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.3.0\n'}
+[0.601493] (-) TimerEvent: {}
+[0.619329] (led_indicator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.707054] (-) TimerEvent: {}
+[0.808102] (-) TimerEvent: {}
+[0.809393] (led_indicator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.814879] (led_indicator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.908291] (-) TimerEvent: {}
+[1.008813] (-) TimerEvent: {}
+[1.009974] (led_indicator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.067769] (led_indicator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.069670] (led_indicator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.078861] (led_indicator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.108997] (-) TimerEvent: {}
+[1.209529] (-) TimerEvent: {}
+[1.307116] (led_indicator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.309716] (-) TimerEvent: {}
+[1.310168] (led_indicator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.411054] (-) TimerEvent: {}
+[1.511621] (-) TimerEvent: {}
+[1.555199] (led_indicator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.611832] (-) TimerEvent: {}
+[1.612464] (led_indicator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.614451] (led_indicator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.628374] (led_indicator) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.693907] (led_indicator) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.694828] (led_indicator) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.712089] (-) TimerEvent: {}
+[1.812569] (-) TimerEvent: {}
+[1.913044] (-) TimerEvent: {}
+[2.013505] (-) TimerEvent: {}
+[2.113941] (-) TimerEvent: {}
+[2.214366] (-) TimerEvent: {}
+[2.229448] (led_indicator) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.314519] (-) TimerEvent: {}
+[2.404375] (led_indicator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.415155] (-) TimerEvent: {}
+[2.433295] (led_indicator) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.515863] (-) TimerEvent: {}
+[2.616483] (-) TimerEvent: {}
+[2.698225] (led_indicator) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.716765] (-) TimerEvent: {}
+[2.808426] (led_indicator) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.817320] (-) TimerEvent: {}
+[2.918205] (-) TimerEvent: {}
+[3.018844] (-) TimerEvent: {}
+[3.098530] (led_indicator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.119061] (-) TimerEvent: {}
+[3.219719] (-) TimerEvent: {}
+[3.320451] (-) TimerEvent: {}
+[3.340001] (led_indicator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.347296] (led_indicator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.352057] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.421328] (-) TimerEvent: {}
+[3.521894] (-) TimerEvent: {}
+[3.556712] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.557279] (led_indicator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.622119] (-) TimerEvent: {}
+[3.722690] (-) TimerEvent: {}
+[3.776520] (led_indicator) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.776983] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.822926] (-) TimerEvent: {}
+[3.923781] (-) TimerEvent: {}
+[3.939635] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.940055] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.024621] (-) TimerEvent: {}
+[4.125184] (-) TimerEvent: {}
+[4.148256] (led_indicator) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.150841] (led_indicator) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.225331] (-) TimerEvent: {}
+[4.325765] (-) TimerEvent: {}
+[4.426271] (-) TimerEvent: {}
+[4.526713] (-) TimerEvent: {}
+[4.627205] (-) TimerEvent: {}
+[4.727755] (-) TimerEvent: {}
+[4.828250] (-) TimerEvent: {}
+[4.928716] (-) TimerEvent: {}
+[4.978925] (led_indicator) StderrLine: {'line': b'CMake Error at CMakeLists.txt:16 (find_package):\n'}
+[4.979381] (led_indicator) StderrLine: {'line': b'  By not providing "Findcustom_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.979561] (led_indicator) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.979732] (led_indicator) StderrLine: {'line': b'  "custom_interfaces", but CMake did not find one.\n'}
+[4.979901] (led_indicator) StderrLine: {'line': b'\n'}
+[4.980100] (led_indicator) StderrLine: {'line': b'  Could not find a package configuration file provided by "custom_interfaces"\n'}
+[4.980279] (led_indicator) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.980447] (led_indicator) StderrLine: {'line': b'\n'}
+[4.980614] (led_indicator) StderrLine: {'line': b'    custom_interfacesConfig.cmake\n'}
+[4.980781] (led_indicator) StderrLine: {'line': b'    custom_interfaces-config.cmake\n'}
+[4.980949] (led_indicator) StderrLine: {'line': b'\n'}
+[4.981186] (led_indicator) StderrLine: {'line': b'  Add the installation prefix of "custom_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[4.981369] (led_indicator) StderrLine: {'line': b'  set "custom_interfaces_DIR" to a directory containing one of the above\n'}
+[4.981550] (led_indicator) StderrLine: {'line': b'  files.  If "custom_interfaces" provides a separate development package or\n'}
+[4.981728] (led_indicator) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[4.981908] (led_indicator) StderrLine: {'line': b'\n'}
+[4.982121] (led_indicator) StderrLine: {'line': b'\n'}
+[4.984595] (led_indicator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.984844] (led_indicator) StdoutLine: {'line': b'See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles/CMakeOutput.log".\n'}
+[4.985055] (led_indicator) StdoutLine: {'line': b'See also "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles/CMakeError.log".\n'}
+[5.002440] (led_indicator) CommandEnded: {'returncode': 1}
+[5.028970] (-) TimerEvent: {}
+[5.085536] (led_indicator) JobEnded: {'identifier': 'led_indicator', 'rc': 1}
+[5.087271] (-) EventReactorShutdown: {}

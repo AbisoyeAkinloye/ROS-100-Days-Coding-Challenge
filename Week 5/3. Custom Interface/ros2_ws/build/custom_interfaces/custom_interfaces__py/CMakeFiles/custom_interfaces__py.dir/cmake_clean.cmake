@@ -3,11 +3,15 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/custom_interfaces/msg/__init__.py"
+  "../rosidl_generator_py/custom_interfaces/msg/_battery_state.py"
+  "../rosidl_generator_py/custom_interfaces/msg/_battery_state_s.c"
   "../rosidl_generator_py/custom_interfaces/msg/_hardware_status.py"
   "../rosidl_generator_py/custom_interfaces/msg/_hardware_status_s.c"
   "../rosidl_generator_py/custom_interfaces/srv/__init__.py"
   "../rosidl_generator_py/custom_interfaces/srv/_compute_rectangle_area.py"
   "../rosidl_generator_py/custom_interfaces/srv/_compute_rectangle_area_s.c"
+  "../rosidl_generator_py/custom_interfaces/srv/_set_led.py"
+  "../rosidl_generator_py/custom_interfaces/srv/_set_led_s.c"
   "CMakeFiles/custom_interfaces__py"
 )
 

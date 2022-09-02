@@ -2,6 +2,8 @@
   "package_name": "custom_interfaces",
   "non_idl_tuples": [
     "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces:msg/HardwareStatus.msg",
-    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces:srv/ComputeRectangleArea.srv"
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces:msg/BatteryState.msg",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces:srv/ComputeRectangleArea.srv",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/custom_interfaces:srv/SetLed.srv"
   ]
 }

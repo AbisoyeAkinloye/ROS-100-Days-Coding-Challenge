@@ -4,7 +4,9 @@
   "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
     "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/HardwareStatus.idl",
-    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/BatteryState.idl",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/SetLed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -16,6 +18,8 @@
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
     "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/HardwareStatus.idl",
-    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/ComputeRectangleArea.idl"
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/BatteryState.idl",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/SetLed.idl"
   ]
 }

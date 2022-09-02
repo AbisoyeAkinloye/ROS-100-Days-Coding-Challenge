@@ -57,10 +57,18 @@ CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/ha
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/battery_state.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__builder.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__struct.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__traits.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/compute_rectangle_area.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/set_led.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__builder.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__struct.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__traits.hpp
 
 
 rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -79,7 +87,9 @@ rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/sh
 rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/custom_interfaces/msg/HardwareStatus.idl
+rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/custom_interfaces/msg/BatteryState.idl
 rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/custom_interfaces/srv/ComputeRectangleArea.idl
+rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp: rosidl_adapter/custom_interfaces/srv/SetLed.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_generator_cpp__arguments.json"
 
@@ -91,6 +101,18 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__struct.hpp: r
 
 rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__traits.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/battery_state.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/battery_state.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__builder.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__builder.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__struct.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__struct.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__traits.hpp
 
 rosidl_generator_cpp/custom_interfaces/srv/compute_rectangle_area.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/compute_rectangle_area.hpp
@@ -104,15 +126,35 @@ rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__struct
 rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/srv/set_led.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/set_led.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__builder.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__builder.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__struct.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__struct.hpp
+
+rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__traits.hpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__traits.hpp
+
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/hardware_status.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/hardware_status__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/battery_state.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__builder.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__struct.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/battery_state__traits.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/compute_rectangle_area.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/set_led.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__builder.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__struct.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/set_led__traits.hpp
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp.dir/build.make
 
 .PHONY : custom_interfaces__cpp

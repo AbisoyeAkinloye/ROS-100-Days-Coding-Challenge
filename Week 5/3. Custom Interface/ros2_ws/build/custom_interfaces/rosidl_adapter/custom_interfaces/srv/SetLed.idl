@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/SetLed.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " battery state can either be 0, 50, or 100%" "\n"
+      " led state [1,0,0],[0,1,0],[0,0,1] or [0,0,0]")
+    struct SetLed_Request {
+      int64 battery_state;
+    };
+    struct SetLed_Response {
+      sequence<int64> led_state;
+
+      boolean success;
+    };
+  };
+};

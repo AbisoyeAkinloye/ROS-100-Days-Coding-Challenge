@@ -97,6 +97,9 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/custom_interfaces/msg/detail/battery_state__functions.h
+ rosidl_generator_c/custom_interfaces/msg/detail/battery_state__struct.h
+ rosidl_generator_c/custom_interfaces/msg/detail/battery_state__type_support.h
  rosidl_generator_c/custom_interfaces/msg/detail/hardware_status__functions.h
  rosidl_generator_c/custom_interfaces/msg/detail/hardware_status__struct.h
  rosidl_generator_c/custom_interfaces/msg/detail/hardware_status__type_support.h
@@ -104,3 +107,6 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  rosidl_generator_c/custom_interfaces/srv/detail/compute_rectangle_area__functions.h
  rosidl_generator_c/custom_interfaces/srv/detail/compute_rectangle_area__struct.h
  rosidl_generator_c/custom_interfaces/srv/detail/compute_rectangle_area__type_support.h
+ rosidl_generator_c/custom_interfaces/srv/detail/set_led__functions.h
+ rosidl_generator_c/custom_interfaces/srv/detail/set_led__struct.h
+ rosidl_generator_c/custom_interfaces/srv/detail/set_led__type_support.h

@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/battery_state__type_support.cpp
+cstddef
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_runtime_c/message_type_support_struct.h
+custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+custom_interfaces/msg/detail/battery_state__struct.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/custom_interfaces/msg/detail/battery_state__struct.h
+rosidl_typesupport_c/identifier.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_interface/macros.h
+
 /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/hardware_status__type_support.cpp
 cstddef
 /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/msg/cstddef
@@ -35,6 +55,30 @@ custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
 /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
 custom_interfaces/srv/detail/compute_rectangle_area__struct.h
 /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/custom_interfaces/srv/detail/compute_rectangle_area__struct.h
+rosidl_typesupport_c/identifier.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_interface/macros.h
+rosidl_runtime_c/service_type_support_struct.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_runtime_c/service_type_support_struct.h
+rosidl_typesupport_c/service_type_support_dispatch.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/service_type_support_dispatch.h
+
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/set_led__type_support.cpp
+cstddef
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_runtime_c/message_type_support_struct.h
+custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
+custom_interfaces/srv/detail/set_led__struct.h
+/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/custom_interfaces/srv/detail/set_led__struct.h
 rosidl_typesupport_c/identifier.h
 /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/custom_interfaces/rosidl_typesupport_c/custom_interfaces/srv/rosidl_typesupport_c/identifier.h
 rosidl_typesupport_c/message_type_support_dispatch.h
@@ -102,6 +146,14 @@ cstddef
 
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
+rosidl_generator_c/custom_interfaces/msg/detail/battery_state__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
 rosidl_generator_c/custom_interfaces/msg/detail/hardware_status__struct.h
 stdbool.h
 -
@@ -119,6 +171,16 @@ stddef.h
 -
 stdint.h
 -
+
+rosidl_generator_c/custom_interfaces/srv/detail/set_led__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+rosidl_runtime_c/primitives_sequence.h
+rosidl_generator_c/custom_interfaces/srv/detail/rosidl_runtime_c/primitives_sequence.h
 
 rosidl_typesupport_c/custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h
 

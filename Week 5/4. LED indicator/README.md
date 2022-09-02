@@ -13,7 +13,7 @@ In this workspace, there is an implementation of battery + led panel example use
 
 - The battery being the publisher node
 - The LED being the subcriber node
-- Assuming there is a multimeter `/battery_state` which serves as a `topic`.
+- Assuming there is a multimeter  `/battery_state` taking readings of the battery which serves as a `topic`.
 
 ## Service Server and Client
 

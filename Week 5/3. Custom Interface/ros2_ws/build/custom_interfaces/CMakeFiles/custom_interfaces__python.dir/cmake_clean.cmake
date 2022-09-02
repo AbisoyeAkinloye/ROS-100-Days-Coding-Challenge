@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_battery_state_s.c.o"
   "CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_hardware_status_s.c.o"
   "CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_compute_rectangle_area_s.c.o"
+  "CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/srv/_set_led_s.c.o"
   "rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.pdb"
   "rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so"
 )

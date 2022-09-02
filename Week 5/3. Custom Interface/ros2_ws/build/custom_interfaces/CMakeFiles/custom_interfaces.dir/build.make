@@ -54,9 +54,13 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 include CMakeFiles/custom_interfaces.dir/progress.make
 
 CMakeFiles/custom_interfaces: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/3.\ Custom\ Interface/ros2_ws/src/custom_interfaces/msg/HardwareStatus.msg
+CMakeFiles/custom_interfaces: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/3.\ Custom\ Interface/ros2_ws/src/custom_interfaces/msg/BatteryState.msg
 CMakeFiles/custom_interfaces: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/3.\ Custom\ Interface/ros2_ws/src/custom_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
+CMakeFiles/custom_interfaces: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/3.\ Custom\ Interface/ros2_ws/src/custom_interfaces/srv/SetLed.srv
+CMakeFiles/custom_interfaces: rosidl_cmake/srv/SetLed_Request.msg
+CMakeFiles/custom_interfaces: rosidl_cmake/srv/SetLed_Response.msg
 
 
 custom_interfaces: CMakeFiles/custom_interfaces
