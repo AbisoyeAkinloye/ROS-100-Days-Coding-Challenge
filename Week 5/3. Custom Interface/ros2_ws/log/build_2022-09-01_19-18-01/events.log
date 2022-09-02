@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.001991] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.002167] (-) JobUnselected: {'identifier': 'pkg_py'}
+[0.006068] (pkg_cpp_py) JobQueued: {'identifier': 'pkg_cpp_py', 'dependencies': OrderedDict([('custom_interfaces', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces')])}
+[0.006184] (pkg_cpp_py) JobStarted: {'identifier': 'pkg_cpp_py'}
+[0.062479] (pkg_cpp_py) JobProgress: {'identifier': 'pkg_cpp_py', 'progress': 'cmake'}
+[0.063454] (pkg_cpp_py) Command: {'cmd': ['/usr/bin/cmake', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/src/pkg_cpp_py', '-DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_cpp_py'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_cpp_py', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1786'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1548'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3879'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41308'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1850,unix/loye:/tmp/.ICE-unix/1850'), ('INVOCATION_ID', '3f137147ea094339bcbf81826d7d229c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5377f4b6-cf72-468b-92c5-3f16a8d1c86e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_cpp_py'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/build/pkg_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py/lib/python3.8/site-packages:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act/lib/python3.8/site-packages:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/build/pkg_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py/lib/python3.8/site-packages:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/service_act:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_cpp_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/pkg_py:/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/1. Service/ros2_ws/install/pkg_py:/opt/ros/foxy')]), 'shell': False}
+[0.099296] (-) TimerEvent: {}
+[0.199909] (-) TimerEvent: {}
+[0.300526] (-) TimerEvent: {}
+[0.401059] (-) TimerEvent: {}
+[0.417215] (pkg_cpp_py) StdoutLine: {'line': b'-- The C compiler identification is GNU 10.3.0\n'}
+[0.501218] (-) TimerEvent: {}
+[0.601684] (-) TimerEvent: {}
+[0.702191] (-) TimerEvent: {}
+[0.726680] (pkg_cpp_py) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 10.3.0\n'}
+[0.752659] (pkg_cpp_py) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.802424] (-) TimerEvent: {}
+[0.903030] (-) TimerEvent: {}
+[0.994705] (pkg_cpp_py) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.999953] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.003193] (-) TimerEvent: {}
+[1.103677] (-) TimerEvent: {}
+[1.204773] (-) TimerEvent: {}
+[1.237230] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.297227] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.300187] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.304704] (-) TimerEvent: {}
+[1.309213] (pkg_cpp_py) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.409832] (-) TimerEvent: {}
+[1.510445] (-) TimerEvent: {}
+[1.571209] (pkg_cpp_py) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.575718] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.611170] (-) TimerEvent: {}
+[1.711776] (-) TimerEvent: {}
+[1.812277] (-) TimerEvent: {}
+[1.830429] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.892425] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.894470] (pkg_cpp_py) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.910744] (pkg_cpp_py) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.912401] (-) TimerEvent: {}
+[2.005208] (pkg_cpp_py) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.005868] (pkg_cpp_py) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.012598] (-) TimerEvent: {}
+[2.113204] (-) TimerEvent: {}
+[2.213679] (-) TimerEvent: {}
+[2.314341] (-) TimerEvent: {}
+[2.414866] (-) TimerEvent: {}
+[2.515362] (-) TimerEvent: {}
+[2.599136] (pkg_cpp_py) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.615499] (-) TimerEvent: {}
+[2.716417] (-) TimerEvent: {}
+[2.796800] (pkg_cpp_py) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.816632] (-) TimerEvent: {}
+[2.829899] (pkg_cpp_py) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.916822] (-) TimerEvent: {}
+[3.017650] (-) TimerEvent: {}
+[3.108480] (pkg_cpp_py) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.117800] (-) TimerEvent: {}
+[3.218254] (-) TimerEvent: {}
+[3.221690] (pkg_cpp_py) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.318437] (-) TimerEvent: {}
+[3.419035] (-) TimerEvent: {}
+[3.519960] (-) TimerEvent: {}
+[3.548130] (pkg_cpp_py) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.620280] (-) TimerEvent: {}
+[3.720789] (-) TimerEvent: {}
+[3.810334] (pkg_cpp_py) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.817780] (pkg_cpp_py) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.820980] (-) TimerEvent: {}
+[3.821478] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.921145] (-) TimerEvent: {}
+[4.021834] (-) TimerEvent: {}
+[4.034153] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.035528] (pkg_cpp_py) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.122458] (-) TimerEvent: {}
+[4.223029] (-) TimerEvent: {}
+[4.269853] (pkg_cpp_py) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.270226] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.323218] (-) TimerEvent: {}
+[4.423728] (-) TimerEvent: {}
+[4.454057] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.454462] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.523864] (-) TimerEvent: {}
+[4.624271] (-) TimerEvent: {}
+[4.648706] (pkg_cpp_py) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.652836] (pkg_cpp_py) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.724526] (-) TimerEvent: {}
+[4.824990] (-) TimerEvent: {}
+[4.925580] (-) TimerEvent: {}
+[5.026209] (-) TimerEvent: {}
+[5.126847] (-) TimerEvent: {}
+[5.227378] (-) TimerEvent: {}
+[5.328106] (-) TimerEvent: {}
+[5.428574] (-) TimerEvent: {}
+[5.489882] (pkg_cpp_py) StdoutLine: {'line': b'-- Found custom_interfaces: 0.0.0 (/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/3. Custom Interface/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[5.528748] (-) TimerEvent: {}
+[5.629145] (-) TimerEvent: {}
+[5.720186] (pkg_cpp_py) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.723498] (pkg_cpp_py) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[5.723988] (pkg_cpp_py) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.724310] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.724639] (pkg_cpp_py) StderrLine: {'line': b'    src/hardware_status_client.cpp\n'}
+[5.724932] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.725221] (pkg_cpp_py) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[5.725554] (pkg_cpp_py) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[5.725910] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.726204] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.729290] (-) TimerEvent: {}
+[5.730619] (pkg_cpp_py) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (add_executable):\n'}
+[5.730937] (pkg_cpp_py) StderrLine: {'line': b'  No SOURCES given to target: hardware_status_client\n'}
+[5.731260] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.731488] (pkg_cpp_py) StderrLine: {'line': b'\n'}
+[5.731690] (pkg_cpp_py) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[5.755351] (pkg_cpp_py) CommandEnded: {'returncode': 1}
+[5.830474] (-) TimerEvent: {}
+[5.831663] (pkg_cpp_py) JobEnded: {'identifier': 'pkg_cpp_py', 'rc': 1}
+[5.833183] (-) EventReactorShutdown: {}
