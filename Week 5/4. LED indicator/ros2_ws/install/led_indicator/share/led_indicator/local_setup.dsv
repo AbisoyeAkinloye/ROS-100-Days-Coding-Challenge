@@ -1,0 +1,2 @@
+source;share/led_indicator/environment/ament_prefix_path.sh
+source;share/led_indicator/environment/path.sh

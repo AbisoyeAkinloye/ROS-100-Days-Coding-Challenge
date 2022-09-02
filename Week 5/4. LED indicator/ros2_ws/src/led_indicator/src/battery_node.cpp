@@ -16,7 +16,8 @@ public:
 private:
     void getBatteryStatus(){
         msg.battery_state = battery_perecent;
-        RCLCPP_INFO(this->get_logger(), "Battery has %d %",msg.battery_state);
+        // RCLCPP_INFO(this->get_logger(), "Battery has %d%%",msg.battery_state);
+        RCLCPP_INFO(this->get_logger(), "Seconds: %d",time.now().seconds());
         publisher_->publish(msg);
     }
 
