@@ -8,9 +8,12 @@ from example_interfaces.msg import Int64
 class NumberPublisher(Node):
     def __init__(self):
         super().__init__("number_publisher")
+        self.declare_parameter("num",0)
+        self.num = self.get_parameter("num").value
+
         self.publisher = self.create_publisher(Int64, "/number", 10)
         self.timer = self.create_timer(1.0, self.publish_number)
-        self.num = 0
+
         self.get_logger().info(f"Number has started counting from {self.num}")
 
     def publish_number(self):

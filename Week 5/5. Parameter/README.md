@@ -23,9 +23,39 @@ While changing this at the run time, you do not event have to recompile/build yo
 ```
 ros2 param list
 ```
-If no parameter is set, use will always have `use_sim_time` use simulation time parameter.
+If no parameter is set, there will always be `use_sim_time` (use simulation time) parameter.
 
 - To get parameter
   ```
   ros2 param get /node_name param_name
+  ```
+- To set parameter
+  ```
+  ros2 run <package_name> <executable_name> --ros-args -p <parameter_name>:=value
+  ```
+`--ros-args` to be declare once, `-p` option for parameter, use `:=` to assign value.
+- for instance
+  ```
+    ros2 run pkg_py number_pub --ros-args -p num:=3
+  ```
+  **N.B:** Use `-p` multiple times if you have multiple parameters.
+- ROS dynamically allocate the data type of the value given. To verify:
+  ```
+  ros2 param get /number_publisher num
+  ```
+
+### In Code
+- In the constructor
+  ```py
+  self.declare_parameter("name")
+  ```
+- `declare_parameter` is a method inherited from the `super` class `Node`.
+- To get param
+  ```py
+  self.get_parameter("name").value
+  ```
+- **Note:** Make sure you set the parameter before running the node, otherwise there will be an error.
+- You can assign a default parameter.
+  ```py
+  self.decare_parameter("name", "Abisoye")
   ```
