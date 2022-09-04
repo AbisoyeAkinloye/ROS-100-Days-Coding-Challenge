@@ -5,6 +5,10 @@ CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__builder.hpp
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__struct.hpp
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/msg/detail/battery_state__traits.hpp
+CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__builder.hpp
+CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__struct.hpp
+CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/detail/set_led__traits.hpp
+CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/install/battery_interface/include/battery_interface/srv/set_led.hpp
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week\ 5/4.\ LED\ indicator/ros2_ws/src/led_indicator/src/battery_node.cpp
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 CMakeFiles/battery_node.dir/src/battery_node.cpp.o: /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp

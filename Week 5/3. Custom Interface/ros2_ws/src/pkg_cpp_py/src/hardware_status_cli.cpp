@@ -1,6 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "custom_interfaces/msg/hardware_status.hpp"
 
+
 using std::placeholders::_1;
 
 class HardwareStatusClient : public rclcpp::Node

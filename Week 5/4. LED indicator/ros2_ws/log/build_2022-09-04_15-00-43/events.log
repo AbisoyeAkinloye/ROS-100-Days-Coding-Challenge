@@ -1,0 +1,242 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (-) JobUnselected: {'identifier': 'battery_interface'}
+[0.000354] (led_indicator) JobQueued: {'identifier': 'led_indicator', 'dependencies': OrderedDict([('battery_interface', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface')])}
+[0.000427] (led_indicator) JobStarted: {'identifier': 'led_indicator'}
+[0.052988] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'cmake'}
+[0.054224] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'build'}
+[0.055217] (led_indicator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1808'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5264'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41238'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1874,unix/loye:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '9ae295e7eaa84efa9029ce164ba378ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3d09ad46-f4d8-4df0-aaca-f9cfc4f50c1f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy')]), 'shell': False}
+[0.102444] (-) TimerEvent: {}
+[0.203304] (-) TimerEvent: {}
+[0.242542] (led_indicator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target battery_node\x1b[0m\n'}
+[0.244883] (led_indicator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target led_node\x1b[0m\n'}
+[0.303508] (-) TimerEvent: {}
+[0.392904] (led_indicator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/led_node.dir/src/led_node.cpp.o\x1b[0m\n'}
+[0.403995] (-) TimerEvent: {}
+[0.409590] (led_indicator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_node.dir/src/battery_node.cpp.o\x1b[0m\n'}
+[0.504255] (-) TimerEvent: {}
+[0.604911] (-) TimerEvent: {}
+[0.706864] (-) TimerEvent: {}
+[0.807400] (-) TimerEvent: {}
+[0.907969] (-) TimerEvent: {}
+[1.008467] (-) TimerEvent: {}
+[1.108868] (-) TimerEvent: {}
+[1.210037] (-) TimerEvent: {}
+[1.310619] (-) TimerEvent: {}
+[1.411205] (-) TimerEvent: {}
+[1.511727] (-) TimerEvent: {}
+[1.612304] (-) TimerEvent: {}
+[1.713095] (-) TimerEvent: {}
+[1.813571] (-) TimerEvent: {}
+[1.916529] (-) TimerEvent: {}
+[2.017005] (-) TimerEvent: {}
+[2.117547] (-) TimerEvent: {}
+[2.218022] (-) TimerEvent: {}
+[2.318469] (-) TimerEvent: {}
+[2.418892] (-) TimerEvent: {}
+[2.519359] (-) TimerEvent: {}
+[2.619866] (-) TimerEvent: {}
+[2.720263] (-) TimerEvent: {}
+[2.820695] (-) TimerEvent: {}
+[2.921218] (-) TimerEvent: {}
+[3.021912] (-) TimerEvent: {}
+[3.122497] (-) TimerEvent: {}
+[3.223000] (-) TimerEvent: {}
+[3.323497] (-) TimerEvent: {}
+[3.425638] (-) TimerEvent: {}
+[3.526077] (-) TimerEvent: {}
+[3.628039] (-) TimerEvent: {}
+[3.728554] (-) TimerEvent: {}
+[3.829060] (-) TimerEvent: {}
+[3.929826] (-) TimerEvent: {}
+[4.030436] (-) TimerEvent: {}
+[4.131071] (-) TimerEvent: {}
+[4.231874] (-) TimerEvent: {}
+[4.333467] (-) TimerEvent: {}
+[4.387047] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Battery::setLED(battery_interface::srv::SetLed::Request, battery_interface::srv::SetLed::Response)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.389190] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:57:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kconst _battery_state_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst long int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.397253] (led_indicator) StderrLine: {'line': b'   57 |         if (battery_percent == 100 && \x1b[01;35m\x1b[Krequest.battery_state == battery_percent\x1b[m\x1b[K){\n'}
+[4.397967] (led_indicator) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.398584] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:60:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst _led_state_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint [3]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.399145] (led_indicator) StderrLine: {'line': b'   60 |             response.led_state = \x1b[01;31m\x1b[Kfull\x1b[m\x1b[K;\n'}
+[4.399744] (led_indicator) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.400276] (led_indicator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/vector:72\x1b[m\x1b[K,\n'}
+[4.400785] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:27\x1b[m\x1b[K,\n'}
+[4.401379] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.401847] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.402333] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.402811] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.403330] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = long int; _Alloc = std::allocator<long int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.403889] (led_indicator) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[4.404445] (led_indicator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.404954] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<long int, std::allocator<long int> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.409950] (led_indicator) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[4.410695] (led_indicator) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.411320] (led_indicator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/10/vector:67\x1b[m\x1b[K,\n'}
+[4.411863] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:27\x1b[m\x1b[K,\n'}
+[4.412453] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.413226] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.413793] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.414368] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.414921] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/stl_vector.h:709:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = long int; _Alloc = std::allocator<long int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.415455] (led_indicator) StderrLine: {'line': b'  709 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[4.417188] (led_indicator) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.417440] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/stl_vector.h:709:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long int, std::allocator<long int> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.417643] (led_indicator) StderrLine: {'line': b'  709 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[4.417872] (led_indicator) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.418103] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/stl_vector.h:730:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = long int; _Alloc = std::allocator<long int>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.418292] (led_indicator) StderrLine: {'line': b'  730 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[4.418473] (led_indicator) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.418832] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/10/bits/stl_vector.h:730:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kint [3]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<long int>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.419131] (led_indicator) StderrLine: {'line': b'  730 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[4.419420] (led_indicator) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.433605] (-) TimerEvent: {}
+[4.534685] (-) TimerEvent: {}
+[4.635249] (-) TimerEvent: {}
+[4.735803] (-) TimerEvent: {}
+[4.836332] (-) TimerEvent: {}
+[4.928273] (led_indicator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:40\x1b[m\x1b[K,\n'}
+[4.931117] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[4.931507] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.931846] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.932199] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.932505] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.932724] (led_indicator) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/create_service.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_interface::srv::SetLed; CallbackT = std::_Bind<void (Battery::*(Battery*, std::_Placeholder<1>, std::_Placeholder<2>))(battery_interface::srv::SetLed_Request_<std::allocator<void> >, battery_interface::srv::SetLed_Response_<std::allocator<void> >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_interface::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.933056] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:146:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = battery_interface::srv::SetLed; CallbackT = std::_Bind<void (Battery::*(Battery*, std::_Placeholder<1>, std::_Placeholder<2>))(battery_interface::srv::SetLed_Request_<std::allocator<void> >, battery_interface::srv::SetLed_Response_<std::allocator<void> >)>; typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<battery_interface::srv::SetLed> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.933317] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:16:124:\x1b[m\x1b[K   required from here\n'}
+[4.933509] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/create_service.hpp:43:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnyServiceCallback<battery_interface::srv::SetLed>::set(std::_Bind<void (Battery::*(Battery*, std::_Placeholder<1>, std::_Placeholder<2>))(battery_interface::srv::SetLed_Request_<std::allocator<void> >, battery_interface::srv::SetLed_Response_<std::allocator<void> >)>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.933718] (led_indicator) StderrLine: {'line': b'   43 |   \x1b[01;31m\x1b[Kany_service_callback.set(std::forward<CallbackT>(callback))\x1b[m\x1b[K;\n'}
+[4.933965] (led_indicator) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.934153] (led_indicator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:28\x1b[m\x1b[K,\n'}
+[4.934343] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[4.934541] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.934731] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[4.934950] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.935152] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.935341] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[4.935530] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[4.935720] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.935942] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.936134] (led_indicator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/battery_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.936308] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<battery_interface::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<battery_interface::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interface::srv::SetLed]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.936517] (-) TimerEvent: {}
+[4.937888] (led_indicator) StderrLine: {'line': b'   67 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[4.938275] (led_indicator) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.938698] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:67:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.939053] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:65:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.939389] (led_indicator) StderrLine: {'line': b'   65 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[4.939672] (led_indicator) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.940009] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<battery_interface::srv::SetLed_Request_<std::allocator<void> > >, std::shared_ptr<battery_interface::srv::SetLed_Response_<std::allocator<void> > >)> >::value, void>::type* <anonymous> > void rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<typename ServiceT::Request>, std::shared_ptr<typename ServiceT::Response>)> >::value>::type* <anonymous> = <anonymous>; ServiceT = battery_interface::srv::SetLed]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.940332] (led_indicator) StderrLine: {'line': b'   81 |   void \x1b[01;36m\x1b[Kset\x1b[m\x1b[K(CallbackT callback)\n'}
+[4.940636] (led_indicator) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.941064] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:81:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.942964] (led_indicator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_service_callback.hpp:79:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.943259] (led_indicator) StderrLine: {'line': b'   79 |     >::type * = \x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K\n'}
+[4.943538] (led_indicator) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.036688] (-) TimerEvent: {}
+[5.137260] (-) TimerEvent: {}
+[5.245075] (-) TimerEvent: {}
+[5.346804] (-) TimerEvent: {}
+[5.447638] (-) TimerEvent: {}
+[5.548208] (-) TimerEvent: {}
+[5.648761] (-) TimerEvent: {}
+[5.749388] (-) TimerEvent: {}
+[5.849974] (-) TimerEvent: {}
+[5.950556] (-) TimerEvent: {}
+[6.051033] (-) TimerEvent: {}
+[6.151613] (-) TimerEvent: {}
+[6.252244] (-) TimerEvent: {}
+[6.352810] (-) TimerEvent: {}
+[6.453458] (-) TimerEvent: {}
+[6.554333] (-) TimerEvent: {}
+[6.654805] (-) TimerEvent: {}
+[6.755554] (-) TimerEvent: {}
+[6.855998] (-) TimerEvent: {}
+[6.956630] (-) TimerEvent: {}
+[7.057057] (-) TimerEvent: {}
+[7.157487] (-) TimerEvent: {}
+[7.198541] (led_indicator) StderrLine: {'line': b'make[2]: *** [CMakeFiles/battery_node.dir/build.make:63: CMakeFiles/battery_node.dir/src/battery_node.cpp.o] Error 1\n'}
+[7.199165] (led_indicator) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/battery_node.dir/all] Error 2\n'}
+[7.199480] (led_indicator) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[7.257695] (-) TimerEvent: {}
+[7.358178] (-) TimerEvent: {}
+[7.458881] (-) TimerEvent: {}
+[7.559378] (-) TimerEvent: {}
+[7.659940] (-) TimerEvent: {}
+[7.760480] (-) TimerEvent: {}
+[7.861099] (-) TimerEvent: {}
+[7.961529] (-) TimerEvent: {}
+[8.062146] (-) TimerEvent: {}
+[8.162619] (-) TimerEvent: {}
+[8.263146] (-) TimerEvent: {}
+[8.363554] (-) TimerEvent: {}
+[8.463915] (-) TimerEvent: {}
+[8.564327] (-) TimerEvent: {}
+[8.664780] (-) TimerEvent: {}
+[8.765355] (-) TimerEvent: {}
+[8.865842] (-) TimerEvent: {}
+[8.966398] (-) TimerEvent: {}
+[9.066800] (-) TimerEvent: {}
+[9.167360] (-) TimerEvent: {}
+[9.267896] (-) TimerEvent: {}
+[9.368413] (-) TimerEvent: {}
+[9.468882] (-) TimerEvent: {}
+[9.569471] (-) TimerEvent: {}
+[9.670000] (-) TimerEvent: {}
+[9.770607] (-) TimerEvent: {}
+[9.871100] (-) TimerEvent: {}
+[9.971585] (-) TimerEvent: {}
+[10.072452] (-) TimerEvent: {}
+[10.173059] (-) TimerEvent: {}
+[10.273601] (-) TimerEvent: {}
+[10.373994] (-) TimerEvent: {}
+[10.474450] (-) TimerEvent: {}
+[10.575287] (-) TimerEvent: {}
+[10.675900] (-) TimerEvent: {}
+[10.776343] (-) TimerEvent: {}
+[10.876963] (-) TimerEvent: {}
+[10.977637] (-) TimerEvent: {}
+[11.078111] (-) TimerEvent: {}
+[11.178576] (-) TimerEvent: {}
+[11.278997] (-) TimerEvent: {}
+[11.379555] (-) TimerEvent: {}
+[11.480029] (-) TimerEvent: {}
+[11.580570] (-) TimerEvent: {}
+[11.681345] (-) TimerEvent: {}
+[11.781917] (-) TimerEvent: {}
+[11.882400] (-) TimerEvent: {}
+[11.982848] (-) TimerEvent: {}
+[12.083326] (-) TimerEvent: {}
+[12.184036] (-) TimerEvent: {}
+[12.284631] (-) TimerEvent: {}
+[12.385278] (-) TimerEvent: {}
+[12.485717] (-) TimerEvent: {}
+[12.586284] (-) TimerEvent: {}
+[12.686656] (-) TimerEvent: {}
+[12.787145] (-) TimerEvent: {}
+[12.887733] (-) TimerEvent: {}
+[12.988346] (-) TimerEvent: {}
+[13.088965] (-) TimerEvent: {}
+[13.189576] (-) TimerEvent: {}
+[13.290172] (-) TimerEvent: {}
+[13.390867] (-) TimerEvent: {}
+[13.491569] (-) TimerEvent: {}
+[13.592269] (-) TimerEvent: {}
+[13.692832] (-) TimerEvent: {}
+[13.793748] (-) TimerEvent: {}
+[13.894668] (-) TimerEvent: {}
+[13.919473] (led_indicator) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable led_node\x1b[0m\n'}
+[13.995502] (-) TimerEvent: {}
+[14.096395] (-) TimerEvent: {}
+[14.197071] (-) TimerEvent: {}
+[14.297492] (-) TimerEvent: {}
+[14.398029] (-) TimerEvent: {}
+[14.498532] (-) TimerEvent: {}
+[14.598979] (-) TimerEvent: {}
+[14.699452] (-) TimerEvent: {}
+[14.769675] (led_indicator) StdoutLine: {'line': b'[ 75%] Built target led_node\n'}
+[14.776329] (led_indicator) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.777858] (led_indicator) CommandEnded: {'returncode': 2}
+[14.799681] (-) TimerEvent: {}
+[14.901023] (-) TimerEvent: {}
+[14.921450] (led_indicator) JobEnded: {'identifier': 'led_indicator', 'rc': 2}
+[14.934434] (-) EventReactorShutdown: {}

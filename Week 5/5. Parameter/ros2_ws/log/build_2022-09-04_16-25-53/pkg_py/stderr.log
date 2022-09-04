@@ -1,0 +1,5 @@
+  File "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/number_publisher.py", line 16
+    def publish_number(self){
+                            ^
+SyntaxError: invalid syntax
+
