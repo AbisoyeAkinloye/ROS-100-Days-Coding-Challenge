@@ -11,7 +11,11 @@ setup.py
 pkg_py/__init__.py
 pkg_py/number_counter.py
 pkg_py/number_publisher.py
+pkg_py.egg-info/PKG-INFO
+pkg_py.egg-info/SOURCES.txt
+pkg_py.egg-info/dependency_links.txt
+pkg_py.egg-info/entry_points.txt
+pkg_py.egg-info/requires.txt
+pkg_py.egg-info/top_level.txt
+pkg_py.egg-info/zip-safe
 resource/pkg_py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

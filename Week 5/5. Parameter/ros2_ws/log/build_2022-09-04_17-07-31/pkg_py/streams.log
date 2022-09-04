@@ -1,0 +1,25 @@
+[1.976s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/src/pkg_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/install.log --single-version-externally-managed
+[2.556s] running egg_info
+[2.558s] writing ../../build/pkg_py/pkg_py.egg-info/PKG-INFO
+[2.559s] writing dependency_links to ../../build/pkg_py/pkg_py.egg-info/dependency_links.txt
+[2.560s] writing entry points to ../../build/pkg_py/pkg_py.egg-info/entry_points.txt
+[2.561s] writing requirements to ../../build/pkg_py/pkg_py.egg-info/requires.txt
+[2.562s] writing top-level names to ../../build/pkg_py/pkg_py.egg-info/top_level.txt
+[2.673s] reading manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[2.676s] writing manifest file '../../build/pkg_py/pkg_py.egg-info/SOURCES.txt'
+[2.677s] running build
+[2.677s] running build_py
+[2.678s] copying pkg_py/number_counter.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/build/lib/pkg_py
+[2.679s] running install
+[2.682s] running install_lib
+[2.684s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/build/lib/pkg_py/number_counter.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py
+[2.686s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py/number_counter.py to number_counter.cpython-38.pyc
+[2.692s] running install_data
+[2.694s] running install_egg_info
+[2.699s] removing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info' (and everything under it)
+[2.700s] Copying ../../build/pkg_py/pkg_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages/pkg_py-0.0.0-py3.8.egg-info
+[2.703s] running install_scripts
+[2.753s] Installing number_counter script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/pkg_py
+[2.754s] Installing number_pub script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/pkg_py
+[2.755s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/install.log'
+[2.824s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/src/pkg_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/build/pkg_py/install.log --single-version-externally-managed
