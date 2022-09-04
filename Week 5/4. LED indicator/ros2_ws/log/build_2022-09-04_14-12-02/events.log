@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000578] (-) JobUnselected: {'identifier': 'battery_interface'}
+[0.000654] (led_indicator) JobQueued: {'identifier': 'led_indicator', 'dependencies': OrderedDict([('battery_interface', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface')])}
+[0.000723] (led_indicator) JobStarted: {'identifier': 'led_indicator'}
+[0.038225] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'cmake'}
+[0.043576] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'build'}
+[0.043971] (led_indicator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1808'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5264'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41238'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1874,unix/loye:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '9ae295e7eaa84efa9029ce164ba378ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3d09ad46-f4d8-4df0-aaca-f9cfc4f50c1f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy')]), 'shell': False}
+[0.099318] (-) TimerEvent: {}
+[0.200259] (-) TimerEvent: {}
+[0.220255] (led_indicator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target led_node\x1b[0m\n'}
+[0.275018] (led_indicator) StdoutLine: {'line': b'[ 50%] Built target battery_node\n'}
+[0.300431] (-) TimerEvent: {}
+[0.324424] (led_indicator) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/led_node.dir/src/led_node.cpp.o\x1b[0m\n'}
+[0.400616] (-) TimerEvent: {}
+[0.501066] (-) TimerEvent: {}
+[0.601629] (-) TimerEvent: {}
+[0.702111] (-) TimerEvent: {}
+[0.802588] (-) TimerEvent: {}
+[0.903075] (-) TimerEvent: {}
+[1.003572] (-) TimerEvent: {}
+[1.104462] (-) TimerEvent: {}
+[1.204898] (-) TimerEvent: {}
+[1.305418] (-) TimerEvent: {}
+[1.405906] (-) TimerEvent: {}
+[1.506475] (-) TimerEvent: {}
+[1.607007] (-) TimerEvent: {}
+[1.707468] (-) TimerEvent: {}
+[1.808379] (-) TimerEvent: {}
+[1.908871] (-) TimerEvent: {}
+[2.009491] (-) TimerEvent: {}
+[2.109997] (-) TimerEvent: {}
+[2.210449] (-) TimerEvent: {}
+[2.310949] (-) TimerEvent: {}
+[2.411494] (-) TimerEvent: {}
+[2.512254] (-) TimerEvent: {}
+[2.612789] (-) TimerEvent: {}
+[2.713268] (-) TimerEvent: {}
+[2.813728] (-) TimerEvent: {}
+[2.914207] (-) TimerEvent: {}
+[3.014686] (-) TimerEvent: {}
+[3.115180] (-) TimerEvent: {}
+[3.215666] (-) TimerEvent: {}
+[3.316710] (-) TimerEvent: {}
+[3.417213] (-) TimerEvent: {}
+[3.517674] (-) TimerEvent: {}
+[3.618130] (-) TimerEvent: {}
+[3.718597] (-) TimerEvent: {}
+[3.819064] (-) TimerEvent: {}
+[3.919531] (-) TimerEvent: {}
+[4.020612] (-) TimerEvent: {}
+[4.121098] (-) TimerEvent: {}
+[4.221586] (-) TimerEvent: {}
+[4.322075] (-) TimerEvent: {}
+[4.422569] (-) TimerEvent: {}
+[4.523046] (-) TimerEvent: {}
+[4.623517] (-) TimerEvent: {}
+[4.724617] (-) TimerEvent: {}
+[4.825116] (-) TimerEvent: {}
+[4.926611] (-) TimerEvent: {}
+[5.027104] (-) TimerEvent: {}
+[5.127533] (-) TimerEvent: {}
+[5.228229] (-) TimerEvent: {}
+[5.328782] (-) TimerEvent: {}
+[5.429238] (-) TimerEvent: {}
+[5.529671] (-) TimerEvent: {}
+[5.630135] (-) TimerEvent: {}
+[5.730617] (-) TimerEvent: {}
+[5.831579] (-) TimerEvent: {}
+[5.932145] (-) TimerEvent: {}
+[6.032661] (-) TimerEvent: {}
+[6.133153] (-) TimerEvent: {}
+[6.233605] (-) TimerEvent: {}
+[6.334048] (-) TimerEvent: {}
+[6.434524] (-) TimerEvent: {}
+[6.535014] (-) TimerEvent: {}
+[6.635423] (-) TimerEvent: {}
+[6.736566] (-) TimerEvent: {}
+[6.837032] (-) TimerEvent: {}
+[6.937507] (-) TimerEvent: {}
+[7.038070] (-) TimerEvent: {}
+[7.138521] (-) TimerEvent: {}
+[7.239003] (-) TimerEvent: {}
+[7.339457] (-) TimerEvent: {}
+[7.440464] (-) TimerEvent: {}
+[7.540959] (-) TimerEvent: {}
+[7.641407] (-) TimerEvent: {}
+[7.741836] (-) TimerEvent: {}
+[7.842298] (-) TimerEvent: {}
+[7.942727] (-) TimerEvent: {}
+[8.043123] (-) TimerEvent: {}
+[8.143547] (-) TimerEvent: {}
+[8.243994] (-) TimerEvent: {}
+[8.344475] (-) TimerEvent: {}
+[8.445047] (-) TimerEvent: {}
+[8.545618] (-) TimerEvent: {}
+[8.646151] (-) TimerEvent: {}
+[8.746708] (-) TimerEvent: {}
+[8.847283] (-) TimerEvent: {}
+[8.947958] (-) TimerEvent: {}
+[9.048616] (-) TimerEvent: {}
+[9.149121] (-) TimerEvent: {}
+[9.249674] (-) TimerEvent: {}
+[9.350061] (-) TimerEvent: {}
+[9.450846] (-) TimerEvent: {}
+[9.551849] (-) TimerEvent: {}
+[9.652688] (-) TimerEvent: {}
+[9.753248] (-) TimerEvent: {}
+[9.853713] (-) TimerEvent: {}
+[9.954346] (-) TimerEvent: {}
+[10.054927] (-) TimerEvent: {}
+[10.156204] (-) TimerEvent: {}
+[10.257014] (-) TimerEvent: {}
+[10.357566] (-) TimerEvent: {}
+[10.458014] (-) TimerEvent: {}
+[10.558516] (-) TimerEvent: {}
+[10.659073] (-) TimerEvent: {}
+[10.759601] (-) TimerEvent: {}
+[10.860321] (-) TimerEvent: {}
+[10.960876] (-) TimerEvent: {}
+[11.061430] (-) TimerEvent: {}
+[11.161971] (-) TimerEvent: {}
+[11.262494] (-) TimerEvent: {}
+[11.363003] (-) TimerEvent: {}
+[11.463565] (-) TimerEvent: {}
+[11.534630] (led_indicator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable led_node\x1b[0m\n'}
+[11.564063] (-) TimerEvent: {}
+[11.664808] (-) TimerEvent: {}
+[11.765324] (-) TimerEvent: {}
+[11.865881] (-) TimerEvent: {}
+[11.966461] (-) TimerEvent: {}
+[12.067070] (-) TimerEvent: {}
+[12.167549] (-) TimerEvent: {}
+[12.268124] (-) TimerEvent: {}
+[12.368657] (-) TimerEvent: {}
+[12.369052] (led_indicator) StdoutLine: {'line': b'[100%] Built target led_node\n'}
+[12.397741] (led_indicator) CommandEnded: {'returncode': 0}
+[12.462858] (led_indicator) JobProgress: {'identifier': 'led_indicator', 'progress': 'install'}
+[12.468873] (-) TimerEvent: {}
+[12.492201] (led_indicator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1808'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1580'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5264'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:41238'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1874,unix/loye:/tmp/.ICE-unix/1874'), ('INVOCATION_ID', '9ae295e7eaa84efa9029ce164ba378ca'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3d09ad46-f4d8-4df0-aaca-f9cfc4f50c1f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface:/opt/ros/foxy')]), 'shell': False}
+[12.515393] (led_indicator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.519202] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/battery_node\n'}
+[12.520371] (led_indicator) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/led_node\n'}
+[12.546285] (led_indicator) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/led_node" to ""\n'}
+[12.546900] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/package_run_dependencies/led_indicator\n'}
+[12.547480] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/parent_prefix_path/led_indicator\n'}
+[12.548049] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/ament_prefix_path.sh\n'}
+[12.548664] (led_indicator) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/ament_prefix_path.dsv\n'}
+[12.549815] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/path.sh\n'}
+[12.550424] (led_indicator) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/path.dsv\n'}
+[12.551541] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.bash\n'}
+[12.552158] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.sh\n'}
+[12.552801] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.zsh\n'}
+[12.553289] (led_indicator) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.dsv\n'}
+[12.554397] (led_indicator) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/package.dsv\n'}
+[12.555577] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/packages/led_indicator\n'}
+[12.556163] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/cmake/led_indicatorConfig.cmake\n'}
+[12.556459] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/cmake/led_indicatorConfig-version.cmake\n'}
+[12.556973] (led_indicator) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/package.xml\n'}
+[12.562326] (led_indicator) CommandEnded: {'returncode': 0}
+[12.569463] (-) TimerEvent: {}
+[12.671367] (-) TimerEvent: {}
+[12.692903] (led_indicator) JobEnded: {'identifier': 'led_indicator', 'rc': 0}
+[12.694712] (-) EventReactorShutdown: {}

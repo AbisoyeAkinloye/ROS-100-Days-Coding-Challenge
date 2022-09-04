@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -123,6 +111,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -166,6 +166,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named led_node
+
+# Build rule for target.
+led_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 led_node
+.PHONY : led_node
+
+# fast build rule for target.
+led_node/fast:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/build
+.PHONY : led_node/fast
 
 #=============================================================================
 # Target rules for targets named battery_node
@@ -233,18 +246,46 @@ src/battery_node.cpp.s:
 	$(MAKE) -f CMakeFiles/battery_node.dir/build.make CMakeFiles/battery_node.dir/src/battery_node.cpp.s
 .PHONY : src/battery_node.cpp.s
 
+src/led_node.o: src/led_node.cpp.o
+
+.PHONY : src/led_node.o
+
+# target to build an object file
+src/led_node.cpp.o:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/src/led_node.cpp.o
+.PHONY : src/led_node.cpp.o
+
+src/led_node.i: src/led_node.cpp.i
+
+.PHONY : src/led_node.i
+
+# target to preprocess a source file
+src/led_node.cpp.i:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/src/led_node.cpp.i
+.PHONY : src/led_node.cpp.i
+
+src/led_node.s: src/led_node.cpp.s
+
+.PHONY : src/led_node.s
+
+# target to generate assembly for a file
+src/led_node.cpp.s:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/src/led_node.cpp.s
+.PHONY : src/led_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... install/strip"
+	@echo "... led_node"
 	@echo "... install/local"
 	@echo "... battery_node"
 	@echo "... led_indicator_uninstall"
@@ -252,6 +293,9 @@ help:
 	@echo "... src/battery_node.o"
 	@echo "... src/battery_node.i"
 	@echo "... src/battery_node.s"
+	@echo "... src/led_node.o"
+	@echo "... src/led_node.i"
+	@echo "... src/led_node.s"
 .PHONY : help
 
 

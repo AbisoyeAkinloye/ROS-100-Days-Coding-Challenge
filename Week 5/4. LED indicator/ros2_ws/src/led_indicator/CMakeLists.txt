@@ -19,9 +19,13 @@ find_package(battery_interface REQUIRED)
 add_executable(battery_node src/battery_node.cpp)
 ament_target_dependencies(battery_node rclcpp battery_interface)
 
+add_executable(led_node src/led_node.cpp)
+ament_target_dependencies(led_node rclcpp battery_interface)
+
 # install cpp executable
 install(TARGETS
   battery_node
+  led_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

@@ -1,0 +1,8 @@
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/led_node.cpp:[m[K In constructor ‘[01m[KLED::LED()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/led_node.cpp:11:125:[m[K [01;31m[Kerror: [m[K‘[01m[KcheckBattteryStatus[m[K’ is not a member of ‘[01m[KLED[m[K’
+   11 | rface::msg::BatteryState>("/battery_state", 10, std::bind(&LED::[01;31m[KcheckBattteryStatus[m[K, this, _1));
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/led_node.dir/build.make:63: CMakeFiles/led_node.dir/src/led_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

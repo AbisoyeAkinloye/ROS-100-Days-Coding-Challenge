@@ -40,7 +40,8 @@ private:
         {
             if (time_now - charged_time > 4.0)
             {
-                RCLCPP_INFO(this->get_logger(), "Battery empty!!! Shutting down...");
+                battery_percent = 0;
+                RCLCPP_WARN(this->get_logger(), "Battery empty!!! Shutting down...");
             }
         }
 

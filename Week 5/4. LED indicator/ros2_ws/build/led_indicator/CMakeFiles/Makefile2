@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/led_node.dir/all
 all: CMakeFiles/battery_node.dir/all
 
 .PHONY : all
@@ -63,11 +64,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/led_node.dir/clean
 clean: CMakeFiles/battery_node.dir/clean
 clean: CMakeFiles/led_indicator_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/led_node.dir
+
+# All Build rule for target.
+CMakeFiles/led_node.dir/all:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/depend
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles" --progress-num=3,4 "Built target led_node"
+.PHONY : CMakeFiles/led_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/led_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/led_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator/CMakeFiles" 0
+.PHONY : CMakeFiles/led_node.dir/rule
+
+# Convenience name for target.
+led_node: CMakeFiles/led_node.dir/rule
+
+.PHONY : led_node
+
+# clean rule for target.
+CMakeFiles/led_node.dir/clean:
+	$(MAKE) -f CMakeFiles/led_node.dir/build.make CMakeFiles/led_node.dir/clean
+.PHONY : CMakeFiles/led_node.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/battery_node.dir

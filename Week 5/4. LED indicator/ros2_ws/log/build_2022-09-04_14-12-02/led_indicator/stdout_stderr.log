@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target led_node[0m
+[ 50%] Built target battery_node
+[ 75%] [32mBuilding CXX object CMakeFiles/led_node.dir/src/led_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable led_node[0m
+[100%] Built target led_node
+-- Install configuration: ""
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/battery_node
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/led_node
+-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/lib/led_indicator/led_node" to ""
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/package_run_dependencies/led_indicator
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/parent_prefix_path/led_indicator
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/ament_prefix_path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/environment/path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.bash
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.sh
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.zsh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/local_setup.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/package.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/ament_index/resource_index/packages/led_indicator
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/cmake/led_indicatorConfig.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/cmake/led_indicatorConfig-version.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/led_indicator/share/led_indicator/package.xml

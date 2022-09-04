@@ -1,0 +1,26 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found battery_interface: 0.0.0 (/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/install/battery_interface/share/battery_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/build/led_indicator
+[35m[1mScanning dependencies of target led_node[0m
+[ 50%] Built target battery_node
+[ 75%] [32mBuilding CXX object CMakeFiles/led_node.dir/src/led_node.cpp.o[0m
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/led_node.cpp:[m[K In constructor ‘[01m[KLED::LED()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/led_node.cpp:11:125:[m[K [01;31m[Kerror: [m[K‘[01m[KcheckBattteryStatus[m[K’ is not a member of ‘[01m[KLED[m[K’
+   11 | rface::msg::BatteryState>("/battery_state", 10, std::bind(&LED::[01;31m[KcheckBattteryStatus[m[K, this, _1));
+      |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/4. LED indicator/ros2_ws/src/led_indicator/src/led_node.cpp:13:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   13 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/led_node.dir/build.make:63: CMakeFiles/led_node.dir/src/led_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/led_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
