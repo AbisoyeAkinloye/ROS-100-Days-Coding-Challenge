@@ -2,6 +2,7 @@
 - Parameters allow to provide runtime settings for the nodes.
 - A parameter is specific to a node.
 - ROS2 parameter has a name and data type. (Boolean, int, Double, String, Lists...)
+- When making your own nodes you will sometimes need to add parameters that can be set from the launch file.
 
 ## Why Parameters
 It is used instead of hard coding some variables in the node. For instance, variables that changes during runtime.
@@ -66,4 +67,4 @@ If no parameter is set, there will always be `use_sim_time` (use simulation time
   this->declare_parameter("number", 1);
   int number = this->get_parameter("number").as_int();
   ```
-  **N.B:** Make sure you cast the value `as_int()` to the parameter value
+**N.B:** Make sure you cast the value `as_int()` to the parameter value

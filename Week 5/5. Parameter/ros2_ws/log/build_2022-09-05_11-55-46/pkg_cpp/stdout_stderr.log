@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target number_counter[0m
+[ 50%] Built target number_pub
+[ 75%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable number_counter[0m
+[100%] Built target number_counter
+-- Install configuration: ""
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/lib/pkg_cpp/number_pub
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/lib/pkg_cpp/number_counter
+-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/lib/pkg_cpp/number_counter" to ""
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/package_run_dependencies/pkg_cpp
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/parent_prefix_path/pkg_cpp
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/path.sh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/environment/path.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.bash
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.sh
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.zsh
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/local_setup.dsv
+-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/package.dsv
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/ament_index/resource_index/packages/pkg_cpp
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/cmake/pkg_cppConfig-version.cmake
+-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 5/5. Parameter/ros2_ws/install/pkg_cpp/share/pkg_cpp/package.xml

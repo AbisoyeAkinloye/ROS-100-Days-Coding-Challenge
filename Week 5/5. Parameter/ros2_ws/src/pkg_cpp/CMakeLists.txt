@@ -19,9 +19,13 @@ find_package(example_interfaces REQUIRED)
 add_executable(number_pub src/number_publisher.cpp)
 ament_target_dependencies(number_pub rclcpp example_interfaces)
 
+add_executable(number_counter src/number_counter.cpp)
+ament_target_dependencies(number_counter rclcpp example_interfaces)
+
 # install cpp executable
 install(TARGETS
   number_pub
+  number_counter
   DESTINATION lib/${PROJECT_NAME}
 )
 
