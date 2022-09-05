@@ -59,3 +59,11 @@ If no parameter is set, there will always be `use_sim_time` (use simulation time
   ```py
   self.decare_parameter("name", "Abisoye")
   ```
+
+### In Code 
+- In the constructor
+  ```cpp
+  this->declare_parameter("number", 1);
+  int number = this->get_parameter("number").as_int();
+  ```
+  **N.B:** Make sure you cast the value `as_int()` to the parameter value
