@@ -63,7 +63,7 @@ ros2 launch <package_name> <launch_file>
 ### Create Launch as a package
 <div id="package"></div>
 
-- create a package called `robot_name_bringup`, `bringup` often used.
+- create a package called `robot_name_bringup`. appending `bringup` is often used to identify launch package.
   ```
   ros2 pkg create robot_bringup
   ```

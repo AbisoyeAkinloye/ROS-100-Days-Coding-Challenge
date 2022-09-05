@@ -1,0 +1,7 @@
+CMake Error at cmake_install.cmake:81 (file):
+  file INSTALL cannot find
+  "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1.  ROS
+  Launch/ros2_ws/src/turtle_controller/srcipts/move_linear.py": No such file
+  or directory.
+
+

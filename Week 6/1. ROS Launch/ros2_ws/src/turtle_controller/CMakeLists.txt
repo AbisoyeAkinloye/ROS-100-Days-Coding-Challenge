@@ -26,6 +26,15 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# install python module
+ament_python_install_package(${PROJECT_NAME})
+
+# install python
+install(PROGRAMS
+  scripts/move_linear.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 # install launch file
 
 install(DIRECTORY

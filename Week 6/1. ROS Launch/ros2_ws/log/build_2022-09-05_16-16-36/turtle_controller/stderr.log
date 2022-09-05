@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:30 (ament_install_python_packages):
+  Unknown CMake command "ament_install_python_packages".
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1
