@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000499] (turtle_controller) JobQueued: {'identifier': 'turtle_controller', 'dependencies': OrderedDict()}
+[0.000605] (turtle_controller_py) JobQueued: {'identifier': 'turtle_controller_py', 'dependencies': OrderedDict()}
+[0.000705] (turtle_controller) JobStarted: {'identifier': 'turtle_controller'}
+[0.027902] (turtle_controller_py) JobStarted: {'identifier': 'turtle_controller_py'}
+[0.075072] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'cmake'}
+[0.084892] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'build'}
+[0.085380] (turtle_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4235'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:44066'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1946,unix/loye:/tmp/.ICE-unix/1946'), ('INVOCATION_ID', '32ead2ca3a2f42528df0a4127fab5cd9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0b4d1a12-2236-4608-8748-1d10b98acb51'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.109685] (-) TimerEvent: {}
+[0.211570] (-) TimerEvent: {}
+[0.313020] (-) TimerEvent: {}
+[0.416221] (-) TimerEvent: {}
+[0.516847] (-) TimerEvent: {}
+[0.617866] (-) TimerEvent: {}
+[0.718288] (-) TimerEvent: {}
+[0.752882] (turtle_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.753491] (turtle_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.819215] (-) TimerEvent: {}
+[0.869224] (turtle_controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.919460] (-) TimerEvent: {}
+[1.021061] (-) TimerEvent: {}
+[1.065227] (turtle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.081532] (turtle_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.121437] (-) TimerEvent: {}
+[1.222062] (-) TimerEvent: {}
+[1.322577] (-) TimerEvent: {}
+[1.422933] (-) TimerEvent: {}
+[1.523512] (-) TimerEvent: {}
+[1.564086] (turtle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.623696] (-) TimerEvent: {}
+[1.724249] (-) TimerEvent: {}
+[1.790642] (turtle_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.796440] (turtle_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.824438] (-) TimerEvent: {}
+[1.925114] (-) TimerEvent: {}
+[2.025827] (-) TimerEvent: {}
+[2.113051] (turtle_controller_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_controller_py', 'build', '--build-base', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build', 'install', '--prefix', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py', '--record', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src/turtle_controller_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_NG:en', 'USER': 'loye', 'SSH_AGENT_PID': '1878', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/loye', 'OLDPWD': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1646', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4235', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'loye', 'JOURNAL_STREAM': '8:44066', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'loye', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/loye:@/tmp/.ICE-unix/1946,unix/loye:/tmp/.ICE-unix/1946', 'INVOCATION_ID': '32ead2ca3a2f42528df0a4127fab5cd9', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:0b4d1a12-2236-4608-8748-1d10b98acb51', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.125998] (-) TimerEvent: {}
+[2.226466] (-) TimerEvent: {}
+[2.326849] (-) TimerEvent: {}
+[2.427316] (-) TimerEvent: {}
+[2.528001] (-) TimerEvent: {}
+[2.575203] (turtle_controller) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.628637] (-) TimerEvent: {}
+[2.670918] (turtle_controller_py) StdoutLine: {'line': b'running egg_info\n'}
+[2.672962] (turtle_controller_py) StdoutLine: {'line': b'creating ../../build/turtle_controller_py/turtle_controller_py.egg-info\n'}
+[2.673269] (turtle_controller_py) StdoutLine: {'line': b'writing ../../build/turtle_controller_py/turtle_controller_py.egg-info/PKG-INFO\n'}
+[2.673697] (turtle_controller_py) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_controller_py/turtle_controller_py.egg-info/dependency_links.txt\n'}
+[2.674070] (turtle_controller_py) StdoutLine: {'line': b'writing entry points to ../../build/turtle_controller_py/turtle_controller_py.egg-info/entry_points.txt\n'}
+[2.674273] (turtle_controller_py) StdoutLine: {'line': b'writing requirements to ../../build/turtle_controller_py/turtle_controller_py.egg-info/requires.txt\n'}
+[2.674546] (turtle_controller_py) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_controller_py/turtle_controller_py.egg-info/top_level.txt\n'}
+[2.679043] (turtle_controller_py) StdoutLine: {'line': b"writing manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'\n"}
+[2.728753] (-) TimerEvent: {}
+[2.777060] (turtle_controller_py) StdoutLine: {'line': b"reading manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'\n"}
+[2.779430] (turtle_controller_py) StdoutLine: {'line': b"writing manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'\n"}
+[2.779902] (turtle_controller_py) StdoutLine: {'line': b'running build\n'}
+[2.780435] (turtle_controller_py) StdoutLine: {'line': b'running build_py\n'}
+[2.780693] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build\n'}
+[2.781086] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib\n'}
+[2.781389] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py\n'}
+[2.781689] (turtle_controller_py) StdoutLine: {'line': b'copying turtle_controller_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py\n'}
+[2.782004] (turtle_controller_py) StdoutLine: {'line': b'running install\n'}
+[2.782398] (turtle_controller_py) StdoutLine: {'line': b'running install_lib\n'}
+[2.784349] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py\n'}
+[2.784668] (turtle_controller_py) StdoutLine: {'line': b'copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py\n'}
+[2.785465] (turtle_controller_py) StdoutLine: {'line': b'byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py/__init__.py to __init__.cpython-38.pyc\n'}
+[2.789522] (turtle_controller_py) StdoutLine: {'line': b'running install_data\n'}
+[2.790658] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index\n'}
+[2.791279] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index\n'}
+[2.791699] (turtle_controller_py) StdoutLine: {'line': b'creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index/packages\n'}
+[2.792078] (turtle_controller_py) StdoutLine: {'line': b'copying resource/turtle_controller_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index/packages\n'}
+[2.792370] (turtle_controller_py) StdoutLine: {'line': b'copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/turtle_controller_py\n'}
+[2.792656] (turtle_controller_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.794728] (turtle_controller_py) StdoutLine: {'line': b'Copying ../../build/turtle_controller_py/turtle_controller_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py-0.0.0-py3.8.egg-info\n'}
+[2.796662] (turtle_controller_py) StdoutLine: {'line': b'running install_scripts\n'}
+[2.828952] (-) TimerEvent: {}
+[2.835389] (turtle_controller_py) StdoutLine: {'line': b"writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/install.log'\n"}
+[2.911167] (turtle_controller_py) CommandEnded: {'returncode': 0}
+[2.934304] (-) TimerEvent: {}
+[2.978130] (turtle_controller_py) JobEnded: {'identifier': 'turtle_controller_py', 'rc': 0}
+[3.034513] (-) TimerEvent: {}
+[3.135013] (-) TimerEvent: {}
+[3.155225] (turtle_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.235322] (-) TimerEvent: {}
+[3.335881] (-) TimerEvent: {}
+[3.436444] (-) TimerEvent: {}
+[3.507096] (turtle_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.536638] (-) TimerEvent: {}
+[3.548328] (turtle_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[3.557183] (turtle_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller\n'}
+[3.634159] (turtle_controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_linear\x1b[0m\n'}
+[3.636736] (-) TimerEvent: {}
+[3.722014] (turtle_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_linear.dir/src/move_linear.cpp.o\x1b[0m\n'}
+[3.736966] (-) TimerEvent: {}
+[3.837558] (-) TimerEvent: {}
+[3.938034] (-) TimerEvent: {}
+[4.038453] (-) TimerEvent: {}
+[4.138906] (-) TimerEvent: {}
+[4.239793] (-) TimerEvent: {}
+[4.340584] (-) TimerEvent: {}
+[4.441271] (-) TimerEvent: {}
+[4.542327] (-) TimerEvent: {}
+[4.642783] (-) TimerEvent: {}
+[4.743289] (-) TimerEvent: {}
+[4.843760] (-) TimerEvent: {}
+[4.944360] (-) TimerEvent: {}
+[5.044984] (-) TimerEvent: {}
+[5.145625] (-) TimerEvent: {}
+[5.245983] (-) TimerEvent: {}
+[5.346580] (-) TimerEvent: {}
+[5.447311] (-) TimerEvent: {}
+[5.547924] (-) TimerEvent: {}
+[5.649100] (-) TimerEvent: {}
+[5.749619] (-) TimerEvent: {}
+[5.850100] (-) TimerEvent: {}
+[5.950604] (-) TimerEvent: {}
+[6.051433] (-) TimerEvent: {}
+[6.152056] (-) TimerEvent: {}
+[6.252912] (-) TimerEvent: {}
+[6.353435] (-) TimerEvent: {}
+[6.454025] (-) TimerEvent: {}
+[6.554488] (-) TimerEvent: {}
+[6.655216] (-) TimerEvent: {}
+[6.755769] (-) TimerEvent: {}
+[6.856378] (-) TimerEvent: {}
+[6.956826] (-) TimerEvent: {}
+[7.057224] (-) TimerEvent: {}
+[7.157764] (-) TimerEvent: {}
+[7.258569] (-) TimerEvent: {}
+[7.359056] (-) TimerEvent: {}
+[7.459801] (-) TimerEvent: {}
+[7.560396] (-) TimerEvent: {}
+[7.661228] (-) TimerEvent: {}
+[7.761694] (-) TimerEvent: {}
+[7.862461] (-) TimerEvent: {}
+[7.962864] (-) TimerEvent: {}
+[8.063470] (-) TimerEvent: {}
+[8.164002] (-) TimerEvent: {}
+[8.264402] (-) TimerEvent: {}
+[8.364848] (-) TimerEvent: {}
+[8.465609] (-) TimerEvent: {}
+[8.566117] (-) TimerEvent: {}
+[8.666722] (-) TimerEvent: {}
+[8.767214] (-) TimerEvent: {}
+[8.868105] (-) TimerEvent: {}
+[8.968645] (-) TimerEvent: {}
+[9.069046] (-) TimerEvent: {}
+[9.169615] (-) TimerEvent: {}
+[9.270558] (-) TimerEvent: {}
+[9.371610] (-) TimerEvent: {}
+[9.472032] (-) TimerEvent: {}
+[9.572451] (-) TimerEvent: {}
+[9.672838] (-) TimerEvent: {}
+[9.773496] (-) TimerEvent: {}
+[9.874762] (-) TimerEvent: {}
+[9.975440] (-) TimerEvent: {}
+[10.076317] (-) TimerEvent: {}
+[10.177168] (-) TimerEvent: {}
+[10.277602] (-) TimerEvent: {}
+[10.378528] (-) TimerEvent: {}
+[10.479082] (-) TimerEvent: {}
+[10.579598] (-) TimerEvent: {}
+[10.679950] (-) TimerEvent: {}
+[10.780709] (-) TimerEvent: {}
+[10.881568] (-) TimerEvent: {}
+[10.982432] (-) TimerEvent: {}
+[11.082935] (-) TimerEvent: {}
+[11.183871] (-) TimerEvent: {}
+[11.284844] (-) TimerEvent: {}
+[11.385705] (-) TimerEvent: {}
+[11.486238] (-) TimerEvent: {}
+[11.587102] (-) TimerEvent: {}
+[11.687678] (-) TimerEvent: {}
+[11.788215] (-) TimerEvent: {}
+[11.888664] (-) TimerEvent: {}
+[11.989187] (-) TimerEvent: {}
+[12.089678] (-) TimerEvent: {}
+[12.190131] (-) TimerEvent: {}
+[12.290691] (-) TimerEvent: {}
+[12.391794] (-) TimerEvent: {}
+[12.492460] (-) TimerEvent: {}
+[12.593610] (-) TimerEvent: {}
+[12.694855] (-) TimerEvent: {}
+[12.795436] (-) TimerEvent: {}
+[12.896002] (-) TimerEvent: {}
+[12.996813] (-) TimerEvent: {}
+[13.097454] (-) TimerEvent: {}
+[13.197875] (-) TimerEvent: {}
+[13.298583] (-) TimerEvent: {}
+[13.398910] (-) TimerEvent: {}
+[13.499211] (-) TimerEvent: {}
+[13.600143] (-) TimerEvent: {}
+[13.700982] (-) TimerEvent: {}
+[13.801839] (-) TimerEvent: {}
+[13.903042] (-) TimerEvent: {}
+[14.003532] (-) TimerEvent: {}
+[14.104249] (-) TimerEvent: {}
+[14.204820] (-) TimerEvent: {}
+[14.305318] (-) TimerEvent: {}
+[14.405858] (-) TimerEvent: {}
+[14.506341] (-) TimerEvent: {}
+[14.606813] (-) TimerEvent: {}
+[14.707185] (-) TimerEvent: {}
+[14.807837] (-) TimerEvent: {}
+[14.908445] (-) TimerEvent: {}
+[15.008873] (-) TimerEvent: {}
+[15.109373] (-) TimerEvent: {}
+[15.210549] (-) TimerEvent: {}
+[15.311074] (-) TimerEvent: {}
+[15.411565] (-) TimerEvent: {}
+[15.512372] (-) TimerEvent: {}
+[15.613670] (-) TimerEvent: {}
+[15.714139] (-) TimerEvent: {}
+[15.814510] (-) TimerEvent: {}
+[15.915123] (-) TimerEvent: {}
+[16.015622] (-) TimerEvent: {}
+[16.094000] (turtle_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_linear\x1b[0m\n'}
+[16.116146] (-) TimerEvent: {}
+[16.217170] (-) TimerEvent: {}
+[16.318564] (-) TimerEvent: {}
+[16.419353] (-) TimerEvent: {}
+[16.520659] (-) TimerEvent: {}
+[16.622116] (-) TimerEvent: {}
+[16.722733] (-) TimerEvent: {}
+[16.823177] (-) TimerEvent: {}
+[16.915589] (turtle_controller) StdoutLine: {'line': b'[100%] Built target move_linear\n'}
+[16.923378] (-) TimerEvent: {}
+[16.950654] (turtle_controller) CommandEnded: {'returncode': 0}
+[17.012491] (turtle_controller) JobProgress: {'identifier': 'turtle_controller', 'progress': 'install'}
+[17.023609] (-) TimerEvent: {}
+[17.043584] (turtle_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1878'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1646'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4235'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:44066'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1946,unix/loye:/tmp/.ICE-unix/1946'), ('INVOCATION_ID', '32ead2ca3a2f42528df0a4127fab5cd9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:0b4d1a12-2236-4608-8748-1d10b98acb51'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[17.069313] (turtle_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.070213] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/lib/turtle_controller/move_linear\n'}
+[17.076571] (turtle_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/lib/turtle_controller/move_linear" to ""\n'}
+[17.077099] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/launch\n'}
+[17.077531] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/launch/turtle_controller.launch.py\n'}
+[17.078020] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller\n'}
+[17.078648] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller\n'}
+[17.079066] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh\n'}
+[17.079548] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv\n'}
+[17.080120] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.sh\n'}
+[17.080518] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv\n'}
+[17.081278] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.bash\n'}
+[17.081664] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.sh\n'}
+[17.082032] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh\n'}
+[17.082365] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv\n'}
+[17.082925] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv\n'}
+[17.083597] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller\n'}
+[17.084041] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake\n'}
+[17.084441] (turtle_controller) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake\n'}
+[17.084860] (turtle_controller) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/package.xml\n'}
+[17.094860] (turtle_controller) CommandEnded: {'returncode': 0}
+[17.124534] (-) TimerEvent: {}
+[17.222080] (turtle_controller) JobEnded: {'identifier': 'turtle_controller', 'rc': 0}
+[17.223951] (-) EventReactorShutdown: {}

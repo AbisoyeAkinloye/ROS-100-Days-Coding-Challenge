@@ -17,13 +17,20 @@ find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 # add cpp executable
-add_executable(move_linear src/move_linear.cpp)
-ament_target_dependencies(move_linear rclcpp geometry_msgs turtlesim)
+add_executable(avoid_wall src/avoid_wall.cpp)
+ament_target_dependencies(avoid_wall rclcpp geometry_msgs turtlesim)
 
 # install cpp executable
 install(TARGETS
-  move_linear
+  avoid_wall
   DESTINATION lib/${PROJECT_NAME}
+)
+
+# install launch file
+
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
 )
 
 

@@ -1,0 +1,41 @@
+[0.087s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller -- -j4 -l4
+[0.753s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.753s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.869s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.065s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.081s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.790s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.575s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[3.155s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.507s] -- Configuring done
+[3.548s] -- Generating done
+[3.557s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller
+[3.634s] [35m[1mScanning dependencies of target move_linear[0m
+[3.722s] [ 50%] [32mBuilding CXX object CMakeFiles/move_linear.dir/src/move_linear.cpp.o[0m
+[16.093s] [100%] [32m[1mLinking CXX executable move_linear[0m
+[16.915s] [100%] Built target move_linear
+[16.955s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller -- -j4 -l4
+[17.045s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller
+[17.069s] -- Install configuration: ""
+[17.070s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/lib/turtle_controller/move_linear
+[17.076s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/lib/turtle_controller/move_linear" to ""
+[17.077s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/launch
+[17.077s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/launch/turtle_controller.launch.py
+[17.078s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/package_run_dependencies/turtle_controller
+[17.078s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/parent_prefix_path/turtle_controller
+[17.079s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.sh
+[17.079s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/ament_prefix_path.dsv
+[17.080s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.sh
+[17.080s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/environment/path.dsv
+[17.081s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.bash
+[17.081s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.sh
+[17.081s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.zsh
+[17.082s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/local_setup.dsv
+[17.082s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/package.dsv
+[17.083s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/ament_index/resource_index/packages/turtle_controller
+[17.083s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig.cmake
+[17.084s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/cmake/turtle_controllerConfig-version.cmake
+[17.084s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller/share/turtle_controller/package.xml
+[17.096s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller

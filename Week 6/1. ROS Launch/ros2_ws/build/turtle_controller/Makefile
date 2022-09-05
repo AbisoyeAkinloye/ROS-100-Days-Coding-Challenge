@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -135,6 +123,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles" "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles/progress.marks"
@@ -168,17 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named move_linear
+# Target rules for targets named avoid_wall
 
 # Build rule for target.
-move_linear: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 move_linear
-.PHONY : move_linear
+avoid_wall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 avoid_wall
+.PHONY : avoid_wall
 
 # fast build rule for target.
-move_linear/fast:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/build
-.PHONY : move_linear/fast
+avoid_wall/fast:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/build
+.PHONY : avoid_wall/fast
 
 #=============================================================================
 # Target rules for targets named turtle_controller_uninstall
@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/move_linear.o: src/move_linear.cpp.o
+src/avoid_wall.o: src/avoid_wall.cpp.o
 
-.PHONY : src/move_linear.o
+.PHONY : src/avoid_wall.o
 
 # target to build an object file
-src/move_linear.cpp.o:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/src/move_linear.cpp.o
-.PHONY : src/move_linear.cpp.o
+src/avoid_wall.cpp.o:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.o
+.PHONY : src/avoid_wall.cpp.o
 
-src/move_linear.i: src/move_linear.cpp.i
+src/avoid_wall.i: src/avoid_wall.cpp.i
 
-.PHONY : src/move_linear.i
+.PHONY : src/avoid_wall.i
 
 # target to preprocess a source file
-src/move_linear.cpp.i:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/src/move_linear.cpp.i
-.PHONY : src/move_linear.cpp.i
+src/avoid_wall.cpp.i:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.i
+.PHONY : src/avoid_wall.cpp.i
 
-src/move_linear.s: src/move_linear.cpp.s
+src/avoid_wall.s: src/avoid_wall.cpp.s
 
-.PHONY : src/move_linear.s
+.PHONY : src/avoid_wall.s
 
 # target to generate assembly for a file
-src/move_linear.cpp.s:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/src/move_linear.cpp.s
-.PHONY : src/move_linear.cpp.s
+src/avoid_wall.cpp.s:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.s
+.PHONY : src/avoid_wall.cpp.s
 
 # Help Target
 help:
@@ -239,19 +239,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... move_linear"
+	@echo "... install/strip"
+	@echo "... avoid_wall"
 	@echo "... turtle_controller_uninstall"
 	@echo "... uninstall"
-	@echo "... src/move_linear.o"
-	@echo "... src/move_linear.i"
-	@echo "... src/move_linear.s"
+	@echo "... src/avoid_wall.o"
+	@echo "... src/avoid_wall.i"
+	@echo "... src/avoid_wall.s"
 .PHONY : help
 
 

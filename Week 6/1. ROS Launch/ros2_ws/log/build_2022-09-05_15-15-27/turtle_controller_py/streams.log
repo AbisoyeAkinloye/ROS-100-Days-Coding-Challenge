@@ -1,0 +1,33 @@
+[2.087s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src/turtle_controller_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_controller_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/install.log --single-version-externally-managed
+[2.643s] running egg_info
+[2.645s] creating ../../build/turtle_controller_py/turtle_controller_py.egg-info
+[2.645s] writing ../../build/turtle_controller_py/turtle_controller_py.egg-info/PKG-INFO
+[2.645s] writing dependency_links to ../../build/turtle_controller_py/turtle_controller_py.egg-info/dependency_links.txt
+[2.646s] writing entry points to ../../build/turtle_controller_py/turtle_controller_py.egg-info/entry_points.txt
+[2.646s] writing requirements to ../../build/turtle_controller_py/turtle_controller_py.egg-info/requires.txt
+[2.646s] writing top-level names to ../../build/turtle_controller_py/turtle_controller_py.egg-info/top_level.txt
+[2.651s] writing manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'
+[2.749s] reading manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'
+[2.751s] writing manifest file '../../build/turtle_controller_py/turtle_controller_py.egg-info/SOURCES.txt'
+[2.752s] running build
+[2.752s] running build_py
+[2.752s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build
+[2.753s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib
+[2.753s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py
+[2.753s] copying turtle_controller_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py
+[2.754s] running install
+[2.754s] running install_lib
+[2.756s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py
+[2.756s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build/lib/turtle_controller_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py
+[2.757s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py/__init__.py to __init__.cpython-38.pyc
+[2.761s] running install_data
+[2.763s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index
+[2.763s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index
+[2.763s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index/packages
+[2.764s] copying resource/turtle_controller_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/ament_index/resource_index/packages
+[2.764s] copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/share/turtle_controller_py
+[2.764s] running install_egg_info
+[2.766s] Copying ../../build/turtle_controller_py/turtle_controller_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages/turtle_controller_py-0.0.0-py3.8.egg-info
+[2.768s] running install_scripts
+[2.807s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/install.log'
+[2.884s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src/turtle_controller_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_controller_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/install/turtle_controller_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller_py/install.log --single-version-externally-managed

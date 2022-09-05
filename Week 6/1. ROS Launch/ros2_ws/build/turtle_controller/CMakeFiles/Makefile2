@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/move_linear.dir/all
+all: CMakeFiles/avoid_wall.dir/all
 
 .PHONY : all
 
@@ -63,38 +63,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/move_linear.dir/clean
+clean: CMakeFiles/avoid_wall.dir/clean
 clean: CMakeFiles/turtle_controller_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/move_linear.dir
+# Target rules for target CMakeFiles/avoid_wall.dir
 
 # All Build rule for target.
-CMakeFiles/move_linear.dir/all:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/depend
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles" --progress-num=1,2 "Built target move_linear"
-.PHONY : CMakeFiles/move_linear.dir/all
+CMakeFiles/avoid_wall.dir/all:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/depend
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles" --progress-num=1,2 "Built target avoid_wall"
+.PHONY : CMakeFiles/avoid_wall.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/move_linear.dir/rule: cmake_check_build_system
+CMakeFiles/avoid_wall.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_linear.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/avoid_wall.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/build/turtle_controller/CMakeFiles" 0
-.PHONY : CMakeFiles/move_linear.dir/rule
+.PHONY : CMakeFiles/avoid_wall.dir/rule
 
 # Convenience name for target.
-move_linear: CMakeFiles/move_linear.dir/rule
+avoid_wall: CMakeFiles/avoid_wall.dir/rule
 
-.PHONY : move_linear
+.PHONY : avoid_wall
 
 # clean rule for target.
-CMakeFiles/move_linear.dir/clean:
-	$(MAKE) -f CMakeFiles/move_linear.dir/build.make CMakeFiles/move_linear.dir/clean
-.PHONY : CMakeFiles/move_linear.dir/clean
+CMakeFiles/avoid_wall.dir/clean:
+	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/clean
+.PHONY : CMakeFiles/avoid_wall.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/turtle_controller_uninstall.dir
