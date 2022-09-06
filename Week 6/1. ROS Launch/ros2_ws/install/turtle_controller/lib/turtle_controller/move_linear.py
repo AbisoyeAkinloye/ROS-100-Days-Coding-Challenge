@@ -13,8 +13,8 @@ class MoveLinear(Node):
         self.subsciber_ = self.create_subscription(Pose, "/turtle1/pose", self.move_turtle, 10)
         self.get_logger().info("Move turtle by specifying distance, speed and direction")
 
-        self.time = self.get_clock().now().seconds_nanoseconds()
-        self.time_sec = self.time[0]
+        # self.time = self.get_clock().now().seconds_nanoseconds()
+        # self.time_sec = self.time[0]
 
         self.distance = float(input("Turtle should move at distance: "))
         # self.speed = self.distance/self.time_sec
@@ -30,10 +30,6 @@ class MoveLinear(Node):
             cmd.linear.x = self.distance 
         elif self.f_b == 0 and pose.x > origin-self.distance:
             cmd.linear.x = -self.distance
-
-        # if pose.x > origin+self.distance:
-        #     cmd.linear.x = 0.0 
-           
 
         self.publisher_.publish(cmd)
 

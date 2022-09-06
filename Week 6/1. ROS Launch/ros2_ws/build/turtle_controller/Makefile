@@ -68,6 +68,28 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -100,28 +122,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -166,6 +166,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named move_turtle
+
+# Build rule for target.
+move_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_turtle
+.PHONY : move_turtle
+
+# fast build rule for target.
+move_turtle/fast:
+	$(MAKE) -f CMakeFiles/move_turtle.dir/build.make CMakeFiles/move_turtle.dir/build
+.PHONY : move_turtle/fast
 
 #=============================================================================
 # Target rules for targets named avoid_wall
@@ -233,6 +246,33 @@ src/avoid_wall.cpp.s:
 	$(MAKE) -f CMakeFiles/avoid_wall.dir/build.make CMakeFiles/avoid_wall.dir/src/avoid_wall.cpp.s
 .PHONY : src/avoid_wall.cpp.s
 
+src/move_turtle.o: src/move_turtle.cpp.o
+
+.PHONY : src/move_turtle.o
+
+# target to build an object file
+src/move_turtle.cpp.o:
+	$(MAKE) -f CMakeFiles/move_turtle.dir/build.make CMakeFiles/move_turtle.dir/src/move_turtle.cpp.o
+.PHONY : src/move_turtle.cpp.o
+
+src/move_turtle.i: src/move_turtle.cpp.i
+
+.PHONY : src/move_turtle.i
+
+# target to preprocess a source file
+src/move_turtle.cpp.i:
+	$(MAKE) -f CMakeFiles/move_turtle.dir/build.make CMakeFiles/move_turtle.dir/src/move_turtle.cpp.i
+.PHONY : src/move_turtle.cpp.i
+
+src/move_turtle.s: src/move_turtle.cpp.s
+
+.PHONY : src/move_turtle.s
+
+# target to generate assembly for a file
+src/move_turtle.cpp.s:
+	$(MAKE) -f CMakeFiles/move_turtle.dir/build.make CMakeFiles/move_turtle.dir/src/move_turtle.cpp.s
+.PHONY : src/move_turtle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,11 +280,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
+	@echo "... move_turtle"
 	@echo "... install/strip"
 	@echo "... avoid_wall"
 	@echo "... turtle_controller_uninstall"
@@ -252,6 +293,9 @@ help:
 	@echo "... src/avoid_wall.o"
 	@echo "... src/avoid_wall.i"
 	@echo "... src/avoid_wall.s"
+	@echo "... src/move_turtle.o"
+	@echo "... src/move_turtle.i"
+	@echo "... src/move_turtle.s"
 .PHONY : help
 
 

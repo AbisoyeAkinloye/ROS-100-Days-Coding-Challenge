@@ -20,9 +20,13 @@ find_package(geometry_msgs REQUIRED)
 add_executable(avoid_wall src/avoid_wall.cpp)
 ament_target_dependencies(avoid_wall rclcpp geometry_msgs turtlesim)
 
+add_executable(move_turtle src/move_turtle.cpp)
+ament_target_dependencies(move_turtle rclcpp geometry_msgs turtlesim)
+
 # install cpp executable
 install(TARGETS
   avoid_wall
+  move_turtle
   DESTINATION lib/${PROJECT_NAME}
 )
 

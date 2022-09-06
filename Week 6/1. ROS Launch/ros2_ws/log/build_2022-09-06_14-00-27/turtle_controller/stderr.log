@@ -1,0 +1,4 @@
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src/turtle_controller/src/move_turtle.cpp:[m[K In member function ‘[01m[Kvoid MoveLinearly::move_turtle(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/1. ROS Launch/ros2_ws/src/turtle_controller/src/move_turtle.cpp:34:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdiff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   34 |         int [01;35m[Kdiff[m[K = t1 - t0;
+      |             [01;35m[K^~~~[m[K
