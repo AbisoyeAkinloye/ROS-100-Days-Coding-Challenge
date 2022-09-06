@@ -11,9 +11,8 @@ public:
     {
         specify_params();
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-        timer_ = this->create_wall_timer(1s, std::bind(&MoveLinearly::timer_callback, this));
-
-        RCLCPP_INFO(this->get_logger(), "The robot has started.");
+        RCLCPP_INFO(this->get_logger(), "The robot will start moving on a straight line.");
+        timer_ = this->create_wall_timer(1s, std::bind(&MoveLinearly::move_linearly, this));
     }
 
 private:
@@ -31,7 +30,7 @@ private:
         t0 = time.now().seconds();
     }
 
-    void timer_callback()
+    void move_linearly()
     {
         t1 = time.now().seconds();
         dt = t1 - t0;
@@ -40,21 +39,12 @@ private:
 
         if (displacement <= distance)
         {
-            if (isForward == 1)
-            {
-                cmd_vel.linear.x = abs(speed);
-            }
-            else if (isForward == 0)
-            {
-                cmd_vel.linear.x = -abs(speed);
-            }
+            isForward ? cmd_vel.linear.x = abs(speed) : cmd_vel.linear.x = -abs(speed);
         }
         else
         {
             cmd_vel.linear.x = 0.0;
         }
-
-        RCLCPP_INFO(this->get_logger(), "Change in time: %d", dt);
         publisher_->publish(cmd_vel);
     }
 

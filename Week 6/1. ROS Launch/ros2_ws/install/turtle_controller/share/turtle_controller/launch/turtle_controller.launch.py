@@ -5,11 +5,11 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package="turtlesim",
-            executable= "turtlesim_node"
+            package="turtle_controller",
+            executable= "turtle_linear_movement"
         ),
         Node(
-            package="turtle_controller",
-            executable= "avoid_wall"
+            package="turtlesim",
+            executable= "turtlesim_node"
         )
     ])
