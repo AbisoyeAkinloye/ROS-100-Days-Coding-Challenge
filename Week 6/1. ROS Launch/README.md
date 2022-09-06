@@ -116,3 +116,77 @@ def generate_launch_description():
   <exec_depend>second_package_name</exec_depend>
   ```
 
+## Remapping Node and Topic name
+- You can rename a node name from the launch file. by adding `name` arg.
+  ```py
+  first_node_name = Node(
+    package="first_package_name",
+    executable="executable_name",
+    name="first_node"
+   )
+
+    second_node_name = Node(
+    package="second_package_name",
+    executable="executable_name",
+    name="second_node"
+   )
+  ```
+- To remap the topic name.
+  ```py
+    first_node_name = Node(
+    package="first_package_name",
+    executable="executable_name",
+    name="first_node",
+    remappings=[
+      {"topic_name", "new_topic_name"}
+    ]
+   ) 
+  ```
+- If the remap is done in more than a node
+```py
+  topic_remap = ("name", "new_name")
+
+  first_node_name = Node(
+    package="first_package_name",
+    executable="executable_name",
+    name="first_node",
+    remappings=[
+      topic_remap
+    ]
+   )
+
+    second_node_name = Node(
+    package="second_package_name",
+    executable="executable_name",
+    name="second_node",
+    remappings=[
+      topic_remap
+    ]
+   )
+  ```
+- Adding parameter to the Launch file
+```py
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+   ld = LaunchDescription()
+
+   first_node = Node(
+    package="first_package_name",
+    executable="executable_name",
+    parameters = [
+      {"number": 4}
+    ]
+   )
+
+    second_node = Node(
+    package="second_package_name",
+    executable="executable_name",
+    {"rate": 40}
+   )
+
+   ld.add_action(first_node)
+   ld.add_action(second_node)
+   return ld
+```
