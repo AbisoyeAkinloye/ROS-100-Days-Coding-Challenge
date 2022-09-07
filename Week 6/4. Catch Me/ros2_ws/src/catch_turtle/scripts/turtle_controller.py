@@ -3,12 +3,14 @@
 import rclpy
 from rclpy.node import Node
 import math
+from functools import partial
 
 from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
 
 from catch_turtle.msg import Turtle
 from catch_turtle.msg import TurtleArray
+from catch_turtle.srv import CatchTurtle
 
 
 class TurtleController(Node):
@@ -57,10 +59,34 @@ class TurtleController(Node):
                 diff += 2*math.pi
             cmd_vel.angular.z = 4*diff
         else:
+            # target reached
             cmd_vel.linear.x = 0.0
             cmd_vel.angular.z = 0.0
+            self.call_catch_turtle_service(self.turtle_to_catch.name)
+            self.turtle_to_catch = None
 
         self.cmd_vel_publisher_.publish(cmd_vel)
+
+    def call_catch_turtle_service(self, turtle_name):
+        client = self.create_client(CatchTurtle, "/catch_turtle")
+
+        while not client.wait_for_service(1.0):
+            self.get_logger().warn("Service not available, waiting again..")
+
+        request = CatchTurtle.Request()
+        request.name = turtle_name
+
+        future = client.call_async(request)
+        future.add_done_callback(
+            partial(self.catch_turtle_service_callback,turtle_name=turtle_name))
+
+    def catch_turtle_service_callback(self, future, turtle_name):
+        try:
+            response = future.result()
+            if not response.success:
+                self.get_logger().error(f"{turtle_name} could not be caught")
+        except Exception as e:
+            self.get_logger().error("Service call failed: %r" % (e,))
 
 
 def main(args=None):

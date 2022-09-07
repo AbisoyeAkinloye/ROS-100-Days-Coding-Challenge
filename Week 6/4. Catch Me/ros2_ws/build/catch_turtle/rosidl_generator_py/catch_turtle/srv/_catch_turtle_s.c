@@ -160,13 +160,13 @@ bool catch_turtle__srv__catch_turtle__response__convert_from_py(PyObject * _pyms
     assert(strncmp("catch_turtle.srv._catch_turtle.CatchTurtle_Response", full_classname_dest, 51) == 0);
   }
   catch_turtle__srv__CatchTurtle_Response * ros_message = _ros_message;
-  {  // succes
-    PyObject * field = PyObject_GetAttrString(_pymsg, "succes");
+  {  // success
+    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
     if (!field) {
       return false;
     }
     assert(PyBool_Check(field));
-    ros_message->succes = (Py_True == field);
+    ros_message->success = (Py_True == field);
     Py_DECREF(field);
   }
 
@@ -191,11 +191,11 @@ PyObject * catch_turtle__srv__catch_turtle__response__convert_to_py(void * raw_r
     }
   }
   catch_turtle__srv__CatchTurtle_Response * ros_message = (catch_turtle__srv__CatchTurtle_Response *)raw_ros_message;
-  {  // succes
+  {  // success
     PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->succes ? 1 : 0);
+    field = PyBool_FromLong(ros_message->success ? 1 : 0);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "succes", field);
+      int rc = PyObject_SetAttrString(_pymessage, "success", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

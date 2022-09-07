@@ -9,7 +9,7 @@ module catch_turtle {
       string name;
     };
     struct CatchTurtle_Response {
-      boolean succes;
+      boolean success;
     };
   };
 };

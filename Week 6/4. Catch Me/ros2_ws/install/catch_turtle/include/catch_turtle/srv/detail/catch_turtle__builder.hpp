@@ -62,15 +62,15 @@ namespace srv
 namespace builder
 {
 
-class Init_CatchTurtle_Response_succes
+class Init_CatchTurtle_Response_success
 {
 public:
-  Init_CatchTurtle_Response_succes()
+  Init_CatchTurtle_Response_success()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::catch_turtle::srv::CatchTurtle_Response succes(::catch_turtle::srv::CatchTurtle_Response::_succes_type arg)
+  ::catch_turtle::srv::CatchTurtle_Response success(::catch_turtle::srv::CatchTurtle_Response::_success_type arg)
   {
-    msg_.succes = std::move(arg);
+    msg_.success = std::move(arg);
     return std::move(msg_);
   }
 
@@ -89,7 +89,7 @@ template<>
 inline
 auto build<::catch_turtle::srv::CatchTurtle_Response>()
 {
-  return catch_turtle::srv::builder::Init_CatchTurtle_Response_succes();
+  return catch_turtle::srv::builder::Init_CatchTurtle_Response_success();
 }
 
 }  // namespace catch_turtle

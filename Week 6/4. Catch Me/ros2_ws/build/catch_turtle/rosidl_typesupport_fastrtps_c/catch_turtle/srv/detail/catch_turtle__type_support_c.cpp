@@ -239,9 +239,9 @@ static bool _CatchTurtle_Response__cdr_serialize(
     return false;
   }
   const _CatchTurtle_Response__ros_msg_type * ros_message = static_cast<const _CatchTurtle_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: succes
+  // Field name: success
   {
-    cdr << (ros_message->succes ? true : false);
+    cdr << (ros_message->success ? true : false);
   }
 
   return true;
@@ -256,11 +256,11 @@ static bool _CatchTurtle_Response__cdr_deserialize(
     return false;
   }
   _CatchTurtle_Response__ros_msg_type * ros_message = static_cast<_CatchTurtle_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: succes
+  // Field name: success
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message->succes = tmp ? true : false;
+    ros_message->success = tmp ? true : false;
   }
 
   return true;
@@ -280,9 +280,9 @@ size_t get_serialized_size_catch_turtle__srv__CatchTurtle_Response(
   (void)padding;
   (void)wchar_size;
 
-  // field.name succes
+  // field.name success
   {
-    size_t item_size = sizeof(ros_message->succes);
+    size_t item_size = sizeof(ros_message->success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -310,7 +310,7 @@ size_t max_serialized_size_catch_turtle__srv__CatchTurtle_Response(
   (void)wchar_size;
   (void)full_bounded;
 
-  // member: succes
+  // member: success
   {
     size_t array_size = 1;
 

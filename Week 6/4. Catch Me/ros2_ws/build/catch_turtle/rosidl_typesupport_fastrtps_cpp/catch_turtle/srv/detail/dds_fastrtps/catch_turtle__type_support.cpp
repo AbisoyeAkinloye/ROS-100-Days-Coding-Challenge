@@ -219,8 +219,8 @@ cdr_serialize(
   const catch_turtle::srv::CatchTurtle_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: succes
-  cdr << (ros_message.succes ? true : false);
+  // Member: success
+  cdr << (ros_message.success ? true : false);
   return true;
 }
 
@@ -230,11 +230,11 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   catch_turtle::srv::CatchTurtle_Response & ros_message)
 {
-  // Member: succes
+  // Member: success
   {
     uint8_t tmp;
     cdr >> tmp;
-    ros_message.succes = tmp ? true : false;
+    ros_message.success = tmp ? true : false;
   }
 
   return true;
@@ -253,9 +253,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: succes
+  // Member: success
   {
-    size_t item_size = sizeof(ros_message.succes);
+    size_t item_size = sizeof(ros_message.success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -278,7 +278,7 @@ max_serialized_size_CatchTurtle_Response(
   (void)full_bounded;
 
 
-  // Member: succes
+  // Member: success
   {
     size_t array_size = 1;
 

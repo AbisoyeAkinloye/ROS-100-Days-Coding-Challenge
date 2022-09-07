@@ -152,7 +152,7 @@ catch_turtle__srv__CatchTurtle_Response__init(catch_turtle__srv__CatchTurtle_Res
   if (!msg) {
     return false;
   }
-  // succes
+  // success
   return true;
 }
 
@@ -162,7 +162,7 @@ catch_turtle__srv__CatchTurtle_Response__fini(catch_turtle__srv__CatchTurtle_Res
   if (!msg) {
     return;
   }
-  // succes
+  // success
 }
 
 catch_turtle__srv__CatchTurtle_Response *

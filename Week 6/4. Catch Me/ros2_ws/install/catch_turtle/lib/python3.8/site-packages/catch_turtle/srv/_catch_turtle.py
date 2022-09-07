@@ -173,11 +173,11 @@ class CatchTurtle_Response(metaclass=Metaclass_CatchTurtle_Response):
     """Message class 'CatchTurtle_Response'."""
 
     __slots__ = [
-        '_succes',
+        '_success',
     ]
 
     _fields_and_field_types = {
-        'succes': 'boolean',
+        'success': 'boolean',
     }
 
     SLOT_TYPES = (
@@ -188,7 +188,7 @@ class CatchTurtle_Response(metaclass=Metaclass_CatchTurtle_Response):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.succes = kwargs.get('succes', bool())
+        self.success = kwargs.get('success', bool())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -219,7 +219,7 @@ class CatchTurtle_Response(metaclass=Metaclass_CatchTurtle_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.succes != other.succes:
+        if self.success != other.success:
             return False
         return True
 
@@ -229,17 +229,17 @@ class CatchTurtle_Response(metaclass=Metaclass_CatchTurtle_Response):
         return copy(cls._fields_and_field_types)
 
     @property
-    def succes(self):
-        """Message field 'succes'."""
-        return self._succes
+    def success(self):
+        """Message field 'success'."""
+        return self._success
 
-    @succes.setter
-    def succes(self, value):
+    @success.setter
+    def success(self, value):
         if __debug__:
             assert \
                 isinstance(value, bool), \
-                "The 'succes' field must be of type 'bool'"
-        self._succes = value
+                "The 'success' field must be of type 'bool'"
+        self._success = value
 
 
 class Metaclass_CatchTurtle(type):

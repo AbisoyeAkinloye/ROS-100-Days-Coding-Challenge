@@ -43,7 +43,7 @@ typedef struct catch_turtle__srv__CatchTurtle_Request__Sequence
 // Struct defined in srv/CatchTurtle in the package catch_turtle.
 typedef struct catch_turtle__srv__CatchTurtle_Response
 {
-  bool succes;
+  bool success;
 } catch_turtle__srv__CatchTurtle_Response;
 
 // Struct for a sequence of catch_turtle__srv__CatchTurtle_Response.

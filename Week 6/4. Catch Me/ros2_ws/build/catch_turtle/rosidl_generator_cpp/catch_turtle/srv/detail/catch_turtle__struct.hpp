@@ -151,7 +151,7 @@ struct CatchTurtle_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->succes = false;
+      this->success = false;
     }
   }
 
@@ -161,20 +161,20 @@ struct CatchTurtle_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->succes = false;
+      this->success = false;
     }
   }
 
   // field types and members
-  using _succes_type =
+  using _success_type =
     bool;
-  _succes_type succes;
+  _success_type success;
 
   // setters for named parameter idiom
-  Type & set__succes(
+  Type & set__success(
     const bool & _arg)
   {
-    this->succes = _arg;
+    this->success = _arg;
     return *this;
   }
 
@@ -220,7 +220,7 @@ struct CatchTurtle_Response_
   // comparison operators
   bool operator==(const CatchTurtle_Response_ & other) const
   {
-    if (this->succes != other.succes) {
+    if (this->success != other.success) {
       return false;
     }
     return true;

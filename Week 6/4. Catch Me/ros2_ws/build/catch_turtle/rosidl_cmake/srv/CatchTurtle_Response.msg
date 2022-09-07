@@ -1,2 +1,2 @@
 
-bool succes
+bool success
