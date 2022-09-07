@@ -10,6 +10,8 @@ Launch file can be created in 3 different ways:
 2. XML (Extensible Markup Language)
 3. YAML
 
+Further reading on Ros official documentation <a href="https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Creating-Launch-Files.html">link</a>
+
 You can create lauch file **in the <a href="#file">package</a>** where you wanna use it or create launch **as a <a href="#package">package</a>**.
 
 ### Create Launch file in a package

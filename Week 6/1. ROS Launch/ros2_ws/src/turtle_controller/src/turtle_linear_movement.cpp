@@ -52,7 +52,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     geometry_msgs::msg::Twist cmd_vel;
     rclcpp::Clock time;
-    int t0, t1, dt, isForward;
+    int t0, t1, dt; bool isForward;
     double speed, distance, displacement;
 };
 
