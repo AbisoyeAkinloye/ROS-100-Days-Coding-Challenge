@@ -18,6 +18,14 @@ find_package(rclpy REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+# find dependencies
+find_package(rosidl_default_generators REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/Turtle.msg"
+  "msg/TurtleArray.msg"
+)
+
 # install python package
 ament_python_install_package(${PROJECT_NAME})
 

@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000202] (catch_turtle) JobQueued: {'identifier': 'catch_turtle', 'dependencies': OrderedDict()}
+[0.000277] (catch_turtle) JobStarted: {'identifier': 'catch_turtle'}
+[0.028248] (catch_turtle) JobProgress: {'identifier': 'catch_turtle', 'progress': 'cmake'}
+[0.029356] (catch_turtle) JobProgress: {'identifier': 'catch_turtle', 'progress': 'build'}
+[0.031217] (catch_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5314'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42211'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1846,unix/loye:/tmp/.ICE-unix/1846'), ('INVOCATION_ID', '8629081c7c8d4e9fbc5aa7b279b6700f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:233fb5ca-8f14-4bc6-8c61-177cb58caf96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.102173] (-) TimerEvent: {}
+[0.109134] (catch_turtle) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.168156] (catch_turtle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.202331] (-) TimerEvent: {}
+[0.303089] (-) TimerEvent: {}
+[0.403737] (-) TimerEvent: {}
+[0.504316] (-) TimerEvent: {}
+[0.602357] (catch_turtle) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.604494] (-) TimerEvent: {}
+[0.704839] (-) TimerEvent: {}
+[0.724863] (catch_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.738323] (catch_turtle) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.805078] (-) TimerEvent: {}
+[0.905496] (-) TimerEvent: {}
+[1.005926] (-) TimerEvent: {}
+[1.106407] (-) TimerEvent: {}
+[1.145865] (catch_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.206578] (-) TimerEvent: {}
+[1.307028] (-) TimerEvent: {}
+[1.359792] (catch_turtle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.364574] (catch_turtle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.407483] (-) TimerEvent: {}
+[1.508141] (-) TimerEvent: {}
+[1.608652] (-) TimerEvent: {}
+[1.709220] (-) TimerEvent: {}
+[1.809576] (-) TimerEvent: {}
+[1.910042] (-) TimerEvent: {}
+[2.010520] (-) TimerEvent: {}
+[2.088768] (catch_turtle) StdoutLine: {'line': b'-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.089293] (catch_turtle) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[2.110706] (-) TimerEvent: {}
+[2.211148] (-) TimerEvent: {}
+[2.311737] (-) TimerEvent: {}
+[2.412259] (-) TimerEvent: {}
+[2.512670] (-) TimerEvent: {}
+[2.613229] (-) TimerEvent: {}
+[2.626072] (catch_turtle) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.713640] (-) TimerEvent: {}
+[2.798530] (catch_turtle) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.813810] (-) TimerEvent: {}
+[2.886283] (catch_turtle) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.913908] (-) TimerEvent: {}
+[3.014304] (-) TimerEvent: {}
+[3.115026] (-) TimerEvent: {}
+[3.199292] (catch_turtle) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.215178] (-) TimerEvent: {}
+[3.315589] (-) TimerEvent: {}
+[3.415927] (-) TimerEvent: {}
+[3.516351] (-) TimerEvent: {}
+[3.526720] (catch_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.549030] (catch_turtle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.603023] (catch_turtle) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.607497] (catch_turtle) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[3.616523] (-) TimerEvent: {}
+[3.682790] (catch_turtle) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[3.683324] (catch_turtle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.683520] (catch_turtle) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[3.683704] (catch_turtle) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[3.716676] (-) TimerEvent: {}
+[3.730815] (catch_turtle) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.803950] (catch_turtle) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.816861] (-) TimerEvent: {}
+[3.917318] (-) TimerEvent: {}
+[3.927631] (catch_turtle) StdoutLine: {'line': b'-- Generating done\n'}
+[3.945126] (catch_turtle) StdoutLine: {'line': b'-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle\n'}
+[4.006133] (catch_turtle) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.007006] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__cpp\x1b[0m\n'}
+[4.017522] (-) TimerEvent: {}
+[4.033691] (catch_turtle) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.117690] (-) TimerEvent: {}
+[4.218505] (-) TimerEvent: {}
+[4.322470] (-) TimerEvent: {}
+[4.423296] (-) TimerEvent: {}
+[4.523861] (-) TimerEvent: {}
+[4.624205] (-) TimerEvent: {}
+[4.724565] (-) TimerEvent: {}
+[4.824897] (-) TimerEvent: {}
+[4.904102] (catch_turtle) StdoutLine: {'line': b'[  5%] Built target catch_turtle__cpp\n'}
+[4.925072] (-) TimerEvent: {}
+[4.927861] (catch_turtle) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.944611] (catch_turtle) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.948104] (catch_turtle) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.948715] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_generator_c\x1b[0m\n'}
+[4.992480] (catch_turtle) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle__functions.c.o\x1b[0m\n'}
+[5.025220] (-) TimerEvent: {}
+[5.125936] (-) TimerEvent: {}
+[5.226812] (-) TimerEvent: {}
+[5.288434] (catch_turtle) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle_array__functions.c.o\x1b[0m\n'}
+[5.327368] (-) TimerEvent: {}
+[5.428041] (-) TimerEvent: {}
+[5.528745] (-) TimerEvent: {}
+[5.602826] (catch_turtle) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcatch_turtle__rosidl_generator_c.so\x1b[0m\n'}
+[5.629235] (-) TimerEvent: {}
+[5.729916] (-) TimerEvent: {}
+[5.747639] (catch_turtle) StdoutLine: {'line': b'[ 20%] Built target catch_turtle__rosidl_generator_c\n'}
+[5.796067] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.815637] (catch_turtle) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.830141] (-) TimerEvent: {}
+[5.839601] (catch_turtle) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/catch_turtle/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[5.930281] (-) TimerEvent: {}
+[6.031265] (-) TimerEvent: {}
+[6.090095] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.126514] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.133427] (-) TimerEvent: {}
+[6.206533] (catch_turtle) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.210152] (catch_turtle) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/catch_turtle/msg/detail/turtle__type_support.cpp.o\x1b[0m\n'}
+[6.233579] (-) TimerEvent: {}
+[6.334231] (-) TimerEvent: {}
+[6.434973] (-) TimerEvent: {}
+[6.535632] (-) TimerEvent: {}
+[6.636236] (-) TimerEvent: {}
+[6.736828] (-) TimerEvent: {}
+[6.785795] (catch_turtle) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/catch_turtle/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[6.838503] (-) TimerEvent: {}
+[6.939241] (-) TimerEvent: {}
+[7.040376] (-) TimerEvent: {}
+[7.055493] (catch_turtle) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/catch_turtle/msg/detail/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[7.140521] (-) TimerEvent: {}
+[7.186339] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.236981] (catch_turtle) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/catch_turtle/msg/detail/turtle__type_support.c.o\x1b[0m\n'}
+[7.240644] (-) TimerEvent: {}
+[7.337092] (catch_turtle) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/catch_turtle/msg/detail/turtle_array__type_support.c.o\x1b[0m\n'}
+[7.340765] (-) TimerEvent: {}
+[7.441129] (-) TimerEvent: {}
+[7.490961] (catch_turtle) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libcatch_turtle__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.541271] (-) TimerEvent: {}
+[7.641646] (-) TimerEvent: {}
+[7.665812] (catch_turtle) StdoutLine: {'line': b'[ 43%] Built target catch_turtle__rosidl_typesupport_introspection_c\n'}
+[7.741824] (-) TimerEvent: {}
+[7.769235] (catch_turtle) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.796746] (catch_turtle) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.841971] (-) TimerEvent: {}
+[7.853187] (catch_turtle) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[7.942097] (-) TimerEvent: {}
+[8.042499] (-) TimerEvent: {}
+[8.049162] (catch_turtle) StdoutLine: {'line': b'[ 51%] Built target catch_turtle__rosidl_typesupport_cpp\n'}
+[8.142650] (-) TimerEvent: {}
+[8.162165] (catch_turtle) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.242809] (-) TimerEvent: {}
+[8.343378] (-) TimerEvent: {}
+[8.396915] (catch_turtle) StdoutLine: {'line': b'[ 53%] Built target catch_turtle__rosidl_typesupport_introspection_cpp\n'}
+[8.443507] (-) TimerEvent: {}
+[8.543961] (-) TimerEvent: {}
+[8.644351] (-) TimerEvent: {}
+[8.711763] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_c\x1b[0m\n'}
+[8.744534] (-) TimerEvent: {}
+[8.756890] (catch_turtle) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/catch_turtle/msg/turtle_array__type_support.cpp.o\x1b[0m\n'}
+[8.759621] (catch_turtle) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/catch_turtle/msg/turtle__type_support.cpp.o\x1b[0m\n'}
+[8.844664] (-) TimerEvent: {}
+[8.862888] (catch_turtle) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.944827] (-) TimerEvent: {}
+[8.994112] (catch_turtle) StdoutLine: {'line': b'[ 61%] Built target catch_turtle__rosidl_typesupport_c\n'}
+[9.045117] (-) TimerEvent: {}
+[9.073025] (catch_turtle) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.147855] (-) TimerEvent: {}
+[9.248405] (-) TimerEvent: {}
+[9.349042] (-) TimerEvent: {}
+[9.351434] (catch_turtle) StdoutLine: {'line': b'[ 64%] Built target catch_turtle__rosidl_typesupport_fastrtps_cpp\n'}
+[9.378753] (catch_turtle) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.449705] (-) TimerEvent: {}
+[9.550200] (-) TimerEvent: {}
+[9.650579] (-) TimerEvent: {}
+[9.751029] (-) TimerEvent: {}
+[9.851617] (-) TimerEvent: {}
+[9.952026] (-) TimerEvent: {}
+[10.052391] (-) TimerEvent: {}
+[10.152728] (-) TimerEvent: {}
+[10.156469] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.203736] (catch_turtle) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/catch_turtle/msg/detail/turtle__type_support_c.cpp.o\x1b[0m\n'}
+[10.204239] (catch_turtle) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/catch_turtle/msg/detail/turtle_array__type_support_c.cpp.o\x1b[0m\n'}
+[10.252903] (-) TimerEvent: {}
+[10.353285] (-) TimerEvent: {}
+[10.453869] (-) TimerEvent: {}
+[10.554502] (-) TimerEvent: {}
+[10.655106] (-) TimerEvent: {}
+[10.755629] (-) TimerEvent: {}
+[10.856028] (-) TimerEvent: {}
+[10.956496] (-) TimerEvent: {}
+[11.056954] (-) TimerEvent: {}
+[11.080541] (catch_turtle) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.157125] (-) TimerEvent: {}
+[11.257851] (-) TimerEvent: {}
+[11.321731] (catch_turtle) StdoutLine: {'line': b'[ 74%] Built target catch_turtle__rosidl_typesupport_fastrtps_c\n'}
+[11.343744] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle\x1b[0m\n'}
+[11.358015] (-) TimerEvent: {}
+[11.368392] (catch_turtle) StdoutLine: {'line': b'[ 74%] Built target catch_turtle\n'}
+[11.402666] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__py\x1b[0m\n'}
+[11.429644] (catch_turtle) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.458554] (-) TimerEvent: {}
+[11.559144] (-) TimerEvent: {}
+[11.659983] (-) TimerEvent: {}
+[11.760570] (-) TimerEvent: {}
+[11.861287] (-) TimerEvent: {}
+[11.962002] (-) TimerEvent: {}
+[12.062577] (-) TimerEvent: {}
+[12.162931] (-) TimerEvent: {}
+[12.263328] (-) TimerEvent: {}
+[12.363929] (-) TimerEvent: {}
+[12.464229] (-) TimerEvent: {}
+[12.564642] (-) TimerEvent: {}
+[12.665356] (-) TimerEvent: {}
+[12.765907] (-) TimerEvent: {}
+[12.847990] (catch_turtle) StdoutLine: {'line': b'[ 76%] Built target catch_turtle__py\n'}
+[12.866139] (-) TimerEvent: {}
+[12.871367] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__python\x1b[0m\n'}
+[12.955778] (catch_turtle) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__python.dir/rosidl_generator_py/catch_turtle/msg/_turtle_s.c.o\x1b[0m\n'}
+[12.960697] (catch_turtle) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__python.dir/rosidl_generator_py/catch_turtle/msg/_turtle_array_s.c.o\x1b[0m\n'}
+[12.966360] (-) TimerEvent: {}
+[13.067374] (-) TimerEvent: {}
+[13.168084] (-) TimerEvent: {}
+[13.233912] (catch_turtle) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/catch_turtle/libcatch_turtle__python.so\x1b[0m\n'}
+[13.268252] (-) TimerEvent: {}
+[13.337486] (catch_turtle) StdoutLine: {'line': b'[ 84%] Built target catch_turtle__python\n'}
+[13.365308] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.366271] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.367091] (catch_turtle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.368353] (-) TimerEvent: {}
+[13.432586] (catch_turtle) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.448611] (catch_turtle) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.461101] (catch_turtle) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.468515] (-) TimerEvent: {}
+[13.569213] (-) TimerEvent: {}
+[13.669810] (-) TimerEvent: {}
+[13.693384] (catch_turtle) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.732974] (catch_turtle) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.741782] (catch_turtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[13.770254] (-) TimerEvent: {}
+[13.787929] (catch_turtle) StdoutLine: {'line': b'[100%] Built target catch_turtle__rosidl_typesupport_c__pyext\n'}
+[13.831242] (catch_turtle) StdoutLine: {'line': b'[100%] Built target catch_turtle__rosidl_typesupport_introspection_c__pyext\n'}
+[13.870465] (-) TimerEvent: {}
+[13.950867] (catch_turtle) StdoutLine: {'line': b'[100%] Built target catch_turtle__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.970643] (-) TimerEvent: {}
+[13.981558] (catch_turtle) CommandEnded: {'returncode': 0}
+[14.070905] (-) TimerEvent: {}
+[14.123483] (catch_turtle) JobProgress: {'identifier': 'catch_turtle', 'progress': 'install'}
+[14.151260] (catch_turtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1552'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5314'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:42211'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/1846,unix/loye:/tmp/.ICE-unix/1846'), ('INVOCATION_ID', '8629081c7c8d4e9fbc5aa7b279b6700f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:233fb5ca-8f14-4bc6-8c61-177cb58caf96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[14.171117] (-) TimerEvent: {}
+[14.173280] (catch_turtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.173854] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/rosidl_interfaces/catch_turtle\n'}
+[14.174615] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.175047] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.175507] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.175979] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle_array.h\n'}
+[14.176434] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.176881] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__functions.h\n'}
+[14.177298] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__functions.c\n'}
+[14.177735] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__struct.h\n'}
+[14.178144] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.h\n'}
+[14.178592] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__struct.h\n'}
+[14.179123] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.h\n'}
+[14.179560] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__functions.c\n'}
+[14.180186] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__functions.h\n'}
+[14.180669] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle.h\n'}
+[14.180986] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/library_path.sh\n'}
+[14.182149] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/library_path.dsv\n'}
+[14.182940] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_generator_c.so\n'}
+[14.183467] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_generator_c.so" to ""\n'}
+[14.183872] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.184635] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.185246] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.185858] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[14.186394] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[14.186873] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.187556] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_c.so\n'}
+[14.188022] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.188716] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.189068] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.189878] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.190469] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.191062] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.191544] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/dds_fastrtps\n'}
+[14.192248] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.192665] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.193152] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.193915] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.194303] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.194831] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.195512] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.195953] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.c\n'}
+[14.196525] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.c\n'}
+[14.196939] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[14.198695] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[14.199088] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_c.so\n'}
+[14.199451] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.199805] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_c.so\n'}
+[14.200195] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_c.so" to ""\n'}
+[14.200548] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.200898] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.201272] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle.hpp\n'}
+[14.201622] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle_array.hpp\n'}
+[14.201971] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.202341] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__traits.hpp\n'}
+[14.202765] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__struct.hpp\n'}
+[14.203148] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__struct.hpp\n'}
+[14.208169] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__builder.hpp\n'}
+[14.208604] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__traits.hpp\n'}
+[14.209006] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__builder.hpp\n'}
+[14.209372] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle\n'}
+[14.209731] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg\n'}
+[14.210119] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail\n'}
+[14.210545] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.210935] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.211290] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.cpp\n'}
+[14.211643] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.cpp\n'}
+[14.212023] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_cpp.so\n'}
+[14.212395] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.212770] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_cpp.so\n'}
+[14.213124] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_cpp.so" to ""\n'}
+[14.213474] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.sh\n'}
+[14.213853] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.dsv\n'}
+[14.214204] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py\n'}
+[14.269764] (catch_turtle) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py'...\n"}
+[14.271396] (-) TimerEvent: {}
+[14.278537] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg\n'}
+[14.278927] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array.py\n'}
+[14.279438] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/__init__.py\n'}
+[14.279874] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle.py\n'}
+[14.280119] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array_s.c\n'}
+[14.280295] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_s.c\n'}
+[14.280665] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.281683] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.282333] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.283615] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.284083] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[14.285215] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[14.285557] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__python.so\n'}
+[14.290055] (catch_turtle) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__python.so" to ""\n'}
+[14.290519] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/Turtle.idl\n'}
+[14.290899] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/TurtleArray.idl\n'}
+[14.291249] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/Turtle.msg\n'}
+[14.291573] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/TurtleArray.msg\n'}
+[14.292021] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle\n'}
+[14.292200] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/module_to_import.py\n'}
+[14.292368] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py\n'}
+[14.363729] (catch_turtle) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle'...\n"}
+[14.364105] (catch_turtle) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py'...\n"}
+[14.364368] (catch_turtle) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg'...\n"}
+[14.364607] (catch_turtle) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/__init__.py'...\n"}
+[14.364838] (catch_turtle) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle.py'...\n"}
+[14.365087] (catch_turtle) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array.py'...\n"}
+[14.371706] (-) TimerEvent: {}
+[14.373744] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/catch_turtle/turtle_controller.py\n'}
+[14.374027] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/catch_turtle/turtle_spawner.py\n'}
+[14.374564] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/package_run_dependencies/catch_turtle\n'}
+[14.375138] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/parent_prefix_path/catch_turtle\n'}
+[14.375310] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.sh\n'}
+[14.375711] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.dsv\n'}
+[14.376134] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.sh\n'}
+[14.376347] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.dsv\n'}
+[14.376850] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.bash\n'}
+[14.377204] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.sh\n'}
+[14.377421] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.zsh\n'}
+[14.377797] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.dsv\n'}
+[14.378175] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.dsv\n'}
+[14.378541] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/packages/catch_turtle\n'}
+[14.378772] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cExport.cmake\n'}
+[14.379139] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.379465] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.379794] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.380123] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cExport.cmake\n'}
+[14.380337] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.380709] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cppExport.cmake\n'}
+[14.381048] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.381382] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.381852] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cppExport.cmake\n'}
+[14.382675] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.382903] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake-extras.cmake\n'}
+[14.383241] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.383590] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.383925] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.384256] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.384581] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.384917] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.385242] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig.cmake\n'}
+[14.385660] (catch_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig-version.cmake\n'}
+[14.385837] (catch_turtle) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.xml\n'}
+[14.389992] (catch_turtle) CommandEnded: {'returncode': 0}
+[14.471960] (-) TimerEvent: {}
+[14.572867] (-) TimerEvent: {}
+[14.634307] (catch_turtle) JobEnded: {'identifier': 'catch_turtle', 'rc': 0}
+[14.636066] (-) EventReactorShutdown: {}
