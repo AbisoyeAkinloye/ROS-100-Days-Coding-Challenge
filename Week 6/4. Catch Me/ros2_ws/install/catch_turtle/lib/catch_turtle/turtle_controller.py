@@ -28,6 +28,7 @@ class TurtleController(Node):
         dist_x = self.target_x - self.pose.x
         dist_y = self.target_y - self.pose.y
         distance = math.sqrt(dist_x**2 * dist_y**2)
+        self.get_logger().info(f"Distance: {distance}")
 
         cmd_vel = Twist()
         
