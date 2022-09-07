@@ -4,7 +4,8 @@ import rclpy
 from rclpy.node import Node
 
 from turtlesim.srv import Spawn
-from turtlesim.msg import Pose
+from catch_turtle.msg import Turtle
+from catch_turtle.msg import TurtleArray
 
 import random, math
 from functools import partial
@@ -14,7 +15,16 @@ class SpawnTurtle(Node):
     def __init__(self):
         super().__init__("turtle_spawner")
         self.counter = 1
-        self.timer_ = self.create_timer(2.0, self.spawn_turtle)
+
+        self.turtle_publisher_ = self.create_publisher(TurtleArray, "alive_turtles", 10)
+        self.alive_turtles = []
+        self.timer_ = self.create_timer(3.0, self.spawn_turtle)
+
+    def publish_alive_turtle(self):
+        msg = TurtleArray()
+        msg.turtles = self.alive_turtles
+        self.turtle_publisher_.publish(msg)
+
 
     def call_spawn_service(self, turtle_name, pose_x, pose_y, theta):
         spawn_turtle_client = self.create_client(Spawn, "/spawn")
@@ -35,8 +45,15 @@ class SpawnTurtle(Node):
         try:
             response = future.result()
             self.get_logger().info(f'{response.name} has been spawned.')
+            new_turtle = Turtle()
+            new_turtle.name = response.name
+            new_turtle.x = pose_x
+            new_turtle.y = pose_y
+            new_turtle.theta = theta
+            self.alive_turtles.append(new_turtle)
+            self.publish_alive_turtle()
         except Exception as e:
-            self.get_logger().error("Service call failed: %r",(e,))
+            self.get_logger().error("Service call failed: %r" % (e,))
 
     def spawn_turtle(self):
         self.counter += 1
