@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle
+[0.075s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.128s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.572s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.694s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.708s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.132s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.345s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.350s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[2.047s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.572s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.877s] -- Configuring done
+[2.885s] -- Generating done
+[2.891s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle
+[2.905s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle -DCMAKE_INSTALL_PREFIX=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle
+[2.912s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle -- -j4 -l4
+[3.014s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle -- -j4 -l4
+[3.088s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle
+[3.105s] -- Install configuration: ""
+[3.106s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.sh
+[3.106s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.dsv
+[3.107s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle
+[3.107s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/module_to_import.py
+[3.107s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py
+[3.179s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle'...
+[3.179s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py'...
+[3.179s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/module_to_import.py'...
+[3.189s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/catch_turtle/turtle_controller.py
+[3.190s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/package_run_dependencies/catch_turtle
+[3.190s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/parent_prefix_path/catch_turtle
+[3.191s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.sh
+[3.191s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.dsv
+[3.192s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.sh
+[3.192s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.dsv
+[3.193s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.bash
+[3.193s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.sh
+[3.193s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.zsh
+[3.194s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.dsv
+[3.194s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.dsv
+[3.195s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/packages/catch_turtle
+[3.195s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig.cmake
+[3.196s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig-version.cmake
+[3.196s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.xml
+[3.203s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle

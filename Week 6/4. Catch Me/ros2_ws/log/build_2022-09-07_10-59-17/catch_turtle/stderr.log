@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:25 (install):
+  install PROGRAMS given no DESTINATION!
+
+
