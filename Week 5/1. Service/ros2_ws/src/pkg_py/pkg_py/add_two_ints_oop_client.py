@@ -12,6 +12,7 @@ class AddTwoIntegersClient(Node):
 
     def call_add_two_ints_server(self, a, b):
         client = self.create_client(AddTwoInts, "add_two_ints")
+        
         while not client.wait_for_service(1.0):
             self.get_logger().warn("Waiting for Server...")
 

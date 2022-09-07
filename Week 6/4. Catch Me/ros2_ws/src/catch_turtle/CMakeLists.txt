@@ -24,6 +24,7 @@ ament_python_install_package(${PROJECT_NAME})
 # install python executable
 install(PROGRAMS
   scripts/turtle_controller.py
+  scripts/turtle_spawner.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

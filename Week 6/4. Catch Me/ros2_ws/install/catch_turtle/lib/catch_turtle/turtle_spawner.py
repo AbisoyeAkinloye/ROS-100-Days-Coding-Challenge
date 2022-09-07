@@ -34,7 +34,7 @@ class SpawnTurtle(Node):
     def get_response(self, future, turtle_name, pose_x, pose_y, theta):
         try:
             response = future.result()
-            self.get_logger().info(f'{response.name} has been spawned.')
+            self.get_logger().info(f'{response.name} has been spawned')
         except Exception as e:
             self.get_logger().error("Service call failed: %r",(e,))
 
