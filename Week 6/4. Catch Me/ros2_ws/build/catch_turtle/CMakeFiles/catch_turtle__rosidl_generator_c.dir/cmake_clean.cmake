@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle__functions.c.o"
   "CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle_array__functions.c.o"
+  "CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__functions.c.o"
   "libcatch_turtle__rosidl_generator_c.pdb"
   "libcatch_turtle__rosidl_generator_c.so"
   "rosidl_generator_c/catch_turtle/msg/detail/turtle__functions.c"
@@ -13,6 +14,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/catch_turtle/msg/detail/turtle_array__type_support.h"
   "rosidl_generator_c/catch_turtle/msg/turtle.h"
   "rosidl_generator_c/catch_turtle/msg/turtle_array.h"
+  "rosidl_generator_c/catch_turtle/srv/catch_turtle.h"
+  "rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__functions.c"
+  "rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__functions.h"
+  "rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__struct.h"
+  "rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__type_support.h"
 )
 
 # Per-language clean rules from dependency scanning.

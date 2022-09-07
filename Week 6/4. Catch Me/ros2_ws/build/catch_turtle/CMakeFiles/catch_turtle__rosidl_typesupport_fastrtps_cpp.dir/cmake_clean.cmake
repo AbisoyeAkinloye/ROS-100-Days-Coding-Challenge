@@ -1,12 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle__type_support.cpp.o"
   "CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o"
+  "CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o"
   "libcatch_turtle__rosidl_typesupport_fastrtps_cpp.pdb"
   "libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle_array__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/catch_turtle/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/catch_turtle/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

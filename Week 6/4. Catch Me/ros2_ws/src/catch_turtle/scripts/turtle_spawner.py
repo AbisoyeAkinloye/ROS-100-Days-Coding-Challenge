@@ -6,6 +6,7 @@ from rclpy.node import Node
 from turtlesim.srv import Spawn
 from catch_turtle.msg import Turtle
 from catch_turtle.msg import TurtleArray
+from catch_turtle.srv import CatchTurtle
 
 import random, math
 from functools import partial

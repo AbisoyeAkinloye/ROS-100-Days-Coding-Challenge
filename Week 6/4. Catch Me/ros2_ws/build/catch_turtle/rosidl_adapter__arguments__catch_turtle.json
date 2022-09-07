@@ -2,6 +2,7 @@
   "package_name": "catch_turtle",
   "non_idl_tuples": [
     "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle:msg/Turtle.msg",
-    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle:msg/TurtleArray.msg"
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle:msg/TurtleArray.msg",
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/src/catch_turtle:srv/CatchTurtle.srv"
   ]
 }

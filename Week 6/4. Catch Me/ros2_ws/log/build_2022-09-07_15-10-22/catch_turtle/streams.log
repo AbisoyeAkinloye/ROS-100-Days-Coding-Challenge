@@ -1,0 +1,280 @@
+[0.039s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle -- -j4 -l4
+[0.120s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.190s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.190s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.645s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.789s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.434s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.161s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[2.162s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.714s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.881s] -- Found catch_turtle: 0.0.0 (/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake)
+[2.908s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.995s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.318s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.723s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.725s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.780s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.780s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.780s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.855s] -- Configuring done
+[3.997s] -- Generating done
+[4.017s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle
+[4.086s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.086s] [35m[1mScanning dependencies of target catch_turtle__cpp[0m
+[4.124s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.256s] [  4%] Built target catch_turtle__cpp
+[5.285s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.334s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.356s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.396s] [35m[1mScanning dependencies of target catch_turtle__rosidl_generator_c[0m
+[5.464s] [ 12%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle__functions.c.o[0m
+[5.750s] [ 14%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/msg/detail/turtle_array__functions.c.o[0m
+[6.046s] [ 17%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_generator_c.dir/rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__functions.c.o[0m
+[6.331s] [ 19%] [32m[1mLinking C shared library libcatch_turtle__rosidl_generator_c.so[0m
+[6.555s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_cpp[0m
+[6.583s] [ 19%] Built target catch_turtle__rosidl_generator_c
+[6.630s] [ 21%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/catch_turtle/msg/turtle__type_support.cpp.o[0m
+[6.643s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.685s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_cpp[0m
+[6.737s] [ 25%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/catch_turtle/msg/detail/turtle__type_support.cpp.o[0m
+[6.837s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_cpp[0m
+[6.953s] [ 27%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[7.766s] [ 29%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/catch_turtle/msg/turtle_array__type_support.cpp.o[0m
+[7.795s] [ 31%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/catch_turtle/msg/detail/turtle_array__type_support.cpp.o[0m
+[8.311s] [ 34%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[8.362s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_c[0m
+[8.460s] [ 36%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/catch_turtle/msg/detail/turtle__type_support.c.o[0m
+[8.635s] [ 38%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/catch_turtle/srv/catch_turtle__type_support.cpp.o[0m
+[8.658s] [ 40%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/catch_turtle/msg/detail/turtle_array__type_support.c.o[0m
+[8.913s] [ 42%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/catch_turtle/srv/detail/catch_turtle__type_support.c.o[0m
+[9.129s] [ 44%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/catch_turtle/srv/detail/catch_turtle__type_support.cpp.o[0m
+[9.166s] [ 46%] [32m[1mLinking C shared library libcatch_turtle__rosidl_typesupport_introspection_c.so[0m
+[9.345s] [ 46%] Built target catch_turtle__rosidl_typesupport_introspection_c
+[9.416s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.666s] [ 51%] [32m[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_cpp.so[0m
+[9.889s] [ 51%] Built target catch_turtle__rosidl_typesupport_cpp
+[9.942s] [ 53%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/catch_turtle/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o[0m
+[10.034s] [ 55%] [32m[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_introspection_cpp.so[0m
+[10.276s] [ 55%] Built target catch_turtle__rosidl_typesupport_introspection_cpp
+[10.418s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_c[0m
+[10.457s] [ 57%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/catch_turtle/msg/turtle_array__type_support.cpp.o[0m
+[10.462s] [ 59%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/catch_turtle/msg/turtle__type_support.cpp.o[0m
+[10.480s] [ 61%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_c.dir/rosidl_typesupport_c/catch_turtle/srv/catch_turtle__type_support.cpp.o[0m
+[10.617s] [ 63%] [32m[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_c.so[0m
+[10.752s] [ 63%] Built target catch_turtle__rosidl_typesupport_c
+[11.030s] [ 65%] [32m[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.299s] [ 65%] Built target catch_turtle__rosidl_typesupport_fastrtps_cpp
+[11.326s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.350s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_c[0m
+[12.432s] [ 70%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/catch_turtle/msg/detail/turtle__type_support_c.cpp.o[0m
+[12.438s] [ 72%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/catch_turtle/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[12.450s] [ 74%] [32mBuilding CXX object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/catch_turtle/srv/detail/catch_turtle__type_support_c.cpp.o[0m
+[13.701s] [ 76%] [32m[1mLinking CXX shared library libcatch_turtle__rosidl_typesupport_fastrtps_c.so[0m
+[13.953s] [ 76%] Built target catch_turtle__rosidl_typesupport_fastrtps_c
+[14.009s] [ 76%] Built target catch_turtle
+[14.037s] [35m[1mScanning dependencies of target catch_turtle__py[0m
+[14.071s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.069s] [ 78%] Built target catch_turtle__py
+[16.099s] [35m[1mScanning dependencies of target catch_turtle__python[0m
+[16.163s] [ 80%] [32mBuilding C object CMakeFiles/catch_turtle__python.dir/rosidl_generator_py/catch_turtle/msg/_turtle_s.c.o[0m
+[16.167s] [ 82%] [32mBuilding C object CMakeFiles/catch_turtle__python.dir/rosidl_generator_py/catch_turtle/msg/_turtle_array_s.c.o[0m
+[16.179s] [ 85%] [32mBuilding C object CMakeFiles/catch_turtle__python.dir/rosidl_generator_py/catch_turtle/srv/_catch_turtle_s.c.o[0m
+[16.493s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/catch_turtle/libcatch_turtle__python.so[0m
+[16.604s] [ 87%] Built target catch_turtle__python
+[16.635s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_introspection_c__pyext[0m
+[16.635s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_fastrtps_c__pyext[0m
+[16.637s] [35m[1mScanning dependencies of target catch_turtle__rosidl_typesupport_c__pyext[0m
+[16.685s] [ 89%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_c.c.o[0m
+[16.712s] [ 91%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.716s] [ 93%] [32mBuilding C object CMakeFiles/catch_turtle__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/catch_turtle/_catch_turtle_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.989s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.021s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.055s] [100%] [32m[1mLinking C shared library rosidl_generator_py/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[17.120s] [100%] Built target catch_turtle__rosidl_typesupport_introspection_c__pyext
+[17.157s] [100%] Built target catch_turtle__rosidl_typesupport_c__pyext
+[17.224s] [100%] Built target catch_turtle__rosidl_typesupport_fastrtps_c__pyext
+[17.274s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle -- -j4 -l4
+[17.499s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle
+[17.525s] -- Install configuration: ""
+[17.526s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/rosidl_interfaces/catch_turtle
+[17.527s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.527s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.528s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/catch_turtle.h
+[17.528s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.529s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__functions.c
+[17.530s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__struct.h
+[17.530s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__functions.h
+[17.531s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__type_support.h
+[17.532s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.532s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_generator_c__visibility_control.h
+[17.533s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle_array.h
+[17.534s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.534s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__functions.h
+[17.535s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__functions.c
+[17.536s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__struct.h
+[17.536s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.h
+[17.537s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__struct.h
+[17.538s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.h
+[17.538s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__functions.c
+[17.540s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__functions.h
+[17.540s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle.h
+[17.541s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/library_path.sh
+[17.542s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/library_path.dsv
+[17.543s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_generator_c.so
+[17.545s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_generator_c.so" to ""
+[17.545s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.546s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.546s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.547s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[17.548s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.548s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.549s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[17.550s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[17.550s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.552s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_c.so
+[17.553s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_c.so" to ""
+[17.554s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.555s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.555s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.556s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/dds_fastrtps
+[17.556s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[17.557s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.558s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.558s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.559s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[17.559s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/dds_fastrtps
+[17.560s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[17.561s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so
+[17.563s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.564s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.565s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.565s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.566s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__type_support.c
+[17.566s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[17.567s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.568s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.568s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.569s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.c
+[17.569s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.c
+[17.571s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[17.571s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[17.572s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_c.so
+[17.575s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_c.so" to ""
+[17.576s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_c.so
+[17.576s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_c.so" to ""
+[17.576s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.577s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.578s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/catch_turtle.hpp
+[17.578s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.579s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__traits.hpp
+[17.579s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__builder.hpp
+[17.580s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__struct.hpp
+[17.580s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.580s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle.hpp
+[17.581s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/turtle_array.hpp
+[17.581s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.582s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__traits.hpp
+[17.582s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__struct.hpp
+[17.582s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__struct.hpp
+[17.583s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__builder.hpp
+[17.583s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__traits.hpp
+[17.584s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__builder.hpp
+[17.584s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle
+[17.584s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv
+[17.585s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail
+[17.585s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[17.585s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/srv/detail/catch_turtle__type_support.cpp
+[17.586s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg
+[17.586s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail
+[17.587s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[17.587s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[17.587s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle__type_support.cpp
+[17.588s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/include/catch_turtle/msg/detail/turtle_array__type_support.cpp
+[17.588s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_cpp.so
+[17.588s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_introspection_cpp.so" to ""
+[17.589s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_cpp.so
+[17.589s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__rosidl_typesupport_cpp.so" to ""
+[17.589s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.sh
+[17.590s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/pythonpath.dsv
+[17.590s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py
+[17.652s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py'...
+[17.662s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg
+[17.662s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array.py
+[17.663s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/__init__.py
+[17.663s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle.py
+[17.664s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array_s.c
+[17.664s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_s.c
+[17.665s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv
+[17.665s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv/__init__.py
+[17.665s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv/_catch_turtle_s.c
+[17.665s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv/_catch_turtle.py
+[17.666s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[17.667s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.668s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[17.670s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.671s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[17.674s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/catch_turtle_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.675s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__python.so
+[17.676s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/libcatch_turtle__python.so" to ""
+[17.676s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/Turtle.idl
+[17.677s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/TurtleArray.idl
+[17.677s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/srv/CatchTurtle.idl
+[17.678s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/Turtle.msg
+[17.678s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/msg/TurtleArray.msg
+[17.678s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/srv/CatchTurtle.srv
+[17.679s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/srv/CatchTurtle_Request.msg
+[17.679s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/srv/CatchTurtle_Response.msg
+[17.680s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle
+[17.680s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/module_to_import.py
+[17.680s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py
+[17.766s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle'...
+[17.766s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/__init__.py'...
+[17.767s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg'...
+[17.767s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/__init__.py'...
+[17.767s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle.py'...
+[17.767s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/msg/_turtle_array.py'...
+[17.768s] Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv'...
+[17.768s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv/__init__.py'...
+[17.768s] Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/python3.8/site-packages/catch_turtle/srv/_catch_turtle.py'...
+[17.782s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/catch_turtle/turtle_controller.py
+[17.783s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/lib/catch_turtle/turtle_spawner.py
+[17.784s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/package_run_dependencies/catch_turtle
+[17.785s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/parent_prefix_path/catch_turtle
+[17.786s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.sh
+[17.786s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/ament_prefix_path.dsv
+[17.787s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.sh
+[17.788s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/environment/path.dsv
+[17.788s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.bash
+[17.789s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.sh
+[17.790s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.zsh
+[17.791s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/local_setup.dsv
+[17.791s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.dsv
+[17.792s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/ament_index/resource_index/packages/catch_turtle
+[17.793s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cExport.cmake
+[17.793s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cExport-noconfig.cmake
+[17.794s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cExport.cmake
+[17.795s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.795s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cExport.cmake
+[17.796s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cExport-noconfig.cmake
+[17.797s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_generator_cppExport.cmake
+[17.798s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cppExport.cmake
+[17.799s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.800s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cppExport.cmake
+[17.801s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtle__rosidl_typesupport_cppExport-noconfig.cmake
+[17.801s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake-extras.cmake
+[17.804s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.806s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_libraries-extras.cmake
+[17.809s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_targets-extras.cmake
+[17.810s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.812s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.812s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.813s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig.cmake
+[17.813s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/cmake/catch_turtleConfig-version.cmake
+[17.814s] -- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/install/catch_turtle/share/catch_turtle/package.xml
+[17.814s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/4. Catch Me/ros2_ws/build/catch_turtle

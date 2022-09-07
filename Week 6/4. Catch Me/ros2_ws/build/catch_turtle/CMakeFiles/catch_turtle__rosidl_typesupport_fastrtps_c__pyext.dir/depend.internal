@@ -104,3 +104,6 @@ CMakeFiles/catch_turtle__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generat
  rosidl_generator_c/catch_turtle/msg/detail/turtle_array__struct.h
  rosidl_generator_c/catch_turtle/msg/detail/turtle_array__type_support.h
  rosidl_generator_c/catch_turtle/msg/rosidl_generator_c__visibility_control.h
+ rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__functions.h
+ rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__struct.h
+ rosidl_generator_c/catch_turtle/srv/detail/catch_turtle__type_support.h
