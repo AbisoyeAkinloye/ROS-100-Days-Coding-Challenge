@@ -2,5 +2,4 @@
 
 A turtlesim project whereby a turtle catches other turtles spawned at a random position.
 
-<iframe width="auto" height="100%" src="https://www.youtube.com/embed/_7-oweL1Oqo">
-</iframe>
+[![Turtle Catch](spawn_turtle.png)](https://www.youtube.com/watch?v=_7-oweL1Oqo)
