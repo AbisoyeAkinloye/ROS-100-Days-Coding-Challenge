@@ -1,0 +1,8 @@
+# Goal
+float64 distance
+---
+# Result
+string status
+---
+# Feedback
+float64 current_distance

@@ -1,0 +1,6 @@
+{
+  "package_name": "action_pkg",
+  "non_idl_tuples": [
+    "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg:action/Move.action"
+  ]
+}

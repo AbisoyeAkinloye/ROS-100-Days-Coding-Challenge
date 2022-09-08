@@ -1,0 +1,9 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'action/Name.action' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2.
+  Actions/ros2_ws/src/action_pkg'
+Call Stack (most recent call first):
+  CMakeLists.txt:19 (rosidl_generate_interfaces)
+
+
