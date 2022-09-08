@@ -19,11 +19,13 @@ class SpawnTurtle(Node):
     def __init__(self):
         super().__init__("turtle_spawner")
         self.counter = 1
+        self.declare_parameter("spawn_period",2.0)
+        self.spawn_timer = self.get_parameter("spawn_period").value
 
         self.turtle_publisher_ = self.create_publisher(
             TurtleArray, "alive_turtles", 10)
         self.alive_turtles = []
-        self.timer_ = self.create_timer(2.0, self.spawn_turtle)
+        self.timer_ = self.create_timer(self.spawn_timer, self.spawn_turtle)
 
         self.catch_turtle_service_ = self.create_service(
             CatchTurtle, "/catch_turtle", self.catch_turtle_cb)

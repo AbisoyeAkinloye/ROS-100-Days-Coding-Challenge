@@ -5,7 +5,7 @@ set(catch_turtle_BUILD_DEPENDS "rosidl_default_generators" "rclcpp" "rclpy" "tur
 set(catch_turtle_BUILDTOOL_DEPENDS "ament_cmake")
 set(catch_turtle_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "turtlesim" "geometry_msgs")
 set(catch_turtle_BUILDTOOL_EXPORT_DEPENDS )
-set(catch_turtle_EXEC_DEPENDS "rosidl_default_runtime" "rclcpp" "rclpy" "turtlesim" "geometry_msgs")
+set(catch_turtle_EXEC_DEPENDS "rosidl_default_runtime" "ros2launch" "rclcpp" "rclpy" "turtlesim" "geometry_msgs")
 set(catch_turtle_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(catch_turtle_GROUP_DEPENDS )
 set(catch_turtle_MEMBER_OF_GROUPS "rosidl_interface_packages")
