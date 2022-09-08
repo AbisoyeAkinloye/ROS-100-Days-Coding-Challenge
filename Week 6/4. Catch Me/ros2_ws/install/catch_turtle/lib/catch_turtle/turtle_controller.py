@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
+import math
 import rclpy
 from rclpy.node import Node
-import math
 from functools import partial
 
 from turtlesim.msg import Pose
@@ -32,7 +32,7 @@ class TurtleController(Node):
         self.pose = pose_msg
 
     def alive_turtles_cb(self, msg: TurtleArray):
-        if len(msg.turtles) > 0: 
+        if len(msg.turtles) > 0:
             self.turtle_to_catch = msg.turtles[0]
 
     def control_loop(self):
@@ -41,7 +41,7 @@ class TurtleController(Node):
 
         dist_x = self.turtle_to_catch.x - self.pose.x
         dist_y = self.turtle_to_catch.y - self.pose.y
-        
+
         distance = math.sqrt(dist_x**2 + dist_y**2)
         self.get_logger().info(f"Distance: {distance}")
 
@@ -78,7 +78,7 @@ class TurtleController(Node):
 
         future = client.call_async(request)
         future.add_done_callback(
-            partial(self.catch_turtle_service_callback,turtle_name=turtle_name))
+            partial(self.catch_turtle_service_callback, turtle_name=turtle_name))
 
     def catch_turtle_service_callback(self, future, turtle_name):
         try:
