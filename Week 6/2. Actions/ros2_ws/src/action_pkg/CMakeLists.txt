@@ -20,4 +20,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Move.action"
 )
 
+# install python package
+ament_python_install_package(${PROJECT_NAME})
+
+# install python executable
+install(PROGRAMS
+  scripts/move_action.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

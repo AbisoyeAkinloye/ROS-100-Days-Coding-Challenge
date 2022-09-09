@@ -64,6 +64,7 @@ Hence, Action can:
 - Note, we need to depend on action_msgs since action definitions include additional metadata (e.g. goal IDs).
 
 ## Command
+
 - List ROS actions
   ```
   ros2 action list
@@ -83,4 +84,8 @@ Hence, Action can:
 - Send goal from terminal
   ```
   ros2 action send_goal <action_name> <action_type> <values>
+  ```
+- To get `feedback` from `goal` sent
+  ```
+  ros2 action send_goal --feedback <action_name> <action_type> <values>
   ```

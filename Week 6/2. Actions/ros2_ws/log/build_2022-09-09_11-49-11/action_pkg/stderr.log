@@ -1,0 +1,7 @@
+CMake Error at cmake_install.cmake:374 (file):
+  file INSTALL cannot find
+  "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2.
+  Actions/ros2_ws/src/action_pkg/scripts/move_action.py": No such file or
+  directory.
+
+
