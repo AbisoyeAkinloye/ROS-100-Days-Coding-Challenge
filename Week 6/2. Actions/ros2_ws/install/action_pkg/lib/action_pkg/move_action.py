@@ -10,7 +10,7 @@ import time
 
 class MoveAction(Node):
     def __init__(self):
-        super().__init__("move_action_node")
+        super().__init__("move_action_server")
         self.action_server_ = ActionServer(
             self, Move, "/move_action", self.execute_callback)
         self.publisher_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)

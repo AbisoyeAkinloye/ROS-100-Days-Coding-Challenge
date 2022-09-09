@@ -26,6 +26,7 @@ ament_python_install_package(${PROJECT_NAME})
 # install python executable
 install(PROGRAMS
   scripts/move_action.py
+  scripts/move_action_cli.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
