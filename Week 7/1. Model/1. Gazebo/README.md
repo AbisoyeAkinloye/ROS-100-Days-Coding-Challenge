@@ -1,9 +1,10 @@
-# GAZEBO
+# GAZEBO VS IGNITION GAZEBO
+
 Gazebo is a simulator for robotics environments maintained by the **Open Source Robotics Foundation (OSRF)**. It allows you to test algorithms rapidly, design robots, train AI systems, and more.
 
 It provides dynamic simulations that you can choose among different physic engines, advanced 3D graphics, sensors and noises, plugins for robots, and ready-to-use robot models.
 
-![Gazebo Interface](interface.png)
+![Gazebo Interface](./images/interface.png)
 
 There are **three** tabs: 
 1. World 
@@ -11,6 +12,7 @@ There are **three** tabs:
 3. Layers
 
 **Gzserver and Gzclient**
+
 Gazebo has both processes divided, meaning the simulation does not need the GUI to run.
 
 * Gzserver is basically for simulating the physics sensors, rendering.
@@ -18,6 +20,7 @@ Gazebo has both processes divided, meaning the simulation does not need the GUI 
 * Gz server and client communicate using gazebo library.
 
 ## World
+
 The world is the simulation's whole environment. It contains everything and is described in a `.world` file. 
 
 Gazebo world frame follows the right-hand orientation - the <span style="color:red">red</span> line for X-axis, <span style="color:green">green</span> for Y-axis, and <span style="color:blue">blue</span> for Z-axis
@@ -34,7 +37,7 @@ When working with ROS, plugins are loaded in the SDF file since you use launch f
 The gzclient is responsible for the gazebo graphical interface.
 
 ### Toolbar
-![toolbar](toolbar.png)
+![toolbar](./images/toolbar.png)
 
 The first four options are useful for selecting, moving, rotating, and scaling models in the simulation.
 
@@ -46,3 +49,5 @@ The first four options are useful for selecting, moving, rotating, and scaling m
 Snap tool 
 
 Snap is another option to put objects together. Make a try of these options. They are very helpful in putting objects in the desired position when creating worlds.
+
+# IGNITION GAZEBO
