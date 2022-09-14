@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.001601] (action_pkg) JobQueued: {'identifier': 'action_pkg', 'dependencies': OrderedDict()}
+[0.001655] (action_pkg) JobStarted: {'identifier': 'action_pkg'}
+[0.034146] (action_pkg) JobProgress: {'identifier': 'action_pkg', 'progress': 'cmake'}
+[0.035823] (action_pkg) JobProgress: {'identifier': 'action_pkg', 'progress': 'build'}
+[0.037229] (action_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '2060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4580'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:46540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/loye/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2139,unix/loye:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '5741bc48f1434f2697932b1b2a3440d5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3331b337-2da1-4ed0-b3db-d6dd291693cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/loye/turtlebot3_ws/build/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/loye/turtlebot3_ws/build/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.099966] (-) TimerEvent: {}
+[0.200465] (-) TimerEvent: {}
+[0.211732] (action_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move_action_client\x1b[0m\n'}
+[0.224639] (action_pkg) StdoutLine: {'line': b'[  2%] Built target action_pkg__cpp\n'}
+[0.234414] (action_pkg) StdoutLine: {'line': b'[ 11%] Built target action_pkg__rosidl_generator_c\n'}
+[0.292568] (action_pkg) StdoutLine: {'line': b'[ 17%] Built target move_action_server\n'}
+[0.298391] (action_pkg) StdoutLine: {'line': b'[ 25%] Built target action_pkg__rosidl_typesupport_introspection_cpp\n'}
+[0.300685] (-) TimerEvent: {}
+[0.339130] (action_pkg) StdoutLine: {'line': b'[ 34%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.354938] (action_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/move_action_client.dir/src/move_action_client.cpp.o\x1b[0m\n'}
+[0.374322] (action_pkg) StdoutLine: {'line': b'[ 45%] Built target action_pkg__rosidl_typesupport_c\n'}
+[0.383617] (action_pkg) StdoutLine: {'line': b'[ 54%] Built target action_pkg__rosidl_typesupport_cpp\n'}
+[0.400862] (-) TimerEvent: {}
+[0.412037] (action_pkg) StdoutLine: {'line': b'[ 62%] Built target action_pkg__rosidl_typesupport_introspection_c\n'}
+[0.469313] (action_pkg) StdoutLine: {'line': b'[ 71%] Built target action_pkg__rosidl_typesupport_fastrtps_c\n'}
+[0.501018] (-) TimerEvent: {}
+[0.538470] (action_pkg) StdoutLine: {'line': b'[ 71%] Built target action_pkg\n'}
+[0.594540] (action_pkg) StdoutLine: {'line': b'[ 74%] Built target action_pkg__py\n'}
+[0.601192] (-) TimerEvent: {}
+[0.696887] (action_pkg) StdoutLine: {'line': b'[ 80%] Built target action_pkg__python\n'}
+[0.701330] (-) TimerEvent: {}
+[0.801912] (-) TimerEvent: {}
+[0.805241] (action_pkg) StdoutLine: {'line': b'[ 85%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.822859] (action_pkg) StdoutLine: {'line': b'[ 91%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[0.842339] (action_pkg) StdoutLine: {'line': b'[ 97%] Built target action_pkg__rosidl_typesupport_c__pyext\n'}
+[0.902053] (-) TimerEvent: {}
+[1.002521] (-) TimerEvent: {}
+[1.103642] (-) TimerEvent: {}
+[1.204158] (-) TimerEvent: {}
+[1.304706] (-) TimerEvent: {}
+[1.405093] (-) TimerEvent: {}
+[1.505611] (-) TimerEvent: {}
+[1.606128] (-) TimerEvent: {}
+[1.706654] (-) TimerEvent: {}
+[1.807085] (-) TimerEvent: {}
+[1.907589] (-) TimerEvent: {}
+[2.008145] (-) TimerEvent: {}
+[2.108702] (-) TimerEvent: {}
+[2.209264] (-) TimerEvent: {}
+[2.309694] (-) TimerEvent: {}
+[2.410113] (-) TimerEvent: {}
+[2.510537] (-) TimerEvent: {}
+[2.611056] (-) TimerEvent: {}
+[2.711477] (-) TimerEvent: {}
+[2.811848] (-) TimerEvent: {}
+[2.912225] (-) TimerEvent: {}
+[3.012591] (-) TimerEvent: {}
+[3.112953] (-) TimerEvent: {}
+[3.213274] (-) TimerEvent: {}
+[3.313674] (-) TimerEvent: {}
+[3.414304] (-) TimerEvent: {}
+[3.515123] (-) TimerEvent: {}
+[3.615543] (-) TimerEvent: {}
+[3.716036] (-) TimerEvent: {}
+[3.816854] (-) TimerEvent: {}
+[3.917328] (-) TimerEvent: {}
+[4.017760] (-) TimerEvent: {}
+[4.118148] (-) TimerEvent: {}
+[4.218513] (-) TimerEvent: {}
+[4.319012] (-) TimerEvent: {}
+[4.419406] (-) TimerEvent: {}
+[4.519809] (-) TimerEvent: {}
+[4.620180] (-) TimerEvent: {}
+[4.720597] (-) TimerEvent: {}
+[4.821071] (-) TimerEvent: {}
+[4.921435] (-) TimerEvent: {}
+[5.021813] (-) TimerEvent: {}
+[5.122222] (-) TimerEvent: {}
+[5.222691] (-) TimerEvent: {}
+[5.323070] (-) TimerEvent: {}
+[5.423932] (-) TimerEvent: {}
+[5.524339] (-) TimerEvent: {}
+[5.624695] (-) TimerEvent: {}
+[5.725077] (-) TimerEvent: {}
+[5.825585] (-) TimerEvent: {}
+[5.925976] (-) TimerEvent: {}
+[6.026293] (-) TimerEvent: {}
+[6.126652] (-) TimerEvent: {}
+[6.227101] (-) TimerEvent: {}
+[6.327799] (-) TimerEvent: {}
+[6.428231] (-) TimerEvent: {}
+[6.528674] (-) TimerEvent: {}
+[6.629132] (-) TimerEvent: {}
+[6.729541] (-) TimerEvent: {}
+[6.829911] (-) TimerEvent: {}
+[6.930322] (-) TimerEvent: {}
+[7.030662] (-) TimerEvent: {}
+[7.131059] (-) TimerEvent: {}
+[7.231401] (-) TimerEvent: {}
+[7.331769] (-) TimerEvent: {}
+[7.432150] (-) TimerEvent: {}
+[7.532576] (-) TimerEvent: {}
+[7.633325] (-) TimerEvent: {}
+[7.733837] (-) TimerEvent: {}
+[7.834395] (-) TimerEvent: {}
+[7.858580] (action_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_action_client\x1b[0m\n'}
+[7.934553] (-) TimerEvent: {}
+[8.035520] (-) TimerEvent: {}
+[8.136144] (-) TimerEvent: {}
+[8.236833] (-) TimerEvent: {}
+[8.337393] (-) TimerEvent: {}
+[8.396418] (action_pkg) StdoutLine: {'line': b'[100%] Built target move_action_client\n'}
+[8.423192] (action_pkg) CommandEnded: {'returncode': 0}
+[8.437629] (-) TimerEvent: {}
+[8.538133] (-) TimerEvent: {}
+[8.549353] (action_pkg) JobProgress: {'identifier': 'action_pkg', 'progress': 'install'}
+[8.576594] (action_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '2060'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4580'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:46540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/loye/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2139,unix/loye:/tmp/.ICE-unix/2139'), ('INVOCATION_ID', '5741bc48f1434f2697932b1b2a3440d5'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3331b337-2da1-4ed0-b3db-d6dd291693cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/loye/turtlebot3_ws/build/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/loye/turtlebot3_ws/build/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[8.601167] (action_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.601684] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/ament_index/resource_index/rosidl_interfaces/action_pkg\n'}
+[8.602453] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.603138] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.603853] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/move.h\n'}
+[8.604215] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.604681] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__type_support.h\n'}
+[8.605073] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__functions.c\n'}
+[8.605543] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__struct.h\n'}
+[8.606227] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__functions.h\n'}
+[8.606625] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg\n'}
+[8.607033] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.607403] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/library_path.sh\n'}
+[8.608047] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/library_path.dsv\n'}
+[8.608727] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_generator_c.so\n'}
+[8.609079] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.609464] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.609869] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.610301] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__rosidl_typesupport_fastrtps_c.h\n'}
+[8.610874] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg\n'}
+[8.611404] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.611775] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[8.612161] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.612593] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.612942] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.613369] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/dds_fastrtps\n'}
+[8.613751] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.614229] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg\n'}
+[8.615161] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.615671] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.616025] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.616481] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.616832] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.617251] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__type_support.c\n'}
+[8.617619] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__rosidl_typesupport_introspection_c.h\n'}
+[8.618060] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg\n'}
+[8.618604] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.619261] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_introspection_c.so\n'}
+[8.619849] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_c.so\n'}
+[8.620197] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.620566] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.620913] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/move.hpp\n'}
+[8.621276] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.621626] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__struct.hpp\n'}
+[8.621972] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__traits.hpp\n'}
+[8.622340] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__builder.hpp\n'}
+[8.622770] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg\n'}
+[8.623124] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action\n'}
+[8.623492] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail\n'}
+[8.623837] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.624201] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/include/action_pkg/action/detail/move__type_support.cpp\n'}
+[8.624559] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[8.624904] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__rosidl_typesupport_cpp.so\n'}
+[8.625271] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/pythonpath.sh\n'}
+[8.625617] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/pythonpath.dsv\n'}
+[8.625962] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/__init__.py\n'}
+[8.638270] (-) TimerEvent: {}
+[8.706823] (action_pkg) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/__init__.py'...\n"}
+[8.720693] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action\n'}
+[8.721090] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action/_move_s.c\n'}
+[8.721334] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action/__init__.py\n'}
+[8.721549] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action/_move.py\n'}
+[8.721758] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action_pkg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.722005] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action_pkg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.722213] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action_pkg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[8.722424] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/libaction_pkg__python.so\n'}
+[8.722682] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/action/Move.idl\n'}
+[8.722926] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/action/Move.action\n'}
+[8.723130] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg\n'}
+[8.723332] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/module_to_import.py\n'}
+[8.723562] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/__init__.py\n'}
+[8.738414] (-) TimerEvent: {}
+[8.796047] (action_pkg) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg'...\n"}
+[8.796650] (action_pkg) StdoutLine: {'line': b"Compiling '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/__init__.py'...\n"}
+[8.797179] (action_pkg) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/python3.8/site-packages/action_pkg/action'...\n"}
+[8.810710] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action.py\n'}
+[8.811048] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action_cli.py\n'}
+[8.811237] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action_server\n'}
+[8.812308] (action_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action_server" to ""\n'}
+[8.812633] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action_client\n'}
+[8.815592] (action_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/lib/action_pkg/move_action_client" to ""\n'}
+[8.815885] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/ament_index/resource_index/package_run_dependencies/action_pkg\n'}
+[8.816225] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/ament_index/resource_index/parent_prefix_path/action_pkg\n'}
+[8.816511] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/ament_prefix_path.sh\n'}
+[8.816728] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/ament_prefix_path.dsv\n'}
+[8.817020] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/path.sh\n'}
+[8.817188] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/environment/path.dsv\n'}
+[8.817553] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/local_setup.bash\n'}
+[8.817907] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/local_setup.sh\n'}
+[8.818095] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/local_setup.zsh\n'}
+[8.818350] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/local_setup.dsv\n'}
+[8.818631] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/package.dsv\n'}
+[8.818870] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/ament_index/resource_index/packages/action_pkg\n'}
+[8.819126] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_generator_cExport.cmake\n'}
+[8.819385] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.819944] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.820213] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.820800] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cExport.cmake\n'}
+[8.821031] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.821637] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_generator_cppExport.cmake\n'}
+[8.822059] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.822265] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.822963] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[8.823244] (action_pkg) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.823638] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[8.823939] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.824297] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.824593] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.824987] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.825260] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.825452] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.825641] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkgConfig.cmake\n'}
+[8.825822] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake/action_pkgConfig-version.cmake\n'}
+[8.826106] (action_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/package.xml\n'}
+[8.832640] (action_pkg) CommandEnded: {'returncode': 0}
+[8.839406] (-) TimerEvent: {}
+[8.939717] (-) TimerEvent: {}
+[9.042650] (-) TimerEvent: {}
+[9.054928] (action_pkg) JobEnded: {'identifier': 'action_pkg', 'rc': 0}
+[9.056171] (-) EventReactorShutdown: {}

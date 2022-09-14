@@ -1,0 +1,25 @@
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:[m[K In member function ‘[01m[Kvoid MoveActionClient::send_goal()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:38:80:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MoveActionClient::goal_response_callback(std::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<action_pkg::action::Move> > >)[m[K’
+   38 | send_goal_options.goal_response_callback = std::bind([01;31m[KMoveActionClient::goal_response_callback[m[K, this,_1);
+      |                                                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:46:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 |     void [01;36m[Kgoal_response_callback[m[K(std::shared_future<GoalHandleMove::SharedPtr> future)
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:39:75:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MoveActionClient::feedback_callback(rclcpp_action::ClientGoalHandle<action_pkg::action::Move>::SharedPtr, std::shared_ptr<const action_pkg::action::Move_Feedback_<std::allocator<void> > >)[m[K’
+   39 |      send_goal_options.feedback_callback = std::bind([01;31m[KMoveActionClient::feedback_callback[m[K, this,_1,_2);
+      |                                                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:55:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   55 |     void [01;36m[Kfeedback_callback[m[K(GoalHandleMove::SharedPtr, const std::shared_ptr<const Move::Feedback> feedback)
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:40:73:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid MoveActionClient::result_callback(const WrappedResult&)[m[K’
+   40 |        send_goal_options.result_callback = std::bind([01;31m[KMoveActionClient::result_callback[m[K, this,_1);
+      |                                                      [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_client.cpp:60:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   60 |     void [01;36m[Kresult_callback[m[K(const GoalHandleMove::WrappedResult &result)
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_action_client.dir/build.make:63: CMakeFiles/move_action_client.dir/src/move_action_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/move_action_client.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -37,9 +37,13 @@ install(PROGRAMS
 add_executable(move_action_server src/move_action_server.cpp)
 ament_target_dependencies(move_action_server "rclcpp" "geometry_msgs" "rclcpp_action" "action_pkg")
 
+add_executable(move_action_client src/move_action_client.cpp)
+ament_target_dependencies(move_action_client "rclcpp" "geometry_msgs" "rclcpp_action" "action_pkg")
+
 # install cpp executable
 install(TARGETS
   move_action_server
+  move_action_client
   DESTINATION lib/${PROJECT_NAME}
 )
 

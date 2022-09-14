@@ -1,0 +1,7 @@
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:[m[K In member function ‘[01m[Kvoid MoveActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >)[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:82:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_message[m[K’ was not declared in this scope
+   82 |                     result->status = [01;31m[Kfeedback_message[m[K;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_action_server.dir/build.make:63: CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/move_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

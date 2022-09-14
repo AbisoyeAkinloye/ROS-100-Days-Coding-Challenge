@@ -1,0 +1,26 @@
+[0.040s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg -- -j4 -l4
+[0.237s] [35m[1mScanning dependencies of target move_action_server[0m
+[0.266s] [  8%] Built target action_pkg__rosidl_generator_c
+[0.266s] [ 11%] Built target action_pkg__cpp
+[0.286s] [ 17%] Built target move_action_client
+[0.323s] [ 25%] Built target action_pkg__rosidl_typesupport_c
+[0.347s] [ 28%] [32mBuilding CXX object CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o[0m
+[0.359s] [ 37%] Built target action_pkg__rosidl_typesupport_introspection_c
+[0.401s] [ 51%] Built target action_pkg__rosidl_typesupport_cpp
+[0.402s] [ 54%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp
+[0.443s] [ 62%] Built target action_pkg__rosidl_typesupport_introspection_cpp
+[0.469s] [ 71%] Built target action_pkg__rosidl_typesupport_fastrtps_c
+[0.520s] [ 71%] Built target action_pkg
+[0.572s] [ 74%] Built target action_pkg__py
+[0.673s] [ 80%] Built target action_pkg__python
+[0.763s] [ 88%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext
+[0.764s] [ 94%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext
+[0.764s] [ 97%] Built target action_pkg__rosidl_typesupport_c__pyext
+[3.859s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:[m[K In member function ‘[01m[Kvoid MoveActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >)[m[K’:
+[3.860s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:82:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_message[m[K’ was not declared in this scope
+[3.860s]    82 |                     result->status = [01;31m[Kfeedback_message[m[K;
+[3.860s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[6.446s] make[2]: *** [CMakeFiles/move_action_server.dir/build.make:63: CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o] Error 1
+[6.446s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/move_action_server.dir/all] Error 2
+[6.447s] make: *** [Makefile:141: all] Error 2
+[6.451s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg -- -j4 -l4

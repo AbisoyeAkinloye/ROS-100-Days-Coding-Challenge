@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target move_action_server[0m
+[  8%] Built target action_pkg__rosidl_generator_c
+[ 11%] Built target action_pkg__cpp
+[ 17%] Built target move_action_client
+[ 25%] Built target action_pkg__rosidl_typesupport_c
+[ 28%] [32mBuilding CXX object CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o[0m
+[ 37%] Built target action_pkg__rosidl_typesupport_introspection_c
+[ 51%] Built target action_pkg__rosidl_typesupport_cpp
+[ 54%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target action_pkg__rosidl_typesupport_introspection_cpp
+[ 71%] Built target action_pkg__rosidl_typesupport_fastrtps_c
+[ 71%] Built target action_pkg
+[ 74%] Built target action_pkg__py
+[ 80%] Built target action_pkg__python
+[ 88%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target action_pkg__rosidl_typesupport_c__pyext
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:[m[K In member function ‘[01m[Kvoid MoveActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >)[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:82:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_message[m[K’ was not declared in this scope
+   82 |                     result->status = [01;31m[Kfeedback_message[m[K;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_action_server.dir/build.make:63: CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/move_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

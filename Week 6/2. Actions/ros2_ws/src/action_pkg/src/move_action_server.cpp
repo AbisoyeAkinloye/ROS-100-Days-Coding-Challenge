@@ -16,12 +16,14 @@ class MoveActionServer : public rclcpp::Node
         {
            velocity_publisher_ = this -> create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10); 
 
-           this-> move_action_= rclcpp_action::create_server<Move>(
+           move_action_= rclcpp_action::create_server<Move>(
             this, 
             "move_action", 
             std::bind(&MoveActionServer::handle_goal,this, _1, _2), 
             std::bind(&MoveActionServer::handle_cancel, this, _1),
-            std::bind(&MoveActionServer::handle_accepted, this, _1));    
+            std::bind(&MoveActionServer::handle_accepted, this, _1));
+
+            RCLCPP_INFO(this->get_logger(), "Action server has just started...");    
         }
 
     private:
@@ -55,8 +57,8 @@ class MoveActionServer : public rclcpp::Node
 
         // callback: continue to process and update the action
         void execute(const std::shared_ptr<GoalHandleMove> goal_handle){
-            double speed = 2;
-            bool is_forward = false;
+            double speed = 2.0;
+            bool is_forward = true;
             RCLCPP_INFO(this->get_logger(), "Executing goal");
             rclcpp::Rate rate(5);
             const auto goal = goal_handle->get_goal();
@@ -77,7 +79,7 @@ class MoveActionServer : public rclcpp::Node
 
             while (current_distance < goal -> distance && rclcpp::ok()){
                 if (goal_handle -> is_canceling()){
-                    result->status = feedback_message;
+                    result->status = "Goal canceled";
                     goal_handle -> canceled(result);
                     RCLCPP_INFO(this->get_logger(), "Goal canceled");
                 }
@@ -94,11 +96,10 @@ class MoveActionServer : public rclcpp::Node
 
             // check if goal is done
             if (rclcpp::ok()){
-                result -> status = "I just achieved the goal";
+                result -> status = "Goal achieved successfully!!!";
                 speed_msg.linear.x = 0;
                 velocity_publisher_->publish(speed_msg);
                 goal_handle -> succeed(result);
-                RCLCPP_INFO(this -> get_logger(), "Goal succeeded");
             }
         }
 };

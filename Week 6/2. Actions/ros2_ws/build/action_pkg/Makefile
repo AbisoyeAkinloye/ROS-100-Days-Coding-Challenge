@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named move_action_client
+
+# Build rule for target.
+move_action_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_action_client
+.PHONY : move_action_client
+
+# fast build rule for target.
+move_action_client/fast:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/build
+.PHONY : move_action_client/fast
+
+#=============================================================================
 # Target rules for targets named move_action_server
 
 # Build rule for target.
@@ -685,6 +698,33 @@ rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support
 	$(MAKE) -f CMakeFiles/action_pkg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/action_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.cpp.s
 
+src/move_action_client.o: src/move_action_client.cpp.o
+
+.PHONY : src/move_action_client.o
+
+# target to build an object file
+src/move_action_client.cpp.o:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/src/move_action_client.cpp.o
+.PHONY : src/move_action_client.cpp.o
+
+src/move_action_client.i: src/move_action_client.cpp.i
+
+.PHONY : src/move_action_client.i
+
+# target to preprocess a source file
+src/move_action_client.cpp.i:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/src/move_action_client.cpp.i
+.PHONY : src/move_action_client.cpp.i
+
+src/move_action_client.s: src/move_action_client.cpp.s
+
+.PHONY : src/move_action_client.s
+
+# target to generate assembly for a file
+src/move_action_client.cpp.s:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/src/move_action_client.cpp.s
+.PHONY : src/move_action_client.cpp.s
+
 src/move_action_server.o: src/move_action_server.cpp.o
 
 .PHONY : src/move_action_server.o
@@ -721,6 +761,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... move_action_client"
 	@echo "... move_action_server"
 	@echo "... action_pkg__rosidl_typesupport_c__pyext"
 	@echo "... install/strip"
@@ -775,6 +816,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.s"
+	@echo "... src/move_action_client.o"
+	@echo "... src/move_action_client.i"
+	@echo "... src/move_action_client.s"
 	@echo "... src/move_action_server.o"
 	@echo "... src/move_action_server.i"
 	@echo "... src/move_action_server.s"

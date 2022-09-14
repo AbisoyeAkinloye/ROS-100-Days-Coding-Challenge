@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target move_action_client[0m
+[  2%] Built target action_pkg__cpp
+[ 11%] Built target action_pkg__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/move_action_client.dir/src/move_action_client.cpp.o[0m
+[ 22%] Built target action_pkg__rosidl_typesupport_introspection_cpp
+[ 28%] Built target move_action_server
+[ 37%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target action_pkg__rosidl_typesupport_cpp
+[ 54%] Built target action_pkg__rosidl_typesupport_c
+[ 62%] Built target action_pkg__rosidl_typesupport_introspection_c
+[ 71%] Built target action_pkg__rosidl_typesupport_fastrtps_c
+[ 71%] Built target action_pkg
+[ 74%] Built target action_pkg__py
+[ 80%] Built target action_pkg__python
+[ 85%] Built target action_pkg__rosidl_typesupport_c__pyext
+[ 91%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext

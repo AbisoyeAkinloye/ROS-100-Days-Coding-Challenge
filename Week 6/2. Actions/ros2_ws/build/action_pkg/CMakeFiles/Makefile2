@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/move_action_client.dir/all
 all: CMakeFiles/move_action_server.dir/all
 all: CMakeFiles/action_pkg__rosidl_typesupport_c__pyext.dir/all
 all: CMakeFiles/action_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/all
@@ -76,6 +77,7 @@ preinstall: action_pkg__py/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/move_action_client.dir/clean
 clean: CMakeFiles/move_action_server.dir/clean
 clean: CMakeFiles/action_pkg__rosidl_typesupport_c__pyext.dir/clean
 clean: CMakeFiles/action_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/clean
@@ -115,13 +117,40 @@ action_pkg__py/clean: action_pkg__py/CMakeFiles/action_pkg__py.dir/clean
 .PHONY : action_pkg__py/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/move_action_client.dir
+
+# All Build rule for target.
+CMakeFiles/move_action_client.dir/all:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/depend
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg/CMakeFiles" --progress-num=32,33 "Built target move_action_client"
+.PHONY : CMakeFiles/move_action_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/move_action_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/move_action_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg/CMakeFiles" 0
+.PHONY : CMakeFiles/move_action_client.dir/rule
+
+# Convenience name for target.
+move_action_client: CMakeFiles/move_action_client.dir/rule
+
+.PHONY : move_action_client
+
+# clean rule for target.
+CMakeFiles/move_action_client.dir/clean:
+	$(MAKE) -f CMakeFiles/move_action_client.dir/build.make CMakeFiles/move_action_client.dir/clean
+.PHONY : CMakeFiles/move_action_client.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/move_action_server.dir
 
 # All Build rule for target.
 CMakeFiles/move_action_server.dir/all:
 	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/depend
 	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg/CMakeFiles" --progress-num=32,33 "Built target move_action_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg/CMakeFiles" --progress-num=34,35 "Built target move_action_server"
 .PHONY : CMakeFiles/move_action_server.dir/all
 
 # Build rule for subdir invocation for target.
