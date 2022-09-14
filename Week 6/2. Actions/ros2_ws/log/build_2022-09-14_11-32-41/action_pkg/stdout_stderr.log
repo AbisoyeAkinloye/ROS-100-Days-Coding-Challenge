@@ -1,0 +1,60 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found action_pkg: 0.0.0 (/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/install/action_pkg/share/action_pkg/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/build/action_pkg
+[35m[1mScanning dependencies of target move_action_server[0m
+[  3%] Built target action_pkg__cpp
+[ 12%] Built target action_pkg__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o[0m
+[ 24%] Built target action_pkg__rosidl_typesupport_introspection_cpp
+[ 33%] Built target action_pkg__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target action_pkg__rosidl_typesupport_cpp
+[ 51%] Built target action_pkg__rosidl_typesupport_c
+[ 60%] Built target action_pkg__rosidl_typesupport_introspection_c
+[ 69%] Built target action_pkg__rosidl_typesupport_fastrtps_c
+[ 69%] Built target action_pkg
+[ 72%] Built target action_pkg__py
+[ 78%] Built target action_pkg__python
+[ 84%] Built target action_pkg__rosidl_typesupport_introspection_c__pyext
+[ 90%] Built target action_pkg__rosidl_typesupport_c__pyext
+[ 96%] Built target action_pkg__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:[m[K In constructor ‘[01m[KMoveActionServer::MoveActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:26:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<MoveActionServer::Move>(MoveActionServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (MoveActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<action_pkg::action::Move_Goal_<std::allocator<void> > >), MoveActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (MoveActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >), MoveActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (MoveActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >), MoveActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+   26 |         [01;31m[K)[m[K;
+      |         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr) [with ActionT = action_pkg::action::Move; typename rclcpp_action::Server<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::Server<action_pkg::action::Move> >; rclcpp::node_interfaces::NodeBaseInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>; rclcpp::node_interfaces::NodeClockInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>; rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeLoggingInterface>; rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr = std::shared_ptr<rclcpp::node_interfaces::NodeWaitablesInterface>; std::string = std::__cxx11::basic_string<char>; typename rclcpp_action::Server<ActionT>::GoalCallback = std::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const action_pkg::action::Move_Goal_<std::allocator<void> > >)>; typename rclcpp_action::Server<ActionT>::CancelCallback = std::function<rclcpp_action::CancelResponse(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >)>; typename rclcpp_action::Server<ActionT>::AcceptedCallback = std::function<void(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_pkg::action::Move> >)>; rcl_action_server_options_t = rcl_action_server_options_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/2. Actions/ros2_ws/src/action_pkg/src/move_action_server.cpp:23:22:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kstd::bind(_Func&&, _BoundArgs&& ...) [with _Func = rclcpp_action::GoalResponse (MoveActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<action_pkg::action::Move_Goal_<std::allocator<void> > >); _BoundArgs = {MoveActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&}; typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type = std::_Bind_helper<false, rclcpp_action::GoalResponse (MoveActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<action_pkg::action::Move_Goal_<std::allocator<void> > >), MoveActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type](((MoveActionServer*)this), std::placeholders::_1, std::placeholders::_2)[m[K’ (type ‘[01m[Kstd::_Bind_helper<false, rclcpp_action::GoalResponse (MoveActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<action_pkg::action::Move_Goal_<std::allocator<void> > >), MoveActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type[m[K’) to type ‘[01m[Krclcpp_action::Server<action_pkg::action::Move>::GoalCallback[m[K’ {aka ‘[01m[Kstd::function<rclcpp_action::GoalResponse(const std::array<unsigned char, 16>&, std::shared_ptr<const action_pkg::action::Move_Goal_<std::allocator<void> > >)>[m[K’}
+   23 |             [01;36m[Kstd::bind(&MoveActionServer::handle_goal, this, _1,_2)[m[K,
+      |             [01;36m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move_action_server.dir/build.make:63: CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/move_action_server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

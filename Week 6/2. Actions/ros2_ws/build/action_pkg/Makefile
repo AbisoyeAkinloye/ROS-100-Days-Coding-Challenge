@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named move_action_server
+
+# Build rule for target.
+move_action_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 move_action_server
+.PHONY : move_action_server
+
+# fast build rule for target.
+move_action_server/fast:
+	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/build
+.PHONY : move_action_server/fast
+
+#=============================================================================
 # Target rules for targets named action_pkg__rosidl_typesupport_c__pyext
 
 # Build rule for target.
@@ -672,6 +685,33 @@ rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support
 	$(MAKE) -f CMakeFiles/action_pkg__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/action_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.cpp.s
 
+src/move_action_server.o: src/move_action_server.cpp.o
+
+.PHONY : src/move_action_server.o
+
+# target to build an object file
+src/move_action_server.cpp.o:
+	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/src/move_action_server.cpp.o
+.PHONY : src/move_action_server.cpp.o
+
+src/move_action_server.i: src/move_action_server.cpp.i
+
+.PHONY : src/move_action_server.i
+
+# target to preprocess a source file
+src/move_action_server.cpp.i:
+	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/src/move_action_server.cpp.i
+.PHONY : src/move_action_server.cpp.i
+
+src/move_action_server.s: src/move_action_server.cpp.s
+
+.PHONY : src/move_action_server.s
+
+# target to generate assembly for a file
+src/move_action_server.cpp.s:
+	$(MAKE) -f CMakeFiles/move_action_server.dir/build.make CMakeFiles/move_action_server.dir/src/move_action_server.cpp.s
+.PHONY : src/move_action_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -681,6 +721,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... move_action_server"
 	@echo "... action_pkg__rosidl_typesupport_c__pyext"
 	@echo "... install/strip"
 	@echo "... action_pkg__rosidl_typesupport_fastrtps_c__pyext"
@@ -734,6 +775,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/action_pkg/action/detail/move__type_support.s"
+	@echo "... src/move_action_server.o"
+	@echo "... src/move_action_server.i"
+	@echo "... src/move_action_server.s"
 .PHONY : help
 
 
