@@ -1,0 +1,3 @@
+[console_scripts]
+linear = motion_types_py.linear:main
+

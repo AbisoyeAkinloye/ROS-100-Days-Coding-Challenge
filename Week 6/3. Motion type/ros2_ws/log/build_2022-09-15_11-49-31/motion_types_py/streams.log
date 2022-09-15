@@ -1,0 +1,46 @@
+[2.120s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_types_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/install.log --single-version-externally-managed
+[2.700s] running egg_info
+[2.701s] creating ../../build/motion_types_py/motion_types_py.egg-info
+[2.702s] writing ../../build/motion_types_py/motion_types_py.egg-info/PKG-INFO
+[2.702s] writing dependency_links to ../../build/motion_types_py/motion_types_py.egg-info/dependency_links.txt
+[2.702s] writing entry points to ../../build/motion_types_py/motion_types_py.egg-info/entry_points.txt
+[2.703s] writing requirements to ../../build/motion_types_py/motion_types_py.egg-info/requires.txt
+[2.703s] writing top-level names to ../../build/motion_types_py/motion_types_py.egg-info/top_level.txt
+[2.717s] writing manifest file '../../build/motion_types_py/motion_types_py.egg-info/SOURCES.txt'
+[2.834s] reading manifest file '../../build/motion_types_py/motion_types_py.egg-info/SOURCES.txt'
+[2.837s] writing manifest file '../../build/motion_types_py/motion_types_py.egg-info/SOURCES.txt'
+[2.837s] running build
+[2.838s] running build_py
+[2.839s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build
+[2.839s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib
+[2.840s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.841s] copying motion_types_py/spiral.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.841s] copying motion_types_py/go_to_goal.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.842s] copying motion_types_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.843s] copying motion_types_py/linear.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.843s] copying motion_types_py/rotation.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py
+[2.844s] running install
+[2.853s] running install_lib
+[2.854s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.854s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py/spiral.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.855s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py/go_to_goal.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.855s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.855s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py/linear.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.856s] copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build/lib/motion_types_py/rotation.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py
+[2.856s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py/spiral.py to spiral.cpython-38.pyc
+[2.864s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py/go_to_goal.py to go_to_goal.cpython-38.pyc
+[2.864s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py/__init__.py to __init__.cpython-38.pyc
+[2.865s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py/linear.py to linear.cpython-38.pyc
+[2.867s] byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py/rotation.py to rotation.cpython-38.pyc
+[2.868s] running install_data
+[2.870s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/share/ament_index
+[2.870s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/share/ament_index/resource_index
+[2.871s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/share/ament_index/resource_index/packages
+[2.871s] copying resource/motion_types_py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/share/ament_index/resource_index/packages
+[2.872s] copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/share/motion_types_py
+[2.873s] running install_egg_info
+[2.876s] Copying ../../build/motion_types_py/motion_types_py.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion_types_py-0.0.0-py3.8.egg-info
+[2.884s] running install_scripts
+[2.930s] Installing linear script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+[2.930s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/install.log'
+[2.977s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_types_py build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/install.log --single-version-externally-managed
