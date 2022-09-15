@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "linear=motion_types_py.linear:main"
+            "linear=motion_types_py.linear:main",
+            "rotation=motion_types_py.rotation:main"
         ],
     },
 )
