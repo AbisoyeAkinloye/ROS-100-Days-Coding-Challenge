@@ -36,3 +36,10 @@ ROBOT OPERATING SYSTEM (ROS 2 Foxy)
 - Catch Me project
 
 ## WEEK SEVEN
+- Models
+- - Gazebo
+- - urdf
+- - xacro
+- Tf2
+- Frame Transformation
+- Navigation
