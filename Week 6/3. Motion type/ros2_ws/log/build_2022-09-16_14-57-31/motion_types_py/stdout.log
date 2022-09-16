@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing motion_types_py.egg-info/PKG-INFO
+writing dependency_links to motion_types_py.egg-info/dependency_links.txt
+writing entry points to motion_types_py.egg-info/entry_points.txt
+writing requirements to motion_types_py.egg-info/requires.txt
+writing top-level names to motion_types_py.egg-info/top_level.txt
+reading manifest file 'motion_types_py.egg-info/SOURCES.txt'
+writing manifest file 'motion_types_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion-types-py.egg-link (link to .)
+Installing linear script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+Installing rotation script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+Installing spiral script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+
+Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py
+running install_data

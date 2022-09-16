@@ -55,3 +55,6 @@ def main(args=None):
     rotate = Rotation()
     rclpy.spin(rotate)
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

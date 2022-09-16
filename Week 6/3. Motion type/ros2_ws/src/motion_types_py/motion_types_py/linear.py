@@ -58,3 +58,6 @@ def main(args=None):
     move = MoveLinearly()
     rclpy.spin(move)
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

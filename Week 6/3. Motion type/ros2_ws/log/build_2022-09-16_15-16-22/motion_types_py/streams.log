@@ -1,0 +1,19 @@
+[2.073s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py
+[2.695s] running develop
+[3.054s] running egg_info
+[3.055s] writing motion_types_py.egg-info/PKG-INFO
+[3.055s] writing dependency_links to motion_types_py.egg-info/dependency_links.txt
+[3.056s] writing entry points to motion_types_py.egg-info/entry_points.txt
+[3.056s] writing requirements to motion_types_py.egg-info/requires.txt
+[3.056s] writing top-level names to motion_types_py.egg-info/top_level.txt
+[3.168s] reading manifest file 'motion_types_py.egg-info/SOURCES.txt'
+[3.170s] writing manifest file 'motion_types_py.egg-info/SOURCES.txt'
+[3.282s] running build_ext
+[3.283s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages/motion-types-py.egg-link (link to .)
+[3.285s] Installing linear script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+[3.286s] Installing rotation script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+[3.286s] Installing spiral script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/motion_types_py
+[3.286s] 
+[3.286s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py
+[3.287s] running install_data
+[3.357s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types_py/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types_py

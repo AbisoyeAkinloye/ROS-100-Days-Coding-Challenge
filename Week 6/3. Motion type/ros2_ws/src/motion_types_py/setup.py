@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             "linear=motion_types_py.linear:main",
-            "rotation=motion_types_py.rotation:main"
+            "rotation=motion_types_py.rotation:main",
+            "spiral=motion_types_py.spiral:main"
         ],
     },
 )

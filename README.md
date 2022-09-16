@@ -43,3 +43,4 @@ ROBOT OPERATING SYSTEM (ROS 2 Foxy)
 - Tf2
 - Frame Transformation
 - Navigation
+- SLAM
