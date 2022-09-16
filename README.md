@@ -37,9 +37,9 @@ ROBOT OPERATING SYSTEM (ROS 2 Foxy)
 
 ## WEEK SEVEN
 - Models
-- - Gazebo
-- - urdf
-- - xacro
+   - Gazebo
+   - urdf
+   - xacro
 - Tf2
 - Frame Transformation
 - Navigation
