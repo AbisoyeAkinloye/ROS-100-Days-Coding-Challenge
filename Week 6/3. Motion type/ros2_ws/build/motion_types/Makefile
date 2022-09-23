@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named spiral
+
+# Build rule for target.
+spiral: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spiral
+.PHONY : spiral
+
+# fast build rule for target.
+spiral/fast:
+	$(MAKE) -f CMakeFiles/spiral.dir/build.make CMakeFiles/spiral.dir/build
+.PHONY : spiral/fast
+
+#=============================================================================
 # Target rules for targets named goto_goal
 
 # Build rule for target.
@@ -313,6 +326,33 @@ src/rotation.cpp.s:
 	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.cpp.s
 .PHONY : src/rotation.cpp.s
 
+src/spiral.o: src/spiral.cpp.o
+
+.PHONY : src/spiral.o
+
+# target to build an object file
+src/spiral.cpp.o:
+	$(MAKE) -f CMakeFiles/spiral.dir/build.make CMakeFiles/spiral.dir/src/spiral.cpp.o
+.PHONY : src/spiral.cpp.o
+
+src/spiral.i: src/spiral.cpp.i
+
+.PHONY : src/spiral.i
+
+# target to preprocess a source file
+src/spiral.cpp.i:
+	$(MAKE) -f CMakeFiles/spiral.dir/build.make CMakeFiles/spiral.dir/src/spiral.cpp.i
+.PHONY : src/spiral.cpp.i
+
+src/spiral.s: src/spiral.cpp.s
+
+.PHONY : src/spiral.s
+
+# target to generate assembly for a file
+src/spiral.cpp.s:
+	$(MAKE) -f CMakeFiles/spiral.dir/build.make CMakeFiles/spiral.dir/src/spiral.cpp.s
+.PHONY : src/spiral.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +366,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... spiral"
 	@echo "... goto_goal"
 	@echo "... rotation"
 	@echo "... linear"
@@ -340,6 +381,9 @@ help:
 	@echo "... src/rotation.o"
 	@echo "... src/rotation.i"
 	@echo "... src/rotation.s"
+	@echo "... src/spiral.o"
+	@echo "... src/spiral.i"
+	@echo "... src/spiral.s"
 .PHONY : help
 
 

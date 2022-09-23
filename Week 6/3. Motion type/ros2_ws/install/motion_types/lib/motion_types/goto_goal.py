@@ -53,11 +53,11 @@ class GoToGoal(Node):
         dist_y = self.y2 - y1
 
         euclidean_distance = math.sqrt(dist_x**2 + dist_y**2)
-        # angle = atan2(dist_y, dist_x)
+        theta = math.atan2(dist_y, dist_x)
         # As (x1,y1) approaching (x2,y2), the euclidean_distance tends to zero, hence there is a need to set distance_tolerance
         distance_tolerance = 0.5
 
-        if (euclidean_distance > distance_tolerance):
+        if (euclidean_distance < distance_tolerance):
             vel_msg.linear.x = 0.5 * euclidean_distance
 
             goal_theta = math.atan2(dist_y, dist_x)

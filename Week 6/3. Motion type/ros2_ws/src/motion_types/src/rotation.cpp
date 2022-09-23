@@ -26,8 +26,6 @@ private:
         std::cin >> angle;
         angle_rad = degree2radian(angle);
 
-        // RCLCPP_INFO(this->get_logger(), "Angle: %f, Rad: %f", angle, angle_rad);
-
         std::cout << "Enter an angular speed (rad/s): ";
         std::cin >> angular_speed;
 

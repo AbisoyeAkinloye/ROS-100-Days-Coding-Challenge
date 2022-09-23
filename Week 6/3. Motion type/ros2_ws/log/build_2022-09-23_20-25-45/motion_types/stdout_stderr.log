@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target spiral[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/spiral.dir/src/spiral.cpp.o[0m
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/spiral.cpp:[m[K In constructor ‘[01m[KSpiralMotion::SpiralMotion()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/spiral.cpp:21:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   21 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/spiral.dir/build.make:63: CMakeFiles/spiral.dir/src/spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/spiral.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
