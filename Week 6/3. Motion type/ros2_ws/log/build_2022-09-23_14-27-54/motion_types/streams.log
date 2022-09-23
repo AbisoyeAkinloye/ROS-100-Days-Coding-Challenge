@@ -1,0 +1,26 @@
+[0.042s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.168s] [35m[1mScanning dependencies of target goto_goal[0m
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o[0m
+[11.804s] [100%] [32m[1mLinking CXX executable goto_goal[0m
+[12.697s] [100%] Built target goto_goal
+[12.724s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[12.798s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
+[12.822s] -- Install configuration: ""
+[12.822s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/goto_goal
+[12.831s] -- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/goto_goal" to ""
+[12.832s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/package_run_dependencies/motion_types
+[12.832s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/parent_prefix_path/motion_types
+[12.833s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/ament_prefix_path.sh
+[12.834s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/ament_prefix_path.dsv
+[12.835s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/path.sh
+[12.836s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/path.dsv
+[12.836s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.bash
+[12.837s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.sh
+[12.837s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.zsh
+[12.838s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.dsv
+[12.838s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.dsv
+[12.839s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/packages/motion_types
+[12.839s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/cmake/motion_typesConfig.cmake
+[12.840s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/cmake/motion_typesConfig-version.cmake
+[12.840s] -- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.xml
+[12.845s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
