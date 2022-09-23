@@ -28,4 +28,16 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# install python module
+ament_python_install_package(${PROJECT_NAME})
+
+# install python executable
+install(PROGRAMS
+  scripts/linear.py
+  scripts/rotation.py
+  scripts/spiral.py
+  scripts/goto_goal.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

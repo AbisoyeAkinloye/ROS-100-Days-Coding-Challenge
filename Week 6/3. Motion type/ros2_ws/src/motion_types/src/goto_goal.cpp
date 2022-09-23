@@ -1,16 +1,23 @@
+/*
+Turtle goes to a goal by specifying a target location and the turtle will adjust accordingly to its linear and angular speed to the goal location.
+
+Author: Abisoye Akinloye.
+Date: September 2022.
+*/
+
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "turtlesim/msg/pose.hpp"
 
-class GotoGoal : public rclcpp::Node
+class GoToGoal : public rclcpp::Node
 {
 public:
-    GotoGoal() : Node("goto_goal")
+    GoToGoal() : Node("goto_goal")
     {
         velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
-        pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GotoGoal::pose_callback, this, std::placeholders::_1));
-        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&GotoGoal::goto_goal, this));
-        GotoGoal::set_goal();
+        pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GoToGoal::pose_callback, this, std::placeholders::_1));
+        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&GoToGoal::goto_goal, this));
+        GoToGoal::set_goal();
     }
 
 private:
@@ -36,8 +43,7 @@ private:
         dist_x = x2 - x1;
         dist_y = y2 - y1;
         euclidean_distance = sqrt(std::pow(dist_x, 2) + pow(dist_y, 2));
-        distance_tolerance =  0.1;
-        // RCLCPP_INFO(this->get_logger(), "The distance between point (%.2f, %.2f) and (%.2f, %.2f) is: %.2f", x1, y1, x2, y2, euclidean_distance);
+        distance_tolerance =  0.5;
 
         if (euclidean_distance > distance_tolerance)
         {
@@ -46,18 +52,18 @@ private:
             speed.linear.x = K_linear * euclidean_distance;
 
             angle = atan2(dist_y, dist_x);
-            angular_distance = (angle - theta);
+            angle_diff = (angle - theta);
 
-            if (angular_distance > M_PI)
+            if (angle_diff > M_PI)
             {
-                angular_distance -= 2 * M_PI;
+                angle_diff -= 2 * M_PI;
             }
-            else if (angular_distance < -M_PI)
+            else if (angle_diff < -M_PI)
             {
-                angular_distance += 2 * M_PI;
+                angle_diff += 2 * M_PI;
             }
 
-            speed.angular.z = angular_distance * K_angular;
+            speed.angular.z = angle_diff * K_angular;
         }
         else
         {
@@ -73,13 +79,13 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
     geometry_msgs::msg::Twist speed;
     float x1, y1, x2, y2, theta, dist_x, dist_y;
-    float euclidean_distance, distance_tolerance, angle, angular_distance;
+    float euclidean_distance, distance_tolerance, angle, angle_diff;
 };
 
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
-    rclcpp::spin(std::make_shared<GotoGoal>());
+    rclcpp::spin(std::make_shared<GoToGoal>());
     rclcpp::shutdown();
     return 0;
 }
