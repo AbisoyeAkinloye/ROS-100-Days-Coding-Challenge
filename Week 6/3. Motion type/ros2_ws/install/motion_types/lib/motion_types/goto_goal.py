@@ -23,9 +23,9 @@ class GoToGoal(Node):
         self.pose_subscriber_ = self.create_subscription(
             Pose, "/turtle1/pose", self.pose_callback, 10)
         self.timer_ = self.create_timer(1.0, self.goto_goal)
-        self.set_goal()
+        
 
-    def pose_callback(self, pose_msg = Pose()):
+    def pose_callback(self, pose_msg=Pose()):
         '''
         x1 and y1 is the initial (x,y) coordinate of the robot
         on the reference frame (simulator).
@@ -44,6 +44,7 @@ class GoToGoal(Node):
         self.get_logger().info("Turtle to move to desired location")
         self.x2 = float(input("Enter the x position: "))
         self.y2 = float(input("Enter the y position: "))
+        
 
     def goto_goal(self):
         vel_msg = Twist()
@@ -52,21 +53,25 @@ class GoToGoal(Node):
         dist_x = self.x2 - x1
         dist_y = self.y2 - y1
 
+        self.get_logger().info(f"{(dist_x, dist_y)}")
+
         euclidean_distance = math.sqrt(dist_x**2 + dist_y**2)
         theta = math.atan2(dist_y, dist_x)
-        # As (x1,y1) approaching (x2,y2), the euclidean_distance tends to zero, hence there is a need to set distance_tolerance
         distance_tolerance = 0.5
 
-        if (euclidean_distance < distance_tolerance):
+        if (euclidean_distance > distance_tolerance):
             vel_msg.linear.x = 0.5 * euclidean_distance
 
             goal_theta = math.atan2(dist_y, dist_x)
             diff = goal_theta - theta
+            self.get_logger().info(f"diff: {diff}")
+
             if diff > math.pi:
                 diff -= 2*math.pi
             elif diff < -math.pi:
                 diff += 2*math.pi
-            vel_msg.angular.z = 4*diff
+
+            vel_msg.angular.z = 1.2*diff
 
         else:
             vel_msg.linear.x = 0.0
