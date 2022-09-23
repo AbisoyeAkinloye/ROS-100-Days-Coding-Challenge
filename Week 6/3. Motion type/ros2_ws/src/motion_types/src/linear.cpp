@@ -35,6 +35,7 @@ private:
     {
         t1 = time.now().seconds();
         int dt = t1 - t0;
+        RCLCPP_INFO(this->get_logger(), "Change in time: %i", dt);
 
         displacement = velocity * dt;
         if (displacement < distance)
@@ -59,8 +60,7 @@ private:
     geometry_msgs::msg::Twist vel_msg;
     rclcpp::Clock time;
     float distance, displacement, velocity;
-    bool isForward;
-    int t1, t0;
+    bool isForward; int t1, t0;
 };
 
 int main(int argc, char *argv[])

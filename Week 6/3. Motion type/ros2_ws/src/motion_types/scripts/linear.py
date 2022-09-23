@@ -16,9 +16,9 @@ class MoveLinearly(Node):
         super().__init__("linear_movement")
         self.velocity_publisher_ = self.create_publisher(
             Twist, "/turtle1/cmd_vel", 10)
-        self.distance, self.velocity, self.direction = self.set_params()
         self.timer_ = self.create_timer(1.0, self.move_callback)
         self.get_logger().info("The turtle is about to move linearly")
+        self.distance, self.velocity, self.direction = self.set_params()
 
     def set_params(self):
         '''
@@ -37,6 +37,7 @@ class MoveLinearly(Node):
         t1 = self.get_clock().now().seconds_nanoseconds()[0]
         dt = t1-self.t0  # change in time
 
+        self.get_logger().info(f"Change in time is {dt}")
         # displacement because it is a distance taken in a specified direction
         displacement = self.velocity * dt
 
@@ -47,6 +48,7 @@ class MoveLinearly(Node):
                 cmd_vel.linear.x = -abs(self.velocity)
             else:
                 print("Invalid input!")
+                rclpy.shutdown()
         else:
             cmd_vel.linear.x = 0.0
             self.get_logger().info("Distance reached!!!")
