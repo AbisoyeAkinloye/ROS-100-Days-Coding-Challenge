@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 
 # The main recursive "all" target.
 all: CMakeFiles/goto_goal.dir/all
+all: CMakeFiles/rotation.dir/all
 all: CMakeFiles/linear.dir/all
 
 .PHONY : all
@@ -65,6 +66,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/goto_goal.dir/clean
+clean: CMakeFiles/rotation.dir/clean
 clean: CMakeFiles/linear.dir/clean
 clean: CMakeFiles/motion_types_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
@@ -97,6 +99,33 @@ goto_goal: CMakeFiles/goto_goal.dir/rule
 CMakeFiles/goto_goal.dir/clean:
 	$(MAKE) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/clean
 .PHONY : CMakeFiles/goto_goal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rotation.dir
+
+# All Build rule for target.
+CMakeFiles/rotation.dir/all:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/depend
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" --progress-num=5,6 "Built target rotation"
+.PHONY : CMakeFiles/rotation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rotation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rotation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" 0
+.PHONY : CMakeFiles/rotation.dir/rule
+
+# Convenience name for target.
+rotation: CMakeFiles/rotation.dir/rule
+
+.PHONY : rotation
+
+# clean rule for target.
+CMakeFiles/rotation.dir/clean:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/clean
+.PHONY : CMakeFiles/rotation.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/linear.dir

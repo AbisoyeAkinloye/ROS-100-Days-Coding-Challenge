@@ -106,3 +106,7 @@ touch __init__.py module_to_import.py
 ```
 
 Read more on package creation from the ROS2 official documentation: <a href="https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html">here</a>
+
+### Split codes in a package into header and modules
+
+Click <a href="../06. Turtle Pub & Sub/README.md">here</a> to read more.

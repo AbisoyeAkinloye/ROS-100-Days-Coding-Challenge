@@ -1,0 +1,27 @@
+[0.051s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.151s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.257s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.789s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.944s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.709s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.453s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[2.454s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[3.014s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.378s] -- Configuring done
+[3.466s] -- Generating done
+[3.476s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
+[3.552s] [35m[1mScanning dependencies of target rotation[0m
+[3.678s] [ 33%] Built target linear
+[3.728s] [ 66%] Built target goto_goal
+[3.829s] [ 83%] [32mBuilding CXX object CMakeFiles/rotation.dir/src/rotation.cpp.o[0m
+[4.209s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/rotation.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kinclude/motion_types/utils.h: No such file or directory
+[4.210s]    11 | #include [01;31m[K"include/motion_types/utils.h"[m[K
+[4.210s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.210s] compilation terminated.
+[4.216s] make[2]: *** [CMakeFiles/rotation.dir/build.make:63: CMakeFiles/rotation.dir/src/rotation.cpp.o] Error 1
+[4.217s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rotation.dir/all] Error 2
+[4.217s] make: *** [Makefile:141: all] Error 2
+[4.221s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4

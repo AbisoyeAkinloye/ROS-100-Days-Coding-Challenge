@@ -181,6 +181,19 @@ goto_goal/fast:
 .PHONY : goto_goal/fast
 
 #=============================================================================
+# Target rules for targets named rotation
+
+# Build rule for target.
+rotation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rotation
+.PHONY : rotation
+
+# fast build rule for target.
+rotation/fast:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/build
+.PHONY : rotation/fast
+
+#=============================================================================
 # Target rules for targets named linear
 
 # Build rule for target.
@@ -273,6 +286,33 @@ src/linear.cpp.s:
 	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/src/linear.cpp.s
 .PHONY : src/linear.cpp.s
 
+src/rotation.o: src/rotation.cpp.o
+
+.PHONY : src/rotation.o
+
+# target to build an object file
+src/rotation.cpp.o:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.cpp.o
+.PHONY : src/rotation.cpp.o
+
+src/rotation.i: src/rotation.cpp.i
+
+.PHONY : src/rotation.i
+
+# target to preprocess a source file
+src/rotation.cpp.i:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.cpp.i
+.PHONY : src/rotation.cpp.i
+
+src/rotation.s: src/rotation.cpp.s
+
+.PHONY : src/rotation.s
+
+# target to generate assembly for a file
+src/rotation.cpp.s:
+	$(MAKE) -f CMakeFiles/rotation.dir/build.make CMakeFiles/rotation.dir/src/rotation.cpp.s
+.PHONY : src/rotation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,6 +327,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... goto_goal"
+	@echo "... rotation"
 	@echo "... linear"
 	@echo "... motion_types_uninstall"
 	@echo "... uninstall"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/linear.o"
 	@echo "... src/linear.i"
 	@echo "... src/linear.s"
+	@echo "... src/rotation.o"
+	@echo "... src/rotation.i"
+	@echo "... src/rotation.s"
 .PHONY : help
 
 

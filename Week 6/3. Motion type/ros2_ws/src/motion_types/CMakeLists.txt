@@ -18,12 +18,15 @@ find_package(rclpy REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+# add cpp include 
+include_directories(include)
+
 # add cpp executable
 add_executable(linear src/linear.cpp)
 ament_target_dependencies(linear rclcpp turtlesim geometry_msgs)
 
-# add_executable(rotation src/rotation.cpp)
-# ament_target_dependencies(rotation rclcpp turtlesim geometry_msgs)
+add_executable(rotation src/rotation.cpp)
+ament_target_dependencies(rotation rclcpp turtlesim geometry_msgs)
 
 # add_executable(spiral src/spiral.cpp)
 # ament_target_dependencies(spiral rclcpp turtlesim geometry_msgs)
@@ -34,7 +37,7 @@ ament_target_dependencies(goto_goal rclcpp turtlesim geometry_msgs)
 # install cpp executable
 install(TARGETS
   linear
-  # rotation
+  rotation
   # spiral
   goto_goal
   DESTINATION lib/${PROJECT_NAME}
