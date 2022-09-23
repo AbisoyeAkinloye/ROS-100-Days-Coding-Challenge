@@ -50,6 +50,15 @@ Angular:
     z = f(angle)
 ```
 
+### Moving from point to point
+A proportional controller
+
+**Moving from point $(x_1, y_1)$  to $(x_2, y_2)$**
+* Linear velocity: $v = k_v \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$
+* Angular velocity: $\theta = tan^{-1}\dfrac{y_2 - y_1}{x_2 - x_1}$
+* Proportional controller to minimize angle between goal angle and initial angle. $\gamma = K_h(\theta_2\hspace{3mm} \Theta \hspace{3mm} \theta 1), K_h > 0$
+* $K_h$ is a constant depending on robot, friction and so on.
+
 ## Spiral targetory
 
 ```

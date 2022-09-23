@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "linear=motion_types_py.linear:main",
             "rotation=motion_types_py.rotation:main",
-            "spiral=motion_types_py.spiral:main"
+            "spiral=motion_types_py.spiral:main",
+            "goto_goal=motion_types_py.go_to_goal:main"
         ],
     },
 )
