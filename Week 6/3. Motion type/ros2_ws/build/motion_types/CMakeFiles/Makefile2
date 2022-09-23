@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/We
 
 # The main recursive "all" target.
 all: CMakeFiles/goto_goal.dir/all
+all: CMakeFiles/linear.dir/all
 
 .PHONY : all
 
@@ -64,6 +65,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/goto_goal.dir/clean
+clean: CMakeFiles/linear.dir/clean
 clean: CMakeFiles/motion_types_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
@@ -95,6 +97,33 @@ goto_goal: CMakeFiles/goto_goal.dir/rule
 CMakeFiles/goto_goal.dir/clean:
 	$(MAKE) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/clean
 .PHONY : CMakeFiles/goto_goal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/linear.dir
+
+# All Build rule for target.
+CMakeFiles/linear.dir/all:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/depend
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" --progress-num=3,4 "Built target linear"
+.PHONY : CMakeFiles/linear.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/linear.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/linear.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types/CMakeFiles" 0
+.PHONY : CMakeFiles/linear.dir/rule
+
+# Convenience name for target.
+linear: CMakeFiles/linear.dir/rule
+
+.PHONY : linear
+
+# clean rule for target.
+CMakeFiles/linear.dir/clean:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/clean
+.PHONY : CMakeFiles/linear.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/motion_types_uninstall.dir

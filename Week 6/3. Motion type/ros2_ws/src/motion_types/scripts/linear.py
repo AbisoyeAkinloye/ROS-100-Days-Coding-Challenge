@@ -16,11 +16,21 @@ class MoveLinearly(Node):
         super().__init__("linear_movement")
         self.velocity_publisher_ = self.create_publisher(
             Twist, "/turtle1/cmd_vel", 10)
+        self.distance, self.velocity, self.direction = self.set_params()
         self.timer_ = self.create_timer(1.0, self.move_callback)
-
         self.get_logger().info("The turtle is about to move linearly")
-        self.distance, self.velocity, self.direction = self.specify_params()
-        self.t0 = self.get_clock().now().seconds_nanoseconds()[0]  # initial time
+
+    def set_params(self):
+        '''
+        Func prompt to input distance, speed, and direction.
+        '''
+        distance = float(input("Enter the desired distance (m): "))
+        velocity = float(input("Enter the desired velocity (m/s): "))
+        direction = int(
+            input("Enter [1] for forward and [0] for backward direction: "))
+        self.t0 = self.get_clock().now().seconds_nanoseconds()[
+            0]  # initial time
+        return distance, velocity, direction
 
     def move_callback(self):
         cmd_vel = Twist()
@@ -44,22 +54,13 @@ class MoveLinearly(Node):
 
         self.velocity_publisher_.publish(cmd_vel)
 
-    def specify_params(self):
-        '''
-        Func prompt to input distance, speed, and direction.
-        '''
-        distance = float(input("Enter the desired distance (m): "))
-        velocity = float(input("Enter the desired velocity (m/s): "))
-        direction = int(
-            input("Enter [1] for forward and [0] for backward direction: "))
-        return distance, velocity, direction
-
 
 def main(args=None):
     rclpy.init(args=args)
     move = MoveLinearly()
     rclpy.spin(move)
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target linear[0m
+[ 12%] [32m[1mLinking CXX executable rotation[0m
+[ 25%] [32m[1mLinking CXX executable spiral[0m
+[ 50%] Built target goto_goal
+[ 62%] [32mBuilding CXX object CMakeFiles/linear.dir/src/linear.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable linear[0m
+[ 75%] Built target linear

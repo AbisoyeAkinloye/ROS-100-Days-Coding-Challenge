@@ -181,6 +181,19 @@ goto_goal/fast:
 .PHONY : goto_goal/fast
 
 #=============================================================================
+# Target rules for targets named linear
+
+# Build rule for target.
+linear: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linear
+.PHONY : linear
+
+# fast build rule for target.
+linear/fast:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/build
+.PHONY : linear/fast
+
+#=============================================================================
 # Target rules for targets named motion_types_uninstall
 
 # Build rule for target.
@@ -233,6 +246,33 @@ src/goto_goal.cpp.s:
 	$(MAKE) -f CMakeFiles/goto_goal.dir/build.make CMakeFiles/goto_goal.dir/src/goto_goal.cpp.s
 .PHONY : src/goto_goal.cpp.s
 
+src/linear.o: src/linear.cpp.o
+
+.PHONY : src/linear.o
+
+# target to build an object file
+src/linear.cpp.o:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/src/linear.cpp.o
+.PHONY : src/linear.cpp.o
+
+src/linear.i: src/linear.cpp.i
+
+.PHONY : src/linear.i
+
+# target to preprocess a source file
+src/linear.cpp.i:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/src/linear.cpp.i
+.PHONY : src/linear.cpp.i
+
+src/linear.s: src/linear.cpp.s
+
+.PHONY : src/linear.s
+
+# target to generate assembly for a file
+src/linear.cpp.s:
+	$(MAKE) -f CMakeFiles/linear.dir/build.make CMakeFiles/linear.dir/src/linear.cpp.s
+.PHONY : src/linear.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,11 +287,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... goto_goal"
+	@echo "... linear"
 	@echo "... motion_types_uninstall"
 	@echo "... uninstall"
 	@echo "... src/goto_goal.o"
 	@echo "... src/goto_goal.i"
 	@echo "... src/goto_goal.s"
+	@echo "... src/linear.o"
+	@echo "... src/linear.i"
+	@echo "... src/linear.s"
 .PHONY : help
 
 

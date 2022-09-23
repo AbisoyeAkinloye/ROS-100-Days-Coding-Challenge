@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target linear[0m
+[ 12%] [32m[1mLinking CXX executable rotation[0m
+[ 25%] [32m[1mLinking CXX executable spiral[0m
+[ 50%] Built target goto_goal
+[ 62%] [32mBuilding CXX object CMakeFiles/linear.dir/src/linear.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/spiral.dir/build.make:151: spiral] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/spiral.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/rotation.dir/build.make:151: rotation] Error 1
+make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rotation.dir/all] Error 2
+[ 75%] [32m[1mLinking CXX executable linear[0m
+[ 75%] Built target linear
+make: *** [Makefile:141: all] Error 2

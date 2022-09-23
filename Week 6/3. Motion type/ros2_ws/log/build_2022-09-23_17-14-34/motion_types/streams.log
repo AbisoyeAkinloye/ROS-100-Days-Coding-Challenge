@@ -1,0 +1,101 @@
+[0.036s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.119s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.668s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.811s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.294s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.517s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.232s] -- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+[2.233s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.761s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.113s] -- Configuring done
+[3.215s] -- Generating done
+[3.227s] -- Build files have been written to: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
+[3.286s] [35m[1mScanning dependencies of target linear[0m
+[3.304s] [35m[1mScanning dependencies of target rotation[0m
+[3.309s] [35m[1mScanning dependencies of target spiral[0m
+[3.366s] [ 25%] Built target goto_goal
+[3.368s] [ 37%] [32mBuilding CXX object CMakeFiles/rotation.dir/src/rotation.cpp.o[0m
+[3.386s] [ 50%] [32mBuilding CXX object CMakeFiles/spiral.dir/src/spiral.cpp.o[0m
+[3.419s] [ 62%] [32m[1mLinking CXX executable rotation[0m
+[3.432s] [ 75%] [32mBuilding CXX object CMakeFiles/linear.dir/src/linear.cpp.o[0m
+[3.453s] [ 87%] [32m[1mLinking CXX executable spiral[0m
+[3.608s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.608s] (.text+0x24): undefined reference to `main'
+[3.620s] collect2: error: ld returned 1 exit status
+[3.620s] make[2]: *** [CMakeFiles/rotation.dir/build.make:151: rotation] Error 1
+[3.620s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rotation.dir/all] Error 2
+[3.620s] make[1]: *** Waiting for unfinished jobs....
+[3.712s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.712s] (.text+0x24): undefined reference to `main'
+[3.715s] collect2: error: ld returned 1 exit status
+[3.720s] make[2]: *** [CMakeFiles/spiral.dir/build.make:151: spiral] Error 1
+[3.720s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/spiral.dir/all] Error 2
+[6.609s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity_publisher_[m[K’ does not name a type
+[6.610s]    14 |     [01;31m[Kvelocity_publisher_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
+[6.610s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.612s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ does not name a type; did you mean ‘[01m[Ktimer_t[m[K’?
+[6.612s]    15 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(std::chrono::seconds(1), std::bind($MoveLinearly::move_linear, this));
+[6.612s]       |     [01;31m[K^~~~~~[m[K
+[6.613s]       |     [32m[Ktimer_t[m[K
+[6.613s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:16:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kset_movement_params[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.613s]    16 |     [01;31m[KMoveLinearly[m[K::set_movement_params();
+[6.613s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[6.614s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:16:5:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMoveLinearly::[m[K’ on member ‘[01m[Kset_movement_params[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[6.614s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt0[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[6.614s]    17 |     [01;31m[Kt0[m[K = time.now().seconds();
+[6.614s]       |     [01;31m[K^~[m[K
+[6.614s]       |     [32m[Ktm[m[K
+[6.615s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:20:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MoveLinearly::set_movement_params()[m[K’ cannot be overloaded with ‘[01m[Kint MoveLinearly::set_movement_params()[m[K’
+[6.615s]    20 |     void [01;31m[Kset_movement_params[m[K(){
+[6.615s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.615s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:16:5:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MoveLinearly::set_movement_params()[m[K’
+[6.615s]    16 |     [01;36m[KMoveLinearly[m[K::set_movement_params();
+[6.616s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[6.632s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:[m[K In member function ‘[01m[Kvoid MoveLinearly::move_linear()[m[K’:
+[6.632s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:31:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[6.632s]    31 |         [01;31m[Kdt[m[K = t1 - t0;
+[6.633s]       |         [01;31m[K^~[m[K
+[7.527s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/10/bits/c++allocator.h:33[m[K,
+[7.528s]                  from [01m[K/usr/include/c++/10/bits/allocator.h:46[m[K,
+[7.528s]                  from [01m[K/usr/include/c++/10/memory:64[m[K,
+[7.528s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[7.528s]                  from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:8[m[K:
+[7.529s] /usr/include/c++/10/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MoveLinearly; _Args = {}; _Tp = MoveLinearly][m[K’:
+[7.529s] [01m[K/usr/include/c++/10/bits/alloc_traits.h:512:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MoveLinearly; _Args = {}; _Tp = MoveLinearly; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MoveLinearly>][m[K’
+[7.529s] [01m[K/usr/include/c++/10/bits/shared_ptr_base.h:551:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = MoveLinearly; _Alloc = std::allocator<MoveLinearly>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.530s] [01m[K/usr/include/c++/10/bits/shared_ptr_base.h:682:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MoveLinearly; _Alloc = std::allocator<MoveLinearly>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.530s] [01m[K/usr/include/c++/10/bits/shared_ptr_base.h:1371:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveLinearly>; _Args = {}; _Tp = MoveLinearly; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[7.530s] [01m[K/usr/include/c++/10/bits/shared_ptr.h:408:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MoveLinearly>; _Args = {}; _Tp = MoveLinearly][m[K’
+[7.530s] [01m[K/usr/include/c++/10/bits/shared_ptr.h:859:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MoveLinearly; _Alloc = std::allocator<MoveLinearly>; _Args = {}][m[K’
+[7.530s] [01m[K/usr/include/c++/10/bits/shared_ptr.h:875:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MoveLinearly; _Args = {}][m[K’
+[7.531s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:58:49:[m[K   required from here
+[7.531s] [01m[K/usr/include/c++/10/ext/new_allocator.h:150:4:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KMoveLinearly::MoveLinearly()[m[K’
+[7.531s]   150 |  { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[7.531s]       |    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.531s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:11:7:[m[K [01;36m[Knote: [m[K‘[01m[KMoveLinearly::MoveLinearly()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[7.532s]    11 | class [01;36m[KMoveLinearly[m[K : public rclcpp::Node
+[7.532s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.532s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:11:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[7.532s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.532s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[7.533s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[7.533s]                  from [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:8[m[K:
+[7.533s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[7.533s]  1193 |   [01;36m[KNode[m[K(
+[7.533s]       |   [01;36m[K^~~~[m[K
+[7.534s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1193:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[7.534s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[7.534s]    98 |   explicit [01;36m[KNode[m[K(
+[7.534s]       |            [01;36m[K^~~~[m[K
+[7.535s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:98:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[7.535s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[7.539s]    86 |   explicit [01;36m[KNode[m[K(
+[7.545s]       |            [01;36m[K^~~~[m[K
+[7.545s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:86:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[7.712s] make[2]: *** [CMakeFiles/linear.dir/build.make:63: CMakeFiles/linear.dir/src/linear.cpp.o] Error 1
+[7.712s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/linear.dir/all] Error 2
+[7.714s] make: *** [Makefile:141: all] Error 2
+[7.722s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4

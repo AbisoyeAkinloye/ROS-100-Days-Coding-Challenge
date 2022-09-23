@@ -2,8 +2,8 @@
 There are different types of motion in ROS
 1. Straight line
 2. Rotation in place
-3. Go to goal 
-4. Spiral 
+3. Spiral
+4. Go to goal 
 
 ## Straight line
 For a straight line motion in ROS (turtlesim), you just have to specify a constant speed.
@@ -33,6 +33,20 @@ Angular:
     z = speed
 ```
 
+## Spiral targetory
+It is also a rotational motion but the linear speed is a function of time.
+
+```
+Linear:
+    x: f(time)
+    y: 0
+    z: 0
+Angular:
+    x = 0
+    y = 0
+    z = constant
+```
+
 ## Go to goal 
 
 The concept of go-to-goal falls under the PID (Proportion, Integral, Derivative) controller.
@@ -59,18 +73,6 @@ A proportional controller
 * Proportional controller to minimize angle between goal angle and initial angle. $\gamma = K_h(\theta_2\hspace{3mm} \Theta \hspace{3mm} \theta 1), K_h > 0$
 * $K_h$ is a constant depending on robot, friction and so on.
 
-## Spiral targetory
-
-```
-Linear:
-    x: f(time)
-    y: 0
-    z: 0
-Angular:
-    x = 0
-    y = 0
-    z = constant
-```
 
 # Motion in space
 

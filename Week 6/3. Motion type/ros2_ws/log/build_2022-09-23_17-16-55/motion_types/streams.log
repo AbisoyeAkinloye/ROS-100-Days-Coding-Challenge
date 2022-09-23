@@ -1,0 +1,21 @@
+[0.041s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.192s] [35m[1mScanning dependencies of target linear[0m
+[0.213s] [ 12%] [32m[1mLinking CXX executable rotation[0m
+[0.214s] [ 25%] [32m[1mLinking CXX executable spiral[0m
+[0.266s] [ 50%] Built target goto_goal
+[0.375s] [ 62%] [32mBuilding CXX object CMakeFiles/linear.dir/src/linear.cpp.o[0m
+[0.398s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.398s] (.text+0x24): undefined reference to `main'
+[0.402s] collect2: error: ld returned 1 exit status
+[0.405s] make[2]: *** [CMakeFiles/spiral.dir/build.make:151: spiral] Error 1
+[0.406s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/spiral.dir/all] Error 2
+[0.406s] make[1]: *** Waiting for unfinished jobs....
+[0.407s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.407s] (.text+0x24): undefined reference to `main'
+[0.411s] collect2: error: ld returned 1 exit status
+[0.414s] make[2]: *** [CMakeFiles/rotation.dir/build.make:151: rotation] Error 1
+[0.415s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rotation.dir/all] Error 2
+[7.088s] [ 75%] [32m[1mLinking CXX executable linear[0m
+[7.561s] [ 75%] Built target linear
+[7.564s] make: *** [Makefile:141: all] Error 2
+[7.571s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4

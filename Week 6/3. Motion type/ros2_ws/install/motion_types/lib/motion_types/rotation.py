@@ -36,6 +36,8 @@ class Rotation(Node):
                 vel_msg.angular.z = -abs(self.angular_speed)
         else:
             vel_msg.angular.z = 0.0
+            self.get_logger().info("Done!!!")
+            self.timer_.cancel()
 
         self.velocity_publisher_.publish(vel_msg)
 

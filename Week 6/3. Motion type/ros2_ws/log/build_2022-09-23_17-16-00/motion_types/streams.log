@@ -1,0 +1,29 @@
+[0.046s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.188s] [35m[1mScanning dependencies of target linear[0m
+[0.269s] [ 12%] [32m[1mLinking CXX executable spiral[0m
+[0.270s] [ 25%] [32m[1mLinking CXX executable rotation[0m
+[0.271s] [ 50%] Built target goto_goal
+[0.319s] [ 62%] [32mBuilding CXX object CMakeFiles/linear.dir/src/linear.cpp.o[0m
+[0.453s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.454s] (.text+0x24): undefined reference to `main'
+[0.461s] collect2: error: ld returned 1 exit status
+[0.463s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.464s] (.text+0x24): undefined reference to `main'
+[0.464s] make[2]: *** [CMakeFiles/spiral.dir/build.make:151: spiral] Error 1
+[0.464s] make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/spiral.dir/all] Error 2
+[0.465s] make[1]: *** Waiting for unfinished jobs....
+[0.468s] collect2: error: ld returned 1 exit status
+[0.471s] make[2]: *** [CMakeFiles/rotation.dir/build.make:151: rotation] Error 1
+[0.472s] make[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/rotation.dir/all] Error 2
+[3.246s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:[m[K In constructor ‘[01m[KMoveLinearly::MoveLinearly()[m[K’:
+[3.246s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:17:77:[m[K [01;31m[Kerror: [m[K‘[01m[K$MoveLinearly[m[K’ has not been declared
+[3.246s]    17 |         timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind([01;31m[K$MoveLinearly[m[K::move_linear, this));
+[3.246s]       |                                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[3.251s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:[m[K In member function ‘[01m[Kvoid MoveLinearly::move_linear()[m[K’:
+[3.251s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/linear.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+[3.251s]    36 |         [01;31m[Kdt[m[K = t1 - t0;
+[3.251s]       |         [01;31m[K^~[m[K
+[5.215s] make[2]: *** [CMakeFiles/linear.dir/build.make:63: CMakeFiles/linear.dir/src/linear.cpp.o] Error 1
+[5.215s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/linear.dir/all] Error 2
+[5.215s] make: *** [Makefile:141: all] Error 2
+[5.222s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4

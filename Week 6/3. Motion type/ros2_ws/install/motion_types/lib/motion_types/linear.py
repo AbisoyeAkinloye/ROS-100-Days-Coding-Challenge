@@ -39,6 +39,8 @@ class MoveLinearly(Node):
                 print("Invalid input!")
         else:
             cmd_vel.linear.x = 0.0
+            self.get_logger().info("Distance reached!!!")
+            self.timer_.cancel()
 
         self.velocity_publisher_.publish(cmd_vel)
 
