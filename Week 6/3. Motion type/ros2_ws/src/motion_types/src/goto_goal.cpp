@@ -16,7 +16,7 @@ public:
     {
         velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         pose_subscriber_ = this->create_subscription<turtlesim::msg::Pose>("/turtle1/pose", 10, std::bind(&GoToGoal::pose_callback, this, std::placeholders::_1));
-        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&GoToGoal::goto_goal, this));
+        timer_ = this->create_wall_timer(std::chrono::nanoseconds(10), std::bind(&GoToGoal::goto_goal, this));
         GoToGoal::set_goal();
     }
 
@@ -47,8 +47,8 @@ private:
 
         if (euclidean_distance > distance_tolerance)
         {
-            float K_linear = 0.5;
-            float K_angular = 1.2;
+            float K_linear = 2;
+            float K_angular = 4;
             speed.linear.x = K_linear * euclidean_distance;
 
             angle = atan2(dist_y, dist_x);
@@ -69,7 +69,7 @@ private:
         {
             speed.linear.x = 0.0;
             speed.angular.z = 0.0;
-            RCLCPP_INFO(this->get_logger(), "Goal (x2, y2) = (%.2f, %.2f) reached!!!", x2, y2);
+            RCLCPP_INFO(this->get_logger(), "Goal (%.2f, %.2f) reached!!!", x2, y2);
             timer_->cancel();
         }
         velocity_publisher_->publish(speed);

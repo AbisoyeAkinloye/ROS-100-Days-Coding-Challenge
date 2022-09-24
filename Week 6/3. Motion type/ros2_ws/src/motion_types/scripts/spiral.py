@@ -44,7 +44,7 @@ class SpiralMotion(Node):
             vel_msg.angular.z = 0.0
             vel_msg.linear.x = 0.0
 
-            self.get_logger().info("Done!!!")
+            self.get_logger().info("Spiral rotation done!!!")
             self.timer_.cancel()
 
         self.velocity_publisher_.publish(vel_msg)

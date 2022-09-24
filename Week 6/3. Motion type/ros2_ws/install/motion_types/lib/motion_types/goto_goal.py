@@ -21,7 +21,7 @@ class GoToGoal(Node):
     def __init__(self):
         super().__init__("goto_goal")
         self.velocity_publisher_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
-        self.timer_ = self.create_timer(1.0, self.goto_goal)
+        self.timer_ = self.create_timer(0.01, self.goto_goal)
         self.pose_subscriber_ = self.create_subscription(
             Pose, "/turtle1/pose", self.pose_callback, 10)
         self.set_goal()
@@ -45,12 +45,12 @@ class GoToGoal(Node):
 
         speed = Twist()
         if (euclidean_distance > distance_tolerance):
-            K_linear = 0.8
+            K_linear = 2
             speed.linear.x = K_linear * euclidean_distance
 
             angle = atan2(dist_y, dist_x)
             diff = angle - self.theta
-            K_angular = 1.2
+            K_angular = 6
 
             if diff > pi:
                 diff -= 2*pi

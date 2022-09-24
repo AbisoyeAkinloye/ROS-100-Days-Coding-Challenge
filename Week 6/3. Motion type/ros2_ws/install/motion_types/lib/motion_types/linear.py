@@ -16,8 +16,8 @@ class MoveLinearly(Node):
         super().__init__("linear_movement")
         self.velocity_publisher_ = self.create_publisher(
             Twist, "/turtle1/cmd_vel", 10)
-        self.timer_ = self.create_timer(1.0, self.move_callback)
-        self.get_logger().info("The turtle is about to move linearly")
+        self.timer_ = self.create_timer(0.05, self.move_callback)
+        # self.get_logger().info("The turtle is about to move linearly")
         self.distance, self.velocity, self.direction = self.set_params()
 
     def set_params(self):
@@ -36,7 +36,7 @@ class MoveLinearly(Node):
         cmd_vel = Twist()
         t1 = self.get_clock().now().seconds_nanoseconds()[0]
         dt = t1-self.t0  # change in time
-        
+
         # displacement because it is a distance taken in a specified direction
         displacement = self.velocity * dt
 

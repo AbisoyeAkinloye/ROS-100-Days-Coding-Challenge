@@ -15,7 +15,7 @@ public:
     {
         MoveLinearly::set_movement_params();
         velocity_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
-        timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&MoveLinearly::move_linear, this));
+        timer_ = this->create_wall_timer(std::chrono::nanoseconds(50), std::bind(&MoveLinearly::move_linear, this));
     }
 
 private:
@@ -47,7 +47,7 @@ private:
         else
         {
             vel_msg.angular.z = 0.0;
-            RCLCPP_INFO(this->get_logger(), "Specified distance of %.1f reached.", distance);
+            RCLCPP_INFO(this->get_logger(), "Specified distance of %.1fm reached.", distance);
             timer_->cancel();
         }
 
@@ -59,7 +59,8 @@ private:
     geometry_msgs::msg::Twist vel_msg;
     rclcpp::Clock time;
     float distance, displacement, velocity;
-    bool isForward; int t1, t0;
+    bool isForward;
+    int t1, t0;
 };
 
 int main(int argc, char *argv[])
