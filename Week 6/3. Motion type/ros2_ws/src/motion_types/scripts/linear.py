@@ -36,8 +36,7 @@ class MoveLinearly(Node):
         cmd_vel = Twist()
         t1 = self.get_clock().now().seconds_nanoseconds()[0]
         dt = t1-self.t0  # change in time
-
-        self.get_logger().info(f"Change in time is {dt}")
+        
         # displacement because it is a distance taken in a specified direction
         displacement = self.velocity * dt
 

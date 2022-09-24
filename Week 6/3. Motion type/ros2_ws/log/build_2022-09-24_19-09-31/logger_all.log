@@ -1,0 +1,160 @@
+[0.452s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'motion_types']
+[0.453s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa5f893fdc0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['motion_types'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa5f893fdc0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa5f8947370>)
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.540s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.541s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_types' with type 'ros.ament_cmake' and name 'motion_types'
+[0.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extensions ['ros']
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_types_py) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_types_py' with type 'ros.ament_python' and name 'motion_types_py'
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.608s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.659s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motion_types_py' in 'src/motion_types_py'
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.671s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/loye/turtlebot3_ws/install
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/foxy
+[0.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_target' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_clean_cache' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_clean_first' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'cmake_force_configure' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'ament_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'catkin_cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'motion_types' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.915s] DEBUG:colcon.colcon_core.verb:Building package 'motion_types' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types', 'merge_install': False, 'path': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types', 'symlink_install': False, 'test_result_base': None}
+[0.917s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types' with build type 'ament_cmake'
+[0.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types'
+[0.944s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.944s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.944s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[9.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[9.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
+[9.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_types)
+[9.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --install /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types
+[9.993s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types' for CMake module files
+[9.994s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types' for CMake config files
+[9.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_types', 'cmake_prefix_path')
+[10.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.ps1'
+[10.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.dsv'
+[10.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.sh'
+[10.005s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib'
+[10.006s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/bin'
+[10.006s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/pkgconfig/motion_types.pc'
+[10.007s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages'
+[10.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_types', 'pythonpath')
+[10.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.ps1'
+[10.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.dsv'
+[10.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.sh'
+[10.016s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/bin'
+[10.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.ps1'
+[10.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.dsv'
+[10.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.sh'
+[10.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.bash'
+[10.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.zsh'
+[10.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/colcon-core/packages/motion_types)
+[10.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_types)
+[10.140s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types' for CMake module files
+[10.143s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types' for CMake config files
+[10.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_types', 'cmake_prefix_path')
+[10.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.ps1'
+[10.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.dsv'
+[10.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/cmake_prefix_path.sh'
+[10.154s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib'
+[10.154s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/bin'
+[10.154s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/pkgconfig/motion_types.pc'
+[10.155s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages'
+[10.155s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_types', 'pythonpath')
+[10.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.ps1'
+[10.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.dsv'
+[10.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/hook/pythonpath.sh'
+[10.163s] Level 1:colcon.colcon_core.environment:checking '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/bin'
+[10.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.ps1'
+[10.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.dsv'
+[10.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.sh'
+[10.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.bash'
+[10.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.zsh'
+[10.180s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/colcon-core/packages/motion_types)
+[10.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.182s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.182s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.198s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.293s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.297s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/local_setup.ps1'
+[10.300s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/_local_setup_util_ps1.py'
+[10.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/setup.ps1'
+[10.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/local_setup.sh'
+[10.311s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/_local_setup_util_sh.py'
+[10.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/setup.sh'
+[10.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/local_setup.bash'
+[10.323s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/setup.bash'
+[10.335s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/local_setup.zsh'
+[10.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/setup.zsh'

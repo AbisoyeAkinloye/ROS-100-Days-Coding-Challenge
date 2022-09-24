@@ -19,7 +19,7 @@ class Rotation(Node):
         super().__init__("rotation")
         self.velocity_publisher_ = self.create_publisher(
             Twist, "/turtle1/cmd_vel", 10)
-        self.timer_ = self.create_timer(1.0, self.rotate_callback)
+        self.timer_ = self.create_timer(0.2, self.rotate_callback)
         self.get_logger().info("Turtle about to rotate")
         self.angular_speed, self.angle, self.direction, self.t0 = self.rotation_params()
 

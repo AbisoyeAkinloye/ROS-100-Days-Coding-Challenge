@@ -35,7 +35,6 @@ private:
     {
         t1 = time.now().seconds();
         int dt = t1 - t0;
-        RCLCPP_INFO(this->get_logger(), "Change in time: %i", dt);
 
         displacement = velocity * dt;
         if (displacement < distance)

@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (-) JobUnselected: {'identifier': 'motion_types_py'}
+[0.000673] (motion_types) JobQueued: {'identifier': 'motion_types', 'dependencies': OrderedDict()}
+[0.000731] (motion_types) JobStarted: {'identifier': 'motion_types'}
+[0.038301] (motion_types) JobProgress: {'identifier': 'motion_types', 'progress': 'cmake'}
+[0.042686] (motion_types) JobProgress: {'identifier': 'motion_types', 'progress': 'build'}
+[0.042796] (motion_types) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types', '--', '-j4', '-l4'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '2040'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3568'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:47522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/loye/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2118,unix/loye:/tmp/.ICE-unix/2118'), ('INVOCATION_ID', '34a1342c368a4d0987cf39e0df841abb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b68486ee-1bea-420a-b534-7d1181b624a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/loye/turtlebot3_ws/build/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/loye/turtlebot3_ws/build/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[0.099336] (-) TimerEvent: {}
+[0.199853] (-) TimerEvent: {}
+[0.243206] (motion_types) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rotation\x1b[0m\n'}
+[0.301062] (motion_types) StdoutLine: {'line': b'[ 25%] Built target spiral\n'}
+[0.302408] (-) TimerEvent: {}
+[0.317337] (motion_types) StdoutLine: {'line': b'[ 50%] Built target goto_goal\n'}
+[0.383196] (motion_types) StdoutLine: {'line': b'[ 75%] Built target linear\n'}
+[0.402605] (-) TimerEvent: {}
+[0.405369] (motion_types) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/rotation.dir/src/rotation.cpp.o\x1b[0m\n'}
+[0.502823] (-) TimerEvent: {}
+[0.603384] (-) TimerEvent: {}
+[0.703897] (-) TimerEvent: {}
+[0.804321] (-) TimerEvent: {}
+[0.904757] (-) TimerEvent: {}
+[1.005634] (-) TimerEvent: {}
+[1.106072] (-) TimerEvent: {}
+[1.206676] (-) TimerEvent: {}
+[1.307076] (-) TimerEvent: {}
+[1.407490] (-) TimerEvent: {}
+[1.507937] (-) TimerEvent: {}
+[1.608375] (-) TimerEvent: {}
+[1.708750] (-) TimerEvent: {}
+[1.809203] (-) TimerEvent: {}
+[1.909925] (-) TimerEvent: {}
+[2.010420] (-) TimerEvent: {}
+[2.110990] (-) TimerEvent: {}
+[2.211997] (-) TimerEvent: {}
+[2.312379] (-) TimerEvent: {}
+[2.412875] (-) TimerEvent: {}
+[2.513327] (-) TimerEvent: {}
+[2.613917] (-) TimerEvent: {}
+[2.714202] (-) TimerEvent: {}
+[2.814586] (-) TimerEvent: {}
+[2.915064] (-) TimerEvent: {}
+[3.015511] (-) TimerEvent: {}
+[3.116469] (-) TimerEvent: {}
+[3.216884] (-) TimerEvent: {}
+[3.317858] (-) TimerEvent: {}
+[3.418346] (-) TimerEvent: {}
+[3.518763] (-) TimerEvent: {}
+[3.619288] (-) TimerEvent: {}
+[3.719763] (-) TimerEvent: {}
+[3.820210] (-) TimerEvent: {}
+[3.920716] (-) TimerEvent: {}
+[4.021741] (-) TimerEvent: {}
+[4.122154] (-) TimerEvent: {}
+[4.222639] (-) TimerEvent: {}
+[4.323104] (-) TimerEvent: {}
+[4.423567] (-) TimerEvent: {}
+[4.523966] (-) TimerEvent: {}
+[4.624293] (-) TimerEvent: {}
+[4.724696] (-) TimerEvent: {}
+[4.825341] (-) TimerEvent: {}
+[4.925842] (-) TimerEvent: {}
+[5.026326] (-) TimerEvent: {}
+[5.126766] (-) TimerEvent: {}
+[5.227154] (-) TimerEvent: {}
+[5.327652] (-) TimerEvent: {}
+[5.427985] (-) TimerEvent: {}
+[5.528371] (-) TimerEvent: {}
+[5.628779] (-) TimerEvent: {}
+[5.729222] (-) TimerEvent: {}
+[5.829655] (-) TimerEvent: {}
+[5.930153] (-) TimerEvent: {}
+[6.030600] (-) TimerEvent: {}
+[6.131013] (-) TimerEvent: {}
+[6.231372] (-) TimerEvent: {}
+[6.331778] (-) TimerEvent: {}
+[6.432208] (-) TimerEvent: {}
+[6.532609] (-) TimerEvent: {}
+[6.633850] (-) TimerEvent: {}
+[6.734240] (-) TimerEvent: {}
+[6.834663] (-) TimerEvent: {}
+[6.935188] (-) TimerEvent: {}
+[7.035624] (-) TimerEvent: {}
+[7.136044] (-) TimerEvent: {}
+[7.236359] (-) TimerEvent: {}
+[7.337000] (-) TimerEvent: {}
+[7.437880] (-) TimerEvent: {}
+[7.538331] (-) TimerEvent: {}
+[7.638794] (-) TimerEvent: {}
+[7.739248] (-) TimerEvent: {}
+[7.781043] (motion_types) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rotation\x1b[0m\n'}
+[7.839798] (-) TimerEvent: {}
+[7.940251] (-) TimerEvent: {}
+[8.040727] (-) TimerEvent: {}
+[8.141689] (-) TimerEvent: {}
+[8.242100] (-) TimerEvent: {}
+[8.340898] (motion_types) StdoutLine: {'line': b'[100%] Built target rotation\n'}
+[8.342215] (-) TimerEvent: {}
+[8.370193] (motion_types) CommandEnded: {'returncode': 0}
+[8.442432] (-) TimerEvent: {}
+[8.467255] (motion_types) JobProgress: {'identifier': 'motion_types', 'progress': 'install'}
+[8.491759] (motion_types) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types'], 'cwd': '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'en_NG:en'), ('USER', 'loye'), ('SSH_AGENT_PID', '2040'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/loye'), ('OLDPWD', '/home/loye'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1809'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3568'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/loye/turtlebot3_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'loye'), ('JOURNAL_STREAM', '8:47522'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'loye'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/loye/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/loye/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/loye:@/tmp/.ICE-unix/2118,unix/loye:/tmp/.ICE-unix/2118'), ('INVOCATION_ID', '34a1342c368a4d0987cf39e0df841abb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b68486ee-1bea-420a-b534-7d1181b624a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/loye/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/loye/turtlebot3_ws/build/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/loye/turtlebot3_ws/build/turtlebot3_example:/home/loye/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/loye/turtlebot3_ws/install/turtlebot3:/home/loye/turtlebot3_ws/install/turtlebot3_simulations:/home/loye/turtlebot3_ws/install/turtlebot3_bringup:/home/loye/turtlebot3_ws/install/turtlebot3_node:/home/loye/turtlebot3_ws/install/turtlebot3_navigation2:/home/loye/turtlebot3_ws/install/turtlebot3_gazebo:/home/loye/turtlebot3_ws/install/turtlebot3_fake_node:/home/loye/turtlebot3_ws/install/turtlebot3_description:/home/loye/turtlebot3_ws/install/turtlebot3_cartographer:/home/loye/turtlebot3_ws/install/ld08_driver:/home/loye/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy')]), 'shell': False}
+[8.520867] (motion_types) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.521719] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/linear\n'}
+[8.522697] (motion_types) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/rotation\n'}
+[8.525665] (motion_types) StdoutLine: {'line': b'-- Set runtime path of "/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/rotation" to ""\n'}
+[8.526243] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/spiral\n'}
+[8.527248] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/goto_goal\n'}
+[8.527923] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/pythonpath.sh\n'}
+[8.528278] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/pythonpath.dsv\n'}
+[8.528556] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages/motion_types\n'}
+[8.528763] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages/motion_types/module_to_import.py\n'}
+[8.529020] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages/motion_types/__init__.py\n'}
+[8.544850] (-) TimerEvent: {}
+[8.619476] (motion_types) StdoutLine: {'line': b"Listing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/python3.8/site-packages/motion_types'...\n"}
+[8.636718] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/linear.py\n'}
+[8.637136] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/rotation.py\n'}
+[8.637429] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/spiral.py\n'}
+[8.637671] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/lib/motion_types/goto_goal.py\n'}
+[8.641281] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/package_run_dependencies/motion_types\n'}
+[8.641615] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/parent_prefix_path/motion_types\n'}
+[8.649783] (-) TimerEvent: {}
+[8.650159] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/ament_prefix_path.sh\n'}
+[8.650663] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/ament_prefix_path.dsv\n'}
+[8.650887] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/path.sh\n'}
+[8.651320] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/environment/path.dsv\n'}
+[8.651592] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.bash\n'}
+[8.651817] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.sh\n'}
+[8.653405] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.zsh\n'}
+[8.653807] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/local_setup.dsv\n'}
+[8.654058] (motion_types) StdoutLine: {'line': b'-- Installing: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.dsv\n'}
+[8.654606] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/ament_index/resource_index/packages/motion_types\n'}
+[8.655453] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/cmake/motion_typesConfig.cmake\n'}
+[8.655665] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/cmake/motion_typesConfig-version.cmake\n'}
+[8.655870] (motion_types) StdoutLine: {'line': b'-- Up-to-date: /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/install/motion_types/share/motion_types/package.xml\n'}
+[8.656189] (motion_types) CommandEnded: {'returncode': 0}
+[8.750066] (-) TimerEvent: {}
+[8.843126] (motion_types) JobEnded: {'identifier': 'motion_types', 'rc': 0}
+[8.844668] (-) EventReactorShutdown: {}
