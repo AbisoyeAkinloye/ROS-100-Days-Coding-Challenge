@@ -1,0 +1,17 @@
+[0.043s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4
+[0.185s] [35m[1mScanning dependencies of target goto_goal[0m
+[0.253s] [ 25%] Built target rotation
+[0.260s] [ 50%] Built target spiral
+[0.280s] [ 75%] Built target linear
+[0.305s] [ 87%] [32mBuilding CXX object CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o[0m
+[3.253s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/goto_goal.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::goto_goal()[m[K’:
+[3.254s] [01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/goto_goal.cpp:73:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.254s]    73 |             timer_->cancel()
+[3.254s]       |                             [01;31m[K^[m[K
+[3.254s]       |                             [32m[K;[m[K
+[3.255s]    74 |         [32m[K}[m[K
+[3.255s]       |         [32m[K~[m[K                    
+[6.932s] make[2]: *** [CMakeFiles/goto_goal.dir/build.make:63: CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o] Error 1
+[6.939s] make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/goto_goal.dir/all] Error 2
+[6.940s] make: *** [Makefile:141: all] Error 2
+[6.943s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/loye/turtlebot3_ws/install/turtlebot3_teleop:/home/loye/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake --build /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/build/motion_types -- -j4 -l4

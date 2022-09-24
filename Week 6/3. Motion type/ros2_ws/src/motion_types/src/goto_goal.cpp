@@ -42,7 +42,7 @@ private:
     {
         dist_x = x2 - x1;
         dist_y = y2 - y1;
-        euclidean_distance = sqrt(std::pow(dist_x, 2) + pow(dist_y, 2));
+        euclidean_distance = sqrt(pow(dist_x, 2) + pow(dist_y, 2));
         distance_tolerance =  0.5;
 
         if (euclidean_distance > distance_tolerance)
@@ -69,7 +69,8 @@ private:
         {
             speed.linear.x = 0.0;
             speed.angular.z = 0.0;
-            RCLCPP_INFO(this->get_logger(), "Goal (x2, y2) = (%f, %f) reached!!!", x2, y2);
+            RCLCPP_INFO(this->get_logger(), "Goal (x2, y2) = (%.2f, %.2f) reached!!!", x2, y2);
+            timer_->cancel();
         }
         velocity_publisher_->publish(speed);
     }

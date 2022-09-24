@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target goto_goal[0m
+[ 25%] Built target rotation
+[ 50%] Built target spiral
+[ 75%] Built target linear
+[ 87%] [32mBuilding CXX object CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o[0m

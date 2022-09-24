@@ -12,73 +12,59 @@ from rclpy.node import Node
 
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
-import math
-
+from math import sqrt, atan2, pi
 
 class GoToGoal(Node):
+    pose_x = 0.0
+    pose_y = 0.0
+    theta = 0.0
     def __init__(self):
-        super().__init__("go_to_goal")
-        self.velocity_publisher_ = self.create_publisher(
-            Twist, "/turtle1/cmd_vel", 10)
+        super().__init__("goto_goal")
+        self.velocity_publisher_ = self.create_publisher(Twist, "/turtle1/cmd_vel", 10)
+        self.timer_ = self.create_timer(1.0, self.goto_goal)
         self.pose_subscriber_ = self.create_subscription(
             Pose, "/turtle1/pose", self.pose_callback, 10)
-        self.timer_ = self.create_timer(1.0, self.goto_goal)
-        
-
-    def pose_callback(self, pose_msg=Pose()):
-        '''
-        x1 and y1 is the initial (x,y) coordinate of the robot
-        on the reference frame (simulator).
-        '''
-        pose_x = pose_msg.x
-        pose_y = pose_msg.y
-        theta = pose_msg.theta
-
-        return pose_x, pose_y, theta
+        self.set_goal()
 
     def set_goal(self):
-        '''
-        x2 and y2 is the goal (x,y) coordinate of the robot
-        on the reference frame (simulator).
-        '''
-        self.get_logger().info("Turtle to move to desired location")
-        self.x2 = float(input("Enter the x position: "))
-        self.y2 = float(input("Enter the y position: "))
-        
+        self.get_logger().info("Set the desired (x2, y2) position of the turtle")
+        self.x2 = float(input("Enter a desired x position: "))
+        self.y2 = float(input("Enter a desired y position: "))
+
+    def pose_callback(self, pose_msg=Pose()):
+        self.pose_x = pose_msg.x
+        self.pose_y = pose_msg.y
+        self.theta = pose_msg.theta
+        # self.get_logger().warn(f"x: {self.pose_x}, y: {self.pose_y}")
 
     def goto_goal(self):
-        vel_msg = Twist()
-        x1, y1, theta = self.pose_callback()
-
-        dist_x = self.x2 - x1
-        dist_y = self.y2 - y1
-
-        self.get_logger().info(f"{(dist_x, dist_y)}")
-
-        euclidean_distance = math.sqrt(dist_x**2 + dist_y**2)
-        theta = math.atan2(dist_y, dist_x)
+        dist_x = self.x2 - self.pose_x
+        dist_y = self.y2 - self.pose_y
+        euclidean_distance =  sqrt(dist_x**2 + dist_x**2) 
         distance_tolerance = 0.5
 
+        speed = Twist()
         if (euclidean_distance > distance_tolerance):
-            vel_msg.linear.x = 0.5 * euclidean_distance
+            K_linear = 0.8
+            speed.linear.x = K_linear * euclidean_distance
 
-            goal_theta = math.atan2(dist_y, dist_x)
-            diff = goal_theta - theta
-            self.get_logger().info(f"diff: {diff}")
+            angle = atan2(dist_y, dist_x)
+            diff = angle - self.theta
+            K_angular = 1.2
 
-            if diff > math.pi:
-                diff -= 2*math.pi
-            elif diff < -math.pi:
-                diff += 2*math.pi
+            if diff > pi:
+                diff -= 2*pi
+            elif diff < -pi:
+                diff += 2*pi
 
-            vel_msg.angular.z = 1.2*diff
-
+            speed.angular.z = K_angular*diff
         else:
-            vel_msg.linear.x = 0.0
-            vel_msg.angular.z = 0.0
+            speed.linear.x = 0.0
+            speed.angular.z = 0.0
+            self.get_logger().info("Target reached")
+            self.timer_.cancel()
 
-        self.velocity_publisher_.publish(vel_msg)
-
+        self.velocity_publisher_.publish(speed)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -87,5 +73,5 @@ def main(args=None):
     rclpy.shutdown()
 
 
-if __name__ == '__main__':
+if __name__=='__main__':
     main()

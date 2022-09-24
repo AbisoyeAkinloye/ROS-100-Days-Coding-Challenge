@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target goto_goal[0m
+[ 25%] Built target rotation
+[ 50%] Built target spiral
+[ 75%] Built target linear
+[ 87%] [32mBuilding CXX object CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o[0m
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/goto_goal.cpp:[m[K In member function ‘[01m[Kvoid GoToGoal::goto_goal()[m[K’:
+[01m[K/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 6/3. Motion type/ros2_ws/src/motion_types/src/goto_goal.cpp:73:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   73 |             timer_->cancel()
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   74 |         [32m[K}[m[K
+      |         [32m[K~[m[K                    
+make[2]: *** [CMakeFiles/goto_goal.dir/build.make:63: CMakeFiles/goto_goal.dir/src/goto_goal.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:111: CMakeFiles/goto_goal.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
