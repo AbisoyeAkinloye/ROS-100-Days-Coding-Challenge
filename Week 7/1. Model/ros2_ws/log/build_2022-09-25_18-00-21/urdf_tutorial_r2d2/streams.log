@@ -1,0 +1,18 @@
+[1.899s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2 --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2
+[2.507s] running develop
+[2.861s] running egg_info
+[2.862s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[2.862s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[2.863s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[2.863s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[2.863s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[2.960s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[2.962s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[3.073s] running build_ext
+[3.074s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.8/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[3.081s] Installing state_publisher script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[3.081s] 
+[3.082s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial_r2d2
+[3.082s] running install_data
+[3.082s] copying launch/demo.launch.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[3.148s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2 --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial_r2d2/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial_r2d2

@@ -1,0 +1,28 @@
+[2.106s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial
+[2.718s] running develop
+[3.076s] running egg_info
+[3.077s] creating urdf_tutorial.egg-info
+[3.077s] writing urdf_tutorial.egg-info/PKG-INFO
+[3.078s] writing dependency_links to urdf_tutorial.egg-info/dependency_links.txt
+[3.078s] writing entry points to urdf_tutorial.egg-info/entry_points.txt
+[3.078s] writing requirements to urdf_tutorial.egg-info/requires.txt
+[3.079s] writing top-level names to urdf_tutorial.egg-info/top_level.txt
+[3.085s] writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[3.179s] reading manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[3.181s] writing manifest file 'urdf_tutorial.egg-info/SOURCES.txt'
+[3.279s] running build_ext
+[3.283s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/lib/python3.8/site-packages/site.py
+[3.289s] Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/lib/python3.8/site-packages/urdf-tutorial.egg-link (link to .)
+[3.290s] Installing state_publisher script to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/lib/urdf_tutorial
+[3.291s] 
+[3.291s] Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial
+[3.291s] running install_data
+[3.291s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/ament_index
+[3.292s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index
+[3.292s] creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+[3.292s] copying resource/urdf_tutorial -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/ament_index/resource_index/packages
+[3.292s] copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+[3.293s] copying launch/demo.launch.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+[3.293s] copying urdf/r2d2.urdf.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+[3.294s] copying urdf/r2d2.rviz -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/share/urdf_tutorial
+[3.358s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/build/urdf_tutorial/build --no-deps install_data --install-dir /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 7/1. Model/ros2_ws/install/urdf_tutorial
