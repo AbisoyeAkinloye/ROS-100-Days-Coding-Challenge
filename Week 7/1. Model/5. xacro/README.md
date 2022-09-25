@@ -43,7 +43,22 @@ robot_state_publisher_node = launch_ros.actions.Node(
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="myRobot">
 ```
 
-## Create a constant
+## Argument vs. properties
+
+There are two distinguished parameter in `xacro`
+
+1. Substitute arguments: they are known from `roslaunch` file and accessed via `$(arg param_name)`. The argument needs to specified on the command line using `param_name:=value` syntax.
+   ```
+   xacro:arg name="param_name" default=""/>
+   ```
+2. Property: It allows to store textual expression.
+   ```xml
+   xacro:property name="param_name" value="value"/>
+   ```
+
+## Create a constant/variable
+
+Click <a href="./1.constant.urdf.xacro">here</a> for the source code.
 
 To solve redundancy and repition in code, xacro allows the use of specify properties which act as constants.
 
@@ -56,9 +71,31 @@ To solve redundancy and repition in code, xacro allows the use of specify proper
 <robot name="${robot_name}bot"></robot>
 ```
 
+### Property block
+
+It is possible to define a block of xml as a variable.
+
+```xml
+<xacro:property name="cylinderical_geometry">
+    <visual>
+            <geometry>
+                <cylinder radius="${radius}" length="${length}" />
+            </geometry>
+        </visual>
+<xacro:property>
+```
+
+Use `xacro:insert_block` tag to insert the block. As in:
+
+```xml
+<link name="base_link">
+    <xacro:insert_block name="cylinderical_geometry">
+</link>
+```
+
 ## Math
 
-You can build up arbitrarily complex expressions in the `${}` construct using the four basic operations (+,-,*,/)
+You can build up arbitrarily complex expressions in the `${}` construct using the four basic operations (+,-,\*,/)
 
 ``xml
 <xacro:property name="diameter" value="0.7">
@@ -70,6 +107,15 @@ You can build up arbitrarily complex expressions in the `${}` construct using th
 - Complex math expression: `${(2*pi*radius**2) + 1e-3}`
 - Function application: `${radians(90)}`, `${degrees(pi)}`
 - Python list comprehension: `${[x**2 for x in range(10)]}`
+- Xacro parser cannot pass nested `${{}}` containing curly bracket. If need be to declare python dictionary as in:
+
+```
+${{"a":1, "b": 2}}
+
+Instead use:
+
+${dict(a=1, b=2)}
+```
 
 **Note:**
 
@@ -80,22 +126,22 @@ len, True, False, min, max, None, round, filter, enumerate, zip, type, sum and s
 
 ## Macro
 
-The main feature of xacro is its support for macros. Define macros with the `xacro:macro` tag, specify the macro `name` and the list of parameters.
+The main feature of xacro is its support for macros. Define macros with the `xacro:macro` tag, specify the macro `name` and the list of parameters, a list of white-space seperated names.
 
 ### Parameters
 
 ```xml
-<xacro:macro name="blue_shape" params="name *shape">
+<xacro:macro name="blue_shape" params="name *block">
     <link name="${name}">
         <visual>
             <geometry>
-                <xacro:insert_block name="shape" />
+                <xacro:insert_block name="block" />
             </geometry>
             <material name="blue"/>
         </visual>
         <collision>
             <geometry>
-                <xacro:insert_block name="shape" />
+                <xacro:insert_block name="block" />
             </geometry>
         </collision>
     </link>
@@ -105,3 +151,51 @@ The main feature of xacro is its support for macros. Define macros with the `xac
     <cylinder radius=".42" length=".01" />
 </xacro:blue_shape>
 ```
+
+The above code declares a macro called `blue_shape` with parameters `name shape`.
+
+- The `name` is used for simple access in the `${name}`.
+- The starred parameter are xml block which goes into `<xacro:insert_block name="block">`
+- Starred block parameter come in two viz:
+  - single-starred as in `*block` which insert the block
+  - double-starred as in `**block` which will only insert block content, excluding the root tag and the attribute.
+- The name attribute is the xacro name.
+
+**Cheat:**
+
+1. Use a name prefix to get two similiar named object
+2. Use math to calculate joint origin.
+3. Using a reflect parameter, and setting it to `1` or `-1`
+
+As in:
+
+```xml
+<xacro:macro name="leg" params="prefix reflect">
+    <link name="${prefix}_leg">
+        <visual>
+            <geometry>
+                <box size="${leglen} 0.1 0.2" />
+            </geometry>
+            <origin xyz="0 0 -${leglen/2}" rpy="0 ${pi/2} 0" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${leglen} 0.1 0.2" />
+            </geometry>
+            <origin xyz="0 0 -${leglen/2}" rpy="0 ${pi/2} 0" />
+        </collision>
+        <xacro:default_inertial mass="10" />
+    </link>
+
+    <joint name="base_to_${prefix}_leg" type="fixed">
+        <parent link="base_link" />
+        <child link="${prefix}_leg" />
+        <origin xyz="0 ${reflect*(width+.02)} 0.25" />
+    </joint>
+    <!-- Check foxy urdf doc for the complete code -->
+</xacro:macro>
+<xacro:leg prefix="right" reflect="1"/>
+<xacro:leg prefix="left" reflect="-1"/>
+```
+
+Read xacro official documentation <a href="https://github.com/ros/xacro/wiki">here</a>
