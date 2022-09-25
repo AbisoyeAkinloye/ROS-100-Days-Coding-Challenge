@@ -34,13 +34,15 @@ ROBOT OPERATING SYSTEM (ROS 2 Foxy)
 - ROS2 Action
 - Robot Motion types
 - Catch Me project
+- Other turtlesim projects
 
 ## WEEK SEVEN
 - Models
    - Gazebo
    - urdf
    - xacro
-- Tf2
 - Frame Transformation
+  - Turtlebot3
+- TF2
 - Navigation
 - SLAM

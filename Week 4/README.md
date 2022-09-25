@@ -4,6 +4,7 @@ Week three and four are being merged together into week 3 folder. Hence, this fo
 
 ## Python
 <div id="py"></div>
+
 ### Functool modules
 
 It is an higher-order function that works on other functions. It extends one function to another without completely writing the function. 
