@@ -71,8 +71,14 @@ Hence the class with the method above will become an abstract class and instanti
 **NOTE:** 
 
 - Once you set a pure virtual function in a class, the class will automatically become abstract class.
-- You cn't create objects of an abstract class, unless you get a compilation error.
-- Derived classes from an abstract class must explicitly override all the pure virtual functions from the abstract parent class, if they don't, they themselves become abstract.
+- You can't create objects of an abstract class, unless you get a compilation error.
+- Derived classes from an abstract class must explicitly override *all the pure virtual functions* from the abstract parent class, if they don't, they themselves become abstract.
 - Pure virtual function don't have an implementation in the abstract class. They are meant to be implemented by deriving class.
 - You can't call the pure virtual functions from the constructor of the abstract class.
 - The constructor of the abstract class is used by deriving class to build up the base part of the object.
+
+## Abstract classes as interfaces
+
+An abstract class with only **pure virtual functions and no member variable** can be used to model what is called an interface in Object Oriented Programming.
+
+An interface is a specification of something that will be fully implemented in a derived class, but the specification itself resides in the abstract class.

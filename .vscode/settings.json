@@ -67,6 +67,7 @@
         "future": "cpp",
         "numbers": "cpp",
         "semaphore": "cpp",
-        "shape.h": "c"
+        "shape.h": "c",
+        "forward_list": "cpp"
     }
 }
