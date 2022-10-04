@@ -58,3 +58,21 @@ A dynamic cast is a conversion that’s performed at runtime. The `dynamic_cast<
 * In other words you will get static binding results.
 
 ## Pure virtual functions and abstract classes
+
+Pure virtual functions indicate that the method is should not be implemented in the base class but rather implemented in the inherited class.
+
+```cpp
+ // pure virtual function syntax
+ virtual double func() const = 0;
+```
+
+Hence the class with the method above will become an abstract class and instantiation of object will no longer be possible.
+
+**NOTE:** 
+
+- Once you set a pure virtual function in a class, the class will automatically become abstract class.
+- You cn't create objects of an abstract class, unless you get a compilation error.
+- Derived classes from an abstract class must explicitly override all the pure virtual functions from the abstract parent class, if they don't, they themselves become abstract.
+- Pure virtual function don't have an implementation in the abstract class. They are meant to be implemented by deriving class.
+- You can't call the pure virtual functions from the constructor of the abstract class.
+- The constructor of the abstract class is used by deriving class to build up the base part of the object.

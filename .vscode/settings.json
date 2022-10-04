@@ -66,6 +66,7 @@
         "1b. person.h": "c",
         "future": "cpp",
         "numbers": "cpp",
-        "semaphore": "cpp"
+        "semaphore": "cpp",
+        "shape.h": "c"
     }
 }
