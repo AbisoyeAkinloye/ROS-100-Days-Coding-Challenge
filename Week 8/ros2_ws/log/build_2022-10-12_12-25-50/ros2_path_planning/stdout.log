@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ros2_path_planning/ros2_path_planning.egg-info
+writing ../../build/ros2_path_planning/ros2_path_planning.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_path_planning/ros2_path_planning.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_path_planning/ros2_path_planning.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_path_planning/ros2_path_planning.egg-info/requires.txt
+writing top-level names to ../../build/ros2_path_planning/ros2_path_planning.egg-info/top_level.txt
+writing manifest file '../../build/ros2_path_planning/ros2_path_planning.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_path_planning/ros2_path_planning.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_path_planning/ros2_path_planning.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build/lib
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build/lib/ros2_path_planning
+copying ros2_path_planning/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build/lib/ros2_path_planning
+running install
+running install_lib
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning
+copying /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build/lib/ros2_path_planning/__init__.py -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning
+byte-compiling /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ament_index
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ament_index/resource_index
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ament_index/resource_index/packages
+copying resource/ros2_path_planning -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ament_index/resource_index/packages
+copying package.xml -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/urdf
+copying urdf/1.maze_bot.urdf -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/urdf
+copying urdf/2.maze_bot.urdf -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/urdf
+creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+copying meshes/Wheel_R.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+copying meshes/Caster.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+copying meshes/Wheel_L.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+copying meshes/base.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+running install_egg_info
+Copying ../../build/ros2_path_planning/ros2_path_planning.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/install.log'

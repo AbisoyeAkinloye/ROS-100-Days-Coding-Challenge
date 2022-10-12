@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="maze_bot">
+
+    <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+    </material>
+    <material name="white">
+        <color rgba="1.0 1.0 0.8 1.0"/>
+    </material>
+
+    <link name="base_footprint"/>
+
+    <link name="base">
+        <visual>
+            <geometry>
+                <box size="0.75 0.4 0.1"/> 
+                <material name="white"/>   
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="0.75 0.4 0.1"/>   
+            </geometry>
+            <contact_coefficients mu="0" kp="1000.0" kd="1.0" />
+        </collision>
+    </link>
+
+    <joint name="base" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base"/>
+        <origin rpy="0 0 0" xyz="0 0 0.135"/>
+    </joint>
+
+    <link name="wheel_l">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.02"/>
+                <material name="red"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="base_wheel_r
+    l" type="continuous">
+        <parent link="base"/>
+        <child link="wheel_l"/>
+        <origin rpy="1.57 0.0 0.0" xyz="-0.2 0.215 -0.045"/>
+    </joint>
+
+    <link name="wheel_r">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.02"/>
+                <material name="red"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="base_wheel_r" type="continuous">
+        <parent link="base"/>
+        <child link="wheel_r"/>
+        <origin rpy="1.57 0.0 0.0" xyz="-0.2 -0.215 -0.045"/>
+    </joint>
+</robot>
