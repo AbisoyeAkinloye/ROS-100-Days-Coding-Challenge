@@ -9,6 +9,7 @@ setup.py
 ../../build/ros2_path_planning/ros2_path_planning.egg-info/requires.txt
 ../../build/ros2_path_planning/ros2_path_planning.egg-info/top_level.txt
 ../../build/ros2_path_planning/ros2_path_planning.egg-info/zip-safe
+launch/rviz.launch.py
 meshes/Caster.stl
 meshes/Wheel_L.stl
 meshes/Wheel_R.stl
