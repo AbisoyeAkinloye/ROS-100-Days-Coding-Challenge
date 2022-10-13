@@ -6,7 +6,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     package_share_dir = get_package_share_directory('ros2_path_planning')
-    urdf = os.path.join(package_share_dir, "urdf", "2.maze_bot.urdf")
+    urdf = os.path.join(package_share_dir, "urdf", "maze_bot.urdf")
 
     return LaunchDescription([
         Node(

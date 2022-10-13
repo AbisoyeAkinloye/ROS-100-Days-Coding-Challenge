@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<robot name="maze_bot">
+
+    <material name="gray">
+        <color rgba=".2 0.2 0.2 1.0" />
+    </material>
+    <material name="white">
+        <color rgba="1.0 1.0 1.0 1.0" />
+    </material>
+
+    <link name="base_footprint" />
+
+    <link name="base">
+        <inertial>
+            <mass value="5" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <inertia ixx="0.004" ixy="0.001" ixz="0" iyy="0.006" iyz="0" izz="0.007" />
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/base.stl" />
+            </geometry>
+            <material name="gray" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/base.stl" />
+            </geometry>
+            <contact_coefficients mu="0" kp="1000.0" kd="1.0" />
+        </collision>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base" />
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.005" />
+    </joint>
+
+    <link name="right_wheel">
+        <inertial>
+            <mass value="1" />
+            <inertia ixx="100" ixy="0" ixz="100" iyy="100" iyz="0" izz="100" />
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Wheel_R.stl" />
+                <material name="white" />
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Wheel_R.stl" />
+            </geometry>
+            <contact_coefficients mu="0" kp="1000.0" kd="1.0" />
+        </collision>
+    </link>
+
+    <joint name="wheel_right_joint" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <parent link="base" />
+        <child link="right_wheel" />
+        <axis xyz="0.0 1.0 0.0" />
+    </joint>
+
+    <link name="left_wheel">
+        <inertial>
+            <mass value="1" />
+            <inertia ixx="100" ixy="0" ixz="100" iyy="100" iyz="0" izz="100" />
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Wheel_L.stl" />
+                <material name="white" />
+            </geometry>
+        </visual>
+
+        <collision>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Wheel_L.stl" />
+            </geometry>
+            <contact_coefficients mu="0" kp="1000.0" kd="1.0" />
+        </collision>
+    </link>
+
+    <joint name="wheel_left_joint" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <parent link="base" />
+        <child link="left_wheel" />
+        <axis xyz="0.0 1.0 0.0" />
+    </joint>
+
+    <link name="caster">
+        <inertial>
+            <mass value="1" />
+            <inertia ixx="100" ixy="0" ixz="100" iyy="100" iyz="0" izz="100" />
+        </inertial>
+
+        <visual>
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Caster.stl" />
+                <material name="white" />
+            </geometry>
+        </visual>
+
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+            <geometry>
+                <mesh filename="package://ros2_path_planning/meshes/Caster.stl" />
+            </geometry>
+            <contact_coefficients mu="0" kp="1000.0" kd="1.0" />
+        </collision>
+    </link>
+
+    <joint name="caster_joint" type="continuous">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+        <parent link="base" />
+        <child link="caster" />
+        <axis xyz="0.0 0.0 1.0" />
+    </joint>
+
+</robot>

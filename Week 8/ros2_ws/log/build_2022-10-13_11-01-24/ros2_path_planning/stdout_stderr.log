@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ros2_path_planning.egg-info/PKG-INFO
+writing dependency_links to ros2_path_planning.egg-info/dependency_links.txt
+writing entry points to ros2_path_planning.egg-info/entry_points.txt
+writing requirements to ros2_path_planning.egg-info/requires.txt
+writing top-level names to ros2_path_planning.egg-info/top_level.txt
+reading manifest file 'ros2_path_planning.egg-info/SOURCES.txt'
+writing manifest file 'ros2_path_planning.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/site.py
+Creating /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2-path-planning.egg-link (link to .)
+
+Installed /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning
+running install_data

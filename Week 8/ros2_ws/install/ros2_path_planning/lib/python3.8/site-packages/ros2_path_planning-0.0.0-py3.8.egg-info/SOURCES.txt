@@ -21,3 +21,4 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/1.maze_bot.urdf
 urdf/2.maze_bot.urdf
+urdf/maze_bot.urdf

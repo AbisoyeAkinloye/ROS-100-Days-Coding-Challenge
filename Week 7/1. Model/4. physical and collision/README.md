@@ -9,8 +9,8 @@ In order to get collision detection to work or to simulate the robot, we need to
 - The collision element is a direct subelement of the link object, at the same level as the visual tag.
 - The collision element defines its shape the same way the visual element does, with a geometry tag. 
 - In many cases, you’ll want the collision geometry and origin to be exactly the same as the visual geometry and origin. 
-- - Quicker processing
-- - Safe zone: You may want to restrict movement close to sensitive equipment.
+ - Quicker processing
+ - Safe zone: You may want to restrict movement close to sensitive equipment.
 
 Sample code <a href="./1. collison.urdf">here</a>
 
