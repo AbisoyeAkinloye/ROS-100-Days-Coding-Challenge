@@ -1,0 +1,25 @@
+[1.882s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning --uninstall --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build
+[2.498s] running develop
+[2.897s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning --uninstall --editable --build-directory /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build
+[2.902s] Invoking command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/src/ros2_path_planning': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_path_planning build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/install.log --single-version-externally-managed
+[3.463s] running egg_info
+[3.464s] writing ../../build/ros2_path_planning/ros2_path_planning.egg-info/PKG-INFO
+[3.465s] writing dependency_links to ../../build/ros2_path_planning/ros2_path_planning.egg-info/dependency_links.txt
+[3.465s] writing entry points to ../../build/ros2_path_planning/ros2_path_planning.egg-info/entry_points.txt
+[3.465s] writing requirements to ../../build/ros2_path_planning/ros2_path_planning.egg-info/requires.txt
+[3.466s] writing top-level names to ../../build/ros2_path_planning/ros2_path_planning.egg-info/top_level.txt
+[3.566s] reading manifest file '../../build/ros2_path_planning/ros2_path_planning.egg-info/SOURCES.txt'
+[3.569s] writing manifest file '../../build/ros2_path_planning/ros2_path_planning.egg-info/SOURCES.txt'
+[3.569s] running build
+[3.569s] running build_py
+[3.570s] running install
+[3.571s] running install_lib
+[3.574s] running install_data
+[3.576s] copying meshes/Caster.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+[3.580s] copying meshes/Base.stl -> /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/share/ros2_path_planning/meshes
+[3.582s] running install_egg_info
+[3.585s] removing '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning-0.0.0-py3.8.egg-info' (and everything under it)
+[3.586s] Copying ../../build/ros2_path_planning/ros2_path_planning.egg-info to /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages/ros2_path_planning-0.0.0-py3.8.egg-info
+[3.588s] running install_scripts
+[3.628s] writing list of installed files to '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/install.log'
+[3.673s] Invoked command in '/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/src/ros2_path_planning' returned '0': PYTHONPATH=/home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_path_planning build --build-base /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/build install --prefix /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/install/ros2_path_planning --record /home/loye/Desktop/Projects/ROS-100-Days-Coding-Challenge/Week 8/ros2_ws/build/ros2_path_planning/install.log --single-version-externally-managed
